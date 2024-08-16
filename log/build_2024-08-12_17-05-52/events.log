@@ -1,0 +1,395 @@
+[0.000000] (-) TimerEvent: {}
+[0.000162] (BMC_2024) JobQueued: {'identifier': 'BMC_2024', 'dependencies': OrderedDict()}
+[0.000232] (aug_2024) JobQueued: {'identifier': 'aug_2024', 'dependencies': OrderedDict()}
+[0.000267] (BMC_2024) JobStarted: {'identifier': 'BMC_2024'}
+[0.005461] (aug_2024) JobStarted: {'identifier': 'aug_2024'}
+[0.010824] (BMC_2024) JobProgress: {'identifier': 'BMC_2024', 'progress': 'cmake'}
+[0.011050] (BMC_2024) Command: {'cmd': ['/usr/bin/cmake', '/home/dkflippo/aug2024/src/BMC_2024', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/install/BMC_2024'], 'cwd': '/home/dkflippo/aug2024/build/BMC_2024', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dkflippo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/dkflippo/aug2024/install/BMC_2024/lib'), ('HOME', '/home/dkflippo'), ('OLDPWD', '/home/dkflippo/aug2024'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1759'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/235465/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dkflippo/aug2024/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dkflippo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dkflippo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ENGG-BAE1171:@/tmp/.ICE-unix/1731,unix/ENGG-BAE1171:/tmp/.ICE-unix/1731'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b29808e4_01b1_428c_9645_61adad450081'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/235465'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/235465/.mutter-Xwaylandauth.OXULS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.187'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/235465/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dkflippo/aug2024/install/aug_2024:/opt/ros/humble:/home/dkflippo/aug2024/install/aug2024:/home/dkflippo/aug2024/install/BMC_2024'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dkflippo/aug2024/build/BMC_2024'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/aug2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble')]), 'shell': False}
+[0.015365] (aug_2024) JobProgress: {'identifier': 'aug_2024', 'progress': 'cmake'}
+[0.016059] (aug_2024) Command: {'cmd': ['/usr/bin/cmake', '/home/dkflippo/aug2024/src/aug_2024', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/install/aug_2024'], 'cwd': '/home/dkflippo/aug2024/build/aug_2024', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dkflippo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/dkflippo/aug2024/install/BMC_2024/lib'), ('HOME', '/home/dkflippo'), ('OLDPWD', '/home/dkflippo/aug2024'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1759'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/235465/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dkflippo/aug2024/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dkflippo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dkflippo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ENGG-BAE1171:@/tmp/.ICE-unix/1731,unix/ENGG-BAE1171:/tmp/.ICE-unix/1731'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b29808e4_01b1_428c_9645_61adad450081'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/235465'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/235465/.mutter-Xwaylandauth.OXULS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.187'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/235465/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dkflippo/aug2024/install/aug_2024:/opt/ros/humble:/home/dkflippo/aug2024/install/aug2024:/home/dkflippo/aug2024/install/BMC_2024'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dkflippo/aug2024/build/aug_2024'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/aug2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble')]), 'shell': False}
+[0.072189] (aug_2024) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.073468] (BMC_2024) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099342] (-) TimerEvent: {}
+[0.131684] (aug_2024) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.133350] (BMC_2024) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.138562] (aug_2024) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.140234] (BMC_2024) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199467] (-) TimerEvent: {}
+[0.212568] (aug_2024) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.212755] (BMC_2024) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.222133] (aug_2024) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.222292] (BMC_2024) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.222374] (BMC_2024) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.222615] (aug_2024) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.222751] (BMC_2024) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.222957] (aug_2024) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.226363] (aug_2024) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.226869] (BMC_2024) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299609] (-) TimerEvent: {}
+[0.307443] (BMC_2024) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.308173] (aug_2024) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.314630] (BMC_2024) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.314895] (BMC_2024) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.315260] (BMC_2024) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.316190] (aug_2024) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.316505] (aug_2024) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.316968] (aug_2024) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.317638] (BMC_2024) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.319369] (aug_2024) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399697] (-) TimerEvent: {}
+[0.462525] (aug_2024) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.462940] (BMC_2024) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.499818] (-) TimerEvent: {}
+[0.522200] (BMC_2024) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.522425] (aug_2024) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.549590] (BMC_2024) StdoutLine: {'line': b'-- Found hardware_interface: 2.41.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[0.552290] (aug_2024) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.591144] (BMC_2024) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.596032] (BMC_2024) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.598715] (aug_2024) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.599910] (-) TimerEvent: {}
+[0.603369] (aug_2024) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.604175] (BMC_2024) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.612560] (aug_2024) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.617734] (BMC_2024) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.626836] (aug_2024) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.637260] (BMC_2024) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.650286] (aug_2024) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700018] (-) TimerEvent: {}
+[0.725676] (aug_2024) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.729300] (aug_2024) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800115] (-) TimerEvent: {}
+[0.838294] (aug_2024) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.877900] (aug_2024) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.900234] (-) TimerEvent: {}
+[0.935158] (aug_2024) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.944650] (aug_2024) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.000359] (-) TimerEvent: {}
+[1.027185] (aug_2024) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.027812] (aug_2024) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.100482] (-) TimerEvent: {}
+[1.104077] (aug_2024) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.105056] (aug_2024) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.200596] (-) TimerEvent: {}
+[1.264266] (aug_2024) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.300718] (-) TimerEvent: {}
+[1.321512] (BMC_2024) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.323978] (BMC_2024) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.360319] (BMC_2024) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.388710] (aug_2024) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[1.400807] (-) TimerEvent: {}
+[1.408963] (aug_2024) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.410570] (aug_2024) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.410768] (aug_2024) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.414389] (BMC_2024) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.418122] (BMC_2024) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.433372] (BMC_2024) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.442503] (BMC_2024) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.450742] (BMC_2024) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.460231] (BMC_2024) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.469833] (BMC_2024) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.500937] (-) TimerEvent: {}
+[1.545214] (BMC_2024) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.545662] (BMC_2024) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.601015] (-) TimerEvent: {}
+[1.639505] (BMC_2024) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.640505] (BMC_2024) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.701119] (-) TimerEvent: {}
+[1.801389] (-) TimerEvent: {}
+[1.896254] (aug_2024) StdoutLine: {'line': b'-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)\n'}
+[1.898092] (aug_2024) StdoutLine: {'line': b'-- Found controller_manager: 2.41.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[1.901459] (-) TimerEvent: {}
+[1.931224] (BMC_2024) StderrLine: {'line': b'WARNING: Package name "BMC_2024" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[1.948834] (BMC_2024) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.980117] (BMC_2024) StdoutLine: {'line': b'-- Generating done\n'}
+[1.982723] (BMC_2024) StdoutLine: {'line': b'-- Build files have been written to: /home/dkflippo/aug2024/build/BMC_2024\n'}
+[1.991156] (BMC_2024) CommandEnded: {'returncode': 0}
+[1.991952] (BMC_2024) JobProgress: {'identifier': 'BMC_2024', 'progress': 'build'}
+[1.993512] (BMC_2024) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dkflippo/aug2024/build/BMC_2024', '--', '-j12', '-l12'], 'cwd': '/home/dkflippo/aug2024/build/BMC_2024', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dkflippo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/dkflippo/aug2024/install/BMC_2024/lib'), ('HOME', '/home/dkflippo'), ('OLDPWD', '/home/dkflippo/aug2024'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1759'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/235465/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dkflippo/aug2024/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dkflippo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dkflippo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ENGG-BAE1171:@/tmp/.ICE-unix/1731,unix/ENGG-BAE1171:/tmp/.ICE-unix/1731'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b29808e4_01b1_428c_9645_61adad450081'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/235465'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/235465/.mutter-Xwaylandauth.OXULS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.187'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/235465/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dkflippo/aug2024/install/aug_2024:/opt/ros/humble:/home/dkflippo/aug2024/install/aug2024:/home/dkflippo/aug2024/install/BMC_2024'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dkflippo/aug2024/build/BMC_2024'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/aug2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble')]), 'shell': False}
+[2.001580] (-) TimerEvent: {}
+[2.051085] (BMC_2024) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.o\x1b[0m\n'}
+[2.052596] (BMC_2024) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/BMC_2024.dir/src/aug_2024_system.cpp.o\x1b[0m\n'}
+[2.101691] (-) TimerEvent: {}
+[2.201974] (-) TimerEvent: {}
+[2.302215] (-) TimerEvent: {}
+[2.402512] (-) TimerEvent: {}
+[2.502761] (-) TimerEvent: {}
+[2.603094] (-) TimerEvent: {}
+[2.666451] (aug_2024) StdoutLine: {'line': b'-- Found joint_state_broadcaster: 2.35.0 (/opt/ros/humble/share/joint_state_broadcaster/cmake)\n'}
+[2.703198] (-) TimerEvent: {}
+[2.775968] (aug_2024) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[2.803295] (-) TimerEvent: {}
+[2.818443] (aug_2024) StdoutLine: {'line': b'-- Found diff_drive_controller: 2.35.0 (/opt/ros/humble/share/diff_drive_controller/cmake)\n'}
+[2.903414] (-) TimerEvent: {}
+[3.003688] (-) TimerEvent: {}
+[3.103993] (-) TimerEvent: {}
+[3.197352] (aug_2024) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.204085] (-) TimerEvent: {}
+[3.284852] (aug_2024) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.285023] (aug_2024) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.285115] (aug_2024) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.285652] (aug_2024) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.286536] (aug_2024) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.287151] (aug_2024) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.289356] (aug_2024) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.289456] (aug_2024) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.290082] (aug_2024) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.292286] (aug_2024) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.300960] (aug_2024) StdoutLine: {'line': b'-- Generating done\n'}
+[3.304159] (-) TimerEvent: {}
+[3.305075] (aug_2024) StdoutLine: {'line': b'-- Build files have been written to: /home/dkflippo/aug2024/build/aug_2024\n'}
+[3.326381] (aug_2024) CommandEnded: {'returncode': 0}
+[3.328632] (aug_2024) JobProgress: {'identifier': 'aug_2024', 'progress': 'build'}
+[3.328747] (aug_2024) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dkflippo/aug2024/build/aug_2024', '--', '-j12', '-l12'], 'cwd': '/home/dkflippo/aug2024/build/aug_2024', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dkflippo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/dkflippo/aug2024/install/BMC_2024/lib'), ('HOME', '/home/dkflippo'), ('OLDPWD', '/home/dkflippo/aug2024'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1759'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/235465/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dkflippo/aug2024/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dkflippo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dkflippo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ENGG-BAE1171:@/tmp/.ICE-unix/1731,unix/ENGG-BAE1171:/tmp/.ICE-unix/1731'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b29808e4_01b1_428c_9645_61adad450081'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/235465'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/235465/.mutter-Xwaylandauth.OXULS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.187'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/235465/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dkflippo/aug2024/install/aug_2024:/opt/ros/humble:/home/dkflippo/aug2024/install/aug2024:/home/dkflippo/aug2024/install/BMC_2024'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dkflippo/aug2024/build/aug_2024'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/aug2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble')]), 'shell': False}
+[3.380386] (aug_2024) CommandEnded: {'returncode': 0}
+[3.404247] (-) TimerEvent: {}
+[3.406978] (aug_2024) JobProgress: {'identifier': 'aug_2024', 'progress': 'install'}
+[3.417439] (aug_2024) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dkflippo/aug2024/build/aug_2024'], 'cwd': '/home/dkflippo/aug2024/build/aug_2024', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dkflippo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/dkflippo/aug2024/install/BMC_2024/lib'), ('HOME', '/home/dkflippo'), ('OLDPWD', '/home/dkflippo/aug2024'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1759'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/235465/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dkflippo/aug2024/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dkflippo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dkflippo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ENGG-BAE1171:@/tmp/.ICE-unix/1731,unix/ENGG-BAE1171:/tmp/.ICE-unix/1731'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b29808e4_01b1_428c_9645_61adad450081'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/235465'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/235465/.mutter-Xwaylandauth.OXULS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.187'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/235465/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dkflippo/aug2024/install/aug_2024:/opt/ros/humble:/home/dkflippo/aug2024/install/aug2024:/home/dkflippo/aug2024/install/BMC_2024'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dkflippo/aug2024/build/aug_2024'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/aug2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble')]), 'shell': False}
+[3.425209] (aug_2024) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.425564] (aug_2024) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.426133] (aug_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/config/flippo_controllers.yaml\n'}
+[3.437936] (aug_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/description/config/aug_2024_joint_names.yaml\n'}
+[3.449060] (aug_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/description/urdf/aug_2024.xacro\n'}
+[3.458567] (aug_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/launch/aug_2024_launch.py\n'}
+[3.469898] (aug_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/aug_2024/share/ament_index/resource_index/package_run_dependencies/aug_2024\n'}
+[3.480008] (aug_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/aug_2024/share/ament_index/resource_index/parent_prefix_path/aug_2024\n'}
+[3.489887] (aug_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/environment/ament_prefix_path.sh\n'}
+[3.499938] (aug_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/environment/ament_prefix_path.dsv\n'}
+[3.504358] (-) TimerEvent: {}
+[3.509600] (aug_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/environment/path.sh\n'}
+[3.520028] (aug_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/environment/path.dsv\n'}
+[3.531602] (aug_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/local_setup.bash\n'}
+[3.541433] (aug_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/local_setup.sh\n'}
+[3.551911] (aug_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/local_setup.zsh\n'}
+[3.561731] (aug_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/local_setup.dsv\n'}
+[3.571336] (aug_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/package.dsv\n'}
+[3.581328] (aug_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/aug_2024/share/ament_index/resource_index/packages/aug_2024\n'}
+[3.590941] (aug_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/cmake/aug_2024Config.cmake\n'}
+[3.602107] (aug_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/cmake/aug_2024Config-version.cmake\n'}
+[3.604429] (-) TimerEvent: {}
+[3.612195] (aug_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/package.xml\n'}
+[3.623895] (aug_2024) CommandEnded: {'returncode': 0}
+[3.682334] (aug_2024) JobEnded: {'identifier': 'aug_2024', 'rc': 0}
+[3.704562] (-) TimerEvent: {}
+[3.804849] (-) TimerEvent: {}
+[3.905141] (-) TimerEvent: {}
+[4.005409] (-) TimerEvent: {}
+[4.105764] (-) TimerEvent: {}
+[4.206070] (-) TimerEvent: {}
+[4.306376] (-) TimerEvent: {}
+[4.406662] (-) TimerEvent: {}
+[4.449438] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:30:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KAUG2024Hardware\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.449641] (BMC_2024) StderrLine: {'line': b'   30 | hardware_interface::CallbackReturn \x1b[01;31m\x1b[KAUG2024Hardware\x1b[m\x1b[K::on_init(\n'}
+[4.449773] (BMC_2024) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.449840] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::CallbackReturn BMC_2024::on_init(const hardware_interface::HardwareInfo&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.449917] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:34:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot call member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::SystemInterface::on_init(const hardware_interface::HardwareInfo&)\x1b[m\x1b[K\xe2\x80\x99 without object\n'}
+[4.450013] (BMC_2024) StderrLine: {'line': b'   34 |     \x1b[01;31m\x1b[Khardware_interface::SystemInterface::on_init(info)\x1b[m\x1b[K !=\n'}
+[4.450089] (BMC_2024) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[4.452854] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:40:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcfg_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.452954] (BMC_2024) StderrLine: {'line': b'   40 |   \x1b[01;31m\x1b[Kcfg_\x1b[m\x1b[K.front_left_motor_name = info_.hardware_parameters["front_left_wheel_name"];\n'}
+[4.453027] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.455196] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:40:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kinfo_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kinfo\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.455316] (BMC_2024) StderrLine: {'line': b'   40 |   cfg_.front_left_motor_name = \x1b[01;31m\x1b[Kinfo_\x1b[m\x1b[K.hardware_parameters["front_left_wheel_name"];\n'}
+[4.455394] (BMC_2024) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.455456] (BMC_2024) StderrLine: {'line': b'      |                                \x1b[32m\x1b[Kinfo\x1b[m\x1b[K\n'}
+[4.458364] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:57:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_fl_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.458471] (BMC_2024) StderrLine: {'line': b'   57 |   \x1b[01;31m\x1b[Kmotor_fl_\x1b[m\x1b[K.name = cfg_.front_left_motor_name;\n'}
+[4.458550] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.461945] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:58:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_fr_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.462189] (BMC_2024) StderrLine: {'line': b'   58 |   \x1b[01;31m\x1b[Kmotor_fr_\x1b[m\x1b[K.name = cfg_.front_right_motor_name;\n'}
+[4.462319] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.466662] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:59:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_rl_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.466856] (BMC_2024) StderrLine: {'line': b'   59 |   \x1b[01;31m\x1b[Kmotor_rl_\x1b[m\x1b[K.name = cfg_.rear_left_motor_name;\n'}
+[4.466928] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.470580] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:60:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_rr_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.470726] (BMC_2024) StderrLine: {'line': b'   60 |   \x1b[01;31m\x1b[Kmotor_rr_\x1b[m\x1b[K.name = cfg_.rear_right_motor_name;\n'}
+[4.470806] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.472937] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:\x1b[m\x1b[K At global scope:\n'}
+[4.473039] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:135:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KAUG2024Hardware\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.473111] (BMC_2024) StderrLine: {'line': b'  135 | std::vector<hardware_interface::StateInterface> \x1b[01;31m\x1b[KAUG2024Hardware\x1b[m\x1b[K::export_state_interfaces()\n'}
+[4.473172] (BMC_2024) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.479805] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<hardware_interface::StateInterface> BMC_2024::export_state_interfaces()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.480024] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:141:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_fl_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.480116] (BMC_2024) StderrLine: {'line': b'  141 |     \x1b[01;31m\x1b[Kmotor_fl_\x1b[m\x1b[K.name, hardware_interface::HW_IF_POSITION, &motor_fl_.position));\n'}
+[4.480206] (BMC_2024) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.483952] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:149:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_fr_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.484217] (BMC_2024) StderrLine: {'line': b'  149 |     \x1b[01;31m\x1b[Kmotor_fr_\x1b[m\x1b[K.name, hardware_interface::HW_IF_POSITION, &motor_fr_.position));\n'}
+[4.484298] (BMC_2024) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.487980] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:157:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_rl_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.488124] (BMC_2024) StderrLine: {'line': b'  157 |     \x1b[01;31m\x1b[Kmotor_rl_\x1b[m\x1b[K.name, hardware_interface::HW_IF_POSITION, &motor_rl_.position));\n'}
+[4.488194] (BMC_2024) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.491232] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:165:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_rr_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.491331] (BMC_2024) StderrLine: {'line': b'  165 |     \x1b[01;31m\x1b[Kmotor_rr_\x1b[m\x1b[K.name, hardware_interface::HW_IF_POSITION, &motor_rr_.position));\n'}
+[4.491397] (BMC_2024) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.491538] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:\x1b[m\x1b[K At global scope:\n'}
+[4.491623] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:174:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KAUG2024Hardware\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.491687] (BMC_2024) StderrLine: {'line': b'  174 | std::vector<hardware_interface::CommandInterface> \x1b[01;31m\x1b[KAUG2024Hardware\x1b[m\x1b[K::export_command_interfaces()\n'}
+[4.491747] (BMC_2024) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.497918] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<hardware_interface::CommandInterface> BMC_2024::export_command_interfaces()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.498135] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:179:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_fl_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.498230] (BMC_2024) StderrLine: {'line': b'  179 |     \x1b[01;31m\x1b[Kmotor_fl_\x1b[m\x1b[K.name, hardware_interface::HW_IF_VELOCITY, &motor_fl_.cmd));\n'}
+[4.498312] (BMC_2024) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.502116] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:181:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_fr_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.502276] (BMC_2024) StderrLine: {'line': b'  181 |     \x1b[01;31m\x1b[Kmotor_fr_\x1b[m\x1b[K.name, hardware_interface::HW_IF_VELOCITY, &motor_fr_.cmd));\n'}
+[4.502355] (BMC_2024) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.505574] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:183:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_rl_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.505704] (BMC_2024) StderrLine: {'line': b'  183 |     \x1b[01;31m\x1b[Kmotor_rl_\x1b[m\x1b[K.name, hardware_interface::HW_IF_VELOCITY, &motor_rl_.cmd));\n'}
+[4.505772] (BMC_2024) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.506704] (-) TimerEvent: {}
+[4.508766] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:185:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_rr_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.508872] (BMC_2024) StderrLine: {'line': b'  185 |     \x1b[01;31m\x1b[Kmotor_rr_\x1b[m\x1b[K.name, hardware_interface::HW_IF_VELOCITY, &motor_rr_.cmd));\n'}
+[4.509052] (BMC_2024) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.509136] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:\x1b[m\x1b[K At global scope:\n'}
+[4.509202] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:190:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KAUG2024Hardware\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.509263] (BMC_2024) StderrLine: {'line': b'  190 | hardware_interface::CallbackReturn \x1b[01;31m\x1b[KAUG2024Hardware\x1b[m\x1b[K::on_configure(\n'}
+[4.509324] (BMC_2024) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.513560] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::CallbackReturn BMC_2024::on_configure(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.513766] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:196:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcomms_fl_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.513844] (BMC_2024) StderrLine: {'line': b'  196 |   \x1b[01;31m\x1b[Kcomms_fl_\x1b[m\x1b[K.open(cfg_.can_interface.c_str(), motor_fl_.can_id);\n'}
+[4.513908] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.516693] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:196:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcfg_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.516937] (BMC_2024) StderrLine: {'line': b'  196 |   comms_fl_.open(\x1b[01;31m\x1b[Kcfg_\x1b[m\x1b[K.can_interface.c_str(), motor_fl_.can_id);\n'}
+[4.517024] (BMC_2024) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.520717] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:196:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_fl_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.520871] (BMC_2024) StderrLine: {'line': b'  196 |   comms_fl_.open(cfg_.can_interface.c_str(), \x1b[01;31m\x1b[Kmotor_fl_\x1b[m\x1b[K.can_id);\n'}
+[4.520945] (BMC_2024) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.523834] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:197:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcomms_fr_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.523935] (BMC_2024) StderrLine: {'line': b'  197 |   \x1b[01;31m\x1b[Kcomms_fr_\x1b[m\x1b[K.open(cfg_.can_interface.c_str(), motor_fr_.can_id);\n'}
+[4.524003] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.526833] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:197:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_fr_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.526934] (BMC_2024) StderrLine: {'line': b'  197 |   comms_fr_.open(cfg_.can_interface.c_str(), \x1b[01;31m\x1b[Kmotor_fr_\x1b[m\x1b[K.can_id);\n'}
+[4.527002] (BMC_2024) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.530427] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:198:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcomms_rl_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.530615] (BMC_2024) StderrLine: {'line': b'  198 |   \x1b[01;31m\x1b[Kcomms_rl_\x1b[m\x1b[K.open(cfg_.can_interface.c_str(), motor_rl_.can_id);\n'}
+[4.530692] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.535166] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:198:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_rl_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.535538] (BMC_2024) StderrLine: {'line': b'  198 |   comms_rl_.open(cfg_.can_interface.c_str(), \x1b[01;31m\x1b[Kmotor_rl_\x1b[m\x1b[K.can_id);\n'}
+[4.535612] (BMC_2024) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.539186] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:199:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcomms_rr_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.539307] (BMC_2024) StderrLine: {'line': b'  199 |   \x1b[01;31m\x1b[Kcomms_rr_\x1b[m\x1b[K.open(cfg_.can_interface.c_str(), motor_rr_.can_id);\n'}
+[4.539385] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.542426] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:199:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_rr_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.542537] (BMC_2024) StderrLine: {'line': b'  199 |   comms_rr_.open(cfg_.can_interface.c_str(), \x1b[01;31m\x1b[Kmotor_rr_\x1b[m\x1b[K.can_id);\n'}
+[4.542604] (BMC_2024) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.542940] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:\x1b[m\x1b[K At global scope:\n'}
+[4.543032] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:211:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KAUG2024Hardware\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.543099] (BMC_2024) StderrLine: {'line': b'  211 | hardware_interface::CallbackReturn \x1b[01;31m\x1b[KAUG2024Hardware\x1b[m\x1b[K::on_activate(\n'}
+[4.543160] (BMC_2024) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.547757] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::CallbackReturn BMC_2024::on_activate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.547974] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:217:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcomms_fl_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.548055] (BMC_2024) StderrLine: {'line': b'  217 |   \x1b[01;31m\x1b[Kcomms_fl_\x1b[m\x1b[K.enable();\n'}
+[4.548125] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.551912] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:218:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcomms_fr_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.552097] (BMC_2024) StderrLine: {'line': b'  218 |   \x1b[01;31m\x1b[Kcomms_fr_\x1b[m\x1b[K.enable();\n'}
+[4.552167] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.555429] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:219:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcomms_rl_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.555544] (BMC_2024) StderrLine: {'line': b'  219 |   \x1b[01;31m\x1b[Kcomms_rl_\x1b[m\x1b[K.enable();\n'}
+[4.555611] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.558578] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:220:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcomms_rr_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.558695] (BMC_2024) StderrLine: {'line': b'  220 |   \x1b[01;31m\x1b[Kcomms_rr_\x1b[m\x1b[K.enable();\n'}
+[4.558762] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.559097] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:\x1b[m\x1b[K At global scope:\n'}
+[4.559193] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:227:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KAUG2024Hardware\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.559260] (BMC_2024) StderrLine: {'line': b'  227 | hardware_interface::CallbackReturn \x1b[01;31m\x1b[KAUG2024Hardware\x1b[m\x1b[K::on_deactivate(\n'}
+[4.559321] (BMC_2024) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.564486] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::CallbackReturn BMC_2024::on_deactivate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.564755] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:232:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcomms_fl_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.564881] (BMC_2024) StderrLine: {'line': b'  232 |   \x1b[01;31m\x1b[Kcomms_fl_\x1b[m\x1b[K.disable();\n'}
+[4.564989] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.568988] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:233:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcomms_fr_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.569173] (BMC_2024) StderrLine: {'line': b'  233 |   \x1b[01;31m\x1b[Kcomms_fr_\x1b[m\x1b[K.disable();\n'}
+[4.569245] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.572622] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:234:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcomms_rl_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.572751] (BMC_2024) StderrLine: {'line': b'  234 |   \x1b[01;31m\x1b[Kcomms_rl_\x1b[m\x1b[K.disable();\n'}
+[4.572818] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.575861] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:235:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcomms_rr_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.575970] (BMC_2024) StderrLine: {'line': b'  235 |   \x1b[01;31m\x1b[Kcomms_rr_\x1b[m\x1b[K.disable();\n'}
+[4.576038] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.576393] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:\x1b[m\x1b[K At global scope:\n'}
+[4.576489] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:242:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KAUG2024Hardware\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.576555] (BMC_2024) StderrLine: {'line': b'  242 | hardware_interface::CallbackReturn \x1b[01;31m\x1b[KAUG2024Hardware\x1b[m\x1b[K::on_cleanup(\n'}
+[4.576625] (BMC_2024) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.580743] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::CallbackReturn BMC_2024::on_cleanup(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.581004] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:247:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcomms_fl_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.581112] (BMC_2024) StderrLine: {'line': b'  247 |   \x1b[01;31m\x1b[Kcomms_fl_\x1b[m\x1b[K.close();\n'}
+[4.581206] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.584851] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:248:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcomms_fr_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.585060] (BMC_2024) StderrLine: {'line': b'  248 |   \x1b[01;31m\x1b[Kcomms_fr_\x1b[m\x1b[K.close();\n'}
+[4.585155] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.588495] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:249:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcomms_rl_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.588608] (BMC_2024) StderrLine: {'line': b'  249 |   \x1b[01;31m\x1b[Kcomms_rl_\x1b[m\x1b[K.close();\n'}
+[4.588690] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.591748] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:250:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcomms_rr_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.591854] (BMC_2024) StderrLine: {'line': b'  250 |   \x1b[01;31m\x1b[Kcomms_rr_\x1b[m\x1b[K.close();\n'}
+[4.591921] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.592366] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:\x1b[m\x1b[K At global scope:\n'}
+[4.592448] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:257:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KAUG2024Hardware\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.592511] (BMC_2024) StderrLine: {'line': b'  257 | hardware_interface::return_type \x1b[01;31m\x1b[KAUG2024Hardware\x1b[m\x1b[K::read(\n'}
+[4.592572] (BMC_2024) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.596231] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::return_type BMC_2024::read(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.596467] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:261:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcomms_fl_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.596602] (BMC_2024) StderrLine: {'line': b'  261 |   \x1b[01;31m\x1b[Kcomms_fl_\x1b[m\x1b[K.update(&motor_fl_);\n'}
+[4.596701] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.600444] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:261:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_fl_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.600683] (BMC_2024) StderrLine: {'line': b'  261 |   comms_fl_.update(&\x1b[01;31m\x1b[Kmotor_fl_\x1b[m\x1b[K);\n'}
+[4.600759] (BMC_2024) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.604655] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:262:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcomms_fr_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.604810] (BMC_2024) StderrLine: {'line': b'  262 |   \x1b[01;31m\x1b[Kcomms_fr_\x1b[m\x1b[K.update(&motor_fr_);\n'}
+[4.604880] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.606820] (-) TimerEvent: {}
+[4.608041] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:262:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_fr_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.608145] (BMC_2024) StderrLine: {'line': b'  262 |   comms_fr_.update(&\x1b[01;31m\x1b[Kmotor_fr_\x1b[m\x1b[K);\n'}
+[4.608213] (BMC_2024) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.611404] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:263:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcomms_rl_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.611571] (BMC_2024) StderrLine: {'line': b'  263 |   \x1b[01;31m\x1b[Kcomms_rl_\x1b[m\x1b[K.update(&motor_rl_);\n'}
+[4.611679] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.615698] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:263:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_rl_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.615966] (BMC_2024) StderrLine: {'line': b'  263 |   comms_rl_.update(&\x1b[01;31m\x1b[Kmotor_rl_\x1b[m\x1b[K);\n'}
+[4.616073] (BMC_2024) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.620068] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:264:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcomms_rr_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.620256] (BMC_2024) StderrLine: {'line': b'  264 |   \x1b[01;31m\x1b[Kcomms_rr_\x1b[m\x1b[K.update(&motor_rr_);\n'}
+[4.620328] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.623910] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:264:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_rr_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.624175] (BMC_2024) StderrLine: {'line': b'  264 |   comms_rr_.update(&\x1b[01;31m\x1b[Kmotor_rr_\x1b[m\x1b[K);\n'}
+[4.624320] (BMC_2024) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.624438] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:\x1b[m\x1b[K At global scope:\n'}
+[4.624559] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:270:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdefinition of \xe2\x80\x98\x1b[01m\x1b[Khardware_interface::return_type rowbot_bmc::AUG2024Hardware::write(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99 is not in namespace enclosing \xe2\x80\x98\x1b[01m\x1b[Krowbot_bmc::AUG2024Hardware\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.624704] (BMC_2024) StderrLine: {'line': b'  270 |   const rclcpp::Time & /*time*/, const rclcpp::Duration & /*period*/\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[4.624824] (BMC_2024) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.635914] (BMC_2024) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56\x1b[m\x1b[K,\n'}
+[4.636133] (BMC_2024) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40\x1b[m\x1b[K,\n'}
+[4.636258] (BMC_2024) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:286\x1b[m\x1b[K:\n'}
+[4.636374] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:288:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KAUG2024Hardware\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[KBMC_2024\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.636544] (BMC_2024) StderrLine: {'line': b'  288 |   BMC_2024::\x1b[01;31m\x1b[KAUG2024Hardware\x1b[m\x1b[K, hardware_interface::SystemInterface)\n'}
+[4.636715] (BMC_2024) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.643634] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[K{anonymous}::ProxyExec0::ProxyExec0()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.644094] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:287:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_derived\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.644289] (BMC_2024) StderrLine: {'line': b'  287 | \x1b[01;31m\x1b[KPLUGINLIB_EXPORT_CLASS\x1b[m\x1b[K(\n'}
+[4.644431] (BMC_2024) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.644596] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:287:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KregisterPlugin<<expression error>, {anonymous}::ProxyExec0::_base>(const char [26], const char [36])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.644731] (BMC_2024) StderrLine: {'line': b'  287 | \x1b[01;31m\x1b[KPLUGINLIB_EXPORT_CLASS\x1b[m\x1b[K(\n'}
+[4.644833] (BMC_2024) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.644928] (BMC_2024) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55\x1b[m\x1b[K,\n'}
+[4.645041] (BMC_2024) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40\x1b[m\x1b[K,\n'}
+[4.645159] (BMC_2024) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:286\x1b[m\x1b[K:\n'}
+[4.645266] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class Derived, class Base> void class_loader::impl::registerPlugin(const string&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.645398] (BMC_2024) StderrLine: {'line': b'  210 | void \x1b[01;36m\x1b[KregisterPlugin\x1b[m\x1b[K(const std::string & class_name, const std::string & base_class_name)\n'}
+[4.645512] (BMC_2024) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.645628] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.645746] (BMC_2024) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56\x1b[m\x1b[K,\n'}
+[4.645889] (BMC_2024) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40\x1b[m\x1b[K,\n'}
+[4.646018] (BMC_2024) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:286\x1b[m\x1b[K:\n'}
+[4.646141] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:287:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.646262] (BMC_2024) StderrLine: {'line': b'  287 | \x1b[01;31m\x1b[KPLUGINLIB_EXPORT_CLASS\x1b[m\x1b[K(\n'}
+[4.646367] (BMC_2024) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.706950] (-) TimerEvent: {}
+[4.807238] (-) TimerEvent: {}
+[4.907537] (-) TimerEvent: {}
+[5.007820] (-) TimerEvent: {}
+[5.086536] (BMC_2024) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/BMC_2024.dir/build.make:76: CMakeFiles/BMC_2024.dir/src/aug_2024_system.cpp.o] Error 1\n'}
+[5.086755] (BMC_2024) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/BMC_2024.dir/all] Error 2\n'}
+[5.087010] (BMC_2024) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.089000] (BMC_2024) CommandEnded: {'returncode': 2}
+[5.107891] (-) TimerEvent: {}
+[5.122618] (BMC_2024) JobEnded: {'identifier': 'BMC_2024', 'rc': 2}
+[5.133257] (-) EventReactorShutdown: {}

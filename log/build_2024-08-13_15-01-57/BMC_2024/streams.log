@@ -1,0 +1,36 @@
+[0.012s] Invoking command in '/home/dkflippo/aug2024/build/BMC_2024': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dkflippo/aug2024/build/BMC_2024 -- -j12 -l12
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target BMC_2024[0m
+[0.092s] [ 33%] [32mBuilding CXX object CMakeFiles/BMC_2024.dir/src/aug_2024_system.cpp.o[0m
+[3.466s] [ 66%] [32m[1mLinking CXX shared library libBMC_2024.so[0m
+[3.643s] [100%] Built target BMC_2024
+[3.655s] Invoked command in '/home/dkflippo/aug2024/build/BMC_2024' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dkflippo/aug2024/build/BMC_2024 -- -j12 -l12
+[3.699s] Invoking command in '/home/dkflippo/aug2024/build/BMC_2024': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dkflippo/aug2024/build/BMC_2024
+[3.705s] -- Install configuration: ""
+[3.706s] -- Execute custom install script
+[3.706s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024//aug_2024_hardware.xml
+[3.706s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/BMC_2024/lib/libBMC_2024.so
+[3.707s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/BMC_2024/include/BMC_2024/aug_2024_system.hpp
+[3.707s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/BMC_2024/include/BMC_2024/bmc_comms.hpp
+[3.707s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/BMC_2024/include/BMC_2024/visibility_control.h
+[3.707s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/environment/library_path.sh
+[3.707s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/environment/library_path.dsv
+[3.708s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/BMC_2024/share/ament_index/resource_index/package_run_dependencies/BMC_2024
+[3.708s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/BMC_2024/share/ament_index/resource_index/parent_prefix_path/BMC_2024
+[3.708s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/environment/ament_prefix_path.sh
+[3.708s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/environment/ament_prefix_path.dsv
+[3.709s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/environment/path.sh
+[3.709s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/environment/path.dsv
+[3.709s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/local_setup.bash
+[3.709s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/local_setup.sh
+[3.710s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/local_setup.zsh
+[3.710s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/local_setup.dsv
+[3.710s] -- Symlinking: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/package.dsv
+[3.720s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/BMC_2024/share/ament_index/resource_index/packages/BMC_2024
+[3.720s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/BMC_2024/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/BMC_2024
+[3.720s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.720s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake/ament_cmake_export_libraries-extras.cmake
+[3.720s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.721s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake/BMC_2024Config.cmake
+[3.721s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake/BMC_2024Config-version.cmake
+[3.721s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/package.xml
+[3.723s] Invoked command in '/home/dkflippo/aug2024/build/BMC_2024' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dkflippo/aug2024/build/BMC_2024
