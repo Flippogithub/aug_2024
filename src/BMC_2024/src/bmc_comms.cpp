@@ -3,7 +3,7 @@
 
 void BMCComms::open(const char* socket_interface, uint32_t can_id)
 {
-    RCLCPP_INFO(rclcpp::get_logger("RowbotBMCHardware"), "open can interface");
+    //RCLCPP_INFO(rclcpp::get_logger("RowbotBMCHardware"), "open can interface");
     // store can_id for other calls
     can_id_ = can_id;
     // setup socket interface
@@ -23,7 +23,7 @@ void BMCComms::open(const char* socket_interface, uint32_t can_id)
     if(bind(natsock,(struct sockaddr *)&addr,sizeof(addr))<0)
     {
         perror("Error in socket bind");
-        RCLCPP_INFO(rclcpp::get_logger("RowbotBMCHardware"), "Error binding CAN Socket");
+        RCLCPP_INFO(rclcpp::get_logger("RowbotBMCHardware1"), "Error binding CAN Socket");
     }
 }
 
@@ -42,6 +42,8 @@ void BMCComms::disable()
 void BMCComms::setVelocity(double velocity)
 {
     SendParam(BMC_CMD_VELOCITY, (float)velocity);
+    RCLCPP_INFO(rclcpp::get_logger("RowbotBMCHardware"), "Velocity: %.2f", velocity);
+
 }
 
 void BMCComms::setPIDs(float P, float I, float D)
@@ -69,7 +71,7 @@ void BMCComms::close()
 void BMCComms::SendParam(uint8_t cmd_id, float param)
 {
     RCLCPP_INFO(rclcpp::get_logger("SendParams"), "can_id: %.3d", (can_id_));
-    RCLCPP_INFO(rclcpp::get_logger("SendParams"), "param: %.3f", (param));
+    //RCLCPP_INFO(rclcpp::get_logger("SendParams"), "param: %.3f", (param));
     //RCLCPP_INFO(rclcpp::get_logger("RowbotBMCHardware"), "send params");
     // set frame id to id of motor controller as rx
     tx_frame.can_id = (can_id_ << 8) | CAN_EFF_FLAG;
@@ -86,7 +88,7 @@ void BMCComms::SendParam(uint8_t cmd_id, float param)
     {
         //std::string tx_send = std::to_string(tx_bytes);
         std::string err = std::to_string(errno);
-        RCLCPP_INFO(rclcpp::get_logger("RowbotBMCHardware"), err.c_str());
+        //RCLCPP_INFO(rclcpp::get_logger("RowbotBMCHardware2"), err.c_str());
     }
 }
 
@@ -132,8 +134,8 @@ void BMCComms::read_socket()
                     velocity_meas = velocity;
                     angle_meas = angle;
                     current_meas = current;
-                    RCLCPP_INFO(rclcpp::get_logger("RowbotBMCHardware"), "sending can data vel=");
-                    RCLCPP_INFO(rclcpp::get_logger("RowbotBMCHardware"), std::to_string(velocity).c_str());
+                    //RCLCPP_INFO(rclcpp::get_logger("RowbotBMCHardware"), "sending can data vel=");
+                    //RCLCPP_INFO(rclcpp::get_logger("RowbotBMCHardware"), std::to_string(velocity).c_str());
                     //RCLCPP_INFO(rclcpp::get_logger("RowbotBMCHardware"), std::to_string(angle).c_str());
                     //RCLCPP_INFO(rclcpp::get_logger("RowbotBMCHardware"), std::to_string(current).c_str());
                 }break;

@@ -1,1 +1,0 @@
-/home/dkflippo/aug2024/build/aug_2024/ament_cmake_environment_hooks/local_setup.sh

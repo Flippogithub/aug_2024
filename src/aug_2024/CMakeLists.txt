@@ -16,6 +16,10 @@ find_package(xacro REQUIRED)
 find_package(controller_manager REQUIRED)
 find_package(joint_state_broadcaster REQUIRED)
 find_package(diff_drive_controller REQUIRED)
+find_package(gazebo_ros REQUIRED)
+find_package(gazebo_ros2_control REQUIRED)
+find_package(ros2_control REQUIRED)
+find_package(ros2_controllers REQUIRED)
 
 # Uncomment and modify if you have executable targets
 #add_executable(skunk_aug src/skunk_aug.cpp)
@@ -39,6 +43,24 @@ endif()
 install(
   DIRECTORY config description launch worlds
   DESTINATION share/${PROJECT_NAME}
+)
+
+# Install additional folders if they exist and are needed
+install(
+  DIRECTORY
+    meshes
+    urdf
+    models
+    scripts
+  DESTINATION share/${PROJECT_NAME}
+  OPTIONAL
+)
+
+# Generate URDF file from xacro
+xacro_add_files(
+  description/urdf/aug_2024.xacro
+  TARGET aug_2024_generated_urdf
+  INSTALL DESTINATION share/${PROJECT_NAME}/urdf
 )
 
 ament_package()

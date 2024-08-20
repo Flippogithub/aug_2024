@@ -1,8 +1,0 @@
-[0.015s] Invoking command in '/home/dkflippo/aug2024/build/BMC_2024': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dkflippo/aug2024/build/BMC_2024 -- -j12 -l12
-[0.078s] [ 33%] [32mBuilding CXX object CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.o[0m
-[0.084s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/dkflippo/aug2024/src/BMC_2024/src/bmc_comms.cpp: No such file or directory
-[0.085s] compilation terminated.
-[0.086s] gmake[2]: *** [CMakeFiles/BMC_2024.dir/build.make:90: CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.o] Error 1
-[0.086s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/BMC_2024.dir/all] Error 2
-[0.086s] gmake: *** [Makefile:146: all] Error 2
-[0.089s] Invoked command in '/home/dkflippo/aug2024/build/BMC_2024' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dkflippo/aug2024/build/BMC_2024 -- -j12 -l12

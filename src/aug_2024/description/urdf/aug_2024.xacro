@@ -2,9 +2,8 @@
 <!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
      Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
-<robot
-  name="BMC_2024">
-
+<robot name="aug_2024" xmlns:xacro="http://www.ros.org/wiki/xacro">
+<xacro:arg name="use_sim" default="false"/>
   <material name="white">
     <color rgba="1 1 1 1"/>
   </material>
@@ -18,11 +17,17 @@
   </material>
 
   <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="0.1 0.1 0.1"/>
+      </geometry>
+      <material name="red"/>
+    </visual>
   </link>
 
   <joint name="chassis_joint" type="fixed">
     <origin
-      xyz="0 0 0"
+      xyz="0 0 0.5"
       rpy="0 0 0" />
     <parent
       link="base_link" />
@@ -53,7 +58,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file://$(find aug_2024)/description/meshes/chassis_link.STL" />
+          filename="package://aug_2024/description/meshes/chassis_link.STL" />
       </geometry>
       <material
         name="">
@@ -67,7 +72,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file://$(find aug_2024)/description/meshes/chassis_link.STL" />
+          filename="package://aug_2024/description/meshes/chassis_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -97,7 +102,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file://$(find aug_2024)/description/meshes/front_left_wheel_link.STL" />
+          filename="package://aug_2024/description/meshes/front_left_wheel_link.STL" />
       </geometry>
       <material
         name="">
@@ -111,7 +116,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file://$(find aug_2024)/description/meshes/front_left_wheel_link.STL" />
+          filename="package://aug_2024/description/meshes/front_left_wheel_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -126,6 +131,7 @@
       link="front_left_wheel_link" />
     <axis
       xyz="0 1 0" />
+    <dynamics damping="0.1" friction="0.1"/>
   </joint> 
 
   <gazebo reference="front_left_wheel_link">
@@ -153,7 +159,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file://$(find aug_2024)/description/meshes/front_right_wheel_link.STL" />
+          filename="package://aug_2024/description/meshes/front_right_wheel_link.STL" />
       </geometry>
       <material
         name="">
@@ -167,7 +173,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file://$(find aug_2024)/description/meshes/front_right_wheel_link.STL" />
+          filename="package://aug_2024/description/meshes/front_right_wheel_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -182,6 +188,7 @@
       link="front_right_wheel_link" />
     <axis
       xyz="0 1 0" />
+    <dynamics damping="0.1" friction="0.1"/>
   </joint>
 
   <gazebo reference="front_right_wheel_link">
@@ -209,7 +216,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file://$(find aug_2024)/description/meshes/rear_left_wheel_link.STL" />
+          filename="package://aug_2024/description/meshes/rear_left_wheel_link.STL" />
       </geometry>
       <material
         name="">
@@ -223,7 +230,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file://$(find aug_2024)/description/meshes/rear_left_wheel_link.STL" />
+          filename="package://aug_2024/description/meshes/rear_left_wheel_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -238,6 +245,7 @@
       link="rear_left_wheel_link" />
     <axis
       xyz="0 1 0" />
+    <dynamics damping="0.1" friction="0.1"/>
   </joint>
 
   <gazebo reference="rear_left_wheel_link">
@@ -265,7 +273,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file://$(find aug_2024)/description/meshes/rear_right_wheel_link.STL" />
+          filename="package://aug_2024/description/meshes/rear_right_wheel_link.STL" />
       </geometry>
       <material
         name="">
@@ -279,7 +287,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file://$(find aug_2024)/description/meshes/rear_right_wheel_link.STL" />
+          filename="package://aug_2024/description/meshes/rear_right_wheel_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -294,6 +302,7 @@
       link="rear_right_wheel_link" />
     <axis
       xyz="0 1 0" />
+    <dynamics damping="0.1" friction="0.1"/>
   </joint>
   
   <gazebo reference="rear_right_wheel_link">
@@ -302,64 +311,117 @@
 
 
 
+<ros2_control name="AUG2024System" type="system">
+  <xacro:if value="$(arg use_sim)">
+    <hardware>
+      <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+    </hardware>
+  </xacro:if>
+  <xacro:unless value="$(arg use_sim)">
+    <hardware>
+      <plugin>BMC_2024/AUG2024Hardware</plugin>
+      <param name="front_left_wheel_name">front_left_wheel_joint</param>
+      <param name="front_right_wheel_name">front_right_wheel_joint</param>
+      <param name="rear_left_wheel_name">rear_left_wheel_joint</param>
+      <param name="rear_right_wheel_name">rear_right_wheel_joint</param>
+      <param name="can_interface">can0</param>
+      <param name="can_fl_id">183</param>
+      <param name="can_fr_id">177</param>
+      <param name="can_rl_id">176</param>
+      <param name="can_rr_id">178</param>
+      <param name="fl_mult">1.0</param>
+      <param name="fr_mult">-1.0</param>
+      <param name="rl_mult">1.0</param>
+      <param name="rr_mult">-1.0</param>
+      <param name="pid_p">0.5</param>
+      <param name="pid_i">10.0</param>
+      <param name="pid_d">0.0</param>
+    </hardware>
+  </xacro:unless>
+  <joint name="front_left_wheel_joint">
+    <command_interface name="velocity">
+      <param name="min">-10</param>
+      <param name="max">10</param>
+    </command_interface>
+    <state_interface name="velocity"/>
+    <state_interface name="position"/>
+  </joint>
+  <joint name="front_right_wheel_joint">
+    <command_interface name="velocity">
+      <param name="min">-10</param>
+      <param name="max">10</param>
+    </command_interface>
+    <state_interface name="velocity"/>
+    <state_interface name="position"/>
+  </joint>
+  <joint name="rear_left_wheel_joint">
+    <command_interface name="velocity">
+      <param name="min">-10</param>
+      <param name="max">10</param>
+    </command_interface>
+    <state_interface name="velocity"/>
+    <state_interface name="position"/>
+  </joint>
+  <joint name="rear_right_wheel_joint">
+    <command_interface name="velocity">
+      <param name="min">-10</param>
+      <param name="max">10</param>
+    </command_interface>
+    <state_interface name="velocity"/>
+    <state_interface name="position"/>
+  </joint>
+</ros2_control>
 
- <ros2_control name="AUG2024System" type="system">
-        <hardware>
-             <plugin>BMC_2024/AUG2024Hardware</plugin>
-            <param name="front_left_wheel_name">front_left_wheel_joint</param>
-            <param name="front_right_wheel_name">front_right_wheel_joint</param>
-            <param name="rear_left_wheel_name">rear_left_wheel_joint</param>
-            <param name="rear_right_wheel_name">rear_right_wheel_joint</param>
-            <param name="can_interface">can0</param>
-            <param name="can_fl_id">183</param>
-            <param name="can_fr_id">177</param>
-            <param name="can_rl_id">176</param>
-            <param name="can_rr_id">178</param>
-            <param name="fl_mult">1.0</param>
-            <param name="fr_mult">-1.0</param>
-            <param name="rl_mult">1.0</param>
-            <param name="rr_mult">-1.0</param>
-            <param name="pid_p">0.5</param>
-            <param name="pid_i">10.0</param>
-            <param name="pid_d">0.0</param>
-        </hardware>
-        <joint name="front_left_wheel_joint">
-            <command_interface name="velocity">
-                <param name="min">-10</param>
-                <param name="max">10</param>
-            </command_interface>
-            <state_interface name="velocity"/>
-            <state_interface name="position"/>
-        </joint>
 
-        <joint name="front_right_wheel_joint">
-            <command_interface name="velocity">
-                <param name="min">-10</param>
-                <param name="max">10</param>
-            </command_interface>
-            <state_interface name="velocity"/>
-            <state_interface name="position"/>
-        </joint>
 
-        <joint name="rear_left_wheel_joint">
-            <command_interface name="velocity">
-                <param name="min">-10</param>
-                <param name="max">10</param>
-            </command_interface>
-            <state_interface name="velocity"/>
-            <state_interface name="position"/>
-        </joint>
+    <gazebo>
+      <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+         <!--parameters>$(find aug_2024)/config/flippo_controllers.yaml</parameters-->
+        <parameters>$(find aug_2024)/config/flippo_controllers.yaml</parameters>
+      </plugin>
+    </gazebo>
 
-        <joint name="rear_right_wheel_joint">
-            <command_interface name="velocity">
-                <param name="min">-10</param>
-                <param name="max">10</param>
-            </command_interface>
-            <state_interface name="velocity"/>
-            <state_interface name="position"/>
-        </joint>
-    </ros2_control>
+    <gazebo>
+      <plugin name="gazebo_ros_state" filename="libgazebo_ros_state.so">
+        <update_rate>100</update_rate>
+      </plugin>
+    </gazebo>
 
+    <gazebo reference="chassis_link">
+      <material>Gazebo/White</material>
+    </gazebo>
+
+    <gazebo reference="front_left_wheel_link">
+      <material>Gazebo/Black</material>
+      <mu1 value="1.0"/>
+      <mu2 value="1.0"/>
+      <kp value="10000000.0" />
+      <kd value="1.0" />
+    </gazebo>
+
+    <gazebo reference="front_right_wheel_link">
+      <material>Gazebo/Black</material>
+      <mu1 value="1.0"/>
+      <mu2 value="1.0"/>
+      <kp value="10000000.0" />
+      <kd value="1.0" />
+    </gazebo>
+
+    <gazebo reference="rear_left_wheel_link">
+      <material>Gazebo/Black</material>
+      <mu1 value="1.0"/>
+      <mu2 value="1.0"/>
+      <kp value="10000000.0" />
+      <kd value="1.0" />
+    </gazebo>
+
+    <gazebo reference="rear_right_wheel_link">
+      <material>Gazebo/Black</material>
+      <mu1 value="1.0"/>
+      <mu2 value="1.0"/>
+      <kp value="10000000.0" />
+      <kd value="1.0" />
+    </gazebo>
 
 
 </robot>

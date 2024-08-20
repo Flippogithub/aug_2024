@@ -1,0 +1,396 @@
+[0.000000] (-) TimerEvent: {}
+[0.000198] (BMC_2024) JobQueued: {'identifier': 'BMC_2024', 'dependencies': OrderedDict()}
+[0.000280] (aug_2024) JobQueued: {'identifier': 'aug_2024', 'dependencies': OrderedDict([('BMC_2024', '/home/dkflippo/aug2024/install/BMC_2024')])}
+[0.000302] (BMC_2024) JobStarted: {'identifier': 'BMC_2024'}
+[0.007453] (BMC_2024) JobProgress: {'identifier': 'BMC_2024', 'progress': 'cmake'}
+[0.007800] (BMC_2024) Command: {'cmd': ['/usr/bin/cmake', '/home/dkflippo/aug2024/src/BMC_2024', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/install/BMC_2024'], 'cwd': '/home/dkflippo/aug2024/build/BMC_2024', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dkflippo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/dkflippo/aug2024/install/BMC_2024/lib'), ('HOME', '/home/dkflippo'), ('OLDPWD', '/home/dkflippo/aug2024'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2062'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/235465/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dkflippo/aug2024/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dkflippo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dkflippo'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ENGG-BAE1171:@/tmp/.ICE-unix/2034,unix/ENGG-BAE1171:/tmp/.ICE-unix/2034'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3a8329d7_6de9_498c_b84f_9146c7195be9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/235465'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/235465/.mutter-Xwaylandauth.T4BUS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/235465/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble:/home/dkflippo/aug2024/install/aug_2024'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dkflippo/aug2024/build/BMC_2024'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble')]), 'shell': False}
+[0.060694] (BMC_2024) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099592] (-) TimerEvent: {}
+[0.110070] (BMC_2024) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.116736] (BMC_2024) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.180591] (BMC_2024) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.187126] (BMC_2024) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.187347] (BMC_2024) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.187689] (BMC_2024) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.190368] (BMC_2024) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199694] (-) TimerEvent: {}
+[0.262217] (BMC_2024) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.268715] (BMC_2024) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.268973] (BMC_2024) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.269437] (BMC_2024) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.271638] (BMC_2024) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299811] (-) TimerEvent: {}
+[0.395989] (BMC_2024) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.399892] (-) TimerEvent: {}
+[0.446767] (BMC_2024) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.471977] (BMC_2024) StdoutLine: {'line': b'-- Found hardware_interface: 2.42.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[0.499983] (-) TimerEvent: {}
+[0.508180] (BMC_2024) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.513100] (BMC_2024) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.520657] (BMC_2024) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.532330] (BMC_2024) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.546770] (BMC_2024) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600085] (-) TimerEvent: {}
+[0.700312] (-) TimerEvent: {}
+[0.731537] (BMC_2024) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.733986] (BMC_2024) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.756408] (BMC_2024) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.800398] (-) TimerEvent: {}
+[0.805297] (BMC_2024) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.808628] (BMC_2024) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.821007] (BMC_2024) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.823948] (BMC_2024) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.831795] (BMC_2024) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.840813] (BMC_2024) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.848604] (BMC_2024) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.900517] (-) TimerEvent: {}
+[0.913754] (BMC_2024) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.913994] (BMC_2024) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.981329] (BMC_2024) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.982318] (BMC_2024) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.000609] (-) TimerEvent: {}
+[1.024603] (BMC_2024) StdoutLine: {'line': b'-- Found gazebo_ros2_control: 0.4.9 (/opt/ros/humble/share/gazebo_ros2_control/cmake)\n'}
+[1.077259] (BMC_2024) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[1.078199] (BMC_2024) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.089621] (BMC_2024) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[1.100720] (-) TimerEvent: {}
+[1.184426] (BMC_2024) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[1.200807] (-) TimerEvent: {}
+[1.228472] (BMC_2024) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[1.245926] (BMC_2024) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.270668] (BMC_2024) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[1.282219] (BMC_2024) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.286395] (BMC_2024) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.291548] (BMC_2024) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.292697] (BMC_2024) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.293053] (BMC_2024) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.297459] (BMC_2024) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.300882] (-) TimerEvent: {}
+[1.308378] (BMC_2024) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[1.337995] (BMC_2024) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.343894] (BMC_2024) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.352262] (BMC_2024) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.356482] (BMC_2024) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.356588] (BMC_2024) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.360471] (BMC_2024) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.360563] (BMC_2024) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.364413] (BMC_2024) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.364504] (BMC_2024) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.368572] (BMC_2024) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.368669] (BMC_2024) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.372876] (BMC_2024) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.372995] (BMC_2024) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.376904] (BMC_2024) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.400979] (-) TimerEvent: {}
+[1.466184] (BMC_2024) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.468044] (BMC_2024) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[1.468483] (BMC_2024) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.484685] (BMC_2024) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[1.494890] (BMC_2024) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.499621] (BMC_2024) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.501085] (-) TimerEvent: {}
+[1.512703] (BMC_2024) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.551097] (BMC_2024) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[1.556295] (BMC_2024) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.568685] (BMC_2024) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.599964] (BMC_2024) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[1.601140] (-) TimerEvent: {}
+[1.601911] (BMC_2024) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.602378] (BMC_2024) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[1.619486] (BMC_2024) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.623929] (BMC_2024) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.635877] (BMC_2024) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[1.666101] (BMC_2024) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.667994] (BMC_2024) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.668446] (BMC_2024) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[1.668667] (BMC_2024) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.669251] (BMC_2024) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.670402] (BMC_2024) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[1.680025] (BMC_2024) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[1.680494] (BMC_2024) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[1.682338] (BMC_2024) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[1.682784] (BMC_2024) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[1.683093] (BMC_2024) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.685470] (BMC_2024) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[1.685868] (BMC_2024) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.701243] (-) TimerEvent: {}
+[1.754564] (BMC_2024) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[1.761917] (BMC_2024) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.773154] (BMC_2024) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.801364] (-) TimerEvent: {}
+[1.802636] (BMC_2024) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[1.807483] (BMC_2024) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.818705] (BMC_2024) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.849085] (BMC_2024) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[1.849558] (BMC_2024) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.849979] (BMC_2024) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.850416] (BMC_2024) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.853342] (BMC_2024) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[1.853699] (BMC_2024) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[1.865716] (BMC_2024) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[1.901458] (-) TimerEvent: {}
+[1.978449] (BMC_2024) StderrLine: {'line': b'WARNING: Package name "BMC_2024" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[1.993581] (BMC_2024) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.001531] (-) TimerEvent: {}
+[2.043427] (BMC_2024) StdoutLine: {'line': b'-- Generating done\n'}
+[2.045949] (BMC_2024) StdoutLine: {'line': b'-- Build files have been written to: /home/dkflippo/aug2024/build/BMC_2024\n'}
+[2.056859] (BMC_2024) CommandEnded: {'returncode': 0}
+[2.058696] (BMC_2024) JobProgress: {'identifier': 'BMC_2024', 'progress': 'build'}
+[2.058735] (BMC_2024) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dkflippo/aug2024/build/BMC_2024', '--', '-j12', '-l12'], 'cwd': '/home/dkflippo/aug2024/build/BMC_2024', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dkflippo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/dkflippo/aug2024/install/BMC_2024/lib'), ('HOME', '/home/dkflippo'), ('OLDPWD', '/home/dkflippo/aug2024'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2062'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/235465/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dkflippo/aug2024/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dkflippo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dkflippo'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ENGG-BAE1171:@/tmp/.ICE-unix/2034,unix/ENGG-BAE1171:/tmp/.ICE-unix/2034'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3a8329d7_6de9_498c_b84f_9146c7195be9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/235465'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/235465/.mutter-Xwaylandauth.T4BUS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/235465/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble:/home/dkflippo/aug2024/install/aug_2024'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dkflippo/aug2024/build/BMC_2024'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble')]), 'shell': False}
+[2.101634] (-) TimerEvent: {}
+[2.106680] (BMC_2024) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/BMC_2024.dir/src/aug_2024_system.cpp.o\x1b[0m\n'}
+[2.106853] (BMC_2024) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.o\x1b[0m\n'}
+[2.201754] (-) TimerEvent: {}
+[2.302023] (-) TimerEvent: {}
+[2.402333] (-) TimerEvent: {}
+[2.502602] (-) TimerEvent: {}
+[2.602890] (-) TimerEvent: {}
+[2.703175] (-) TimerEvent: {}
+[2.803457] (-) TimerEvent: {}
+[2.903763] (-) TimerEvent: {}
+[3.004109] (-) TimerEvent: {}
+[3.104401] (-) TimerEvent: {}
+[3.204700] (-) TimerEvent: {}
+[3.304987] (-) TimerEvent: {}
+[3.405319] (-) TimerEvent: {}
+[3.505597] (-) TimerEvent: {}
+[3.605893] (-) TimerEvent: {}
+[3.706202] (-) TimerEvent: {}
+[3.806498] (-) TimerEvent: {}
+[3.906794] (-) TimerEvent: {}
+[4.007101] (-) TimerEvent: {}
+[4.107400] (-) TimerEvent: {}
+[4.162847] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type BMC_2024::AUG2024Hardware::read(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.163002] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:266:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kperiod\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.163108] (BMC_2024) StderrLine: {'line': b'  266 |   const rclcpp::Time & /*time*/, \x1b[01;35m\x1b[Kconst rclcpp::Duration & period\x1b[m\x1b[K)\n'}
+[4.163168] (BMC_2024) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[4.207524] (-) TimerEvent: {}
+[4.307825] (-) TimerEvent: {}
+[4.408154] (-) TimerEvent: {}
+[4.508459] (-) TimerEvent: {}
+[4.608739] (-) TimerEvent: {}
+[4.709028] (-) TimerEvent: {}
+[4.809379] (-) TimerEvent: {}
+[4.909649] (-) TimerEvent: {}
+[5.009957] (-) TimerEvent: {}
+[5.026038] (BMC_2024) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libBMC_2024.so\x1b[0m\n'}
+[5.110089] (-) TimerEvent: {}
+[5.210362] (-) TimerEvent: {}
+[5.255626] (BMC_2024) StdoutLine: {'line': b'[100%] Built target BMC_2024\n'}
+[5.266857] (BMC_2024) CommandEnded: {'returncode': 0}
+[5.296924] (BMC_2024) JobProgress: {'identifier': 'BMC_2024', 'progress': 'install'}
+[5.305272] (BMC_2024) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dkflippo/aug2024/build/BMC_2024'], 'cwd': '/home/dkflippo/aug2024/build/BMC_2024', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dkflippo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/dkflippo/aug2024/install/BMC_2024/lib'), ('HOME', '/home/dkflippo'), ('OLDPWD', '/home/dkflippo/aug2024'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2062'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/235465/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dkflippo/aug2024/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dkflippo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dkflippo'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ENGG-BAE1171:@/tmp/.ICE-unix/2034,unix/ENGG-BAE1171:/tmp/.ICE-unix/2034'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3a8329d7_6de9_498c_b84f_9146c7195be9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/235465'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/235465/.mutter-Xwaylandauth.T4BUS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/235465/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble:/home/dkflippo/aug2024/install/aug_2024'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dkflippo/aug2024/build/BMC_2024'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble')]), 'shell': False}
+[5.310460] (-) TimerEvent: {}
+[5.311541] (BMC_2024) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.311952] (BMC_2024) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.312206] (BMC_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024//aug_2024_hardware.xml\n'}
+[5.319984] (BMC_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/BMC_2024/lib/libBMC_2024.so\n'}
+[5.327989] (BMC_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/BMC_2024/include/BMC_2024/aug_2024_system.hpp\n'}
+[5.335631] (BMC_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/BMC_2024/include/BMC_2024/bmc_comms.hpp\n'}
+[5.343697] (BMC_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/BMC_2024/include/BMC_2024/visibility_control.h\n'}
+[5.352104] (BMC_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/environment/library_path.sh\n'}
+[5.360429] (BMC_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/environment/library_path.dsv\n'}
+[5.368439] (BMC_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/BMC_2024/share/ament_index/resource_index/package_run_dependencies/BMC_2024\n'}
+[5.376197] (BMC_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/BMC_2024/share/ament_index/resource_index/parent_prefix_path/BMC_2024\n'}
+[5.383928] (BMC_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/environment/ament_prefix_path.sh\n'}
+[5.391756] (BMC_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/environment/ament_prefix_path.dsv\n'}
+[5.399455] (BMC_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/environment/path.sh\n'}
+[5.407220] (BMC_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/environment/path.dsv\n'}
+[5.410560] (-) TimerEvent: {}
+[5.414962] (BMC_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/local_setup.bash\n'}
+[5.422642] (BMC_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/local_setup.sh\n'}
+[5.430302] (BMC_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/local_setup.zsh\n'}
+[5.438944] (BMC_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/local_setup.dsv\n'}
+[5.446919] (BMC_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/package.dsv\n'}
+[5.454846] (BMC_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/BMC_2024/share/ament_index/resource_index/packages/BMC_2024\n'}
+[5.463149] (BMC_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/BMC_2024/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/BMC_2024\n'}
+[5.470974] (BMC_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.478708] (BMC_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.486425] (BMC_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.494093] (BMC_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake/BMC_2024Config.cmake\n'}
+[5.501819] (BMC_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake/BMC_2024Config-version.cmake\n'}
+[5.509529] (BMC_2024) StdoutLine: {'line': b'-- Symlinking: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/package.xml\n'}
+[5.510660] (-) TimerEvent: {}
+[5.518816] (BMC_2024) CommandEnded: {'returncode': 0}
+[5.563058] (BMC_2024) JobEnded: {'identifier': 'BMC_2024', 'rc': 0}
+[5.563871] (aug_2024) JobStarted: {'identifier': 'aug_2024'}
+[5.571105] (aug_2024) JobProgress: {'identifier': 'aug_2024', 'progress': 'cmake'}
+[5.571343] (aug_2024) Command: {'cmd': ['/usr/bin/cmake', '/home/dkflippo/aug2024/src/aug_2024', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/install/aug_2024'], 'cwd': '/home/dkflippo/aug2024/build/aug_2024', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dkflippo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dkflippo/aug2024/install/BMC_2024/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dkflippo'), ('OLDPWD', '/home/dkflippo/aug2024'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2062'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/235465/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dkflippo/aug2024/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dkflippo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dkflippo'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ENGG-BAE1171:@/tmp/.ICE-unix/2034,unix/ENGG-BAE1171:/tmp/.ICE-unix/2034'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3a8329d7_6de9_498c_b84f_9146c7195be9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/235465'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/235465/.mutter-Xwaylandauth.T4BUS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/235465/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble:/home/dkflippo/aug2024/install/aug_2024'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dkflippo/aug2024/build/aug_2024'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dkflippo/aug2024/install/BMC_2024:/home/dkflippo/aug2024/install/aug_2024:/opt/ros/humble')]), 'shell': False}
+[5.610785] (-) TimerEvent: {}
+[5.619332] (aug_2024) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[5.669378] (aug_2024) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[5.675776] (aug_2024) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.710921] (-) TimerEvent: {}
+[5.738636] (aug_2024) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.744713] (aug_2024) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.744928] (aug_2024) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.745267] (aug_2024) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.747971] (aug_2024) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.811040] (-) TimerEvent: {}
+[5.818932] (aug_2024) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.825387] (aug_2024) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.825673] (aug_2024) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.826057] (aug_2024) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.828391] (aug_2024) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.911133] (-) TimerEvent: {}
+[5.953284] (aug_2024) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.003605] (aug_2024) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[6.011195] (-) TimerEvent: {}
+[6.030875] (aug_2024) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[6.071368] (aug_2024) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.076168] (aug_2024) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.083925] (aug_2024) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.094867] (aug_2024) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.109504] (aug_2024) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.111262] (-) TimerEvent: {}
+[6.151000] (aug_2024) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.153550] (aug_2024) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.211370] (-) TimerEvent: {}
+[6.233996] (aug_2024) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.260107] (aug_2024) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.297632] (aug_2024) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.305693] (aug_2024) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.311440] (-) TimerEvent: {}
+[6.372214] (aug_2024) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.372694] (aug_2024) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.411565] (-) TimerEvent: {}
+[6.439388] (aug_2024) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.440413] (aug_2024) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.487618] (aug_2024) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[6.511663] (-) TimerEvent: {}
+[6.516177] (aug_2024) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[6.531377] (aug_2024) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[6.532504] (aug_2024) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[6.532695] (aug_2024) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[6.611792] (-) TimerEvent: {}
+[6.656319] (aug_2024) StdoutLine: {'line': b'-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)\n'}
+[6.657920] (aug_2024) StdoutLine: {'line': b'-- Found controller_manager: 2.42.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[6.711890] (-) TimerEvent: {}
+[6.749772] (aug_2024) StdoutLine: {'line': b'-- Found joint_state_broadcaster: 2.37.0 (/opt/ros/humble/share/joint_state_broadcaster/cmake)\n'}
+[6.757330] (aug_2024) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[6.773523] (aug_2024) StdoutLine: {'line': b'-- Found diff_drive_controller: 2.37.0 (/opt/ros/humble/share/diff_drive_controller/cmake)\n'}
+[6.800348] (aug_2024) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[6.809740] (aug_2024) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[6.810853] (aug_2024) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[6.812012] (-) TimerEvent: {}
+[6.822602] (aug_2024) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[6.912118] (-) TimerEvent: {}
+[6.915384] (aug_2024) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[6.960454] (aug_2024) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[6.978247] (aug_2024) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[7.003530] (aug_2024) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[7.012213] (-) TimerEvent: {}
+[7.015341] (aug_2024) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[7.019813] (aug_2024) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[7.025114] (aug_2024) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[7.026286] (aug_2024) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[7.026626] (aug_2024) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[7.031028] (aug_2024) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[7.042413] (aug_2024) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[7.071722] (aug_2024) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[7.077534] (aug_2024) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[7.085769] (aug_2024) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[7.089611] (aug_2024) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[7.089703] (aug_2024) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[7.093554] (aug_2024) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[7.093645] (aug_2024) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[7.097342] (aug_2024) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[7.097442] (aug_2024) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[7.101285] (aug_2024) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[7.101377] (aug_2024) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[7.105413] (aug_2024) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[7.105503] (aug_2024) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[7.109307] (aug_2024) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[7.112305] (-) TimerEvent: {}
+[7.200159] (aug_2024) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[7.202135] (aug_2024) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[7.202551] (aug_2024) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[7.212403] (-) TimerEvent: {}
+[7.218969] (aug_2024) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[7.230257] (aug_2024) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[7.234712] (aug_2024) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[7.247652] (aug_2024) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[7.282813] (aug_2024) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[7.287814] (aug_2024) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[7.298963] (aug_2024) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[7.312521] (-) TimerEvent: {}
+[7.328533] (aug_2024) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[7.330642] (aug_2024) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[7.331092] (aug_2024) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[7.349330] (aug_2024) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[7.354594] (aug_2024) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[7.374274] (aug_2024) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[7.408218] (aug_2024) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[7.410252] (aug_2024) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[7.410702] (aug_2024) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[7.410935] (aug_2024) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[7.411532] (aug_2024) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[7.412628] (-) TimerEvent: {}
+[7.412785] (aug_2024) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[7.422750] (aug_2024) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[7.423162] (aug_2024) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[7.425175] (aug_2024) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[7.425626] (aug_2024) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[7.425935] (aug_2024) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[7.428453] (aug_2024) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[7.428831] (aug_2024) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[7.499160] (aug_2024) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[7.506780] (aug_2024) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[7.512705] (-) TimerEvent: {}
+[7.518291] (aug_2024) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[7.549906] (aug_2024) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[7.555514] (aug_2024) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[7.567771] (aug_2024) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[7.597754] (aug_2024) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[7.598132] (aug_2024) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[7.598516] (aug_2024) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[7.598836] (aug_2024) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[7.601838] (aug_2024) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[7.602072] (aug_2024) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[7.612802] (-) TimerEvent: {}
+[7.613671] (aug_2024) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[7.645209] (aug_2024) StdoutLine: {'line': b'-- Found gazebo_ros2_control: 0.4.9 (/opt/ros/humble/share/gazebo_ros2_control/cmake)\n'}
+[7.663495] (aug_2024) StdoutLine: {'line': b'-- Found ros2_control: 2.42.0 (/opt/ros/humble/share/ros2_control/cmake)\n'}
+[7.665006] (aug_2024) StdoutLine: {'line': b'-- Found ros2_controllers: 2.37.0 (/opt/ros/humble/share/ros2_controllers/cmake)\n'}
+[7.666550] (aug_2024) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.712927] (-) TimerEvent: {}
+[7.733874] (aug_2024) StdoutLine: {'line': b'-- xacro: determining deps for: description/urdf/aug_2024.xacro ...\n'}
+[7.807618] (aug_2024) StderrLine: {'line': b'\x1b[33mCMake Warning at /opt/ros/humble/share/xacro/cmake/xacro-extras.cmake:74 (message):\n'}
+[7.807775] (aug_2024) StderrLine: {'line': b'  failed to determine deps for: description/urdf/aug_2024.xacro\n'}
+[7.807839] (aug_2024) StderrLine: {'line': b'\n'}
+[7.807901] (aug_2024) StderrLine: {'line': b'  error: package not found: "package \'aug_2024\' not found, searching:\n'}
+[7.807956] (aug_2024) StderrLine: {'line': b'  [\'/home/dkflippo/aug2024/install/BMC_2024\', \'/opt/ros/humble\']"\n'}
+[7.808008] (aug_2024) StderrLine: {'line': b'\n'}
+[7.808071] (aug_2024) StderrLine: {'line': b'  when processing file: description/urdf/aug_2024.xacro\n'}
+[7.808129] (aug_2024) StderrLine: {'line': b'\n'}
+[7.808183] (aug_2024) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.808236] (aug_2024) StderrLine: {'line': b'  /opt/ros/humble/share/xacro/cmake/xacro-extras.cmake:133 (xacro_add_xacro_file)\n'}
+[7.808290] (aug_2024) StderrLine: {'line': b'  CMakeLists.txt:60 (xacro_add_files)\n'}
+[7.808341] (aug_2024) StderrLine: {'line': b'\n'}
+[7.808393] (aug_2024) StderrLine: {'line': b'\x1b[0m\n'}
+[7.813023] (-) TimerEvent: {}
+[7.814726] (aug_2024) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.814899] (aug_2024) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[7.814975] (aug_2024) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.815506] (aug_2024) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[7.816332] (aug_2024) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.816934] (aug_2024) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[7.819114] (aug_2024) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.819203] (aug_2024) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.819768] (aug_2024) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.821355] (aug_2024) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.829032] (aug_2024) StdoutLine: {'line': b'-- Generating done\n'}
+[7.831477] (aug_2024) StdoutLine: {'line': b'-- Build files have been written to: /home/dkflippo/aug2024/build/aug_2024\n'}
+[7.843727] (aug_2024) CommandEnded: {'returncode': 0}
+[7.844321] (aug_2024) JobProgress: {'identifier': 'aug_2024', 'progress': 'build'}
+[7.845186] (aug_2024) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dkflippo/aug2024/build/aug_2024', '--', '-j12', '-l12'], 'cwd': '/home/dkflippo/aug2024/build/aug_2024', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dkflippo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dkflippo/aug2024/install/BMC_2024/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dkflippo'), ('OLDPWD', '/home/dkflippo/aug2024'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2062'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/235465/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dkflippo/aug2024/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dkflippo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dkflippo'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ENGG-BAE1171:@/tmp/.ICE-unix/2034,unix/ENGG-BAE1171:/tmp/.ICE-unix/2034'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3a8329d7_6de9_498c_b84f_9146c7195be9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/235465'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/235465/.mutter-Xwaylandauth.T4BUS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/235465/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble:/home/dkflippo/aug2024/install/aug_2024'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dkflippo/aug2024/build/aug_2024'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dkflippo/aug2024/install/BMC_2024:/home/dkflippo/aug2024/install/aug_2024:/opt/ros/humble')]), 'shell': False}
+[7.894066] (aug_2024) StdoutLine: {'line': b'[100%] \x1b[34m\x1b[1mxacro: generating description/urdf/aug_2024 from description/urdf/aug_2024.xacro\x1b[0m\n'}
+[7.913112] (-) TimerEvent: {}
+[7.963660] (aug_2024) StderrLine: {'line': b'\x1b[91mpackage not found: "package \'aug_2024\' not found, searching: [\'/home/dkflippo/aug2024/install/BMC_2024\', \'/opt/ros/humble\']"\x1b[0m\n'}
+[7.963877] (aug_2024) StderrLine: {'line': b'when processing file: description/urdf/aug_2024.xacro\n'}
+[7.971500] (aug_2024) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/aug_2024_aug_2024_generated_urdf.dir/build.make:73: description/urdf/aug_2024] Error 2\n'}
+[7.971759] (aug_2024) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/aug_2024_aug_2024_generated_urdf.dir/all] Error 2\n'}
+[7.971989] (aug_2024) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.974206] (aug_2024) CommandEnded: {'returncode': 2}
+[8.001128] (aug_2024) JobEnded: {'identifier': 'aug_2024', 'rc': 2}
+[8.011480] (-) EventReactorShutdown: {}

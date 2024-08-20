@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/dkflippo/aug2024/build/aug_2024
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all:
+all: CMakeFiles/aug_2024_aug_2024_generated_urdf.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,6 +73,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/aug_2024_uninstall.dir/clean
+clean: CMakeFiles/aug_2024_aug_2024_generated_urdf.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -126,6 +127,32 @@ aug_2024_uninstall: CMakeFiles/aug_2024_uninstall.dir/rule
 CMakeFiles/aug_2024_uninstall.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aug_2024_uninstall.dir/build.make CMakeFiles/aug_2024_uninstall.dir/clean
 .PHONY : CMakeFiles/aug_2024_uninstall.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/aug_2024_aug_2024_generated_urdf.dir
+
+# All Build rule for target.
+CMakeFiles/aug_2024_aug_2024_generated_urdf.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aug_2024_aug_2024_generated_urdf.dir/build.make CMakeFiles/aug_2024_aug_2024_generated_urdf.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aug_2024_aug_2024_generated_urdf.dir/build.make CMakeFiles/aug_2024_aug_2024_generated_urdf.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dkflippo/aug2024/build/aug_2024/CMakeFiles --progress-num=1 "Built target aug_2024_aug_2024_generated_urdf"
+.PHONY : CMakeFiles/aug_2024_aug_2024_generated_urdf.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/aug_2024_aug_2024_generated_urdf.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dkflippo/aug2024/build/aug_2024/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/aug_2024_aug_2024_generated_urdf.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dkflippo/aug2024/build/aug_2024/CMakeFiles 0
+.PHONY : CMakeFiles/aug_2024_aug_2024_generated_urdf.dir/rule
+
+# Convenience name for target.
+aug_2024_aug_2024_generated_urdf: CMakeFiles/aug_2024_aug_2024_generated_urdf.dir/rule
+.PHONY : aug_2024_aug_2024_generated_urdf
+
+# clean rule for target.
+CMakeFiles/aug_2024_aug_2024_generated_urdf.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aug_2024_aug_2024_generated_urdf.dir/build.make CMakeFiles/aug_2024_aug_2024_generated_urdf.dir/clean
+.PHONY : CMakeFiles/aug_2024_aug_2024_generated_urdf.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
