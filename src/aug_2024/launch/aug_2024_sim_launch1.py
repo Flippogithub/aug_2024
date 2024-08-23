@@ -2,14 +2,14 @@ import os
 import xml.etree.ElementTree as ET
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
-from launch.actions import IncludeLaunchDescription, ExecuteProcess
+from launch.actions import IncludeLaunchDescription, ExecuteProcess, RegisterEventHandler, TimerAction
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.actions import Node
-from launch.actions import TimerAction
+from launch.event_handlers import OnProcessExit
 
 def generate_launch_description():
     pkg_share = get_package_share_directory('aug_2024')
-    urdf_file = os.path.join(pkg_share, 'description','urdf', 'aug_2024.xacro')
+    urdf_file = os.path.join(pkg_share, 'description', 'urdf', 'aug_2024.xacro')
     
     # Use xacro to process the file
     xacro_command = f"xacro {urdf_file} use_sim:=true"
@@ -26,7 +26,7 @@ def generate_launch_description():
         parameters=[{'robot_description': robot_description}]
     )
 
-    gazebo = IncludeLaunchDescription(
+    gazebo_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([os.path.join(
             get_package_share_directory('gazebo_ros'), 'launch', 'gazebo.launch.py')]),
     )
@@ -38,7 +38,7 @@ def generate_launch_description():
         output='screen'
     )
 
-    load_joint_state_controller = ExecuteProcess(
+    load_joint_state_broadcaster = ExecuteProcess(
         cmd=['ros2', 'control', 'load_controller', '--set-state', 'active', 'joint_state_broadcaster'],
         output='screen'
     )
@@ -49,9 +49,17 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
-        gazebo,
+        gazebo_launch,
         robot_state_pub_node,
-        TimerAction(period=5.0, actions=[spawn_entity]),
-        TimerAction(period=10.0, actions=[load_joint_state_controller]),
-        TimerAction(period=11.0, actions=[load_diff_drive_controller])
+        spawn_entity,
+        TimerAction(
+            period=20.0,
+            actions=[
+                load_joint_state_broadcaster,
+                TimerAction(
+                    period=2.0,
+                    actions=[load_diff_drive_controller],
+                )
+            ]
+        )
     ])

@@ -1,0 +1,44 @@
+[0.008s] Invoking command in '/home/dkflippo/aug2024/build/my_robot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/my_robot_nav2 -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/install/my_robot_nav2
+[0.059s] -- The C compiler identification is GNU 11.4.0
+[0.115s] -- The CXX compiler identification is GNU 11.4.0
+[0.122s] -- Detecting C compiler ABI info
+[0.189s] -- Detecting C compiler ABI info - done
+[0.196s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.196s] -- Detecting C compile features
+[0.196s] -- Detecting C compile features - done
+[0.199s] -- Detecting CXX compiler ABI info
+[0.278s] -- Detecting CXX compiler ABI info - done
+[0.284s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.285s] -- Detecting CXX compile features
+[0.285s] -- Detecting CXX compile features - done
+[0.288s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.451s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.531s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.601s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.601s] -- Added test 'lint_cmake' to check CMake code style
+[0.602s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.603s] -- Added test 'xmllint' to check XML markup files
+[0.605s] -- Configuring done
+[0.608s] -- Generating done
+[0.609s] -- Build files have been written to: /home/dkflippo/aug2024/build/my_robot_nav2
+[0.613s] Invoked command in '/home/dkflippo/aug2024/build/my_robot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/my_robot_nav2 -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/install/my_robot_nav2
+[0.614s] Invoking command in '/home/dkflippo/aug2024/build/my_robot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dkflippo/aug2024/build/my_robot_nav2 -- -j12 -l12
+[0.652s] Invoked command in '/home/dkflippo/aug2024/build/my_robot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dkflippo/aug2024/build/my_robot_nav2 -- -j12 -l12
+[0.683s] Invoking command in '/home/dkflippo/aug2024/build/my_robot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dkflippo/aug2024/build/my_robot_nav2
+[0.689s] -- Install configuration: ""
+[0.689s] -- Installing: /home/dkflippo/aug2024/install/my_robot_nav2/share/ament_index/resource_index/package_run_dependencies/my_robot_nav2
+[0.690s] -- Installing: /home/dkflippo/aug2024/install/my_robot_nav2/share/ament_index/resource_index/parent_prefix_path/my_robot_nav2
+[0.690s] -- Installing: /home/dkflippo/aug2024/install/my_robot_nav2/share/my_robot_nav2/environment/ament_prefix_path.sh
+[0.690s] -- Installing: /home/dkflippo/aug2024/install/my_robot_nav2/share/my_robot_nav2/environment/ament_prefix_path.dsv
+[0.690s] -- Installing: /home/dkflippo/aug2024/install/my_robot_nav2/share/my_robot_nav2/environment/path.sh
+[0.691s] -- Installing: /home/dkflippo/aug2024/install/my_robot_nav2/share/my_robot_nav2/environment/path.dsv
+[0.691s] -- Installing: /home/dkflippo/aug2024/install/my_robot_nav2/share/my_robot_nav2/local_setup.bash
+[0.691s] -- Installing: /home/dkflippo/aug2024/install/my_robot_nav2/share/my_robot_nav2/local_setup.sh
+[0.691s] -- Installing: /home/dkflippo/aug2024/install/my_robot_nav2/share/my_robot_nav2/local_setup.zsh
+[0.691s] -- Installing: /home/dkflippo/aug2024/install/my_robot_nav2/share/my_robot_nav2/local_setup.dsv
+[0.691s] -- Installing: /home/dkflippo/aug2024/install/my_robot_nav2/share/my_robot_nav2/package.dsv
+[0.692s] -- Installing: /home/dkflippo/aug2024/install/my_robot_nav2/share/ament_index/resource_index/packages/my_robot_nav2
+[0.692s] -- Installing: /home/dkflippo/aug2024/install/my_robot_nav2/share/my_robot_nav2/cmake/my_robot_nav2Config.cmake
+[0.692s] -- Installing: /home/dkflippo/aug2024/install/my_robot_nav2/share/my_robot_nav2/cmake/my_robot_nav2Config-version.cmake
+[0.692s] -- Installing: /home/dkflippo/aug2024/install/my_robot_nav2/share/my_robot_nav2/package.xml
+[0.694s] Invoked command in '/home/dkflippo/aug2024/build/my_robot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dkflippo/aug2024/build/my_robot_nav2

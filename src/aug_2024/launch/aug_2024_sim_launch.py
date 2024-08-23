@@ -53,7 +53,7 @@ def generate_launch_description():
         robot_state_pub_node,
         spawn_entity,
         TimerAction(
-            period=10.0,
+            period=5.0,
             actions=[
                 load_joint_state_broadcaster,
                 TimerAction(
