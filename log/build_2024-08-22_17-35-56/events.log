@@ -1,0 +1,127 @@
+[0.000000] (-) TimerEvent: {}
+[0.000318] (BMC_2024) JobQueued: {'identifier': 'BMC_2024', 'dependencies': OrderedDict()}
+[0.000429] (aug_2024) JobQueued: {'identifier': 'aug_2024', 'dependencies': OrderedDict([('BMC_2024', '/home/dkflippo/aug2024/install/BMC_2024')])}
+[0.000529] (BMC_2024) JobStarted: {'identifier': 'BMC_2024'}
+[0.008007] (BMC_2024) JobProgress: {'identifier': 'BMC_2024', 'progress': 'cmake'}
+[0.009265] (BMC_2024) JobProgress: {'identifier': 'BMC_2024', 'progress': 'build'}
+[0.010287] (BMC_2024) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dkflippo/aug2024/build/BMC_2024', '--', '-j12', '-l12'], 'cwd': '/home/dkflippo/aug2024/build/BMC_2024', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dkflippo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dkflippo/aug2024/install/BMC_2024/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dkflippo'), ('OLDPWD', '/home/dkflippo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-U5m0Q2NgLw,guid=884700e9a3a80ff3dc6b995b66c61f5a'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dkflippo/aug2024/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dkflippo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dkflippo'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ENGG-BAE1171:@/tmp/.ICE-unix/4109,unix/ENGG-BAE1171:/tmp/.ICE-unix/4109'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2f0a884b_5743_40bc_b921_96003ae1d790'), ('GNOME_SETUP_DISPLAY', ':3'), ('XDG_RUNTIME_DIR', '/run/user/235465'), ('DISPLAY', ':2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/235465/.mutter-Xwaylandauth.HCEQS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AUTH_SOCK', '/run/user/235465/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dkflippo/aug2024/build/BMC_2024'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble')]), 'shell': False}
+[0.064899] (BMC_2024) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target BMC_2024\x1b[0m\n'}
+[0.091107] (BMC_2024) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/BMC_2024.dir/src/aug_2024_system.cpp.o\x1b[0m\n'}
+[0.099762] (-) TimerEvent: {}
+[0.200075] (-) TimerEvent: {}
+[0.300386] (-) TimerEvent: {}
+[0.400666] (-) TimerEvent: {}
+[0.500948] (-) TimerEvent: {}
+[0.601199] (-) TimerEvent: {}
+[0.701479] (-) TimerEvent: {}
+[0.801759] (-) TimerEvent: {}
+[0.902075] (-) TimerEvent: {}
+[1.002401] (-) TimerEvent: {}
+[1.102705] (-) TimerEvent: {}
+[1.202984] (-) TimerEvent: {}
+[1.303267] (-) TimerEvent: {}
+[1.403555] (-) TimerEvent: {}
+[1.503847] (-) TimerEvent: {}
+[1.604155] (-) TimerEvent: {}
+[1.704465] (-) TimerEvent: {}
+[1.804752] (-) TimerEvent: {}
+[1.905045] (-) TimerEvent: {}
+[2.005297] (-) TimerEvent: {}
+[2.105573] (-) TimerEvent: {}
+[2.205841] (-) TimerEvent: {}
+[2.306140] (-) TimerEvent: {}
+[2.400697] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::CallbackReturn BMC_2024::AUG2024Hardware::on_configure(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.400897] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:204:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcomms_fl_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcomms_rl_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.400976] (BMC_2024) StderrLine: {'line': b'  204 |   \x1b[01;31m\x1b[Kcomms_fl_\x1b[m\x1b[K.open(cfg_.can_interface.c_str(), motor_fl_.can_id);\n'}
+[2.401038] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.401097] (BMC_2024) StderrLine: {'line': b'      |   \x1b[32m\x1b[Kcomms_rl_\x1b[m\x1b[K\n'}
+[2.404312] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:204:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_fl_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmotor_rl_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.404417] (BMC_2024) StderrLine: {'line': b'  204 |   comms_fl_.open(cfg_.can_interface.c_str(), \x1b[01;31m\x1b[Kmotor_fl_\x1b[m\x1b[K.can_id);\n'}
+[2.404487] (BMC_2024) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.404548] (BMC_2024) StderrLine: {'line': b'      |                                              \x1b[32m\x1b[Kmotor_rl_\x1b[m\x1b[K\n'}
+[2.406178] (-) TimerEvent: {}
+[2.407801] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:205:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcomms_fr_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcomms_rr_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.407913] (BMC_2024) StderrLine: {'line': b'  205 |   \x1b[01;31m\x1b[Kcomms_fr_\x1b[m\x1b[K.open(cfg_.can_interface.c_str(), motor_fr_.can_id);\n'}
+[2.407989] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.408076] (BMC_2024) StderrLine: {'line': b'      |   \x1b[32m\x1b[Kcomms_rr_\x1b[m\x1b[K\n'}
+[2.412708] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:205:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_fr_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmotor_rr_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.413095] (BMC_2024) StderrLine: {'line': b'  205 |   comms_fr_.open(cfg_.can_interface.c_str(), \x1b[01;31m\x1b[Kmotor_fr_\x1b[m\x1b[K.can_id);\n'}
+[2.413216] (BMC_2024) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.413295] (BMC_2024) StderrLine: {'line': b'      |                                              \x1b[32m\x1b[Kmotor_rr_\x1b[m\x1b[K\n'}
+[2.418146] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::CallbackReturn BMC_2024::AUG2024Hardware::on_activate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.418266] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:225:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcomms_fl_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcomms_rl_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.418346] (BMC_2024) StderrLine: {'line': b'  225 |   \x1b[01;31m\x1b[Kcomms_fl_\x1b[m\x1b[K.enable();\n'}
+[2.418410] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.418470] (BMC_2024) StderrLine: {'line': b'      |   \x1b[32m\x1b[Kcomms_rl_\x1b[m\x1b[K\n'}
+[2.421775] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:226:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcomms_fr_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcomms_rr_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.421880] (BMC_2024) StderrLine: {'line': b'  226 |   \x1b[01;31m\x1b[Kcomms_fr_\x1b[m\x1b[K.enable();\n'}
+[2.421951] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.422012] (BMC_2024) StderrLine: {'line': b'      |   \x1b[32m\x1b[Kcomms_rr_\x1b[m\x1b[K\n'}
+[2.426619] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::CallbackReturn BMC_2024::AUG2024Hardware::on_deactivate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.426786] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:240:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcomms_fl_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcomms_rl_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.426858] (BMC_2024) StderrLine: {'line': b'  240 |   \x1b[01;31m\x1b[Kcomms_fl_\x1b[m\x1b[K.disable();\n'}
+[2.426923] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.426985] (BMC_2024) StderrLine: {'line': b'      |   \x1b[32m\x1b[Kcomms_rl_\x1b[m\x1b[K\n'}
+[2.430544] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:241:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcomms_fr_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcomms_rr_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.430676] (BMC_2024) StderrLine: {'line': b'  241 |   \x1b[01;31m\x1b[Kcomms_fr_\x1b[m\x1b[K.disable();\n'}
+[2.430743] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.430804] (BMC_2024) StderrLine: {'line': b'      |   \x1b[32m\x1b[Kcomms_rr_\x1b[m\x1b[K\n'}
+[2.436042] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::CallbackReturn BMC_2024::AUG2024Hardware::on_cleanup(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.436304] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:255:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcomms_fl_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcomms_rl_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.436452] (BMC_2024) StderrLine: {'line': b'  255 |   \x1b[01;31m\x1b[Kcomms_fl_\x1b[m\x1b[K.close();\n'}
+[2.436639] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.436808] (BMC_2024) StderrLine: {'line': b'      |   \x1b[32m\x1b[Kcomms_rl_\x1b[m\x1b[K\n'}
+[2.440794] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:256:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcomms_fr_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcomms_rr_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.440935] (BMC_2024) StderrLine: {'line': b'  256 |   \x1b[01;31m\x1b[Kcomms_fr_\x1b[m\x1b[K.close();\n'}
+[2.441004] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.441071] (BMC_2024) StderrLine: {'line': b'      |   \x1b[32m\x1b[Kcomms_rr_\x1b[m\x1b[K\n'}
+[2.445604] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type BMC_2024::AUG2024Hardware::read(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.445763] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:269:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcomms_fl_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcomms_rl_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.445835] (BMC_2024) StderrLine: {'line': b'  269 |   \x1b[01;31m\x1b[Kcomms_fl_\x1b[m\x1b[K.update(&motor_fl_);\n'}
+[2.445898] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.445959] (BMC_2024) StderrLine: {'line': b'      |   \x1b[32m\x1b[Kcomms_rl_\x1b[m\x1b[K\n'}
+[2.449377] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:269:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_fl_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmotor_rl_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.449479] (BMC_2024) StderrLine: {'line': b'  269 |   comms_fl_.update(&\x1b[01;31m\x1b[Kmotor_fl_\x1b[m\x1b[K);\n'}
+[2.449545] (BMC_2024) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.449610] (BMC_2024) StderrLine: {'line': b'      |                     \x1b[32m\x1b[Kmotor_rl_\x1b[m\x1b[K\n'}
+[2.452884] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:270:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcomms_fr_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcomms_rr_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.453016] (BMC_2024) StderrLine: {'line': b'  270 |   \x1b[01;31m\x1b[Kcomms_fr_\x1b[m\x1b[K.update(&motor_fr_);\n'}
+[2.453126] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.453225] (BMC_2024) StderrLine: {'line': b'      |   \x1b[32m\x1b[Kcomms_rr_\x1b[m\x1b[K\n'}
+[2.457277] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:270:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_fr_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmotor_rr_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.457526] (BMC_2024) StderrLine: {'line': b'  270 |   comms_fr_.update(&\x1b[01;31m\x1b[Kmotor_fr_\x1b[m\x1b[K);\n'}
+[2.457599] (BMC_2024) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.457662] (BMC_2024) StderrLine: {'line': b'      |                     \x1b[32m\x1b[Kmotor_rr_\x1b[m\x1b[K\n'}
+[2.457726] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:266:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kperiod\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.457788] (BMC_2024) StderrLine: {'line': b'  266 |   const rclcpp::Time & /*time*/, \x1b[01;35m\x1b[Kconst rclcpp::Duration & period\x1b[m\x1b[K)\n'}
+[2.457848] (BMC_2024) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[2.463259] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type BMC_2024::AUG2024Hardware::write(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.463563] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:281:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcomms_fl_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcomms_rl_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.463641] (BMC_2024) StderrLine: {'line': b'  281 |   \x1b[01;31m\x1b[Kcomms_fl_\x1b[m\x1b[K.setVelocity(motor_fl_.cmd * motor_fl_.mult); //motor_fl_.cmd is the velocity command coming from the controller\n'}
+[2.463718] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.463800] (BMC_2024) StderrLine: {'line': b'      |   \x1b[32m\x1b[Kcomms_rl_\x1b[m\x1b[K\n'}
+[2.467760] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:281:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_fl_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmotor_rl_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.467888] (BMC_2024) StderrLine: {'line': b'  281 |   comms_fl_.setVelocity(\x1b[01;31m\x1b[Kmotor_fl_\x1b[m\x1b[K.cmd * motor_fl_.mult); //motor_fl_.cmd is the velocity command coming from the controller\n'}
+[2.467964] (BMC_2024) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.468025] (BMC_2024) StderrLine: {'line': b'      |                         \x1b[32m\x1b[Kmotor_rl_\x1b[m\x1b[K\n'}
+[2.471609] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:282:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcomms_fr_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcomms_rr_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.471736] (BMC_2024) StderrLine: {'line': b'  282 |   \x1b[01;31m\x1b[Kcomms_fr_\x1b[m\x1b[K.setVelocity(motor_fr_.cmd * motor_fr_.mult);\n'}
+[2.471812] (BMC_2024) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.471877] (BMC_2024) StderrLine: {'line': b'      |   \x1b[32m\x1b[Kcomms_rr_\x1b[m\x1b[K\n'}
+[2.475938] (BMC_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:282:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_fr_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmotor_rr_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.476117] (BMC_2024) StderrLine: {'line': b'  282 |   comms_fr_.setVelocity(\x1b[01;31m\x1b[Kmotor_fr_\x1b[m\x1b[K.cmd * motor_fr_.mult);\n'}
+[2.476233] (BMC_2024) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.476304] (BMC_2024) StderrLine: {'line': b'      |                         \x1b[32m\x1b[Kmotor_rr_\x1b[m\x1b[K\n'}
+[2.506315] (-) TimerEvent: {}
+[2.606616] (-) TimerEvent: {}
+[2.706918] (-) TimerEvent: {}
+[2.807162] (-) TimerEvent: {}
+[2.907427] (-) TimerEvent: {}
+[3.007780] (-) TimerEvent: {}
+[3.020180] (BMC_2024) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/BMC_2024.dir/build.make:76: CMakeFiles/BMC_2024.dir/src/aug_2024_system.cpp.o] Error 1\n'}
+[3.020530] (BMC_2024) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/BMC_2024.dir/all] Error 2\n'}
+[3.020747] (BMC_2024) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.022940] (BMC_2024) CommandEnded: {'returncode': 2}
+[3.072281] (BMC_2024) JobEnded: {'identifier': 'BMC_2024', 'rc': 2}
+[3.082819] (aug_2024) JobSkipped: {'identifier': 'aug_2024'}
+[3.082870] (-) EventReactorShutdown: {}

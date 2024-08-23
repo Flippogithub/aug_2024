@@ -320,9 +320,9 @@
       <param name="rear_left_wheel_name">rear_left_wheel_joint</param>
       <param name="rear_right_wheel_name">rear_right_wheel_joint</param>
       <param name="can_interface">can0</param>
-      <param name="can_fl_id">183</param>
-      <param name="can_fr_id">177</param>
-      <param name="can_rl_id">176</param>
+      <!--param name="can_fl_id">183</param>
+      <param name="can_fr_id">177</param-->
+      <param name="can_rl_id">183</param>
       <param name="can_rr_id">178</param>
       <!--param name="fl_mult">1.0</param>
       <param name="fr_mult">-1.0</param-->

@@ -98,13 +98,13 @@ public:
 
 private:
 
-  BMCComms comms_fl_;
-  BMCComms comms_fr_;
+  //BMCComms comms_fl_;
+  //BMCComms comms_fr_;
   BMCComms comms_rl_;
   BMCComms comms_rr_;
   Config cfg_;
-  Motor motor_fl_;
-  Motor motor_fr_;
+  //Motor motor_fl_;
+  //Motor motor_fr_;
   Motor motor_rl_;
   Motor motor_rr_;
 };

@@ -36,7 +36,7 @@ ament_target_dependencies(${PROJECT_NAME}
   gazebo_ros2_control
 )
 
-pluginlib_export_plugin_description_file(hardware_interface aug_2024_hardware.xml)
+
 
 install(
   TARGETS ${PROJECT_NAME}
@@ -46,6 +46,18 @@ install(
 install(
   DIRECTORY include/
   DESTINATION include
+)
+#Causes the visibility macros to use dllexport rather than dllimport,
+# which is appropriate when building the dll but not consuming it.
+target_compile_definitions(${PROJECT_NAME} PRIVATE "ROWBOT_BMC_BUILDING_DLL")
+pluginlib_export_plugin_description_file(hardware_interface aug_2024_hardware.xml)
+
+
+install(TARGETS BMC_2024
+  EXPORT export_bmc_2024
+  ARCHIVE DESTINATION lib
+  LIBRARY DESTINATION lib
+  RUNTIME DESTINATION bin
 )
 
 ament_export_include_directories(include)

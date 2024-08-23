@@ -1,96 +1,76 @@
 import os
+import xml.etree.ElementTree as ET
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument, TimerAction, RegisterEventHandler, IncludeLaunchDescription
-from launch.substitutions import Command, LaunchConfiguration, FindExecutable
-from launch_ros.actions import Node
-from launch_ros.parameter_descriptions import ParameterValue
+from launch.actions import RegisterEventHandler, TimerAction
 from launch.event_handlers import OnProcessStart
-from launch.launch_description_sources import PythonLaunchDescriptionSource
-import xacro
+from launch_ros.actions import Node
 
 def generate_launch_description():
-    package_name = 'aug_2024'
-
-    # Launch configuration variables
-    use_sim_time = LaunchConfiguration('use_sim_time')
-    use_ros2_control = LaunchConfiguration('use_ros2_control')
-
-    # Declare the launch arguments
-    declare_use_sim_time_cmd = DeclareLaunchArgument(
-        'use_sim_time',
-        default_value='true',
-        description='Use simulation (Gazebo) clock if true')
-
-    declare_use_ros2_control_cmd = DeclareLaunchArgument(
-        'use_ros2_control',
-        default_value='true',
-        description='Use ros2_control if true')
-
-    # Get URDF via xacro
-    pkg_path = os.path.join(get_package_share_directory('aug_2024'))
-    xacro_file = os.path.join(pkg_path, 'description', 'urdf', 'aug_2024.xacro')
-    robot_description_content = ParameterValue(Command([
-        FindExecutable(name='xacro'), ' ', xacro_file,
-        ' use_sim:=', 'false',
-        ' use_ros2_control:=', use_ros2_control
-    ]), value_type=str)
-
-    # Create a robot_state_publisher node
-    params = {'robot_description': robot_description_content, 'use_sim_time': use_sim_time}
-    node_robot_state_publisher = Node(
-        package='robot_state_publisher',
-        executable='robot_state_publisher',
-        output='screen',
-        parameters=[params]
-    )
-
-
-    controller_params_file = os.path.join(get_package_share_directory(package_name), 'config', 'flippo_controllers.yaml')
-
-    controller_manager = Node(
-        package="controller_manager",
-        executable="ros2_control_node",
-        parameters=[params, controller_params_file],
-        output="both",
-    )
-
-    delayed_controller_manager = TimerAction(period=3.0, actions=[controller_manager])
-
-    diff_drive_spawner = Node(
-        package="controller_manager",
-        executable="spawner",
-        arguments=["diff_cont"],
+    pkg_share = get_package_share_directory('aug_2024')
+    urdf_file = os.path.join(pkg_share, 'description', 'urdf', 'aug_2024.xacro')
+    
+    # Use xacro to process the file
+    #xacro_command = f"xacro {urdf_file} use_sim:=false"
+    xacro_command = f"xacro {urdf_file} use_sim:=false"  # Change to false for real hardware
+    robot_description_raw = os.popen(xacro_command).read().strip()
+    
+    # Parse the XML and convert it back to a string
+    robot_description_xml = ET.fromstring(robot_description_raw)
+    robot_description = ET.tostring(robot_description_xml, encoding='unicode')
+    
+    robot_state_pub_node = Node(
+        package="robot_state_publisher",
+        executable="robot_state_publisher",
         output="screen",
+        parameters=[{'robot_description': robot_description}]
     )
 
-    delayed_diff_drive_spawner = RegisterEventHandler(
+    controller_config = os.path.join(pkg_share, 'config', 'flippo_controllers.yaml')
+
+    controller_manager_node = Node(
+     package="controller_manager",
+     executable="ros2_control_node",
+     parameters=[{'robot_description': robot_description}, controller_config],
+     output="screen",
+     arguments=['--ros-args', '--log-level', 'debug'],
+    )
+
+    def load_controller(controller_name):
+        return Node(
+            package="controller_manager",
+            executable="spawner",
+            arguments=[controller_name, "--controller-manager", "/controller_manager"],
+            output="screen",
+        )
+
+    joint_state_broadcaster_spawner = RegisterEventHandler(
         event_handler=OnProcessStart(
-            target_action=controller_manager,
-            on_start=[diff_drive_spawner],
+            target_action=controller_manager_node,
+            on_start=[
+                TimerAction(
+                    period=3.0,
+                    actions=[load_controller("joint_state_broadcaster")],
+                ),
+            ],
         )
     )
 
-    joint_broad_spawner = Node(
-        package="controller_manager",
-        executable="spawner",
-        arguments=["joint_broad"],
-        output="screen",
-    )
-
-    delayed_joint_broad_spawner = RegisterEventHandler(
+    diff_drive_controller_spawner = RegisterEventHandler(
         event_handler=OnProcessStart(
-            target_action=controller_manager,
-            on_start=[joint_broad_spawner],
+            target_action=controller_manager_node,
+            on_start=[
+                TimerAction(
+                    period=3.0,
+                    actions=[load_controller("diff_drive_controller")],
+                ),
+            ],
         )
     )
 
-    # Launch them all!
     return LaunchDescription([
-        declare_use_sim_time_cmd,
-        declare_use_ros2_control_cmd,
-        node_robot_state_publisher,
-        delayed_controller_manager,
-        delayed_diff_drive_spawner,
-        delayed_joint_broad_spawner
+        robot_state_pub_node,
+        controller_manager_node,
+        joint_state_broadcaster_spawner,
+        diff_drive_controller_spawner,
     ])

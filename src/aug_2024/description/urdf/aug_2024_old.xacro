@@ -320,8 +320,8 @@
   <xacro:unless value="$(arg use_sim)">
     <hardware>
       <plugin>BMC_2024/AUG2024Hardware</plugin>
-      <param name="front_left_wheel_name">front_left_wheel_joint</param>
-      <param name="front_right_wheel_name">front_right_wheel_joint</param>
+      <!--param name="front_left_wheel_name">front_left_wheel_joint</param>
+      <param name="front_right_wheel_name">front_right_wheel_joint</param-->
       <param name="rear_left_wheel_name">rear_left_wheel_joint</param>
       <param name="rear_right_wheel_name">rear_right_wheel_joint</param>
       <param name="can_interface">can0</param>
@@ -338,6 +338,7 @@
       <param name="pid_d">0.0</param>
     </hardware>
   </xacro:unless>
+  
   <joint name="front_left_wheel_joint">
     <command_interface name="velocity">
       <param name="min">-10</param>

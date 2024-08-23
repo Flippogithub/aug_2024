@@ -310,14 +310,14 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(FILES "aug_2024_hardware.xml" "DESTINATION" "share/BMC_2024/")
-ament_cmake_symlink_install_files("/home/dkflippo/aug2024/src/BMC_2024" FILES "aug_2024_hardware.xml" "DESTINATION" "share/BMC_2024/")
-
 # install("TARGETS" "BMC_2024" "DESTINATION" "lib")
 include("/home/dkflippo/aug2024/build/BMC_2024/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "include/" "DESTINATION" "include")
 ament_cmake_symlink_install_directory("/home/dkflippo/aug2024/src/BMC_2024" DIRECTORY "include/" "DESTINATION" "include")
+
+# install(FILES "aug_2024_hardware.xml" "DESTINATION" "share/BMC_2024/")
+ament_cmake_symlink_install_files("/home/dkflippo/aug2024/src/BMC_2024" FILES "aug_2024_hardware.xml" "DESTINATION" "share/BMC_2024/")
 
 # install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/BMC_2024/environment")
 ament_cmake_symlink_install_files("/home/dkflippo/aug2024/src/BMC_2024" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/BMC_2024/environment")

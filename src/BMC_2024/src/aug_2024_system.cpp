@@ -37,14 +37,14 @@ hardware_interface::CallbackReturn AUG2024Hardware::on_init(
     return hardware_interface::CallbackReturn::ERROR;
   }
 
-  cfg_.front_left_motor_name = info_.hardware_parameters["front_left_wheel_name"];
-  cfg_.front_right_motor_name = info_.hardware_parameters["front_right_wheel_name"];
+  //cfg_.front_left_motor_name = info_.hardware_parameters["front_left_wheel_name"];
+  //cfg_.front_right_motor_name = info_.hardware_parameters["front_right_wheel_name"];
   cfg_.rear_left_motor_name = info_.hardware_parameters["rear_left_wheel_name"];
   cfg_.rear_right_motor_name = info_.hardware_parameters["rear_right_wheel_name"];
   cfg_.can_interface = info_.hardware_parameters["can_interface"];
  try {
-  cfg_.can_fl_id = std::stoi(info_.hardware_parameters["can_fl_id"]); //this comes from the urdf file can_fl_id is a parameter in the urdf file
-  cfg_.can_fr_id = std::stoi(info_.hardware_parameters["can_fr_id"]); //gets turned into a info.hardware_parameters type
+  //cfg_.can_fl_id = std::stoi(info_.hardware_parameters["can_fl_id"]); //this comes from the urdf file can_fl_id is a parameter in the urdf file
+  //cfg_.can_fr_id = std::stoi(info_.hardware_parameters["can_fr_id"]); //gets turned into a info.hardware_parameters type
   cfg_.can_rl_id = std::stoi(info_.hardware_parameters["can_rl_id"]);
   cfg_.can_rr_id = std::stoi(info_.hardware_parameters["can_rr_id"]);
 } catch (const std::invalid_argument& e) {
@@ -54,26 +54,26 @@ hardware_interface::CallbackReturn AUG2024Hardware::on_init(
   RCLCPP_ERROR(rclcpp::get_logger("AUG2024Hardware"), "CAN ID out of range: %s", e.what());
   return hardware_interface::CallbackReturn::ERROR;
 }
-  cfg_.fl_mult = std::stof(info_.hardware_parameters["fl_mult"]);
-  cfg_.fr_mult = std::stof(info_.hardware_parameters["fr_mult"]);
+  //cfg_.fl_mult = std::stof(info_.hardware_parameters["fl_mult"]);
+  //cfg_.fr_mult = std::stof(info_.hardware_parameters["fr_mult"]);
   cfg_.rl_mult = std::stof(info_.hardware_parameters["rl_mult"]);
   cfg_.rr_mult = std::stof(info_.hardware_parameters["rr_mult"]);
   cfg_.pid_p = std::stof(info_.hardware_parameters["pid_p"]);
   cfg_.pid_i = std::stof(info_.hardware_parameters["pid_i"]);
   cfg_.pid_d = std::stof(info_.hardware_parameters["pid_d"]);
 
-  motor_fl_.name = cfg_.front_left_motor_name; //why change from cfg_ to motor_fl_? 
-  motor_fr_.name = cfg_.front_right_motor_name;
+  //motor_fl_.name = cfg_.front_left_motor_name; //why change from cfg_ to motor_fl_? 
+  //motor_fr_.name = cfg_.front_right_motor_name;
   motor_rl_.name = cfg_.rear_left_motor_name;
   motor_rr_.name = cfg_.rear_right_motor_name;
 
-  motor_fl_.mult = cfg_.fl_mult;
-  motor_fr_.mult = cfg_.fr_mult;
+  //motor_fl_.mult = cfg_.fl_mult;
+  //motor_fr_.mult = cfg_.fr_mult;
   motor_rl_.mult = cfg_.rl_mult;
   motor_rr_.mult = cfg_.rr_mult;
   
-  motor_fl_.can_id = (uint32_t)cfg_.can_fl_id;
-  motor_fr_.can_id = (uint32_t)cfg_.can_fr_id;
+  //motor_fl_.can_id = (uint32_t)cfg_.can_fl_id;
+  //motor_fr_.can_id = (uint32_t)cfg_.can_fr_id;
   motor_rl_.can_id = (uint32_t)cfg_.can_rl_id;
   motor_rr_.can_id = (uint32_t)cfg_.can_rr_id;
 
@@ -145,18 +145,18 @@ std::vector<hardware_interface::StateInterface> AUG2024Hardware::export_state_in
   std::vector<hardware_interface::StateInterface> state_interfaces;
 
   // front left motor
-  state_interfaces.emplace_back(hardware_interface::StateInterface(
-    motor_fl_.name, hardware_interface::HW_IF_POSITION, &motor_fl_.position));
-  state_interfaces.emplace_back(hardware_interface::StateInterface(
-    motor_fl_.name, hardware_interface::HW_IF_VELOCITY, &motor_fl_.velocity));
+ // state_interfaces.emplace_back(hardware_interface::StateInterface(
+   // motor_fl_.name, hardware_interface::HW_IF_POSITION, &motor_fl_.position));
+  //state_interfaces.emplace_back(hardware_interface::StateInterface(
+    //motor_fl_.name, hardware_interface::HW_IF_VELOCITY, &motor_fl_.velocity));
   //state_interfaces.emplace_back(hardware_interface::StateInterface(
   //  motor_fl_.name, hardware_interface::HW_IF_CURRENT, &motor_fl_.current));
 
   // front right motor
-  state_interfaces.emplace_back(hardware_interface::StateInterface(
-    motor_fr_.name, hardware_interface::HW_IF_POSITION, &motor_fr_.position));
-  state_interfaces.emplace_back(hardware_interface::StateInterface(
-    motor_fr_.name, hardware_interface::HW_IF_VELOCITY, &motor_fr_.velocity));
+  //state_interfaces.emplace_back(hardware_interface::StateInterface(
+    //motor_fr_.name, hardware_interface::HW_IF_POSITION, &motor_fr_.position));
+  //state_interfaces.emplace_back(hardware_interface::StateInterface(
+    //motor_fr_.name, hardware_interface::HW_IF_VELOCITY, &motor_fr_.velocity));
   //state_interfaces.emplace_back(hardware_interface::StateInterface(
   //  motor_fr_.name, hardware_interface::HW_IF_CURRENT, &motor_fr_.current));
 
@@ -183,10 +183,10 @@ std::vector<hardware_interface::CommandInterface> AUG2024Hardware::export_comman
 {
   std::vector<hardware_interface::CommandInterface> command_interfaces;
 
-  command_interfaces.emplace_back(hardware_interface::CommandInterface(
-    motor_fl_.name, hardware_interface::HW_IF_VELOCITY, &motor_fl_.cmd));
-  command_interfaces.emplace_back(hardware_interface::CommandInterface(
-    motor_fr_.name, hardware_interface::HW_IF_VELOCITY, &motor_fr_.cmd));
+  //command_interfaces.emplace_back(hardware_interface::CommandInterface(
+   // motor_fl_.name, hardware_interface::HW_IF_VELOCITY, &motor_fl_.cmd));
+  //command_interfaces.emplace_back(hardware_interface::CommandInterface(
+    //motor_fr_.name, hardware_interface::HW_IF_VELOCITY, &motor_fr_.cmd));
   command_interfaces.emplace_back(hardware_interface::CommandInterface(
     motor_rl_.name, hardware_interface::HW_IF_VELOCITY, &motor_rl_.cmd));
   command_interfaces.emplace_back(hardware_interface::CommandInterface(
@@ -201,13 +201,13 @@ hardware_interface::CallbackReturn AUG2024Hardware::on_configure(
   RCLCPP_INFO(rclcpp::get_logger("AUG2024Hardware"), "Configuring ...please wait...");
 
   // open can sockets
-  comms_fl_.open(cfg_.can_interface.c_str(), motor_fl_.can_id);
-  comms_fr_.open(cfg_.can_interface.c_str(), motor_fr_.can_id);
+  //comms_fl_.open(cfg_.can_interface.c_str(), motor_fl_.can_id);
+  //comms_fr_.open(cfg_.can_interface.c_str(), motor_fr_.can_id);
   comms_rl_.open(cfg_.can_interface.c_str(), motor_rl_.can_id);
   comms_rr_.open(cfg_.can_interface.c_str(), motor_rr_.can_id);
   // set pids
-  comms_fl_.setPIDs(cfg_.pid_p, cfg_.pid_i, cfg_.pid_d);
-  comms_fr_.setPIDs(cfg_.pid_p, cfg_.pid_i, cfg_.pid_d);
+  //comms_fl_.setPIDs(cfg_.pid_p, cfg_.pid_i, cfg_.pid_d);
+  //comms_fr_.setPIDs(cfg_.pid_p, cfg_.pid_i, cfg_.pid_d);
   comms_rl_.setPIDs(cfg_.pid_p, cfg_.pid_i, cfg_.pid_d);
   comms_rr_.setPIDs(cfg_.pid_p, cfg_.pid_i, cfg_.pid_d);
 
@@ -222,8 +222,8 @@ hardware_interface::CallbackReturn AUG2024Hardware::on_activate(
   RCLCPP_INFO(rclcpp::get_logger("AUG2024Hardware"), "Activating ...please wait...");
 
   // enable the bmcs
-  comms_fl_.enable();
-  comms_fr_.enable();
+  //comms_fl_.enable();
+  //comms_fr_.enable();
   comms_rl_.enable();
   comms_rr_.enable();
 
@@ -237,8 +237,8 @@ hardware_interface::CallbackReturn AUG2024Hardware::on_deactivate(
 {
   RCLCPP_INFO(rclcpp::get_logger("AUG2024Hardware"), "Deactivating ...please wait...");
 
-  comms_fl_.disable();
-  comms_fr_.disable();
+  //comms_fl_.disable();
+  //comms_fr_.disable();
   comms_rl_.disable();
   comms_rr_.disable();
   
@@ -252,8 +252,8 @@ hardware_interface::CallbackReturn AUG2024Hardware::on_cleanup(
 {
   RCLCPP_INFO(rclcpp::get_logger("AUG2024Hardware"), "Cleaning up...please wait...");
 
-  comms_fl_.close();
-  comms_fr_.close();
+  //comms_fl_.close();
+  //comms_fr_.close();
   comms_rl_.close();
   comms_rr_.close();
   
@@ -266,8 +266,8 @@ hardware_interface::return_type AUG2024Hardware::read(
   const rclcpp::Time & /*time*/, const rclcpp::Duration & period)
 { 
   // update states
-  comms_fl_.update(&motor_fl_);
-  comms_fr_.update(&motor_fr_);
+  //comms_fl_.update(&motor_fl_);
+  //comms_fr_.update(&motor_fr_);
   comms_rl_.update(&motor_rl_);
   comms_rr_.update(&motor_rr_);
 
@@ -278,14 +278,14 @@ hardware_interface::return_type BMC_2024 ::AUG2024Hardware::write(
   const rclcpp::Time & /*time*/, const rclcpp::Duration & /*period*/)
 {
  
-  comms_fl_.setVelocity(motor_fl_.cmd * motor_fl_.mult); //motor_fl_.cmd is the velocity command coming from the controller
-  comms_fr_.setVelocity(motor_fr_.cmd * motor_fr_.mult);
+  //comms_fl_.setVelocity(motor_fl_.cmd * motor_fl_.mult); //motor_fl_.cmd is the velocity command coming from the controller
+  //comms_fr_.setVelocity(motor_fr_.cmd * motor_fr_.mult);
   comms_rl_.setVelocity(motor_rl_.cmd * motor_rl_.mult);
   comms_rr_.setVelocity(motor_rr_.cmd * motor_rr_.mult);
   //RCLCPP_INFO(rclcpp::get_logger("AUG2024Hardware"), "Front Left Motor Command: %.3f", (motor_fl_.cmd * motor_rr_.mult));
   //RCLCPP_INFO(rclcpp::get_logger("AUG2024Hardware"), "Front right Motor Command: %.3f", (motor_fr_.cmd * motor_rr_.mult));
   //RCLCPP_INFO(rclcpp::get_logger("AUG2024Hardware"), "rear Left Motor Command: %.3f", (motor_rl_.cmd * motor_rr_.mult));
-  //RCLCPP_INFO(rclcpp::get_logger("AUG2024Hardware"), "rear right Motor Command: %.3f", (motor_rr_.cmd * motor_rr_.mult));
+  RCLCPP_INFO(rclcpp::get_logger("AUG2024Hardware"), "rear right Motor Command: %.3f", (motor_rr_.cmd * motor_rr_.mult));
   return hardware_interface::return_type::OK;
 }
 
