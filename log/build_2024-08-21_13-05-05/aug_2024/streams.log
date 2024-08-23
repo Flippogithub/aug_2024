@@ -1,0 +1,144 @@
+[0.012s] Invoking command in '/home/dkflippo/aug2024/build/aug_2024': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/aug_2024 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/install/aug_2024
+[0.080s] -- The C compiler identification is GNU 11.4.0
+[0.129s] -- The CXX compiler identification is GNU 11.4.0
+[0.136s] -- Detecting C compiler ABI info
+[0.201s] -- Detecting C compiler ABI info - done
+[0.208s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.208s] -- Detecting C compile features
+[0.208s] -- Detecting C compile features - done
+[0.211s] -- Detecting CXX compiler ABI info
+[0.288s] -- Detecting CXX compiler ABI info - done
+[0.298s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.298s] -- Detecting CXX compile features
+[0.299s] -- Detecting CXX compile features - done
+[0.302s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.438s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.496s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.526s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.568s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.572s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.580s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.592s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.608s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.650s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.652s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.733s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.758s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.797s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.806s] -- Looking for pthread.h
+[0.874s] -- Looking for pthread.h - found
+[0.875s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.946s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.947s] -- Found Threads: TRUE  
+[0.995s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.024s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[1.039s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.041s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.041s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.165s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[1.166s] -- Found controller_manager: 2.42.0 (/opt/ros/humble/share/controller_manager/cmake)
+[1.262s] -- Found joint_state_broadcaster: 2.37.0 (/opt/ros/humble/share/joint_state_broadcaster/cmake)
+[1.269s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.286s] -- Found diff_drive_controller: 2.37.0 (/opt/ros/humble/share/diff_drive_controller/cmake)
+[1.314s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.323s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.325s] -- Checking for module 'bullet>=2.82'
+[1.337s] --   Found bullet, version 3.05
+[1.429s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.486s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.495s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.520s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.533s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.538s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.543s] -- Searching for dependencies of ignition-math6
+[1.544s] -- Looking for OGRE...
+[1.545s] -- OGRE_PREFIX_WATCH changed.
+[1.550s] -- Checking for module 'OGRE'
+[1.561s] --   Found OGRE, version 1.9.0
+[1.591s] -- Found Ogre Ghadamon (1.9.0)
+[1.596s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.605s] -- Looking for OGRE_Paging...
+[1.609s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.609s] -- Looking for OGRE_Terrain...
+[1.613s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.613s] -- Looking for OGRE_Property...
+[1.617s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.617s] -- Looking for OGRE_RTShaderSystem...
+[1.621s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.621s] -- Looking for OGRE_Volume...
+[1.625s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.625s] -- Looking for OGRE_Overlay...
+[1.629s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.718s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.720s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.720s] -- Searching for dependencies of ignition-transport8
+[1.737s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.748s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.753s] -- Checking for module 'libzmq >= 4'
+[1.767s] --   Found libzmq , version 4.3.4
+[1.804s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.809s] -- Checking for module 'uuid'
+[1.821s] --   Found uuid, version 2.37.2
+[1.854s] -- Found UUID: TRUE  
+[1.856s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.857s] -- Searching for dependencies of ignition-msgs5
+[1.875s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.880s] -- Checking for module 'tinyxml2'
+[1.892s] --   Found tinyxml2, version 9.0.0
+[1.923s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.925s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.926s] -- Searching for dependencies of ignition-common3
+[1.926s] -- Looking for dlfcn.h - found
+[1.927s] -- Looking for libdl - found
+[1.928s] -- Found DL: TRUE  
+[1.938s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.939s] -- Searching for <ignition-common3> component [graphics]
+[1.941s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.941s] -- Searching for dependencies of ignition-common3-graphics
+[1.941s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.944s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.944s] -- Searching for dependencies of ignition-fuel_tools4
+[2.017s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[2.025s] -- Checking for module 'jsoncpp'
+[2.037s] --   Found jsoncpp, version 1.9.5
+[2.068s] -- Found JSONCPP: TRUE  
+[2.074s] -- Checking for module 'libzip'
+[2.086s] --   Found libzip, version 1.7.3
+[2.117s] -- Found ZIP: TRUE  
+[2.117s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.118s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.118s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.121s] -- Gazebo version: 11.10
+[2.121s] -- Checking for module 'tbb'
+[2.134s] --   Found tbb, version 2021.5.0
+[2.166s] -- Found gazebo_ros2_control: 0.4.9 (/opt/ros/humble/share/gazebo_ros2_control/cmake)
+[2.184s] -- Found ros2_control: 2.42.0 (/opt/ros/humble/share/ros2_control/cmake)
+[2.185s] -- Found ros2_controllers: 2.37.0 (/opt/ros/humble/share/ros2_controllers/cmake)
+[2.186s] -- Found BMC_2024: 0.0.0 (/home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake)
+[2.196s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.265s] -- xacro: determining deps for: /home/dkflippo/aug2024/src/aug_2024/description/urdf/aug_2024.xacro ...
+[2.342s] [33mCMake Warning at /opt/ros/humble/share/xacro/cmake/xacro-extras.cmake:74 (message):
+[2.342s]   failed to determine deps for:
+[2.342s]   /home/dkflippo/aug2024/src/aug_2024/description/urdf/aug_2024.xacro
+[2.342s] 
+[2.342s]   error: package not found: "package 'aug_2024' not found, searching:
+[2.342s]   ['/home/dkflippo/aug2024/install/BMC_2024', '/opt/ros/humble']"
+[2.342s] 
+[2.342s]   when processing file:
+[2.343s]   /home/dkflippo/aug2024/src/aug_2024/description/urdf/aug_2024.xacro
+[2.343s] 
+[2.343s] Call Stack (most recent call first):
+[2.343s]   /opt/ros/humble/share/xacro/cmake/xacro-extras.cmake:133 (xacro_add_xacro_file)
+[2.343s]   CMakeLists.txt:60 (xacro_add_files)
+[2.343s] 
+[2.343s] [0m
+[2.343s] [31mCMake Error at /opt/ros/humble/share/xacro/cmake/xacro-extras.cmake:46 (message):
+[2.343s]   no <output> specified for: OUTPUT_NAME
+[2.343s] Call Stack (most recent call first):
+[2.343s]   /opt/ros/humble/share/xacro/cmake/xacro-extras.cmake:133 (xacro_add_xacro_file)
+[2.343s]   CMakeLists.txt:60 (xacro_add_files)
+[2.344s] 
+[2.344s] [0m
+[2.344s] -- Configuring incomplete, errors occurred!
+[2.344s] See also "/home/dkflippo/aug2024/build/aug_2024/CMakeFiles/CMakeOutput.log".
+[2.356s] Invoked command in '/home/dkflippo/aug2024/build/aug_2024' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/aug_2024 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/install/aug_2024

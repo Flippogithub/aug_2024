@@ -1,0 +1,113 @@
+[0.013s] Invoking command in '/home/dkflippo/aug2024/build/aug_2024': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/BMC_2024:/home/dkflippo/aug2024/install/aug_2024:/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/aug_2024 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/install/aug_2024
+[0.024s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.126s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.134s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.163s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.166s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.173s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.193s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.222s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.223s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.318s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.371s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.399s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[0.403s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.404s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.521s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.521s] -- Found controller_manager: 2.42.0 (/opt/ros/humble/share/controller_manager/cmake)
+[0.603s] -- Found joint_state_broadcaster: 2.37.0 (/opt/ros/humble/share/joint_state_broadcaster/cmake)
+[0.607s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.618s] -- Found diff_drive_controller: 2.37.0 (/opt/ros/humble/share/diff_drive_controller/cmake)
+[0.643s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.671s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.695s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.696s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.700s] -- Searching for dependencies of ignition-math6
+[0.701s] -- Looking for OGRE...
+[0.706s] -- Found Ogre Ghadamon (1.9.0)
+[0.706s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.714s] -- Looking for OGRE_Paging...
+[0.715s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.715s] -- Looking for OGRE_Terrain...
+[0.715s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.715s] -- Looking for OGRE_Property...
+[0.715s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.715s] -- Looking for OGRE_RTShaderSystem...
+[0.715s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.715s] -- Looking for OGRE_Volume...
+[0.715s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.715s] -- Looking for OGRE_Overlay...
+[0.715s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.808s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.808s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.809s] -- Searching for dependencies of ignition-transport8
+[0.826s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.838s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.842s] -- Checking for module 'libzmq >= 4'
+[0.855s] --   Found libzmq , version 4.3.4
+[0.893s] -- Checking for module 'uuid'
+[0.904s] --   Found uuid, version 2.37.2
+[0.935s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.935s] -- Searching for dependencies of ignition-msgs5
+[0.953s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.959s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.959s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.960s] -- Searching for dependencies of ignition-common3
+[0.960s] -- Looking for dlfcn.h - found
+[0.960s] -- Looking for libdl - found
+[0.970s] -- Searching for <ignition-common3> component [graphics]
+[0.970s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.970s] -- Searching for dependencies of ignition-common3-graphics
+[0.971s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.972s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.972s] -- Searching for dependencies of ignition-fuel_tools4
+[1.006s] -- Checking for module 'jsoncpp'
+[1.019s] --   Found jsoncpp, version 1.9.5
+[1.054s] -- Checking for module 'libzip'
+[1.066s] --   Found libzip, version 1.7.3
+[1.098s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.099s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.099s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.101s] -- Gazebo version: 11.10
+[1.102s] -- Found gazebo_ros2_control: 0.4.9 (/opt/ros/humble/share/gazebo_ros2_control/cmake)
+[1.115s] -- Found ros2_control: 2.42.0 (/opt/ros/humble/share/ros2_control/cmake)
+[1.116s] -- Found ros2_controllers: 2.37.0 (/opt/ros/humble/share/ros2_controllers/cmake)
+[1.116s] -- Found BMC_2024: 0.0.0 (/home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake)
+[1.211s] -- Configuring done
+[1.218s] -- Generating done
+[1.221s] -- Build files have been written to: /home/dkflippo/aug2024/build/aug_2024
+[1.232s] Invoked command in '/home/dkflippo/aug2024/build/aug_2024' returned '0': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/BMC_2024:/home/dkflippo/aug2024/install/aug_2024:/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/aug_2024 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/install/aug_2024
+[1.235s] Invoking command in '/home/dkflippo/aug2024/build/aug_2024': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/BMC_2024:/home/dkflippo/aug2024/install/aug_2024:/opt/ros/humble /usr/bin/cmake --build /home/dkflippo/aug2024/build/aug_2024 -- -j12 -l12
+[1.276s] Invoked command in '/home/dkflippo/aug2024/build/aug_2024' returned '0': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/BMC_2024:/home/dkflippo/aug2024/install/aug_2024:/opt/ros/humble /usr/bin/cmake --build /home/dkflippo/aug2024/build/aug_2024 -- -j12 -l12
+[1.308s] Invoking command in '/home/dkflippo/aug2024/build/aug_2024': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/BMC_2024:/home/dkflippo/aug2024/install/aug_2024:/opt/ros/humble /usr/bin/cmake --install /home/dkflippo/aug2024/build/aug_2024
+[1.315s] -- Install configuration: ""
+[1.315s] -- Execute custom install script
+[1.315s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//config/flippo_controllers.yaml
+[1.316s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/config/aug_2024_joint_names.yaml
+[1.316s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/meshes/chassis_link.STL
+[1.316s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/meshes/front_left_wheel_link.STL
+[1.316s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/meshes/front_right_wheel_link.STL
+[1.316s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/meshes/rear_left_wheel_link.STL
+[1.316s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/meshes/rear_right_wheel_link.STL
+[1.316s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/urdf/aug_2024.xacro
+[1.317s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/urdf/aug_2024caster.xacro
+[1.317s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//launch/aug_2024_launch.py
+[1.317s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//launch/aug_2024_sim_launch copy.py
+[1.317s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//launch/aug_2024_sim_launch.py
+[1.317s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/aug_2024/share/ament_index/resource_index/package_run_dependencies/aug_2024
+[1.317s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/aug_2024/share/ament_index/resource_index/parent_prefix_path/aug_2024
+[1.317s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/environment/ament_prefix_path.sh
+[1.317s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/environment/ament_prefix_path.dsv
+[1.318s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/environment/path.sh
+[1.318s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/environment/path.dsv
+[1.318s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/local_setup.bash
+[1.318s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/local_setup.sh
+[1.318s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/local_setup.zsh
+[1.318s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/local_setup.dsv
+[1.319s] -- Symlinking: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/package.dsv
+[1.327s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/aug_2024/share/ament_index/resource_index/packages/aug_2024
+[1.327s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/cmake/aug_2024Config.cmake
+[1.327s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/cmake/aug_2024Config-version.cmake
+[1.327s] -- Up-to-date symlink: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/package.xml
+[1.330s] Invoked command in '/home/dkflippo/aug2024/build/aug_2024' returned '0': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/BMC_2024:/home/dkflippo/aug2024/install/aug_2024:/opt/ros/humble /usr/bin/cmake --install /home/dkflippo/aug2024/build/aug_2024

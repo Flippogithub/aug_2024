@@ -197,19 +197,6 @@ aug_2024_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aug_2024_uninstall.dir/build.make CMakeFiles/aug_2024_uninstall.dir/build
 .PHONY : aug_2024_uninstall/fast
 
-#=============================================================================
-# Target rules for targets named aug_2024_aug_2024_generated_urdf
-
-# Build rule for target.
-aug_2024_aug_2024_generated_urdf: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 aug_2024_aug_2024_generated_urdf
-.PHONY : aug_2024_aug_2024_generated_urdf
-
-# fast build rule for target.
-aug_2024_aug_2024_generated_urdf/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/aug_2024_aug_2024_generated_urdf.dir/build.make CMakeFiles/aug_2024_aug_2024_generated_urdf.dir/build
-.PHONY : aug_2024_aug_2024_generated_urdf/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -223,7 +210,6 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... aug_2024_aug_2024_generated_urdf"
 	@echo "... aug_2024_uninstall"
 	@echo "... uninstall"
 .PHONY : help

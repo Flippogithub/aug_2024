@@ -1,8 +1,0 @@
-[0.009s] Invoking command in '/home/dkflippo/aug2024/build/aug_2024': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/BMC_2024:/home/dkflippo/aug2024/install/aug_2024:/opt/ros/humble LD_LIBRARY_PATH=/home/dkflippo/aug2024/install/BMC_2024/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dkflippo/aug2024/build/aug_2024 -- -j12 -l12
-[0.060s] [100%] [34m[1mxacro: generating description/urdf/aug_2024 from description/urdf/aug_2024.xacro[0m
-[0.130s] [91mpackage not found: "package 'aug_2024' not found, searching: ['/home/dkflippo/aug2024/install/BMC_2024', '/opt/ros/humble', '/home/dkflippo/aug2024/install/aug_2024']"[0m
-[0.130s] when processing file: description/urdf/aug_2024.xacro
-[0.138s] gmake[2]: *** [CMakeFiles/aug_2024_aug_2024_generated_urdf.dir/build.make:73: description/urdf/aug_2024] Error 2
-[0.138s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/aug_2024_aug_2024_generated_urdf.dir/all] Error 2
-[0.138s] gmake: *** [Makefile:146: all] Error 2
-[0.141s] Invoked command in '/home/dkflippo/aug2024/build/aug_2024' returned '2': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/BMC_2024:/home/dkflippo/aug2024/install/aug_2024:/opt/ros/humble LD_LIBRARY_PATH=/home/dkflippo/aug2024/install/BMC_2024/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dkflippo/aug2024/build/aug_2024 -- -j12 -l12

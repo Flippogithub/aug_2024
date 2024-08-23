@@ -18,7 +18,8 @@
   <depend>controller_manager</depend>
   <depend>joint_state_broadcaster</depend>
   <depend>diff_drive_controller</depend>
-  <depend>BMC_2024</depend>
+  <exec_depend>BMC_2024</exec_depend>
+  <depend>rclpy</depend>
 
   <!-- Add these new dependencies -->
   <depend>gazebo_ros</depend>

@@ -16,301 +16,296 @@
     <color rgba="1 0 0 1"/>
   </material>
 
-  <link name="base_link">
+   <link name="base_link">
     <visual>
       <geometry>
-        <box size="0.1 0.1 0.1"/>
+        <box size=".01 .01 .01"/> <!-- 20x18x20 inches -->
       </geometry>
       <material name="red"/>
     </visual>
+    <collision>
+      <geometry>
+        <box size="0 0 0"/>
+      </geometry>
+    </collision>
+    <inertial>
+       <mass value="10"/>
+       <inertia ixx="0.4" ixy="0.0" ixz="0.0" iyy="0.4" iyz="0.0" izz="0.2"/>
+    </inertial>
   </link>
 
-  <joint name="chassis_joint" type="fixed">
-    <origin
-      xyz="0 0 0.5"
-      rpy="0 0 0" />
-    <parent
-      link="base_link" />
-    <child
-      link="chassis_link" />
-    <axis
-      xyz="0 0 0" />
+
+<link name="chassis_link">
+  <visual>
+    <geometry>
+      <box size="0.208 0.1572 0.15"/> <!-- 20x18x20 inches -->
+    </geometry>
+    <material name="chassis_color">
+      <color rgba="1 1 0"/>  <!-- Light gray color, adjust as needed -->
+    </material>
+  </visual>
+  <collision>
+    <geometry>
+      <box size="0.208 0.1572 0.15"/> <!-- 20x18x20 inches -->
+    </geometry>
+  </collision>
+  <inertial>
+    <mass value="10"/>  <!-- Adjust mass as appropriate for your robot -->
+    <inertia ixx="0.3729" ixy="0.0" ixz="0.0" 
+             iyy="0.3929" iyz="0.0" 
+             izz="0.3729"/>
+    <!-- Inertia values are approximate. Adjust as needed. -->
+  </inertial>
+</link>
+
+<joint name="base_to_chassis" type="fixed">
+  <parent link="base_link"/>
+  <child link="chassis_link"/>
+  <origin xyz="0 0 0.5" rpy="0 0 0"/>  <!-- Adjust origin as needed -->
+</joint>
+
+<gazebo reference="chassis_link">
+  <material>Gazebo/Gray</material>
+</gazebo>
+
+   <link name="rear_right_wheel">
+    <visual>
+      <geometry>
+        <cylinder length="0.0254" radius="0.1016"/> <!-- 8 inch diameter -->
+      </geometry>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.0254" radius="0.1016"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+  </link>
+
+  <joint name="rear_right_wheel_joint" type="continuous">
+    <parent link="chassis_link"/>
+    <child link="rear_right_wheel"/>
+    <origin xyz="-0.2032 -0.20955 -0.054" rpy="1.5707 0 0"/> <!-- 8 inches back, 8.25 inches right, 10 inches down -->
+    <axis xyz="0 0 1"/>
   </joint>
 
-  <link name="chassis_link">
-    <inertial>
-      <origin
-        xyz="8.8818E-16 -0.00019873 -0.21905"
-        rpy="0 0 0" />
-      <mass
-        value="97.07" />
-      <inertia
-        ixx="63.032"
-        ixy="2.6923E-13"
-        ixz="5.5437E-14"
-        iyy="6.512"
-        iyz="-1.4703E-14"
-        izz="66.796" />
-    </inertial>
+ <!-- Left Wheel -->
+  <link name="rear_left_wheel">
     <visual>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="package://aug_2024/description/meshes/chassis_link.STL" />
+        <cylinder length="0.0254" radius="0.1016"/> <!-- 8 inch diameter -->
       </geometry>
-      <material
-        name="">
-        <color
-          rgba="0.79216 0.81961 0.93333 1" />
-      </material>
+      <material name="black"/>
     </visual>
     <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="package://aug_2024/description/meshes/chassis_link.STL" />
+        <cylinder length="0.0254" radius="0.1016"/>
       </geometry>
     </collision>
-  </link>
-
-  <gazebo reference="chassis_link">
-    <material>Gazebo/White</material>
-  </gazebo>
-
-  <link name="front_left_wheel_link">
     <inertial>
-      <origin
-        xyz="1.4211E-14 -0.00042803 1.8208E-14"
-        rpy="0 0 0" />
-      <mass
-        value="11.267" />
-      <inertia
-        ixx="0.10331"
-        ixy="-2.557E-21"
-        ixz="1.8542E-22"
-        iyy="0.18708"
-        iyz="2.8219E-16"
-        izz="0.10331" />
+      <mass value="1"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
     </inertial>
-    <visual>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
-      <geometry>
-        <mesh
-          filename="package://aug_2024/description/meshes/front_left_wheel_link.STL" />
-      </geometry>
-      <material
-        name="">
-        <color
-          rgba="0.29804 0.29804 0.29804 1" />
-      </material>
-    </visual>
-    <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
-      <geometry>
-        <mesh
-          filename="package://aug_2024/description/meshes/front_left_wheel_link.STL" />
-      </geometry>
-    </collision>
-  </link>
-
-  <joint name="front_left_wheel_joint" type="continuous">
-    <origin
-      xyz="0.37385 1.1617 -0.49585"
-      rpy="0 0 0" />
-    <parent
-      link="chassis_link" />
-    <child
-      link="front_left_wheel_link" />
-    <axis
-      xyz="0 1 0" />
-    <dynamics damping="0.1" friction="0.1"/>
-  </joint> 
-
-  <gazebo reference="front_left_wheel_link">
-    <material>Gazebo/Black</material>
-  </gazebo>
-
-  <link name="front_right_wheel_link">
-    <inertial>
-      <origin
-        xyz="7.9936E-15 -0.00042803 1.0436E-14"
-        rpy="0 0 0" />
-      <mass
-        value="11.267" />
-      <inertia
-        ixx="0.10331"
-        ixy="-2.505E-21"
-        ixz="1.7903E-22"
-        iyy="0.18708"
-        iyz="2.8222E-16"
-        izz="0.10331" />
-    </inertial>
-    <visual>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
-      <geometry>
-        <mesh
-          filename="package://aug_2024/description/meshes/front_right_wheel_link.STL" />
-      </geometry>
-      <material
-        name="">
-        <color
-          rgba="0.29804 0.29804 0.29804 1" />
-      </material>
-    </visual>
-    <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
-      <geometry>
-        <mesh
-          filename="package://aug_2024/description/meshes/front_right_wheel_link.STL" />
-      </geometry>
-    </collision>
-  </link>
-
-  <joint name="front_right_wheel_joint" type="continuous">
-    <origin
-      xyz="0.37385 -1.1617 -0.49585"
-      rpy="0 0 0" />
-    <parent
-      link="chassis_link" />
-    <child
-      link="front_right_wheel_link" />
-    <axis
-      xyz="0 1 0" />
-    <dynamics damping="0.1" friction="0.1"/>
-  </joint>
-
-  <gazebo reference="front_right_wheel_link">
-    <material>Gazebo/Black</material>
-  </gazebo>
-
-  <link name="rear_left_wheel_link">
-    <inertial>
-      <origin
-        xyz="1.2434E-14 -0.00042803 1.8097E-14"
-        rpy="0 0 0" />
-      <mass
-        value="11.267" />
-      <inertia
-        ixx="0.10331"
-        ixy="-2.6595E-21"
-        ixz="1.905E-22"
-        iyy="0.18708"
-        iyz="2.8219E-16"
-        izz="0.10331" />
-    </inertial>
-    <visual>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
-      <geometry>
-        <mesh
-          filename="package://aug_2024/description/meshes/rear_left_wheel_link.STL" />
-      </geometry>
-      <material
-        name="">
-        <color
-          rgba="0.29804 0.29804 0.29804 1" />
-      </material>
-    </visual>
-    <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
-      <geometry>
-        <mesh
-          filename="package://aug_2024/description/meshes/rear_left_wheel_link.STL" />
-      </geometry>
-    </collision>
   </link>
 
   <joint name="rear_left_wheel_joint" type="continuous">
-    <origin
-      xyz="-0.37385 1.1617 -0.49585"
-      rpy="0 0 0" />
-    <parent
-      link="chassis_link" />
-    <child
-      link="rear_left_wheel_link" />
-    <axis
-      xyz="0 1 0" />
-    <dynamics damping="0.1" friction="0.1"/>
+    <parent link="chassis_link"/>
+    <child link="rear_left_wheel"/>
+    <origin xyz="-0.2032 0.20955 -0.054" rpy="1.5707 0 0"/> <!-- 8 inches back, 8.25 inches left, 10 inches down -->
+    <axis xyz="0 0 1"/>
   </joint>
 
-  <gazebo reference="rear_left_wheel_link">
-    <material>Gazebo/Black</material>
+  <gazebo reference="rear_left_wheel_joint">
+    <provideFeedback>true</provideFeedback>
+    <implicitSpringDamper>true</implicitSpringDamper>
   </gazebo>
 
-  <link name="rear_right_wheel_link">
-    <inertial>
-      <origin
-        xyz="7.1054E-15 -0.00042803 1.0436E-14"
-        rpy="0 0 0" />
-      <mass
-        value="11.267" />
-      <inertia
-        ixx="0.10331"
-        ixy="-2.6353E-21"
-        ixz="1.8283E-22"
-        iyy="0.18708"
-        iyz="2.8222E-16"
-        izz="0.10331" />
-    </inertial>
-    <visual>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
-      <geometry>
-        <mesh
-          filename="package://aug_2024/description/meshes/rear_right_wheel_link.STL" />
-      </geometry>
-      <material
-        name="">
-        <color
-          rgba="0.29804 0.29804 0.29804 1" />
-      </material>
-    </visual>
-    <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
-      <geometry>
-        <mesh
-          filename="package://aug_2024/description/meshes/rear_right_wheel_link.STL" />
-      </geometry>
-    </collision>
-  </link>
-  
-  <joint name="rear_right_wheel_joint" type="continuous">
-    <origin
-      xyz="-0.37385 -1.1617 -0.49585"
-      rpy="0 0 0" />
-    <parent
-      link="chassis_link" />
-    <child
-      link="rear_right_wheel_link" />
-    <axis
-      xyz="0 1 0" />
-    <dynamics damping="0.1" friction="0.1"/>
-  </joint>
-  
-  <gazebo reference="rear_right_wheel_link">
-    <material>Gazebo/Black</material>
+  <gazebo reference="rear_right_wheel_joint">
+    <provideFeedback>true</provideFeedback>
+    <implicitSpringDamper>true</implicitSpringDamper>
   </gazebo>
 
+<!-- Right Caster -->
+<!-- Right Caster Assembly -->
+
+<!-- Caster Base -->
+<link name="right_caster_base">
+  <visual>
+    <geometry>
+      <cylinder length="0.02" radius="0.02"/>
+    </geometry>
+    <material name="red"/>
+  </visual>
+  <collision>
+    <geometry>
+      <cylinder length="0.02" radius="0.02"/>
+    </geometry>
+  </collision>
+  <inertial>
+    <mass value="0.1"/>
+    <inertia ixx="0.00001" ixy="0" ixz="0" iyy="0.00001" iyz="0" izz="0.00001"/>
+  </inertial>
+</link>
+
+<joint name="right_caster_base_joint" type="fixed">
+  <parent link="chassis_link"/>
+  <child link="right_caster_base"/>
+  <origin xyz="0.2032 -.2286 -.04"/> 
+</joint>
+
+<link name="left_caster_base">
+  <visual>
+    <geometry>
+      <cylinder length="0.02" radius="0.02"/>
+    </geometry>
+    <material name="red"/>
+  </visual>
+  <collision>
+    <geometry>
+      <cylinder length="0.02" radius="0.02"/>
+    </geometry>
+  </collision>
+  <inertial>
+    <mass value="0.1"/>
+    <inertia ixx="0.00001" ixy="0" ixz="0" iyy="0.00001" iyz="0" izz="0.00001"/>
+  </inertial>
+</link>
+
+<joint name="left_caster_base_joint" type="fixed">
+  <parent link="chassis_link"/>
+  <child link="left_caster_base"/>
+  <origin xyz="0.2032 .2286 -.04"/> 
+</joint>
+
+<!-- Caster Swivel -->
+<link name="right_caster_swivel">
+  <visual>
+    <geometry>
+      <cylinder length="0.05" radius="0.01"/>
+    </geometry>
+    <material name="red"/>
+  </visual>
+  <collision>
+    <geometry>
+      <cylinder length="0.05" radius="0.01"/>
+    </geometry>
+  </collision>
+  <inertial>
+    <mass value="0.1"/>
+    <inertia ixx="0.00001" ixy="0" ixz="0" iyy="0.00001" iyz="0" izz="0.00001"/>
+  </inertial>
+</link>
+
+<joint name="right_caster_swivel_joint" type="continuous">
+  <parent link="right_caster_base"/>
+  <child link="right_caster_swivel"/>
+  <axis xyz="0 0 1"/>
+  <origin xyz="0 0 -.05"/>
+  <dynamics damping="0.5" friction="0.1"/>
+</joint>
+
+<link name="left_caster_swivel">
+  <visual>
+    <geometry>
+      <cylinder length="0.05" radius="0.01"/>
+    </geometry>
+    <material name="red"/>
+  </visual>
+  <collision>
+    <geometry>
+      <cylinder length="0.05" radius="0.01"/>
+    </geometry>
+  </collision>
+  <inertial>
+    <mass value="0.1"/>
+    <inertia ixx="0.00001" ixy="0" ixz="0" iyy="0.00001" iyz="0" izz="0.00001"/>
+  </inertial>
+</link>
+
+<joint name="left_caster_swivel_joint" type="continuous">
+  <parent link="left_caster_base"/>
+  <child link="left_caster_swivel"/>
+  <axis xyz="0 0 1"/>
+  <origin xyz="0 0 -.05"/>
+  <dynamics damping="0.5" friction="0.1"/>
+</joint>
+
+<!-- Caster Wheel -->
+<link name="right_caster_wheel">
+  <visual>
+    <geometry>
+      <cylinder length="0.02" radius="0.0454"/> 
+    </geometry>
+    <material name="black"/>
+  </visual>
+  <collision>
+    <geometry>
+      <cylinder length="0.02" radius="0.0454"/>
+    </geometry>
+  </collision>
+  <inertial>
+    <mass value="0.1"/>
+    <inertia ixx="0.00002" ixy="0" ixz="0" iyy="0.00002" iyz="0" izz="0.00001"/>
+  </inertial>
+</link>
 
 
+<joint name="right_caster_wheel_joint" type="continuous">
+  <parent link="right_caster_swivel"/>
+  <child link="right_caster_wheel"/>
+  <origin xyz="-.07 0 0" rpy="1.5707 0 0"/> 
+  <axis xyz="0 0 1 "/>
+  <dynamics damping="0.5" friction="0.1"/>
+</joint>
+
+<link name="left_caster_wheel">
+  <visual>
+    <geometry>
+      <cylinder length="0.02" radius="0.0454"/> 
+    </geometry>
+    <material name="black"/>
+  </visual>
+  <collision>
+    <geometry>
+      <cylinder length="0.02" radius="0.0454"/>
+    </geometry>
+  </collision>
+  <inertial>
+    <mass value="0.1"/>
+    <inertia ixx="0.00002" ixy="0" ixz="0" iyy="0.00002" iyz="0" izz="0.00001"/>
+  </inertial>
+</link>
+
+
+<joint name="left_caster_wheel_joint" type="continuous">
+  <parent link="left_caster_swivel"/>
+  <child link="left_caster_wheel"/>
+  <origin xyz="-.07 0 0" rpy="1.5707 0 0"/> 
+  <axis xyz="0 0 1 "/>
+  <dynamics damping="0.5" friction="0.1"/>
+</joint>
+
+<gazebo reference="right_caster_swivel_joint">
+  <implicitSpringDamper>1</implicitSpringDamper>
+</gazebo>
+
+<gazebo reference="right_caster_wheel_joint">
+  <implicitSpringDamper>1</implicitSpringDamper>
+</gazebo>
+
+<gazebo reference="left_caster_swivel_joint">
+  <implicitSpringDamper>1</implicitSpringDamper>
+</gazebo>
+
+<gazebo reference="left_caster_wheel_joint">
+  <implicitSpringDamper>1</implicitSpringDamper>
+</gazebo>
+
+<!--ROS CONTROL SECTION-->
 <ros2_control name="AUG2024System" type="system">
   <xacro:if value="$(arg use_sim)">
     <hardware>
@@ -320,8 +315,8 @@
   <xacro:unless value="$(arg use_sim)">
     <hardware>
       <plugin>BMC_2024/AUG2024Hardware</plugin>
-      <param name="front_left_wheel_name">front_left_wheel_joint</param>
-      <param name="front_right_wheel_name">front_right_wheel_joint</param>
+      <!--param name="front_left_wheel_name">front_left_wheel_joint</param-->
+      <!--param name="front_right_wheel_name">front_right_wheel_joint</param-->
       <param name="rear_left_wheel_name">rear_left_wheel_joint</param>
       <param name="rear_right_wheel_name">rear_right_wheel_joint</param>
       <param name="can_interface">can0</param>
@@ -329,8 +324,8 @@
       <param name="can_fr_id">177</param>
       <param name="can_rl_id">176</param>
       <param name="can_rr_id">178</param>
-      <param name="fl_mult">1.0</param>
-      <param name="fr_mult">-1.0</param>
+      <!--param name="fl_mult">1.0</param>
+      <param name="fr_mult">-1.0</param-->
       <param name="rl_mult">1.0</param>
       <param name="rr_mult">-1.0</param>
       <param name="pid_p">0.5</param>
@@ -338,22 +333,7 @@
       <param name="pid_d">0.0</param>
     </hardware>
   </xacro:unless>
-  <joint name="front_left_wheel_joint">
-    <command_interface name="velocity">
-      <param name="min">-10</param>
-      <param name="max">10</param>
-    </command_interface>
-    <state_interface name="velocity"/>
-    <state_interface name="position"/>
-  </joint>
-  <joint name="front_right_wheel_joint">
-    <command_interface name="velocity">
-      <param name="min">-10</param>
-      <param name="max">10</param>
-    </command_interface>
-    <state_interface name="velocity"/>
-    <state_interface name="position"/>
-  </joint>
+
   <joint name="rear_left_wheel_joint">
     <command_interface name="velocity">
       <param name="min">-10</param>
@@ -373,25 +353,27 @@
 </ros2_control>
 
 
+    <gazebo reference="base_link">
+      <material>Gazebo/Red</material>
+    </gazebo>
 
     <gazebo>
       <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
-         <!--parameters>$(find aug_2024)/config/flippo_controllers.yaml</parameters-->
-        <parameters>$(find aug_2024)/config/flippo_controllers.yaml</parameters>
+         <parameters>$(find aug_2024)/config/flippo_controllers.yaml</parameters>
       </plugin>
     </gazebo>
 
     <gazebo>
       <plugin name="gazebo_ros_state" filename="libgazebo_ros_state.so">
-        <update_rate>100</update_rate>
+        <update_rate>10</update_rate>
       </plugin>
     </gazebo>
 
-    <gazebo reference="chassis_link">
+    <!--gazebo reference="chassis_link">
       <material>Gazebo/White</material>
-    </gazebo>
+    </gazebo-->
 
-    <gazebo reference="front_left_wheel_link">
+    <!--gazebo reference="front_left_wheel_link">
       <material>Gazebo/Black</material>
       <mu1 value="1.0"/>
       <mu2 value="1.0"/>
@@ -405,9 +387,9 @@
       <mu2 value="1.0"/>
       <kp value="10000000.0" />
       <kd value="1.0" />
-    </gazebo>
+    </gazebo-->
 
-    <gazebo reference="rear_left_wheel_link">
+    <gazebo reference="rear_left_wheel">
       <material>Gazebo/Black</material>
       <mu1 value="1.0"/>
       <mu2 value="1.0"/>
@@ -415,7 +397,7 @@
       <kd value="1.0" />
     </gazebo>
 
-    <gazebo reference="rear_right_wheel_link">
+    <gazebo reference="rear_right_wheel">
       <material>Gazebo/Black</material>
       <mu1 value="1.0"/>
       <mu2 value="1.0"/>

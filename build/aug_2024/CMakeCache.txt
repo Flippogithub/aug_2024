@@ -40,6 +40,9 @@ ASSIMP_INCLUDE_DIRS:PATH=/usr/include
 //Path to a library.
 ASSIMP_LIBRARIES:FILEPATH=/usr/lib/x86_64-linux-gnu/libassimp.so
 
+//The directory containing a CMake configuration file for BMC_2024.
+BMC_2024_DIR:PATH=/home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake
+
 //Build the testing tree.
 BUILD_TESTING:BOOL=ON
 
@@ -146,8 +149,8 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
 //Flags used by the linker during RELWITHDEBINFO builds.
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
-//Enable/Disable output of compile commands during generation.
-CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
+//No help, variable specified on the command line.
+CMAKE_EXPORT_COMPILE_COMMANDS:UNINITIALIZED=ON
 
 //Install path prefix, prepended onto install directories.
 CMAKE_INSTALL_PREFIX:PATH=/home/dkflippo/aug2024/install/aug_2024
@@ -636,7 +639,7 @@ ZeroMQ_DIR:PATH=ZeroMQ_DIR-NOTFOUND
 ZeroMQ_LIBRARY_zmq:FILEPATH=/usr/lib/x86_64-linux-gnu/libzmq.so
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/humble/lib/libgazebo_hardware_plugins.so
+_lib:FILEPATH=/home/dkflippo/aug2024/install/BMC_2024/lib/libBMC_2024.so
 
 //The directory containing a CMake configuration file for action_msgs.
 action_msgs_DIR:PATH=/opt/ros/humble/share/action_msgs/cmake
@@ -707,32 +710,14 @@ ament_cmake_version_DIR:PATH=/opt/ros/humble/share/ament_cmake_version/cmake
 //The directory containing a CMake configuration file for ament_cmake_xmllint.
 ament_cmake_xmllint_DIR:PATH=/opt/ros/humble/share/ament_cmake_xmllint/cmake
 
-//Path to a program.
-ament_cppcheck_BIN:FILEPATH=/opt/ros/humble/bin/ament_cppcheck
-
-//Path to a program.
-ament_flake8_BIN:FILEPATH=/opt/ros/humble/bin/ament_flake8
-
 //The directory containing a CMake configuration file for ament_index_cpp.
 ament_index_cpp_DIR:PATH=/opt/ros/humble/share/ament_index_cpp/cmake
 
 //The directory containing a CMake configuration file for ament_lint_auto.
 ament_lint_auto_DIR:PATH=/opt/ros/humble/share/ament_lint_auto/cmake
 
-//Path to a program.
-ament_lint_cmake_BIN:FILEPATH=/opt/ros/humble/bin/ament_lint_cmake
-
 //The directory containing a CMake configuration file for ament_lint_common.
 ament_lint_common_DIR:PATH=/opt/ros/humble/share/ament_lint_common/cmake
-
-//Path to a program.
-ament_pep257_BIN:FILEPATH=/opt/ros/humble/bin/ament_pep257
-
-//Path to a program.
-ament_uncrustify_BIN:FILEPATH=/opt/ros/humble/bin/ament_uncrustify
-
-//Path to a program.
-ament_xmllint_BIN:FILEPATH=/opt/ros/humble/bin/ament_xmllint
 
 //The directory containing a CMake configuration file for angles.
 angles_DIR:PATH=/opt/ros/humble/share/angles/cmake
@@ -1157,9 +1142,6 @@ urdfdom_headers_DIR:PATH=/opt/ros/humble/lib/x86_64-linux-gnu/urdfdom_headers/cm
 //The directory containing a CMake configuration file for xacro.
 xacro_DIR:PATH=/opt/ros/humble/share/xacro/cmake
 
-//Path to a program.
-xmllint_BIN:FILEPATH=/usr/bin/xmllint
-
 //The directory containing a CMake configuration file for yaml-cpp.
 yaml-cpp_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/yaml-cpp
 
@@ -1277,8 +1259,6 @@ CMAKE_EXE_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_EXE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_EXPORT_COMPILE_COMMANDS
-CMAKE_EXPORT_COMPILE_COMMANDS-ADVANCED:INTERNAL=1
 //Name of external makefile project generator.
 CMAKE_EXTRA_GENERATOR:INTERNAL=
 //Name of generator.
@@ -1370,7 +1350,7 @@ CURL_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 CURL_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 DART_DEFINITIONS:INTERNAL=
 DART_INCLUDE_DIRS:INTERNAL=/usr/include
-DART_LIBRARIES:INTERNAL=dart
+DART_LIBRARIES:INTERNAL=dart;dart;dart;dart;dart;dart;dart;dart
 //Boost min version requirement
 DART_MIN_BOOST_VERSION:INTERNAL=1.58.0
 DART_dart_DEFINITIONS:INTERNAL=
@@ -1387,7 +1367,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/lib/x86_64-linux-gnu/cmake/Boo
 //Details about finding CURL
 FIND_PACKAGE_MESSAGE_DETAILS_CURL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcurl.so][/usr/include/x86_64-linux-gnu][c ][v7.81.0()]
 //Details about finding DART
-FIND_PACKAGE_MESSAGE_DETAILS_DART:INTERNAL=[/usr/include][dart][cfound components: dart ][v(6.6)]
+FIND_PACKAGE_MESSAGE_DETAILS_DART:INTERNAL=[/usr/include][dart;dart;dart;dart;dart;dart;dart;dart][cfound components: dart ][v(6.6)]
 //Details about finding DL
 FIND_PACKAGE_MESSAGE_DETAILS_DL:INTERNAL=[true][v()]
 //Details about finding Eigen3

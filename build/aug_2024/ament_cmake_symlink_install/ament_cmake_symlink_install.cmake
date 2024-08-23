@@ -310,14 +310,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "config" "description" "launch" "worlds" "DESTINATION" "share/aug_2024")
-ament_cmake_symlink_install_directory("/home/dkflippo/aug2024/src/aug_2024" DIRECTORY "config" "description" "launch" "worlds" "DESTINATION" "share/aug_2024")
-
-# install(DIRECTORY "meshes" "urdf" "models" "scripts" "DESTINATION" "share/aug_2024" "OPTIONAL")
-ament_cmake_symlink_install_directory("/home/dkflippo/aug2024/src/aug_2024" DIRECTORY "meshes" "urdf" "models" "scripts" "DESTINATION" "share/aug_2024" "OPTIONAL")
-
-# install(FILES "/home/dkflippo/aug2024/build/aug_2024/description/urdf/aug_2024" "DESTINATION" "share/aug_2024/share/aug_2024/urdf")
-ament_cmake_symlink_install_files("/home/dkflippo/aug2024/src/aug_2024" FILES "/home/dkflippo/aug2024/build/aug_2024/description/urdf/aug_2024" "DESTINATION" "share/aug_2024/share/aug_2024/urdf")
+# install(DIRECTORY "config" "description" "launch" "worlds" "DESTINATION" "share/aug_2024/")
+ament_cmake_symlink_install_directory("/home/dkflippo/aug2024/src/aug_2024" DIRECTORY "config" "description" "launch" "worlds" "DESTINATION" "share/aug_2024/")
 
 # install(FILES "/home/dkflippo/aug2024/build/aug_2024/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/aug_2024" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/dkflippo/aug2024/src/aug_2024" FILES "/home/dkflippo/aug2024/build/aug_2024/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/aug_2024" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
