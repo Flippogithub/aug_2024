@@ -16,7 +16,7 @@ def generate_launch_description():
                 {'map_frame': 'map'},
                 {'base_frame': 'base_link'},  # Adjust if your base frame is different
                 {'odom_frame': 'odom'},
-                {'scan_topic': '/scan'},  # Adjust if your scan topic is different
+                {'scan_topic': 'scan'},  # Adjust if your scan topic is different
             ]
         )
     ])
