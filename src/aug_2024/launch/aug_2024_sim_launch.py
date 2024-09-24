@@ -1,79 +1,84 @@
 import os
-import xml.etree.ElementTree as ET
+import launch
+from launch.substitutions import Command, LaunchConfiguration
+import launch_ros
+
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
-from launch.actions import IncludeLaunchDescription, ExecuteProcess, RegisterEventHandler, TimerAction,DeclareLaunchArgument
+from launch.actions import IncludeLaunchDescription, ExecuteProcess, TimerAction, DeclareLaunchArgument
 from launch.launch_description_sources import PythonLaunchDescriptionSource
+from launch.substitutions import Command, LaunchConfiguration
 from launch_ros.actions import Node
-from launch.event_handlers import OnProcessExit
-from launch.substitutions import LaunchConfiguration
+from launch_ros.parameter_descriptions import ParameterValue
 
 def generate_launch_description():
-    pkg_share = get_package_share_directory('aug_2024')
-    urdf_file = os.path.join(pkg_share, 'description', 'urdf', 'aug_2024.xacro')
-    use_sim_time = LaunchConfiguration('use_sim_time', default='true') #new
-    # Use xacro to process the file
-    xacro_command = f"xacro {urdf_file} use_sim:=true"
-    robot_description_raw = os.popen(xacro_command).read().strip()
-    
-    declare_use_sim_time_cmd = DeclareLaunchArgument( #new
-        'use_sim_time',
-        default_value='true',
-        description='Use simulation (Gazebo) clock if true')
-    # Parse the XML and convert it back to a string
-    robot_description_xml = ET.fromstring(robot_description_raw)
-    robot_description = ET.tostring(robot_description_xml, encoding='unicode')
-    rviz_config_file = os.path.join(pkg_share, 'rviz', 'nav2_default_view.rviz')
-    robot_state_pub_node = Node(
-        package="robot_state_publisher",
-        executable="robot_state_publisher",
-        output="screen",
-        parameters=[{'robot_description': robot_description}]
-    )
+    pkg_share = launch_ros.substitutions.FindPackageShare(package='aug_2024').find('aug_2024')
+    #default_model_path = os.path.join(pkg_share, 'src/description/sam_bot_description.urdf')
+    default_model_path = os.path.join(pkg_share, 'description', 'urdf', 'aug_2024.urdf')
+    default_rviz_config_path = os.path.join(pkg_share, 'rviz/urdf_config.rviz')
 
-    gazebo_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([os.path.join(
-            get_package_share_directory('gazebo_ros'), 'launch', 'gazebo.launch.py')]),
+    robot_state_publisher_node = launch_ros.actions.Node(
+        package='robot_state_publisher',
+        executable='robot_state_publisher',
+        parameters=[{'robot_description': Command(['xacro ', LaunchConfiguration('model')])}]
     )
-
-    spawn_entity = Node(
-        package='gazebo_ros', 
-        executable='spawn_entity.py',
-        arguments=['-topic', 'robot_description', '-entity', 'my_robot'],
-        output='screen'
+    joint_state_publisher_node = launch_ros.actions.Node(
+        package='joint_state_publisher',
+        executable='joint_state_publisher',
+        name='joint_state_publisher',
+        arguments=[default_model_path], #Add this line
+        #parameters=[{'robot_description': Command(['xacro ', default_model_path])}],
+        #condition=launch.conditions.UnlessCondition(LaunchConfiguration('gui'))
     )
+    #joint_state_publisher_gui_node = launch_ros.actions.Node(
+     #   package='joint_state_publisher_gui',
+      #  executable='joint_state_publisher_gui',
+       # name='joint_state_publisher_gui',
+        #condition=launch.conditions.IfCondition(LaunchConfiguration('gui'))
+    #)
+ 
 
-    rviz_cmd = Node(
+    rviz_node = launch_ros.actions.Node(
         package='rviz2',
         executable='rviz2',
         name='rviz2',
-        arguments=['-d', rviz_config_file],
-        parameters=[{'use_sim_time': use_sim_time}],
-        output='screen')
-    
-    load_joint_state_broadcaster = ExecuteProcess(
-        cmd=['ros2', 'control', 'load_controller', '--set-state', 'active', 'joint_state_broadcaster'],
+        output='screen',
+        arguments=['-d', LaunchConfiguration('rvizconfig')],
+    )
+
+    spawn_entity = launch_ros.actions.Node(
+        package='gazebo_ros',
+        executable='spawn_entity.py',
+        arguments=['-entity', 'sam_bot', '-topic', 'robot_description'],
         output='screen'
     )
 
-    load_diff_drive_controller = ExecuteProcess(
-        cmd=['ros2', 'control', 'load_controller', '--set-state', 'active', 'diff_drive_controller'],
-        output='screen'
-    )
-
-    return LaunchDescription([
-        gazebo_launch,
-        robot_state_pub_node,
+    robot_localization_node = launch_ros.actions.Node(
+       package='robot_localization',
+       executable='ekf_node',
+       name='ekf_filter_node',
+       output='screen',
+       parameters=[os.path.join(pkg_share, 'config/ekf.yaml'), {'use_sim_time': LaunchConfiguration('use_sim_time')}]
+)
+    return launch.LaunchDescription([
+       # launch.actions.DeclareLaunchArgument(name='gui', default_value='True',
+        #                                    description='Flag to enable joint_state_publisher_gui'),
+        
+        launch.actions.DeclareLaunchArgument(name='model', default_value=default_model_path,
+                                            description='Absolute path to robot urdf file'),
+        
+        launch.actions.DeclareLaunchArgument(name='rvizconfig', default_value=default_rviz_config_path,
+                                            description='Absolute path to rviz config file'),
+        
+        launch.actions.ExecuteProcess(cmd=['gazebo', '--verbose', '-s', 'libgazebo_ros_init.so', '-s', 'libgazebo_ros_factory.so'], output='screen'),
+        
+        launch.actions.DeclareLaunchArgument(name='use_sim_time', default_value='True',
+                                            description='Flag to enable use_sim_time'),
+        joint_state_publisher_node,
+        #joint_state_publisher_gui_node,
+        robot_state_publisher_node,
         spawn_entity,
-        rviz_cmd,
-        TimerAction(
-            period=35.0,
-            actions=[
-                load_joint_state_broadcaster,
-                TimerAction(
-                    period=2.0,
-                    actions=[load_diff_drive_controller],
-                )
-            ]
-        )
+        robot_localization_node,
+        rviz_node
+       
     ])

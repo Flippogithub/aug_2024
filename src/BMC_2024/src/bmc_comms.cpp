@@ -42,7 +42,7 @@ void BMCComms::disable()
 void BMCComms::setVelocity(double velocity)
 {
     SendParam(BMC_CMD_VELOCITY, (float)velocity);
-    RCLCPP_INFO(rclcpp::get_logger("RowbotBMCHardware"), "Velocity: %.2f", velocity);
+    //RCLCPP_INFO(rclcpp::get_logger("RowbotBMCHardware"), "Velocity: %.2f", velocity);
 
 }
 
@@ -70,7 +70,7 @@ void BMCComms::close()
 
 void BMCComms::SendParam(uint8_t cmd_id, float param)
 {
-    RCLCPP_INFO(rclcpp::get_logger("SendParams"), "can_id: %.3d", (can_id_));
+    //RCLCPP_INFO(rclcpp::get_logger("SendParams"), "can_id: %.3d", (can_id_));
     //RCLCPP_INFO(rclcpp::get_logger("SendParams"), "param: %.3f", (param));
     //RCLCPP_INFO(rclcpp::get_logger("RowbotBMCHardware"), "send params");
     // set frame id to id of motor controller as rx

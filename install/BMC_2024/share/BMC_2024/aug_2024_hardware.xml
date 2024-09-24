@@ -1,1 +1,9 @@
-/home/dkflippo/aug2024/src/BMC_2024/aug_2024_hardware.xml
+<library path="BMC_2024">
+  <class name="BMC_2024/AUG2024Hardware"
+         type="BMC_2024::AUG2024Hardware"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      Hardware Interface for AUG 2024 robot.
+    </description>
+  </class>
+</library>

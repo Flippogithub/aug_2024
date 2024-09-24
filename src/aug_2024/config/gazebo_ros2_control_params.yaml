@@ -1,0 +1,2 @@
+gazebo_ros2_control:
+  robot_param_file: $(find aug_2024)/config/flippo_controllers.yaml

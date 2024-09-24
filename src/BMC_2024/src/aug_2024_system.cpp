@@ -285,7 +285,7 @@ hardware_interface::return_type BMC_2024 ::AUG2024Hardware::write(
   //RCLCPP_INFO(rclcpp::get_logger("AUG2024Hardware"), "Front Left Motor Command: %.3f", (motor_fl_.cmd * motor_rr_.mult));
   //RCLCPP_INFO(rclcpp::get_logger("AUG2024Hardware"), "Front right Motor Command: %.3f", (motor_fr_.cmd * motor_rr_.mult));
   //RCLCPP_INFO(rclcpp::get_logger("AUG2024Hardware"), "rear Left Motor Command: %.3f", (motor_rl_.cmd * motor_rr_.mult));
-  RCLCPP_INFO(rclcpp::get_logger("AUG2024Hardware"), "rear right Motor Command: %.3f", (motor_rr_.cmd * motor_rr_.mult));
+  //RCLCPP_INFO(rclcpp::get_logger("AUG2024Hardware"), "rear right Motor Command: %.3f", (motor_rr_.cmd * motor_rr_.mult));
   return hardware_interface::return_type::OK;
 }
 

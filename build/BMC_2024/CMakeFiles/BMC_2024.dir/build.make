@@ -284,8 +284,8 @@ libBMC_2024.so: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_intro
 libBMC_2024.so: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
 libBMC_2024.so: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so
 libBMC_2024.so: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
-libBMC_2024.so: /opt/ros/humble/lib/libgazebo_ros2_control.so
-libBMC_2024.so: /opt/ros/humble/lib/libgazebo_hardware_plugins.so
+libBMC_2024.so: /home/dkflippo/aug2024/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so
+libBMC_2024.so: /home/dkflippo/aug2024/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so
 libBMC_2024.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
 libBMC_2024.so: /opt/ros/humble/lib/libcontroller_manager_msgs__rosidl_generator_c.so
 libBMC_2024.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_c.so
