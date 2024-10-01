@@ -1,84 +1,155 @@
 import os
-import launch
-from launch.substitutions import Command, LaunchConfiguration
-import launch_ros
-
-from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
-from launch.actions import IncludeLaunchDescription, ExecuteProcess, TimerAction, DeclareLaunchArgument
+from launch.actions import IncludeLaunchDescription, ExecuteProcess, RegisterEventHandler, DeclareLaunchArgument
+from launch.event_handlers import OnProcessExit
 from launch.launch_description_sources import PythonLaunchDescriptionSource
-from launch.substitutions import Command, LaunchConfiguration
+from launch.substitutions import Command, LaunchConfiguration, FindExecutable
 from launch_ros.actions import Node
-from launch_ros.parameter_descriptions import ParameterValue
+from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
-    pkg_share = launch_ros.substitutions.FindPackageShare(package='aug_2024').find('aug_2024')
-    #default_model_path = os.path.join(pkg_share, 'src/description/sam_bot_description.urdf')
-    default_model_path = os.path.join(pkg_share, 'description', 'urdf', 'aug_2024.urdf')
-    default_rviz_config_path = os.path.join(pkg_share, 'rviz/urdf_config.rviz')
+    # Get the launch directory
+    pkg_share = get_package_share_directory('aug_2024')
+    config_filepath = LaunchConfiguration('config_filepath', default=os.path.join(pkg_share, 'config', 'twist_mux.yaml'))
+    # Set up robot description
+    world_file_path = os.path.join(pkg_share, 'worlds', 'usda_rough_dim.sdf')
+    urdf_file = os.path.join(pkg_share, 'description', 'urdf', 'aug_2024.urdf')
+    with open(urdf_file, 'r') as infp:
+        robot_desc = infp.read()
 
-    robot_state_publisher_node = launch_ros.actions.Node(
-        package='robot_state_publisher',
-        executable='robot_state_publisher',
-        parameters=[{'robot_description': Command(['xacro ', LaunchConfiguration('model')])}]
-    )
-    joint_state_publisher_node = launch_ros.actions.Node(
-        package='joint_state_publisher',
-        executable='joint_state_publisher',
-        name='joint_state_publisher',
-        arguments=[default_model_path], #Add this line
-        #parameters=[{'robot_description': Command(['xacro ', default_model_path])}],
-        #condition=launch.conditions.UnlessCondition(LaunchConfiguration('gui'))
-    )
-    #joint_state_publisher_gui_node = launch_ros.actions.Node(
-     #   package='joint_state_publisher_gui',
-      #  executable='joint_state_publisher_gui',
-       # name='joint_state_publisher_gui',
-        #condition=launch.conditions.IfCondition(LaunchConfiguration('gui'))
-    #)
- 
+    # Launch configuration variables
+    use_sim_time = LaunchConfiguration('use_sim_time')
+    map_yaml_file = LaunchConfiguration('map')
+    
+    # Declare the launch arguments
+    declare_use_sim_time_argument = DeclareLaunchArgument(
+        'use_sim_time',
+        default_value='true',
+        description='Use simulation/Gazebo clock')
+    
+    declare_map_yaml_cmd = DeclareLaunchArgument(
+        'map',
+        default_value=os.path.join(pkg_share, 'config', 'map1.yaml'),
+        description='Full path to map yaml file to load')
 
-    rviz_node = launch_ros.actions.Node(
-        package='rviz2',
-        executable='rviz2',
-        name='rviz2',
-        output='screen',
-        arguments=['-d', LaunchConfiguration('rvizconfig')],
+    # Gazebo launch
+    gazebo = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource([os.path.join(
+            get_package_share_directory('gazebo_ros'), 'launch', 'gazebo.launch.py')]),
+        launch_arguments={'world': world_file_path}.items()
     )
 
-    spawn_entity = launch_ros.actions.Node(
+    twist_mux_node = Node(
+       package='twist_mux',
+       executable='twist_mux',
+       name='twist_mux',
+       parameters=[config_filepath, {'use_sim_time': use_sim_time}],
+       remappings=[('/cmd_vel_out','/diff_cont/cmd_vel_unstamped')]
+    )
+
+    slam_toolbox = Node(
+            package='slam_toolbox',
+            executable='async_slam_toolbox_node',
+            name='slam_toolbox',
+            output='screen',
+            parameters=[
+                {'use_sim_time': True}  # Set to False for real robot
+            ]
+    )
+    
+    # Spawn robot
+    spawn_entity = Node(
         package='gazebo_ros',
         executable='spawn_entity.py',
-        arguments=['-entity', 'sam_bot', '-topic', 'robot_description'],
+        arguments=['-topic', 'robot_description',
+                '-entity', 'aug_2024_bot',
+                '-x', '17', '-y', '9', '-z', '0.1'],  # Raised slightly off the ground
+        parameters=[{'use_sim_time': use_sim_time}], 
         output='screen'
     )
 
-    robot_localization_node = launch_ros.actions.Node(
-       package='robot_localization',
-       executable='ekf_node',
-       name='ekf_filter_node',
+    # Robot state publisher
+    robot_state_publisher = Node(
+        package='robot_state_publisher',
+        executable='robot_state_publisher',
+        name='robot_state_publisher',
+        output='screen',
+        parameters=[{'use_sim_time': use_sim_time, 
+                     'robot_description': Command(['xacro ', urdf_file])}]
+    )
+
+    # Diff drive controller spawner
+    diff_drive_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=["diff_cont"],
+        parameters=[{'use_sim_time': use_sim_time}], 
+    )
+
+    # Joint state broadcaster spawner
+    joint_broad_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=["joint_broad"],
+        parameters=[{'use_sim_time': use_sim_time}], 
+    )
+
+    # Nav2
+    nav2_launch = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource([os.path.join(
+            get_package_share_directory('nav2_bringup'), 'launch', 'bringup_launch.py')]),
+        launch_arguments={
+            'map': map_yaml_file,
+            'use_sim_time': use_sim_time,
+            'params_file': os.path.join(pkg_share, 'config', 'nav2_params.yaml')
+        }.items()
+    )
+
+    controller_manager = Node(
+       package="controller_manager",
+       executable="ros2_control_node",
+       parameters=[{'robot_description': Command(['xacro ', urdf_file])},
+                os.path.join(pkg_share, 'config', 'my_controllers.yaml'),
+                {'use_sim_time': use_sim_time} ],
+       output="screen",
+    )
+
+    delay_controller_spawner = RegisterEventHandler(
+       event_handler=OnProcessExit(
+       target_action=controller_manager,
+       on_exit=[diff_drive_spawner, joint_broad_spawner],
+       )
+    )
+
+    teleop_node = Node(
+       package='teleop_twist_keyboard',
+       executable='teleop_twist_keyboard',
+       name='teleop_twist_keyboard',
        output='screen',
-       parameters=[os.path.join(pkg_share, 'config/ekf.yaml'), {'use_sim_time': LaunchConfiguration('use_sim_time')}]
-)
-    return launch.LaunchDescription([
-       # launch.actions.DeclareLaunchArgument(name='gui', default_value='True',
-        #                                    description='Flag to enable joint_state_publisher_gui'),
-        
-        launch.actions.DeclareLaunchArgument(name='model', default_value=default_model_path,
-                                            description='Absolute path to robot urdf file'),
-        
-        launch.actions.DeclareLaunchArgument(name='rvizconfig', default_value=default_rviz_config_path,
-                                            description='Absolute path to rviz config file'),
-        
-        launch.actions.ExecuteProcess(cmd=['gazebo', '--verbose', '-s', 'libgazebo_ros_init.so', '-s', 'libgazebo_ros_factory.so'], output='screen'),
-        
-        launch.actions.DeclareLaunchArgument(name='use_sim_time', default_value='True',
-                                            description='Flag to enable use_sim_time'),
-        joint_state_publisher_node,
-        #joint_state_publisher_gui_node,
-        robot_state_publisher_node,
-        spawn_entity,
-        robot_localization_node,
-        rviz_node
-       
+       prefix = 'xterm -e',
+       remappings=[('/cmd_vel', '/cmd_vel_teleop')],
+       parameters=[{'use_sim_time': LaunchConfiguration('use_sim_time')}]
+    )
+    print(f"URDF file path: {urdf_file}")
+    print(f"Robot description length: {len(robot_desc)}")
+    
+    from launch.actions import TimerAction
+
+    delayed_spawn = TimerAction(
+        period=5.0,
+        actions=[spawn_entity]
+    )
+
+    return LaunchDescription([
+        gazebo,
+        declare_use_sim_time_argument,
+        declare_map_yaml_cmd,
+        robot_state_publisher,
+        controller_manager,
+        delay_controller_spawner,
+        twist_mux_node,
+        delayed_spawn,  # Use the delayed spawn instead
+        nav2_launch,
+        teleop_node,
+        slam_toolbox
     ])

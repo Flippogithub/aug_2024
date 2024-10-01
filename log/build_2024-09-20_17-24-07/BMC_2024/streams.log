@@ -1,0 +1,154 @@
+[0.012s] Invoking command in '/home/dkflippo/aug2024/build/BMC_2024': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/nav2/install/sam_bot_description:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble LD_LIBRARY_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control/lib:/home/dkflippo/aug2024/install/BMC_2024/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/dkflippo/aug2024/src/BMC_2024 -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/install/BMC_2024
+[0.070s] -- The C compiler identification is GNU 11.4.0
+[0.129s] -- The CXX compiler identification is GNU 11.4.0
+[0.136s] -- Detecting C compiler ABI info
+[0.209s] -- Detecting C compiler ABI info - done
+[0.216s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.217s] -- Detecting C compile features
+[0.217s] -- Detecting C compile features - done
+[0.221s] -- Detecting CXX compiler ABI info
+[0.309s] -- Detecting CXX compiler ABI info - done
+[0.318s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.318s] -- Detecting CXX compile features
+[0.319s] -- Detecting CXX compile features - done
+[0.323s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.472s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.579s] -- Found hardware_interface: 2.43.1 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.625s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.630s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.639s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.652s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.669s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.897s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.900s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.929s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.980s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.983s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.997s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.000s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.009s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.019s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.029s] -- Looking for pthread.h
+[1.104s] -- Looking for pthread.h - found
+[1.105s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.184s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.186s] -- Found Threads: TRUE  
+[1.232s] -- Found gazebo_ros2_control: 0.4.9 (/home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake)
+[1.294s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.296s] -- Checking for module 'bullet>=2.82'
+[1.315s] --   Found bullet, version 3.05
+[1.452s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.559s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.581s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.611s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.628s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.634s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.643s] -- Searching for dependencies of ignition-math6
+[1.645s] -- Looking for OGRE...
+[1.646s] -- OGRE_PREFIX_WATCH changed.
+[1.654s] -- Checking for module 'OGRE'
+[1.672s] --   Found OGRE, version 1.9.0
+[1.734s] -- Found Ogre Ghadamon (1.9.0)
+[1.747s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.756s] -- Looking for OGRE_Paging...
+[1.761s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.762s] -- Looking for OGRE_Terrain...
+[1.766s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.767s] -- Looking for OGRE_Property...
+[1.772s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.772s] -- Looking for OGRE_RTShaderSystem...
+[1.778s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.778s] -- Looking for OGRE_Volume...
+[1.783s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.785s] -- Looking for OGRE_Overlay...
+[1.789s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.957s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.960s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.961s] -- Searching for dependencies of ignition-transport8
+[1.983s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.996s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.002s] -- Checking for module 'libzmq >= 4'
+[2.029s] --   Found libzmq , version 4.3.4
+[2.096s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.111s] -- Checking for module 'uuid'
+[2.138s] --   Found uuid, version 2.37.2
+[2.206s] -- Found UUID: TRUE  
+[2.212s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.213s] -- Searching for dependencies of ignition-msgs5
+[2.237s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.245s] -- Checking for module 'tinyxml2'
+[2.267s] --   Found tinyxml2, version 9.0.0
+[2.337s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.341s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.341s] -- Searching for dependencies of ignition-common3
+[2.341s] -- Looking for dlfcn.h - found
+[2.343s] -- Looking for libdl - found
+[2.345s] -- Found DL: TRUE  
+[2.362s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[2.362s] -- Searching for <ignition-common3> component [graphics]
+[2.365s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.365s] -- Searching for dependencies of ignition-common3-graphics
+[2.366s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.371s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.371s] -- Searching for dependencies of ignition-fuel_tools4
+[2.516s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[2.531s] -- Checking for module 'jsoncpp'
+[2.560s] --   Found jsoncpp, version 1.9.5
+[2.631s] -- Found JSONCPP: TRUE  
+[2.642s] -- Checking for module 'libzip'
+[2.665s] --   Found libzip, version 1.7.3
+[2.731s] -- Found ZIP: TRUE  
+[2.731s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.734s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.735s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.738s] -- Gazebo version: 11.10
+[2.738s] -- Checking for module 'tbb'
+[2.763s] --   Found tbb, version 2021.5.0
+[2.996s] WARNING: Package name "BMC_2024" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[3.025s] -- Configuring done
+[3.135s] -- Generating done
+[3.140s] -- Build files have been written to: /home/dkflippo/aug2024/build/BMC_2024
+[3.168s] Invoked command in '/home/dkflippo/aug2024/build/BMC_2024' returned '0': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/nav2/install/sam_bot_description:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble LD_LIBRARY_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control/lib:/home/dkflippo/aug2024/install/BMC_2024/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/dkflippo/aug2024/src/BMC_2024 -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/install/BMC_2024
+[3.169s] Invoking command in '/home/dkflippo/aug2024/build/BMC_2024': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/nav2/install/sam_bot_description:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble LD_LIBRARY_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control/lib:/home/dkflippo/aug2024/install/BMC_2024/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dkflippo/aug2024/build/BMC_2024 -- -j12 -l12
+[3.272s] [ 33%] [32mBuilding CXX object CMakeFiles/BMC_2024.dir/src/aug_2024_system.cpp.o[0m
+[3.276s] [ 66%] [32mBuilding CXX object CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.o[0m
+[7.953s] [01m[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type BMC_2024::AUG2024Hardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[7.953s] [01m[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:266:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.953s]   266 |   const rclcpp::Time & /*time*/, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[7.953s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[9.726s] [100%] [32m[1mLinking CXX shared library libBMC_2024.so[0m
+[10.053s] [100%] Built target BMC_2024
+[10.066s] Invoked command in '/home/dkflippo/aug2024/build/BMC_2024' returned '0': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/nav2/install/sam_bot_description:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble LD_LIBRARY_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control/lib:/home/dkflippo/aug2024/install/BMC_2024/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dkflippo/aug2024/build/BMC_2024 -- -j12 -l12
+[10.101s] Invoking command in '/home/dkflippo/aug2024/build/BMC_2024': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/nav2/install/sam_bot_description:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble LD_LIBRARY_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control/lib:/home/dkflippo/aug2024/install/BMC_2024/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/dkflippo/aug2024/build/BMC_2024
+[10.109s] -- Install configuration: ""
+[10.109s] -- Installing: /home/dkflippo/aug2024/install/BMC_2024/lib/libBMC_2024.so
+[10.111s] -- Set runtime path of "/home/dkflippo/aug2024/install/BMC_2024/lib/libBMC_2024.so" to ""
+[10.111s] -- Installing: /home/dkflippo/aug2024/install/BMC_2024/include
+[10.111s] -- Installing: /home/dkflippo/aug2024/install/BMC_2024/include/BMC_2024
+[10.111s] -- Installing: /home/dkflippo/aug2024/install/BMC_2024/include/BMC_2024/aug_2024_system.hpp
+[10.111s] -- Installing: /home/dkflippo/aug2024/install/BMC_2024/include/BMC_2024/visibility_control.h
+[10.111s] -- Installing: /home/dkflippo/aug2024/install/BMC_2024/include/BMC_2024/bmc_comms.hpp
+[10.111s] -- Installing: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/aug_2024_hardware.xml
+[10.112s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/lib/libBMC_2024.so
+[10.112s] -- Installing: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/environment/library_path.sh
+[10.112s] -- Installing: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/environment/library_path.dsv
+[10.113s] -- Installing: /home/dkflippo/aug2024/install/BMC_2024/share/ament_index/resource_index/package_run_dependencies/BMC_2024
+[10.113s] -- Installing: /home/dkflippo/aug2024/install/BMC_2024/share/ament_index/resource_index/parent_prefix_path/BMC_2024
+[10.113s] -- Installing: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/environment/ament_prefix_path.sh
+[10.113s] -- Installing: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/environment/ament_prefix_path.dsv
+[10.114s] -- Installing: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/environment/path.sh
+[10.114s] -- Installing: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/environment/path.dsv
+[10.114s] -- Installing: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/local_setup.bash
+[10.114s] -- Installing: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/local_setup.sh
+[10.114s] -- Installing: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/local_setup.zsh
+[10.115s] -- Installing: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/local_setup.dsv
+[10.115s] -- Installing: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/package.dsv
+[10.115s] -- Installing: /home/dkflippo/aug2024/install/BMC_2024/share/ament_index/resource_index/packages/BMC_2024
+[10.115s] -- Installing: /home/dkflippo/aug2024/install/BMC_2024/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/BMC_2024
+[10.115s] -- Installing: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.116s] -- Installing: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake/ament_cmake_export_libraries-extras.cmake
+[10.116s] -- Installing: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.116s] -- Installing: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake/BMC_2024Config.cmake
+[10.116s] -- Installing: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake/BMC_2024Config-version.cmake
+[10.116s] -- Installing: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/package.xml
+[10.119s] Invoked command in '/home/dkflippo/aug2024/build/BMC_2024' returned '0': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/nav2/install/sam_bot_description:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble LD_LIBRARY_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control/lib:/home/dkflippo/aug2024/install/BMC_2024/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/dkflippo/aug2024/build/BMC_2024
