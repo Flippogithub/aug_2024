@@ -8,7 +8,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     pkg_share = get_package_share_directory('aug_2024')
-    urdf_file = os.path.join(pkg_share, 'description', 'urdf', 'aug_2024.xacro')
+    urdf_file = os.path.join(pkg_share, 'description', 'urdf', 'aug_2024.urdf')
     
     # Use xacro to process the file
     #xacro_command = f"xacro {urdf_file} use_sim:=false"

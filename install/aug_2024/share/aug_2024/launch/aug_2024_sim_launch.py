@@ -13,7 +13,7 @@ def generate_launch_description():
     config_filepath = LaunchConfiguration('config_filepath', default=os.path.join(pkg_share, 'config', 'twist_mux.yaml'))
     # Set up robot description
     world_file_path = os.path.join(pkg_share, 'worlds', 'usda_rough_dim.sdf')
-    urdf_file = os.path.join(pkg_share, 'description', 'urdf', 'aug_2024.urdf')
+    urdf_file = os.path.join(pkg_share, 'description', 'urdf', 'aug_2024-nocaster.urdf') #was aug_2024.urdf
     with open(urdf_file, 'r') as infp:
         robot_desc = infp.read()
 
@@ -52,9 +52,18 @@ def generate_launch_description():
             executable='async_slam_toolbox_node',
             name='slam_toolbox',
             output='screen',
-            parameters=[
-                {'use_sim_time': True}  # Set to False for real robot
-            ]
+            parameters=[{
+               'use_sim_time': True,
+                'odom_frame': 'odom',  # Match your odometry topic
+                'base_frame': 'base_footprint',
+                'resolution': 0.05,
+                'max_laser_range': 20.0,
+                'minimum_time_interval': 0.5,
+                'transform_timeout': 0.2,
+                'minimum_travel_distance': 0.1,
+                'minimum_travel_heading': 0.1,
+                'scan_topic': '/scan'
+            }]
     )
     
     # Spawn robot
@@ -140,6 +149,15 @@ def generate_launch_description():
         actions=[spawn_entity]
     )
 
+
+    rviz = Node(
+        package='rviz2',
+        executable='rviz2',
+        name='rviz2',
+        output='screen'
+    )   
+        
+    
     return LaunchDescription([
         gazebo,
         declare_use_sim_time_argument,
@@ -151,5 +169,6 @@ def generate_launch_description():
         delayed_spawn,  # Use the delayed spawn instead
         nav2_launch,
         teleop_node,
-        slam_toolbox
+        #slam_toolbox,
+        rviz
     ])
