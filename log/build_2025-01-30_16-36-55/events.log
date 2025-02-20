@@ -1,0 +1,270 @@
+[0.000000] (-) TimerEvent: {}
+[0.000834] (-) JobUnselected: {'identifier': 'BMC_2024'}
+[0.000957] (-) JobUnselected: {'identifier': 'gazebo_ros2_control'}
+[0.001043] (-) JobUnselected: {'identifier': 'gazebo_ros2_control_demos'}
+[0.001082] (-) JobUnselected: {'identifier': 'my_robot_nav2'}
+[0.001101] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.001126] (aug_2024) JobQueued: {'identifier': 'aug_2024', 'dependencies': OrderedDict([('gazebo_ros2_control', '/home/dkflippo/aug2024/install/gazebo_ros2_control'), ('BMC_2024', '/home/dkflippo/aug2024/install/BMC_2024')])}
+[0.001165] (aug_2024) JobStarted: {'identifier': 'aug_2024'}
+[0.021595] (aug_2024) JobProgress: {'identifier': 'aug_2024', 'progress': 'cmake'}
+[0.022201] (aug_2024) Command: {'cmd': ['/usr/bin/cmake', '/home/dkflippo/aug2024/src/aug_2024', '-DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/install/aug_2024'], 'cwd': '/home/dkflippo/aug2024/build/aug_2024', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dkflippo'), ('DISABLE_LAYER_NV_OPTIMUS_1', '1'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dkflippo/aug2024/install/BMC_2024/lib:/home/dkflippo/aug2024/install/gazebo_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dkflippo'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><Internal><MaxMessageSize>65500</MaxMessageSize></Internal></Domain></CycloneDDS>'), ('OLDPWD', '/home/dkflippo/aug2024/src/aug_2024'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MESA_VK_VERSION_OVERRIDE', '1.3'), ('MANAGERPID', '15048'), ('SYSTEMD_EXEC_PID', '15538'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/235465/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17031'), ('COLCON_PREFIX_PATH', '/home/dkflippo/aug2024/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dkflippo'), ('JOURNAL_STREAM', '8:699011'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dkflippo'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('DOTNET_ROOT', '/home/dkflippo/.dotnet'), ('VK_INSTANCE_LAYERS', 'VK_LAYER_KHRONOS_validation'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/dkflippo/.dotnet:/home/dkflippo/.dotnet:/home/dkflippo/.dotnet'), ('SESSION_MANAGER', 'local/ENGG-BAE1171:@/tmp/.ICE-unix/15511,unix/ENGG-BAE1171:/tmp/.ICE-unix/15511'), ('DISABLE_LAYER_AMD_SWITCHABLE_GRAPHICS_1', '1'), ('INVOCATION_ID', 'b99ef73d873f4e68b4922ebec1d07eee'), ('VK_ICD_FILENAMES', '/usr/share/vulkan/icd.d/intel_icd.x86_64.json'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/235465'), ('VK_DRIVER_FILES', '/usr/share/vulkan/icd.d/intel_icd.x86_64.json'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/235465/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/235465/keyring/ssh'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/home/dkflippo/aug2024/install/gazebo_ros2_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:98393b3b-3449-4a80-b057-6c762f7438e4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VK_LAYER_PATH', '/usr/share/vulkan/explicit_layer.d'), ('GPG_AGENT_INFO', '/run/user/235465/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('UE_VULKAN_DEBUG', '1'), ('PWD', '/home/dkflippo/aug2024/build/aug_2024'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dkflippo/aug2024/install/aug_2024/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dkflippo/aug2024/install/BMC_2024:/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/opt/ros/humble')]), 'shell': False}
+[0.098989] (-) TimerEvent: {}
+[0.175778] (aug_2024) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199081] (-) TimerEvent: {}
+[0.279064] (aug_2024) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.293254] (aug_2024) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299175] (-) TimerEvent: {}
+[0.399505] (-) TimerEvent: {}
+[0.426087] (aug_2024) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.449933] (aug_2024) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.450910] (aug_2024) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.452148] (aug_2024) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.460195] (aug_2024) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.499619] (-) TimerEvent: {}
+[0.600011] (-) TimerEvent: {}
+[0.601889] (aug_2024) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.612155] (aug_2024) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.612529] (aug_2024) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.613387] (aug_2024) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.624249] (aug_2024) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.700218] (-) TimerEvent: {}
+[0.800769] (-) TimerEvent: {}
+[0.878339] (aug_2024) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.900884] (-) TimerEvent: {}
+[1.001142] (-) TimerEvent: {}
+[1.052017] (aug_2024) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.101287] (-) TimerEvent: {}
+[1.163177] (aug_2024) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.174172] (aug_2024) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.190936] (aug_2024) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.201385] (-) TimerEvent: {}
+[1.216854] (aug_2024) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.256399] (aug_2024) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.301533] (-) TimerEvent: {}
+[1.345615] (aug_2024) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.352999] (aug_2024) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.399627] (aug_2024) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.401621] (-) TimerEvent: {}
+[1.417116] (aug_2024) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.501768] (-) TimerEvent: {}
+[1.528534] (aug_2024) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.528918] (aug_2024) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.601874] (-) TimerEvent: {}
+[1.642607] (aug_2024) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.645248] (aug_2024) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.701991] (-) TimerEvent: {}
+[1.742103] (aug_2024) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.793720] (aug_2024) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[1.802107] (-) TimerEvent: {}
+[1.823405] (aug_2024) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.824890] (aug_2024) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.825007] (aug_2024) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.902201] (-) TimerEvent: {}
+[2.002604] (-) TimerEvent: {}
+[2.061862] (aug_2024) StdoutLine: {'line': b'-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)\n'}
+[2.067323] (aug_2024) StdoutLine: {'line': b'-- Found controller_manager: 2.43.1 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[2.102697] (-) TimerEvent: {}
+[2.203032] (-) TimerEvent: {}
+[2.222302] (aug_2024) StdoutLine: {'line': b'-- Found joint_state_broadcaster: 2.37.3 (/opt/ros/humble/share/joint_state_broadcaster/cmake)\n'}
+[2.237532] (aug_2024) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[2.269270] (aug_2024) StdoutLine: {'line': b'-- Found diff_drive_controller: 2.37.3 (/opt/ros/humble/share/diff_drive_controller/cmake)\n'}
+[2.303199] (-) TimerEvent: {}
+[2.316047] (aug_2024) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[2.337202] (aug_2024) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[2.338557] (aug_2024) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[2.367036] (aug_2024) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[2.403372] (-) TimerEvent: {}
+[2.504044] (-) TimerEvent: {}
+[2.560891] (aug_2024) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[2.604100] (-) TimerEvent: {}
+[2.651772] (aug_2024) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[2.687666] (aug_2024) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[2.704230] (-) TimerEvent: {}
+[2.736537] (aug_2024) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[2.766554] (aug_2024) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[2.775214] (aug_2024) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.788029] (aug_2024) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[2.790462] (aug_2024) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[2.790753] (aug_2024) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[2.799005] (aug_2024) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[2.804354] (-) TimerEvent: {}
+[2.819902] (aug_2024) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[2.904444] (-) TimerEvent: {}
+[2.910139] (aug_2024) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[2.935068] (aug_2024) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[2.952692] (aug_2024) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[2.971192] (aug_2024) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[2.971643] (aug_2024) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[2.984605] (aug_2024) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[2.984913] (aug_2024) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[2.992456] (aug_2024) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[2.992745] (aug_2024) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[3.004536] (-) TimerEvent: {}
+[3.004866] (aug_2024) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[3.005079] (aug_2024) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[3.013627] (aug_2024) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[3.014069] (aug_2024) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[3.023659] (aug_2024) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[3.104786] (-) TimerEvent: {}
+[3.205242] (-) TimerEvent: {}
+[3.252199] (aug_2024) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.256888] (aug_2024) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[3.257797] (aug_2024) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[3.292910] (aug_2024) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[3.305355] (-) TimerEvent: {}
+[3.310191] (aug_2024) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[3.321442] (aug_2024) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[3.353717] (aug_2024) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[3.405480] (-) TimerEvent: {}
+[3.418935] (aug_2024) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[3.426578] (aug_2024) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[3.456993] (aug_2024) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[3.505601] (-) TimerEvent: {}
+[3.527686] (aug_2024) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[3.548799] (aug_2024) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.550302] (aug_2024) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[3.578803] (aug_2024) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.588841] (aug_2024) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[3.605744] (-) TimerEvent: {}
+[3.609965] (aug_2024) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[3.675938] (aug_2024) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.680601] (aug_2024) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[3.681599] (aug_2024) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[3.683317] (aug_2024) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[3.684357] (aug_2024) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[3.685729] (aug_2024) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[3.705820] (-) TimerEvent: {}
+[3.707431] (aug_2024) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[3.708542] (aug_2024) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[3.713277] (aug_2024) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[3.714184] (aug_2024) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[3.714678] (aug_2024) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.721495] (aug_2024) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[3.722146] (aug_2024) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[3.805995] (-) TimerEvent: {}
+[3.872322] (aug_2024) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[3.906214] (-) TimerEvent: {}
+[3.906904] (aug_2024) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[3.937400] (aug_2024) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[4.005403] (aug_2024) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[4.006269] (-) TimerEvent: {}
+[4.016098] (aug_2024) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[4.043299] (aug_2024) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[4.106451] (-) TimerEvent: {}
+[4.119186] (aug_2024) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[4.119836] (aug_2024) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[4.120396] (aug_2024) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[4.120786] (aug_2024) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[4.127012] (aug_2024) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[4.127471] (aug_2024) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[4.157434] (aug_2024) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[4.206570] (-) TimerEvent: {}
+[4.217952] (aug_2024) StdoutLine: {'line': b'-- Found gazebo_ros2_control: 0.4.9 (/home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake)\n'}
+[4.254687] (aug_2024) StdoutLine: {'line': b'-- Found ros2_control: 2.43.1 (/opt/ros/humble/share/ros2_control/cmake)\n'}
+[4.257797] (aug_2024) StdoutLine: {'line': b'-- Found ros2_controllers: 2.37.3 (/opt/ros/humble/share/ros2_controllers/cmake)\n'}
+[4.258587] (aug_2024) StdoutLine: {'line': b'-- Found BMC_2024: 0.0.0 (/home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake)\n'}
+[4.306680] (-) TimerEvent: {}
+[4.406920] (-) TimerEvent: {}
+[4.487072] (aug_2024) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.504319] (aug_2024) StdoutLine: {'line': b'-- Generating done\n'}
+[4.506971] (-) TimerEvent: {}
+[4.513517] (aug_2024) StdoutLine: {'line': b'-- Build files have been written to: /home/dkflippo/aug2024/build/aug_2024\n'}
+[4.548060] (aug_2024) CommandEnded: {'returncode': 0}
+[4.549417] (aug_2024) JobProgress: {'identifier': 'aug_2024', 'progress': 'build'}
+[4.551959] (aug_2024) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dkflippo/aug2024/build/aug_2024', '--', '-j12', '-l12'], 'cwd': '/home/dkflippo/aug2024/build/aug_2024', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dkflippo'), ('DISABLE_LAYER_NV_OPTIMUS_1', '1'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dkflippo/aug2024/install/BMC_2024/lib:/home/dkflippo/aug2024/install/gazebo_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dkflippo'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><Internal><MaxMessageSize>65500</MaxMessageSize></Internal></Domain></CycloneDDS>'), ('OLDPWD', '/home/dkflippo/aug2024/src/aug_2024'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MESA_VK_VERSION_OVERRIDE', '1.3'), ('MANAGERPID', '15048'), ('SYSTEMD_EXEC_PID', '15538'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/235465/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17031'), ('COLCON_PREFIX_PATH', '/home/dkflippo/aug2024/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dkflippo'), ('JOURNAL_STREAM', '8:699011'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dkflippo'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('DOTNET_ROOT', '/home/dkflippo/.dotnet'), ('VK_INSTANCE_LAYERS', 'VK_LAYER_KHRONOS_validation'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/dkflippo/.dotnet:/home/dkflippo/.dotnet:/home/dkflippo/.dotnet'), ('SESSION_MANAGER', 'local/ENGG-BAE1171:@/tmp/.ICE-unix/15511,unix/ENGG-BAE1171:/tmp/.ICE-unix/15511'), ('DISABLE_LAYER_AMD_SWITCHABLE_GRAPHICS_1', '1'), ('INVOCATION_ID', 'b99ef73d873f4e68b4922ebec1d07eee'), ('VK_ICD_FILENAMES', '/usr/share/vulkan/icd.d/intel_icd.x86_64.json'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/235465'), ('VK_DRIVER_FILES', '/usr/share/vulkan/icd.d/intel_icd.x86_64.json'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/235465/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/235465/keyring/ssh'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/home/dkflippo/aug2024/install/gazebo_ros2_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:98393b3b-3449-4a80-b057-6c762f7438e4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VK_LAYER_PATH', '/usr/share/vulkan/explicit_layer.d'), ('GPG_AGENT_INFO', '/run/user/235465/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('UE_VULKAN_DEBUG', '1'), ('PWD', '/home/dkflippo/aug2024/build/aug_2024'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dkflippo/aug2024/install/aug_2024/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dkflippo/aug2024/install/BMC_2024:/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/opt/ros/humble')]), 'shell': False}
+[4.607122] (-) TimerEvent: {}
+[4.643198] (aug_2024) StdoutLine: {'line': b'Built target ament_cmake_python_copy_aug_2024\n'}
+[4.707211] (-) TimerEvent: {}
+[4.807430] (-) TimerEvent: {}
+[4.907691] (-) TimerEvent: {}
+[5.007969] (-) TimerEvent: {}
+[5.011387] (aug_2024) StdoutLine: {'line': b'running egg_info\n'}
+[5.011848] (aug_2024) StdoutLine: {'line': b'creating aug_2024.egg-info\n'}
+[5.012086] (aug_2024) StdoutLine: {'line': b'writing aug_2024.egg-info/PKG-INFO\n'}
+[5.012386] (aug_2024) StdoutLine: {'line': b'writing dependency_links to aug_2024.egg-info/dependency_links.txt\n'}
+[5.012740] (aug_2024) StdoutLine: {'line': b'writing top-level names to aug_2024.egg-info/top_level.txt\n'}
+[5.013472] (aug_2024) StdoutLine: {'line': b"writing manifest file 'aug_2024.egg-info/SOURCES.txt'\n"}
+[5.018628] (aug_2024) StdoutLine: {'line': b"reading manifest file 'aug_2024.egg-info/SOURCES.txt'\n"}
+[5.019243] (aug_2024) StdoutLine: {'line': b"writing manifest file 'aug_2024.egg-info/SOURCES.txt'\n"}
+[5.069011] (aug_2024) StdoutLine: {'line': b'Built target ament_cmake_python_build_aug_2024_egg\n'}
+[5.086150] (aug_2024) CommandEnded: {'returncode': 0}
+[5.086846] (aug_2024) JobProgress: {'identifier': 'aug_2024', 'progress': 'install'}
+[5.099226] (aug_2024) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dkflippo/aug2024/build/aug_2024'], 'cwd': '/home/dkflippo/aug2024/build/aug_2024', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dkflippo'), ('DISABLE_LAYER_NV_OPTIMUS_1', '1'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dkflippo/aug2024/install/BMC_2024/lib:/home/dkflippo/aug2024/install/gazebo_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dkflippo'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><Internal><MaxMessageSize>65500</MaxMessageSize></Internal></Domain></CycloneDDS>'), ('OLDPWD', '/home/dkflippo/aug2024/src/aug_2024'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MESA_VK_VERSION_OVERRIDE', '1.3'), ('MANAGERPID', '15048'), ('SYSTEMD_EXEC_PID', '15538'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/235465/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17031'), ('COLCON_PREFIX_PATH', '/home/dkflippo/aug2024/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dkflippo'), ('JOURNAL_STREAM', '8:699011'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dkflippo'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('DOTNET_ROOT', '/home/dkflippo/.dotnet'), ('VK_INSTANCE_LAYERS', 'VK_LAYER_KHRONOS_validation'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/dkflippo/.dotnet:/home/dkflippo/.dotnet:/home/dkflippo/.dotnet'), ('SESSION_MANAGER', 'local/ENGG-BAE1171:@/tmp/.ICE-unix/15511,unix/ENGG-BAE1171:/tmp/.ICE-unix/15511'), ('DISABLE_LAYER_AMD_SWITCHABLE_GRAPHICS_1', '1'), ('INVOCATION_ID', 'b99ef73d873f4e68b4922ebec1d07eee'), ('VK_ICD_FILENAMES', '/usr/share/vulkan/icd.d/intel_icd.x86_64.json'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/235465'), ('VK_DRIVER_FILES', '/usr/share/vulkan/icd.d/intel_icd.x86_64.json'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/235465/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/235465/keyring/ssh'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/home/dkflippo/aug2024/install/gazebo_ros2_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:98393b3b-3449-4a80-b057-6c762f7438e4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VK_LAYER_PATH', '/usr/share/vulkan/explicit_layer.d'), ('GPG_AGENT_INFO', '/run/user/235465/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('UE_VULKAN_DEBUG', '1'), ('PWD', '/home/dkflippo/aug2024/build/aug_2024'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dkflippo/aug2024/install/aug_2024/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dkflippo/aug2024/install/BMC_2024:/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/opt/ros/humble')]), 'shell': False}
+[5.108071] (-) TimerEvent: {}
+[5.109474] (aug_2024) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.109685] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/environment/pythonpath.sh\n'}
+[5.109841] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/environment/pythonpath.dsv\n'}
+[5.110063] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/local/lib/python3.10/dist-packages/aug_2024-0.0.0-py3.10.egg-info\n'}
+[5.110255] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/local/lib/python3.10/dist-packages/aug_2024-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.110389] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/local/lib/python3.10/dist-packages/aug_2024-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.110557] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/local/lib/python3.10/dist-packages/aug_2024-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.110671] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/local/lib/python3.10/dist-packages/aug_2024-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.110930] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/local/lib/python3.10/dist-packages/aug_2024\n'}
+[5.111042] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/local/lib/python3.10/dist-packages/aug_2024/__init__.py\n'}
+[5.157617] (aug_2024) StdoutLine: {'line': b"Listing '/home/dkflippo/aug2024/install/aug_2024/local/lib/python3.10/dist-packages/aug_2024'...\n"}
+[5.157854] (aug_2024) StdoutLine: {'line': b"Compiling '/home/dkflippo/aug2024/install/aug_2024/local/lib/python3.10/dist-packages/aug_2024/__init__.py'...\n"}
+[5.166801] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/lib/aug_2024/waypoint_navigator\n'}
+[5.167896] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//config\n'}
+[5.168394] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//config/nav2_params.yaml\n'}
+[5.168683] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//config/backup\n'}
+[5.168837] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//config/backup/map1.pgm\n'}
+[5.184054] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//config/backup/map1.yaml\n'}
+[5.184360] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//config/amcl_config.yaml\n'}
+[5.184689] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//config/map1.pgm\n'}
+[5.185776] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//config/twist_mux.yaml\n'}
+[5.186347] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//config/map1.yaml\n'}
+[5.186740] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//config/gazebo_ros2_control_params.yaml\n'}
+[5.187145] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//config/flippo_controllers.yaml\n'}
+[5.187368] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//config/ekf.yaml\n'}
+[5.187621] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description\n'}
+[5.187752] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/launch\n'}
+[5.187880] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/config\n'}
+[5.188025] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/config/aug_2024_joint_names.yaml\n'}
+[5.188287] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/config/ekf.yaml\n'}
+[5.188522] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/urdf\n'}
+[5.188716] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/urdf/aug_2024-nocaster.urdf\n'}
+[5.189365] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/urdf/other\n'}
+[5.189610] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/urdf/other/aug_2024-cast.urdf\n'}
+[5.189953] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/urdf/other/aug_2024-1.xacro\n'}
+[5.190457] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/urdf/other/aug_2024_old.xacro\n'}
+[5.190798] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/urdf/other/aug_2024.urdf\n'}
+[5.191152] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/urdf/other/aug_2024 _no_caster.xacro\n'}
+[5.191476] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/rviz\n'}
+[5.191681] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/rviz/urdf_config.rviz\n'}
+[5.191853] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/meshes\n'}
+[5.192265] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/meshes/rear_right_wheel_link.STL\n'}
+[5.192703] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/meshes/front_right_wheel_link.STL\n'}
+[5.193484] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/meshes/rear_left_wheel_link.STL\n'}
+[5.194115] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/meshes/front_left_wheel_link.STL\n'}
+[5.194746] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/meshes/chassis_link.STL\n'}
+[5.197351] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//launch\n'}
+[5.197769] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//launch/aug_2024_launch.py\n'}
+[5.198232] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//launch/aug_2024_sim_launch.py\n'}
+[5.198617] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//launch/sllidar_a2m12_launch .py\n'}
+[5.198883] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//launch/aug_2024_sim_launch1.py\n'}
+[5.199344] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//launch/ros2_control_debug.launch.py\n'}
+[5.199788] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//worlds\n'}
+[5.200213] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//worlds/usda_rough_dim.sdf\n'}
+[5.200646] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//worlds/gaz_goof_001\n'}
+[5.201238] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//worlds/usda_build_full\n'}
+[5.201428] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//worlds/usda_build_full/model.config\n'}
+[5.201590] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//worlds/usda_build_full/model.sdf\n'}
+[5.202170] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/ament_index/resource_index/package_run_dependencies/aug_2024\n'}
+[5.202477] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/ament_index/resource_index/parent_prefix_path/aug_2024\n'}
+[5.202697] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/environment/ament_prefix_path.sh\n'}
+[5.202864] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/environment/ament_prefix_path.dsv\n'}
+[5.203129] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/environment/path.sh\n'}
+[5.203378] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/environment/path.dsv\n'}
+[5.203657] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/local_setup.bash\n'}
+[5.203881] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/local_setup.sh\n'}
+[5.204152] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/local_setup.zsh\n'}
+[5.204491] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/local_setup.dsv\n'}
+[5.204675] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/package.dsv\n'}
+[5.204960] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/ament_index/resource_index/packages/aug_2024\n'}
+[5.205283] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/cmake/aug_2024Config.cmake\n'}
+[5.205453] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/cmake/aug_2024Config-version.cmake\n'}
+[5.205695] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/package.xml\n'}
+[5.208318] (aug_2024) CommandEnded: {'returncode': 0}
+[5.208630] (-) TimerEvent: {}
+[5.227392] (aug_2024) JobEnded: {'identifier': 'aug_2024', 'rc': 0}
+[5.228030] (-) EventReactorShutdown: {}

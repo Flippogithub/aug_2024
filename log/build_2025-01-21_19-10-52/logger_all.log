@@ -1,0 +1,629 @@
+[0.264s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.264s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x79a0a668dc30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79a0a6613880>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79a0a6613880>>, mixin_verb=('build',))
+[0.614s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.614s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.614s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.614s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.615s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dkflippo/aug2024'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/BMC_2024) by extensions ['ignore', 'ignore_ament_install']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/BMC_2024) by extension 'ignore'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/BMC_2024) by extension 'ignore_ament_install'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/BMC_2024) by extensions ['colcon_pkg']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/BMC_2024) by extension 'colcon_pkg'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/BMC_2024) by extensions ['colcon_meta']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/BMC_2024) by extension 'colcon_meta'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/BMC_2024) by extensions ['ros']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/BMC_2024) by extension 'ros'
+[0.649s] DEBUG:colcon.colcon_core.package_identification:Package 'src/BMC_2024' with type 'ros.ament_cmake' and name 'BMC_2024'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/aug_2024) by extensions ['ignore', 'ignore_ament_install']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/aug_2024) by extension 'ignore'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/aug_2024) by extension 'ignore_ament_install'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/aug_2024) by extensions ['colcon_pkg']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/aug_2024) by extension 'colcon_pkg'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/aug_2024) by extensions ['colcon_meta']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/aug_2024) by extension 'colcon_meta'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/aug_2024) by extensions ['ros']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/aug_2024) by extension 'ros'
+[0.652s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aug_2024' with type 'ros.ament_cmake' and name 'aug_2024'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024) by extensions ['ignore', 'ignore_ament_install']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024) by extension 'ignore'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024) by extension 'ignore_ament_install'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024) by extensions ['colcon_pkg']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024) by extension 'colcon_pkg'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024) by extensions ['colcon_meta']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024) by extension 'colcon_meta'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024) by extensions ['ros']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024) by extension 'ros'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024) by extensions ['cmake', 'python']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024) by extension 'cmake'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024) by extension 'python'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024) by extensions ['python_setup_py']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024) by extension 'python_setup_py'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware) by extension 'ignore'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware) by extension 'ignore_ament_install'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware) by extensions ['colcon_pkg']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware) by extension 'colcon_pkg'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware) by extensions ['colcon_meta']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware) by extension 'colcon_meta'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware) by extensions ['ros']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware) by extension 'ros'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware) by extensions ['cmake', 'python']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware) by extension 'cmake'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware) by extension 'python'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware) by extensions ['python_setup_py']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware) by extension 'python_setup_py'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware/include) by extensions ['ignore', 'ignore_ament_install']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware/include) by extension 'ignore'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware/include) by extension 'ignore_ament_install'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware/include) by extensions ['colcon_pkg']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware/include) by extension 'colcon_pkg'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware/include) by extensions ['colcon_meta']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware/include) by extension 'colcon_meta'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware/include) by extensions ['ros']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware/include) by extension 'ros'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware/include) by extensions ['cmake', 'python']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware/include) by extension 'cmake'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware/include) by extension 'python'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware/include) by extensions ['python_setup_py']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware/include) by extension 'python_setup_py'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware/include/rowbot_bmc) by extensions ['ignore', 'ignore_ament_install']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware/include/rowbot_bmc) by extension 'ignore'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware/include/rowbot_bmc) by extension 'ignore_ament_install'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware/include/rowbot_bmc) by extensions ['colcon_pkg']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware/include/rowbot_bmc) by extension 'colcon_pkg'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware/include/rowbot_bmc) by extensions ['colcon_meta']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware/include/rowbot_bmc) by extension 'colcon_meta'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware/include/rowbot_bmc) by extensions ['ros']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware/include/rowbot_bmc) by extension 'ros'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware/include/rowbot_bmc) by extensions ['cmake', 'python']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware/include/rowbot_bmc) by extension 'cmake'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware/include/rowbot_bmc) by extension 'python'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware/include/rowbot_bmc) by extensions ['python_setup_py']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/hardware/include/rowbot_bmc) by extension 'python_setup_py'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/include) by extensions ['ignore', 'ignore_ament_install']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/include) by extension 'ignore'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/include) by extension 'ignore_ament_install'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/include) by extensions ['colcon_pkg']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/include) by extension 'colcon_pkg'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/include) by extensions ['colcon_meta']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/include) by extension 'colcon_meta'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/include) by extensions ['ros']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/include) by extension 'ros'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/include) by extensions ['cmake', 'python']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/include) by extension 'cmake'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/include) by extension 'python'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/include) by extensions ['python_setup_py']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/include) by extension 'python_setup_py'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/include/bmc_2024) by extensions ['ignore', 'ignore_ament_install']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/include/bmc_2024) by extension 'ignore'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/include/bmc_2024) by extension 'ignore_ament_install'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/include/bmc_2024) by extensions ['colcon_pkg']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/include/bmc_2024) by extension 'colcon_pkg'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/include/bmc_2024) by extensions ['colcon_meta']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/include/bmc_2024) by extension 'colcon_meta'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/include/bmc_2024) by extensions ['ros']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/include/bmc_2024) by extension 'ros'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/include/bmc_2024) by extensions ['cmake', 'python']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/include/bmc_2024) by extension 'cmake'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/include/bmc_2024) by extension 'python'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/include/bmc_2024) by extensions ['python_setup_py']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/include/bmc_2024) by extension 'python_setup_py'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/src) by extensions ['ignore', 'ignore_ament_install']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/src) by extension 'ignore'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/src) by extension 'ignore_ament_install'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/src) by extensions ['colcon_pkg']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/src) by extension 'colcon_pkg'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/src) by extensions ['colcon_meta']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/src) by extension 'colcon_meta'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/src) by extensions ['ros']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/src) by extension 'ros'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/src) by extensions ['cmake', 'python']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/src) by extension 'cmake'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/src) by extension 'python'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/src) by extensions ['python_setup_py']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/bmc_2024/src) by extension 'python_setup_py'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'ignore'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'ignore_ament_install'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['colcon_pkg']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'colcon_pkg'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['colcon_meta']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'colcon_meta'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['ros']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'ros'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['cmake', 'python']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'cmake'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'python'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['python_setup_py']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'python_setup_py'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extensions ['ignore', 'ignore_ament_install']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extension 'ignore'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extension 'ignore_ament_install'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extensions ['colcon_pkg']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extension 'colcon_pkg'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extensions ['colcon_meta']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extension 'colcon_meta'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extensions ['ros']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extension 'ros'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extensions ['cmake', 'python']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extension 'cmake'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extension 'python'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extensions ['python_setup_py']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extension 'python_setup_py'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc) by extension 'ignore'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc) by extension 'ignore_ament_install'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc) by extensions ['colcon_pkg']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc) by extension 'colcon_pkg'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc) by extensions ['colcon_meta']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc) by extension 'colcon_meta'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc) by extensions ['ros']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc) by extension 'ros'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc) by extensions ['cmake', 'python']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc) by extension 'cmake'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc) by extension 'python'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc) by extensions ['python_setup_py']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc) by extension 'python_setup_py'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc/img) by extensions ['ignore', 'ignore_ament_install']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc/img) by extension 'ignore'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc/img) by extension 'ignore_ament_install'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc/img) by extensions ['colcon_pkg']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc/img) by extension 'colcon_pkg'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc/img) by extensions ['colcon_meta']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc/img) by extension 'colcon_meta'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc/img) by extensions ['ros']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc/img) by extension 'ros'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc/img) by extensions ['cmake', 'python']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc/img) by extension 'cmake'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc/img) by extension 'python'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc/img) by extensions ['python_setup_py']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/doc/img) by extension 'python_setup_py'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extension 'ignore'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extension 'ignore_ament_install'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extensions ['colcon_pkg']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extension 'colcon_pkg'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extensions ['colcon_meta']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extension 'colcon_meta'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extensions ['ros']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extension 'ros'
+[0.669s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros2_control/gazebo_ros2_control' with type 'ros.ament_cmake' and name 'gazebo_ros2_control'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extension 'ignore'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extension 'ignore_ament_install'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extensions ['colcon_pkg']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extension 'colcon_pkg'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extensions ['colcon_meta']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extension 'colcon_meta'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extensions ['ros']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extension 'ros'
+[0.674s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros2_control/gazebo_ros2_control_demos' with type 'ros.ament_cmake' and name 'gazebo_ros2_control_demos'
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_nav2) by extensions ['ignore', 'ignore_ament_install']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_nav2) by extension 'ignore'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_nav2) by extension 'ignore_ament_install'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_nav2) by extensions ['colcon_pkg']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_nav2) by extension 'colcon_pkg'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_nav2) by extensions ['colcon_meta']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_nav2) by extension 'colcon_meta'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_nav2) by extensions ['ros']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_nav2) by extension 'ros'
+[0.678s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_nav2' with type 'ros.ament_cmake' and name 'my_robot_nav2'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[0.679s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[0.680s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.680s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.680s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.680s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.680s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.713s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.720s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/dkflippo/aug2024/install
+[0.723s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 414 installed packages in /opt/ros/humble
+[0.727s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_args' from command line to 'None'
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_target' from command line to 'None'
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.831s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/build/gazebo_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/install/gazebo_ros2_control', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/gazebo_ros2_control/gazebo_ros2_control', 'symlink_install': False, 'test_result_base': None}
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'my_robot_nav2' build argument 'cmake_args' from command line to 'None'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'my_robot_nav2' build argument 'cmake_target' from command line to 'None'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'my_robot_nav2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'my_robot_nav2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'my_robot_nav2' build argument 'cmake_clean_first' from command line to 'False'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'my_robot_nav2' build argument 'cmake_force_configure' from command line to 'False'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'my_robot_nav2' build argument 'ament_cmake_args' from command line to 'None'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'my_robot_nav2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'my_robot_nav2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.833s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_nav2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/build/my_robot_nav2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/install/my_robot_nav2', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/my_robot_nav2', 'symlink_install': False, 'test_result_base': None}
+[0.834s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[0.834s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[0.834s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.834s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.834s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.834s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.834s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.834s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.834s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.834s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/install/sllidar_ros2', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/sllidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'BMC_2024' build argument 'cmake_args' from command line to 'None'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'BMC_2024' build argument 'cmake_target' from command line to 'None'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'BMC_2024' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'BMC_2024' build argument 'cmake_clean_cache' from command line to 'False'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'BMC_2024' build argument 'cmake_clean_first' from command line to 'False'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'BMC_2024' build argument 'cmake_force_configure' from command line to 'False'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'BMC_2024' build argument 'ament_cmake_args' from command line to 'None'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'BMC_2024' build argument 'catkin_cmake_args' from command line to 'None'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'BMC_2024' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.836s] DEBUG:colcon.colcon_core.verb:Building package 'BMC_2024' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/build/BMC_2024', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/install/BMC_2024', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/BMC_2024', 'symlink_install': False, 'test_result_base': None}
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_args' from command line to 'None'
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_target' from command line to 'None'
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_clean_first' from command line to 'False'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_force_configure' from command line to 'False'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'ament_cmake_args' from command line to 'None'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.838s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros2_control_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/build/gazebo_ros2_control_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/install/gazebo_ros2_control_demos', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/gazebo_ros2_control/gazebo_ros2_control_demos', 'symlink_install': False, 'test_result_base': None}
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'aug_2024' build argument 'cmake_args' from command line to 'None'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'aug_2024' build argument 'cmake_target' from command line to 'None'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'aug_2024' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'aug_2024' build argument 'cmake_clean_cache' from command line to 'False'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'aug_2024' build argument 'cmake_clean_first' from command line to 'False'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'aug_2024' build argument 'cmake_force_configure' from command line to 'False'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'aug_2024' build argument 'ament_cmake_args' from command line to 'None'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'aug_2024' build argument 'catkin_cmake_args' from command line to 'None'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'aug_2024' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.839s] DEBUG:colcon.colcon_core.verb:Building package 'aug_2024' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/build/aug_2024', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/install/aug_2024', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/aug_2024', 'symlink_install': False, 'test_result_base': None}
+[0.839s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.844s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.845s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dkflippo/aug2024/src/gazebo_ros2_control/gazebo_ros2_control' with build type 'ament_cmake'
+[0.845s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dkflippo/aug2024/src/gazebo_ros2_control/gazebo_ros2_control'
+[0.850s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.851s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.851s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.859s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dkflippo/aug2024/src/my_robot_nav2' with build type 'ament_cmake'
+[0.860s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dkflippo/aug2024/src/my_robot_nav2'
+[0.861s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.861s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.871s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dkflippo/aug2024/src/sllidar_ros2' with build type 'ament_cmake'
+[0.871s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dkflippo/aug2024/src/sllidar_ros2'
+[0.872s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.872s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.896s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dkflippo/aug2024/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dkflippo/aug2024/build/gazebo_ros2_control -- -j12 -l12
+[0.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dkflippo/aug2024/build/my_robot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dkflippo/aug2024/build/my_robot_nav2 -- -j12 -l12
+[0.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dkflippo/aug2024/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dkflippo/aug2024/build/sllidar_ros2 -- -j12 -l12
+[1.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dkflippo/aug2024/build/my_robot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dkflippo/aug2024/build/my_robot_nav2 -- -j12 -l12
+[1.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dkflippo/aug2024/build/my_robot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dkflippo/aug2024/build/my_robot_nav2
+[1.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dkflippo/aug2024/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dkflippo/aug2024/build/sllidar_ros2 -- -j12 -l12
+[1.159s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dkflippo/aug2024/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dkflippo/aug2024/build/gazebo_ros2_control -- -j12 -l12
+[1.183s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_nav2)
+[1.185s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dkflippo/aug2024/build/my_robot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dkflippo/aug2024/build/my_robot_nav2
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/my_robot_nav2' for CMake module files
+[1.198s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/my_robot_nav2' for CMake config files
+[1.199s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_nav2', 'cmake_prefix_path')
+[1.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dkflippo/aug2024/install/my_robot_nav2/share/my_robot_nav2/hook/cmake_prefix_path.ps1'
+[1.204s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dkflippo/aug2024/install/my_robot_nav2/share/my_robot_nav2/hook/cmake_prefix_path.dsv'
+[1.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dkflippo/aug2024/install/my_robot_nav2/share/my_robot_nav2/hook/cmake_prefix_path.sh'
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/my_robot_nav2/bin'
+[1.209s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/my_robot_nav2/lib/pkgconfig/my_robot_nav2.pc'
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/my_robot_nav2/lib/python3.10/site-packages'
+[1.211s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/my_robot_nav2/bin'
+[1.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/my_robot_nav2/share/my_robot_nav2/package.ps1'
+[1.215s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dkflippo/aug2024/install/my_robot_nav2/share/my_robot_nav2/package.dsv'
+[1.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/my_robot_nav2/share/my_robot_nav2/package.sh'
+[1.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/my_robot_nav2/share/my_robot_nav2/package.bash'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/my_robot_nav2/share/my_robot_nav2/package.zsh'
+[1.223s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dkflippo/aug2024/install/my_robot_nav2/share/colcon-core/packages/my_robot_nav2)
+[1.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dkflippo/aug2024/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dkflippo/aug2024/build/gazebo_ros2_control
+[1.298s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_nav2)
+[1.299s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/my_robot_nav2' for CMake module files
+[1.303s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/my_robot_nav2' for CMake config files
+[1.305s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_nav2', 'cmake_prefix_path')
+[1.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dkflippo/aug2024/install/my_robot_nav2/share/my_robot_nav2/hook/cmake_prefix_path.ps1'
+[1.306s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dkflippo/aug2024/install/my_robot_nav2/share/my_robot_nav2/hook/cmake_prefix_path.dsv'
+[1.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dkflippo/aug2024/install/my_robot_nav2/share/my_robot_nav2/hook/cmake_prefix_path.sh'
+[1.309s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/my_robot_nav2/bin'
+[1.309s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/my_robot_nav2/lib/pkgconfig/my_robot_nav2.pc'
+[1.310s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/my_robot_nav2/lib/python3.10/site-packages'
+[1.311s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/my_robot_nav2/bin'
+[1.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/my_robot_nav2/share/my_robot_nav2/package.ps1'
+[1.313s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dkflippo/aug2024/install/my_robot_nav2/share/my_robot_nav2/package.dsv'
+[1.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/my_robot_nav2/share/my_robot_nav2/package.sh'
+[1.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/my_robot_nav2/share/my_robot_nav2/package.bash'
+[1.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/my_robot_nav2/share/my_robot_nav2/package.zsh'
+[1.319s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dkflippo/aug2024/install/my_robot_nav2/share/colcon-core/packages/my_robot_nav2)
+[1.321s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control)
+[1.322s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/gazebo_ros2_control' for CMake module files
+[1.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dkflippo/aug2024/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dkflippo/aug2024/build/gazebo_ros2_control
+[1.326s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/gazebo_ros2_control' for CMake config files
+[1.327s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control', 'cmake_prefix_path')
+[1.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.ps1'
+[1.329s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.dsv'
+[1.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.sh'
+[1.334s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/gazebo_ros2_control/lib'
+[1.335s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control', 'ld_library_path_lib')
+[1.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.ps1'
+[1.339s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.dsv'
+[1.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.sh'
+[1.342s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/gazebo_ros2_control/bin'
+[1.343s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/gazebo_ros2_control/lib/pkgconfig/gazebo_ros2_control.pc'
+[1.344s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/gazebo_ros2_control/lib/python3.10/site-packages'
+[1.344s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/gazebo_ros2_control/bin'
+[1.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/package.ps1'
+[1.346s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv'
+[1.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/package.sh'
+[1.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/package.bash'
+[1.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/package.zsh'
+[1.358s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dkflippo/aug2024/install/gazebo_ros2_control/share/colcon-core/packages/gazebo_ros2_control)
+[1.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dkflippo/aug2024/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dkflippo/aug2024/build/sllidar_ros2
+[1.428s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[1.431s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/sllidar_ros2' for CMake module files
+[1.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dkflippo/aug2024/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dkflippo/aug2024/build/sllidar_ros2
+[1.435s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/sllidar_ros2' for CMake config files
+[1.436s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[1.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dkflippo/aug2024/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[1.438s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dkflippo/aug2024/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[1.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dkflippo/aug2024/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[1.441s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/sllidar_ros2/lib'
+[1.442s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/sllidar_ros2/bin'
+[1.442s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[1.444s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/sllidar_ros2/lib/python3.10/site-packages'
+[1.445s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/sllidar_ros2/bin'
+[1.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[1.447s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dkflippo/aug2024/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[1.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[1.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[1.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[1.455s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dkflippo/aug2024/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[1.464s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control)
+[1.465s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/gazebo_ros2_control' for CMake module files
+[1.465s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/gazebo_ros2_control' for CMake config files
+[1.465s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control', 'cmake_prefix_path')
+[1.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.ps1'
+[1.466s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.dsv'
+[1.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.sh'
+[1.470s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/gazebo_ros2_control/lib'
+[1.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control', 'ld_library_path_lib')
+[1.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.ps1'
+[1.472s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.dsv'
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.sh'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/gazebo_ros2_control/bin'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/gazebo_ros2_control/lib/pkgconfig/gazebo_ros2_control.pc'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/gazebo_ros2_control/lib/python3.10/site-packages'
+[1.475s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/gazebo_ros2_control/bin'
+[1.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/package.ps1'
+[1.478s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv'
+[1.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/package.sh'
+[1.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/package.bash'
+[1.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/package.zsh'
+[1.482s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dkflippo/aug2024/install/gazebo_ros2_control/share/colcon-core/packages/gazebo_ros2_control)
+[1.483s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dkflippo/aug2024/src/BMC_2024' with build type 'ament_cmake'
+[1.483s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dkflippo/aug2024/src/BMC_2024'
+[1.485s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.486s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.500s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dkflippo/aug2024/src/gazebo_ros2_control/gazebo_ros2_control_demos' with build type 'ament_cmake'
+[1.501s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dkflippo/aug2024/src/gazebo_ros2_control/gazebo_ros2_control_demos'
+[1.503s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.503s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dkflippo/aug2024/build/BMC_2024': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble LD_LIBRARY_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control/lib:/home/dkflippo/aug2024/install/BMC_2024/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dkflippo/aug2024/build/BMC_2024 -- -j12 -l12
+[1.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dkflippo/aug2024/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble LD_LIBRARY_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control/lib:/home/dkflippo/aug2024/install/BMC_2024/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dkflippo/aug2024/build/gazebo_ros2_control_demos -- -j12 -l12
+[1.819s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[1.821s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/sllidar_ros2' for CMake module files
+[1.824s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/sllidar_ros2' for CMake config files
+[1.824s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[1.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dkflippo/aug2024/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[1.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dkflippo/aug2024/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[1.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dkflippo/aug2024/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[1.833s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/sllidar_ros2/lib'
+[1.834s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/sllidar_ros2/bin'
+[1.834s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[1.834s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/sllidar_ros2/lib/python3.10/site-packages'
+[1.834s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/sllidar_ros2/bin'
+[1.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[1.837s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dkflippo/aug2024/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[1.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[1.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[1.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[1.848s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dkflippo/aug2024/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[1.857s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dkflippo/aug2024/build/BMC_2024' returned '0': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble LD_LIBRARY_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control/lib:/home/dkflippo/aug2024/install/BMC_2024/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dkflippo/aug2024/build/BMC_2024 -- -j12 -l12
+[1.865s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dkflippo/aug2024/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble LD_LIBRARY_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control/lib:/home/dkflippo/aug2024/install/BMC_2024/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dkflippo/aug2024/build/gazebo_ros2_control_demos -- -j12 -l12
+[1.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dkflippo/aug2024/build/BMC_2024': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble LD_LIBRARY_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control/lib:/home/dkflippo/aug2024/install/BMC_2024/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/dkflippo/aug2024/build/BMC_2024
+[2.016s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(BMC_2024)
+[2.018s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/BMC_2024' for CMake module files
+[2.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dkflippo/aug2024/build/BMC_2024' returned '0': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble LD_LIBRARY_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control/lib:/home/dkflippo/aug2024/install/BMC_2024/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/dkflippo/aug2024/build/BMC_2024
+[2.022s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/BMC_2024' for CMake config files
+[2.023s] Level 1:colcon.colcon_core.shell:create_environment_hook('BMC_2024', 'cmake_prefix_path')
+[2.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/hook/cmake_prefix_path.ps1'
+[2.027s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/hook/cmake_prefix_path.dsv'
+[2.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/hook/cmake_prefix_path.sh'
+[2.030s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/BMC_2024/lib'
+[2.030s] Level 1:colcon.colcon_core.shell:create_environment_hook('BMC_2024', 'ld_library_path_lib')
+[2.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/hook/ld_library_path_lib.ps1'
+[2.032s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/hook/ld_library_path_lib.dsv'
+[2.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/hook/ld_library_path_lib.sh'
+[2.036s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/BMC_2024/bin'
+[2.037s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/BMC_2024/lib/pkgconfig/BMC_2024.pc'
+[2.037s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/BMC_2024/lib/python3.10/site-packages'
+[2.038s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/BMC_2024/bin'
+[2.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/package.ps1'
+[2.041s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/package.dsv'
+[2.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/package.sh'
+[2.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/package.bash'
+[2.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/package.zsh'
+[2.051s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dkflippo/aug2024/install/BMC_2024/share/colcon-core/packages/BMC_2024)
+[2.062s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dkflippo/aug2024/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble LD_LIBRARY_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control/lib:/home/dkflippo/aug2024/install/BMC_2024/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/dkflippo/aug2024/build/gazebo_ros2_control_demos
+[2.104s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control_demos)
+[2.105s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/gazebo_ros2_control_demos' for CMake module files
+[2.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dkflippo/aug2024/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble LD_LIBRARY_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control/lib:/home/dkflippo/aug2024/install/BMC_2024/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/dkflippo/aug2024/build/gazebo_ros2_control_demos
+[2.110s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/gazebo_ros2_control_demos' for CMake config files
+[2.111s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control_demos', 'cmake_prefix_path')
+[2.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.ps1'
+[2.113s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.dsv'
+[2.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.sh'
+[2.116s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib'
+[2.117s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/bin'
+[2.117s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib/pkgconfig/gazebo_ros2_control_demos.pc'
+[2.119s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib/python3.10/site-packages'
+[2.120s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/bin'
+[2.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.ps1'
+[2.126s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv'
+[2.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.sh'
+[2.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.bash'
+[2.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.zsh'
+[2.134s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/colcon-core/packages/gazebo_ros2_control_demos)
+[2.155s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(BMC_2024)
+[2.157s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/BMC_2024' for CMake module files
+[2.158s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/BMC_2024' for CMake config files
+[2.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('BMC_2024', 'cmake_prefix_path')
+[2.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/hook/cmake_prefix_path.ps1'
+[2.165s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/hook/cmake_prefix_path.dsv'
+[2.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/hook/cmake_prefix_path.sh'
+[2.166s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/BMC_2024/lib'
+[2.167s] Level 1:colcon.colcon_core.shell:create_environment_hook('BMC_2024', 'ld_library_path_lib')
+[2.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/hook/ld_library_path_lib.ps1'
+[2.169s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/hook/ld_library_path_lib.dsv'
+[2.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/hook/ld_library_path_lib.sh'
+[2.172s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/BMC_2024/bin'
+[2.172s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/BMC_2024/lib/pkgconfig/BMC_2024.pc'
+[2.173s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/BMC_2024/lib/python3.10/site-packages'
+[2.174s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/BMC_2024/bin'
+[2.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/package.ps1'
+[2.178s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/package.dsv'
+[2.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/package.sh'
+[2.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/package.bash'
+[2.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/package.zsh'
+[2.184s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dkflippo/aug2024/install/BMC_2024/share/colcon-core/packages/BMC_2024)
+[2.185s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dkflippo/aug2024/src/aug_2024' with build type 'ament_cmake'
+[2.185s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dkflippo/aug2024/src/aug_2024'
+[2.187s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.187s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dkflippo/aug2024/build/aug_2024': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/BMC_2024:/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/opt/ros/humble /usr/bin/cmake --build /home/dkflippo/aug2024/build/aug_2024 -- -j12 -l12
+[2.307s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control_demos)
+[2.308s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/gazebo_ros2_control_demos' for CMake module files
+[2.310s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/gazebo_ros2_control_demos' for CMake config files
+[2.310s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control_demos', 'cmake_prefix_path')
+[2.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.ps1'
+[2.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.dsv'
+[2.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.sh'
+[2.318s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib'
+[2.319s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/bin'
+[2.319s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib/pkgconfig/gazebo_ros2_control_demos.pc'
+[2.320s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib/python3.10/site-packages'
+[2.321s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/bin'
+[2.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.ps1'
+[2.331s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv'
+[2.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.sh'
+[2.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.bash'
+[2.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.zsh'
+[2.342s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/colcon-core/packages/gazebo_ros2_control_demos)
+[3.269s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dkflippo/aug2024/build/aug_2024' returned '0': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/BMC_2024:/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/opt/ros/humble /usr/bin/cmake --build /home/dkflippo/aug2024/build/aug_2024 -- -j12 -l12
+[3.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dkflippo/aug2024/build/aug_2024': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/BMC_2024:/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/opt/ros/humble /usr/bin/cmake --install /home/dkflippo/aug2024/build/aug_2024
+[3.490s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aug_2024)
+[3.491s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/aug_2024' for CMake module files
+[3.493s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/aug_2024' for CMake config files
+[3.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dkflippo/aug2024/build/aug_2024' returned '0': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/BMC_2024:/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/opt/ros/humble /usr/bin/cmake --install /home/dkflippo/aug2024/build/aug_2024
+[3.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('aug_2024', 'cmake_prefix_path')
+[3.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dkflippo/aug2024/install/aug_2024/share/aug_2024/hook/cmake_prefix_path.ps1'
+[3.500s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dkflippo/aug2024/install/aug_2024/share/aug_2024/hook/cmake_prefix_path.dsv'
+[3.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dkflippo/aug2024/install/aug_2024/share/aug_2024/hook/cmake_prefix_path.sh'
+[3.503s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/aug_2024/lib'
+[3.503s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/aug_2024/bin'
+[3.503s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/aug_2024/lib/pkgconfig/aug_2024.pc'
+[3.504s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/aug_2024/lib/python3.10/site-packages'
+[3.504s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/aug_2024/bin'
+[3.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/aug_2024/share/aug_2024/package.ps1'
+[3.506s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dkflippo/aug2024/install/aug_2024/share/aug_2024/package.dsv'
+[3.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/aug_2024/share/aug_2024/package.sh'
+[3.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/aug_2024/share/aug_2024/package.bash'
+[3.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/aug_2024/share/aug_2024/package.zsh'
+[3.509s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dkflippo/aug2024/install/aug_2024/share/colcon-core/packages/aug_2024)
+[3.587s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aug_2024)
+[3.588s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/aug_2024' for CMake module files
+[3.589s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/aug_2024' for CMake config files
+[3.591s] Level 1:colcon.colcon_core.shell:create_environment_hook('aug_2024', 'cmake_prefix_path')
+[3.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dkflippo/aug2024/install/aug_2024/share/aug_2024/hook/cmake_prefix_path.ps1'
+[3.595s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dkflippo/aug2024/install/aug_2024/share/aug_2024/hook/cmake_prefix_path.dsv'
+[3.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dkflippo/aug2024/install/aug_2024/share/aug_2024/hook/cmake_prefix_path.sh'
+[3.598s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/aug_2024/lib'
+[3.598s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/aug_2024/bin'
+[3.598s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/aug_2024/lib/pkgconfig/aug_2024.pc'
+[3.599s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/aug_2024/lib/python3.10/site-packages'
+[3.599s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/install/aug_2024/bin'
+[3.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/aug_2024/share/aug_2024/package.ps1'
+[3.601s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dkflippo/aug2024/install/aug_2024/share/aug_2024/package.dsv'
+[3.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/aug_2024/share/aug_2024/package.sh'
+[3.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/aug_2024/share/aug_2024/package.bash'
+[3.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/install/aug_2024/share/aug_2024/package.zsh'
+[3.604s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dkflippo/aug2024/install/aug_2024/share/colcon-core/packages/aug_2024)
+[3.605s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.606s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.606s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.606s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.619s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.620s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.620s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.655s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.656s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dkflippo/aug2024/install/local_setup.ps1'
+[3.659s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dkflippo/aug2024/install/_local_setup_util_ps1.py'
+[3.664s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dkflippo/aug2024/install/setup.ps1'
+[3.668s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dkflippo/aug2024/install/local_setup.sh'
+[3.669s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dkflippo/aug2024/install/_local_setup_util_sh.py'
+[3.670s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dkflippo/aug2024/install/setup.sh'
+[3.675s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dkflippo/aug2024/install/local_setup.bash'
+[3.679s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dkflippo/aug2024/install/setup.bash'
+[3.687s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dkflippo/aug2024/install/local_setup.zsh'
+[3.688s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dkflippo/aug2024/install/setup.zsh'

@@ -18,9 +18,35 @@ diff_cont:
     base_frame_id: base_footprint
     left_wheel_names: ['rear_left_wheel_joint']
     right_wheel_names: ['rear_right_wheel_joint']
-    wheel_separation: 0.4
+    wheel_separation: 0.36
     wheel_radius: 0.1
     use_stamped_vel: false
+    
+    # Add these velocity and acceleration limits
+    linear.x.has_velocity_limits: true
+    linear.x.has_acceleration_limits: true
+    linear.x.max_velocity: 0.5
+    linear.x.min_velocity: -0.5
+    linear.x.max_acceleration: 1.0
+    velocity_controller:
+      p_gain: 0.1  # Lower proportional gain
+      i_gain: 0.01 # Lower integral gain
+      d_gain: 0.001 # Lower derivative gain
+    angular.z.has_velocity_limits: true
+    angular.z.has_acceleration_limits: true
+    angular.z.max_velocity: 1.0
+    angular.z.min_velocity: -1.0
+    angular.z.max_acceleration: 1.0
+    
+    # Add state publishing configuration
+    publish_rate: 50.0
+    open_loop: false
+    odom_frame_id: "odom"
+    enable_odom_tf: true
+    
+    # Wheel joint configuration
+    position_feedback: false
+    velocity_rolling_window_size: 10
 
 joint_broad:
   ros__parameters: {}

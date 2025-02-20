@@ -1,0 +1,41 @@
+[0.040s] Invoking command in '/home/dkflippo/aug2024/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dkflippo/aug2024/build/gazebo_ros2_control -- -j12 -l12
+[0.192s] [ 25%] [32mBuilding CXX object CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o[0m
+[23.164s] [ 50%] [32m[1mLinking CXX shared library libgazebo_ros2_control.so[0m
+[24.999s] [ 50%] Built target gazebo_ros2_control
+[25.051s] [ 75%] [32mBuilding CXX object CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o[0m
+[45.828s] [100%] [32m[1mLinking CXX shared library libgazebo_hardware_plugins.so[0m
+[47.089s] [100%] Built target gazebo_hardware_plugins
+[47.113s] Invoked command in '/home/dkflippo/aug2024/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dkflippo/aug2024/build/gazebo_ros2_control -- -j12 -l12
+[47.168s] Invoking command in '/home/dkflippo/aug2024/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dkflippo/aug2024/build/gazebo_ros2_control
+[47.185s] -- Install configuration: ""
+[47.185s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so
+[47.193s] -- Set runtime path of "/home/dkflippo/aug2024/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so" to ""
+[47.193s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so
+[47.199s] -- Set runtime path of "/home/dkflippo/aug2024/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so" to ""
+[47.200s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh
+[47.201s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv
+[47.201s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control/include/gazebo_ros2_control
+[47.201s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp
+[47.201s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp
+[47.202s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp
+[47.202s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/gazebo_hardware_plugins.xml
+[47.202s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control
+[47.202s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control
+[47.202s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh
+[47.203s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv
+[47.203s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh
+[47.203s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv
+[47.204s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash
+[47.204s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh
+[47.204s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh
+[47.204s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv
+[47.204s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv
+[47.204s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control
+[47.205s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control
+[47.205s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[47.205s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[47.206s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[47.206s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake
+[47.206s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake
+[47.206s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml
+[47.210s] Invoked command in '/home/dkflippo/aug2024/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dkflippo/aug2024/build/gazebo_ros2_control

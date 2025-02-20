@@ -16,8 +16,14 @@
   <xacro:macro name="cylinder_inertia" params="m r h">
     <inertial>
       <origin xyz="0 0 0" rpy="1.57 0 0" />
-      <mass value="1"/>
-      <inertia ixx="1" ixy = "0" ixz = "0" iyy="1" iyz = "0" izz="1"/>
+      <mass value="${m}"/>
+      <inertia 
+        ixx="${(m/12) * (3*r*r + h*h)}" 
+        ixy="0" 
+        ixz="0" 
+        iyy="${(m/12) * (3*r*r + h*h)}" 
+        iyz="0" 
+        izz="${(m/2) * (r*r)}"/>
     </inertial>
   </xacro:macro>
 
@@ -27,7 +33,12 @@
       <inertia ixx="1" ixy="0.0" ixz="0.0" iyy="1" iyz="0.0" izz="1"/>
     </inertial>
   </xacro:macro>
-
+  <material name="Gray">
+    <color rgba="0.5 0.5 0.5 1.0"/>
+  </material>
+  <material name="Red">
+    <color rgba="1 0 0 1"/> 
+  </material>
   <!-- Robot Base -->
   <link name="base_link">
     <visual>
@@ -45,7 +56,7 @@
       </geometry>
     </collision>
 
-    <xacro:box_inertia m="15" w="0.31" d="0.42" h="0.18"/>
+    <xacro:box_inertia m="5" w="0.31" d="0.42" h="0.18"/>
   </link>
 
   <!-- Robot Footprint -->
@@ -54,68 +65,124 @@
   <joint name="base_joint" type="fixed">
     <parent link="base_footprint"/>
     <child link="base_link"/>
-    <origin xyz="0.0 0.0 0.2" rpy="0 0 0"/>
+    <origin xyz="0.0 0.0 0.15" rpy="0 0 0"/>
   </joint>
 
   <!-- Wheels ${-(wheel_radius+wheel_zoff)}-->
 
 
-    <link name="rear_left_wheel_link">
-      <visual>
-        <origin xyz="0 0 0" rpy="1.57 0 0"/>
-        <geometry>
-          <cylinder radius="0.10" length="0.04"/>
-        </geometry>
-        <material name="Gray">
-          <color rgba="0.5 0.5 0.5 1.0"/>
-        </material>
-      </visual>
-      <collision>
-        <origin xyz="0 0 0" rpy="1.57 0 0"/>
-        <geometry>
-          <cylinder radius="0.10" length="0.04"/>
-        </geometry>
-      </collision>
-      <xacro:cylinder_inertia m="0.5" r="0.10" h="0.04"/>
-    </link>
+  <link name="rear_left_wheel_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="1.57 0 0"/>
+      <geometry>
+        <cylinder radius="0.10" length="0.04"/>
+      </geometry>
+      <material name="Gray">
+        <color rgba="0.5 0.5 0.5 1.0"/>
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="1.57 0 0"/>
+      <geometry>
+        <box size="0.19 0.01 0.01"/>
+      </geometry>
+      <material name="Red">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 1.57 1.57"/>
+      <geometry>
+        <box size="0.04 0.01 0.19"/>
+      </geometry>
+      <material name="Blue">
+        <color rgba="0 0 1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.57 0 0"/>
+      <geometry>
+        <cylinder radius="0.10" length="0.04"/>
+      </geometry>
+      <surface>
+        <friction>
+          <ode>
+            <mu>1.0</mu>
+            <mu2>1.0</mu2>
+            <fdir1>1 0 0</fdir1>
+          </ode>
+        </friction>
+      </surface>
+    </collision>
+    <xacro:cylinder_inertia m="0.75" r="0.10" h="0.04"/>
+  </link>
 
-    <link name="rear_right_wheel_link">
-      <visual>
-        <origin xyz="0 0 0" rpy="1.57 0 0"/>
-        <geometry>
-          <cylinder radius="0.10" length="0.04"/>
-        </geometry>
-        <material name="Gray">
-          <color rgba="0.5 0.5 0.5 1.0"/>
-        </material>
-      </visual>
-      <collision>
-        <origin xyz="0 0 0" rpy="1.57 0 0"/>
-        <geometry>
-          <cylinder radius="0.10" length="0.04"/>
-        </geometry>
-      </collision>
-      <xacro:cylinder_inertia m="0.5" r="0.10" h="0.04"/>
-    </link>
-
+  <link name="rear_right_wheel_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="1.57 0 0"/>
+      <geometry>
+        <cylinder radius="0.10" length="0.04"/>
+      </geometry>
+      <material name="Gray">
+        <color rgba="0.5 0.5 0.5 1.0"/>
+      </material>
+    </visual>
+    <!-- New visual element for the "spoke" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 1.57 0"/>
+      <geometry>
+        <box size="0.04 0.01 0.19"/>
+      </geometry>
+      <material name="Red">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 1.57 1.57"/>
+      <geometry>
+        <box size="0.04 0.01 0.19"/>
+      </geometry>
+      <material name="Blue">
+        <color rgba="0 0 1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.57 0 0"/>
+      <geometry>
+        <cylinder radius="0.10" length="0.04"/>
+      </geometry>
+      <surface>
+        <friction>
+          <ode>
+            <mu>1.0</mu>
+            <mu2>1.0</mu2>
+            <fdir1>1 0 0</fdir1>
+          </ode>
+        </friction>
+      </surface>
+    </collision>
+    <xacro:cylinder_inertia m="0.75" r="0.10" h="0.04"/>
+  </link>
   <!--xacro:wheel prefix="rear_left_wheel" x_reflect="-1" y_reflect="1" />
   <xacro:wheel prefix="rear_right_wheel" x_reflect="-1" y_reflect="-1" /-->
   
   <joint name="rear_left_wheel_joint" type="continuous">
-      <parent link="base_link"/>
-      <child link="rear_left_wheel_link"/>
-      <origin xyz="-0.12 .18 -.05" rpy="0 0 0"/>
-      <axis xyz="0 -1 0"/>
-      <dynamics damping="0.1" friction="0.1"/>
+    <parent link="base_link"/>
+    <child link="rear_left_wheel_link"/>
+    <origin xyz="0.05 .25 -.03" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <dynamics damping="0.5" friction="0.1"/>
   </joint>
- 
+
   <joint name="rear_right_wheel_joint" type="continuous">
-      <parent link="base_link"/>
-      <child link="rear_right_wheel_link"/>
-      <origin xyz="-0.12 -.18 -.05" rpy="0 0 0"/>
-      <axis xyz="0 -1 0"/>
-      <dynamics damping="0.1" friction="0.1"/>
+    <parent link="base_link"/>
+    <child link="rear_right_wheel_link"/>
+    <origin xyz="0.05 -.25 -.03" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <dynamics damping="0.5" friction="0.1"/>
   </joint>
+
+
 
   <!-- Caster Wheel -->
   <link name="front_caster">
@@ -132,16 +199,94 @@
       <geometry>
         <sphere radius=".06"/>
       </geometry>
+      <surface>
+        <friction>
+          <ode>
+            <mu>0.0</mu>             <!-- Zero friction -->
+            <mu2>0.0</mu2>           <!-- Zero friction -->
+            <slip1>0.0</slip1>
+            <slip2>0.0</slip2>
+          </ode>
+        </friction>
+        <contact>
+          <ode>
+            <soft_cfm>0.0</soft_cfm>
+            <soft_erp>0.2</soft_erp>
+            <kp>1e3</kp>
+            <kd>1.0</kd>
+          </ode>
+        </contact>
+      </surface>
     </collision>
-
-    <xacro:sphere_inertia m="0.5" r=".06"/>
+    <xacro:sphere_inertia m="0.01" r=".06"/>  <!-- Much lower mass -->
   </link>
 
   <joint name="caster_joint" type="fixed">
     <parent link="base_link"/>
     <child link="front_caster"/>
-    <origin xyz="0.14 0.0 -.09" rpy="0 0 0"/>
+    <origin xyz="-0.14 0.0 -.07" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>  <!-- Add this to allow rotation around Z axis -->
+    <dynamics damping="0.0" friction="0.0"/>  <!-- Add this for free rotation -->
   </joint>
+  
+  <link name="camera_link">
+    <visual>
+      <origin xyz="0.1 0 0.2" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.05 0.05 0.05"/>
+      </geometry>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <joint name="camera_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="camera_link"/>
+    <origin xyz="0.1 0 0.2" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Add Gazebo camera sensor -->
+  <gazebo reference="camera_link">
+    <sensor name="camera" type="camera">
+      <pose>0 0 0 0 0 0</pose>
+      <visualize>true</visualize>
+      <update_rate>10</update_rate>
+      <camera>
+        <horizontal_fov>1.047</horizontal_fov>
+        <image>
+          <width>640</width>
+          <height>480</height>
+        </image>
+        <clip>
+          <near>0.1</near>
+          <far>100</far>
+        </clip>
+      </camera>
+      <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+        <alwaysOn>true</alwaysOn>
+        <updateRate>0.0</updateRate>
+        <cameraName>camera</cameraName>
+        <imageTopicName>image_raw</imageTopicName>
+        <cameraInfoTopicName>camera_info</cameraInfoTopicName>
+        <frameName>camera_link</frameName>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+  <gazebo reference="front_caster">
+    <material>Gazebo/Red</material>
+    <mu1>0.0</mu1>
+    <mu2>0.0</mu2>
+    <kp>1000000.0</kp>
+    <kd>1.0</kd>
+    <visual>
+        <plugin name="caster_trail" filename="libgazebo_ros_trail_visual.so">
+            <trail_length>5</trail_length>
+        </plugin>
+    </visual>
+  </gazebo>
 
   <link name="imu_link">
     <visual>
@@ -234,7 +379,7 @@
     </sensor>
   </gazebo>
 
-  <ros2_control name="AUG2024System" type="system">
+ <ros2_control name="AUG2024System" type="system">
     <hardware>
       <plugin>gazebo_ros2_control/GazeboSystem</plugin>
     </hardware>
@@ -244,7 +389,10 @@
         <param name="min">-10</param>
         <param name="max">10</param>
       </command_interface>
-      <state_interface name="velocity"/>
+      <state_interface name="velocity">
+        <param name="initial_value">0.0</param>
+        <param name="deadband">0.001</param>
+      </state_interface>
       <state_interface name="position"/>
     </joint>
 
@@ -253,11 +401,14 @@
         <param name="min">-10</param>
         <param name="max">10</param>
       </command_interface>
-      <state_interface name="velocity"/>
+      <state_interface name="velocity">
+        <param name="initial_value">0.0</param>
+        <param name="deadband">0.001</param>
+      </state_interface>
       <state_interface name="position"/>
     </joint>
   </ros2_control>
-
+  
   <gazebo>
     <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
       <robotNamespace>/</robotNamespace>
@@ -265,6 +416,30 @@
       <parameters>$(find aug_2024)/config/gazebo_ros2_control_params.yaml</parameters>
     </plugin>
     <update_rate>50.0</update_rate>
+  </gazebo>
+
+  <gazebo reference="rear_left_wheel_link">
+    <mu1>1.5</mu1>
+    <mu2>1.5</mu2>
+    <slip1>0.01</slip1>
+    <slip2>0.01</slip2>
+    <kp>100000.0</kp>
+    <kd>1.0</kd>
+    <minDepth>0.001</minDepth>
+    <maxVel>0.5</maxVel>
+    <fdir1>1 0 0</fdir1>
+  </gazebo>
+
+  <gazebo reference="rear_right_wheel_link">
+    <mu1>1.5</mu1>
+    <mu2>1.5</mu2>
+    <slip1>0.01</slip1>
+    <slip2>0.01</slip2>
+    <kp>100000.0</kp>
+    <kd>1.0</kd>
+    <minDepth>0.001</minDepth>
+    <maxVel>0.5</maxVel>
+    <fdir1>1 0 0</fdir1>
   </gazebo>
 
   <link name="lidar_link">
@@ -291,7 +466,7 @@
     <origin xyz="0 0 0.1" rpy="0 0 0"/>
   </joint>
 
-  <gazebo reference="lidar_link">
+<gazebo reference="lidar_link">
     <sensor type="ray" name="lidar">
       <pose>0 0 0 0 0 0</pose>
       <visualize>true</visualize>
@@ -301,10 +476,11 @@
           <horizontal>
             <samples>360</samples>
             <resolution>1</resolution>
-            <min_angle>-3.14159</min_angle>
-            <max_angle>3.14159</max_angle>
+            <min_angle>-2.356194</min_angle>
+            <max_angle>2.356194</max_angle>
           </horizontal>
         </scan>
+
         <range>
           <min>0.3</min>
           <max>12.0</max>
@@ -319,6 +495,6 @@
         <frame_name>lidar_link</frame_name>
       </plugin>
     </sensor>
-  </gazebo>
+</gazebo>
 
 </robot>

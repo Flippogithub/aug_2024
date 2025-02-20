@@ -1,0 +1,84 @@
+[0.019s] Invoking command in '/home/dkflippo/aug2024/build/aug_2024': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/BMC_2024:/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/opt/ros/humble /usr/bin/cmake --build /home/dkflippo/aug2024/build/aug_2024 -- -j12 -l12
+[0.102s] Built target ament_cmake_python_copy_aug_2024
+[0.354s] running egg_info
+[0.355s] writing aug_2024.egg-info/PKG-INFO
+[0.355s] writing dependency_links to aug_2024.egg-info/dependency_links.txt
+[0.355s] writing top-level names to aug_2024.egg-info/top_level.txt
+[0.357s] reading manifest file 'aug_2024.egg-info/SOURCES.txt'
+[0.357s] writing manifest file 'aug_2024.egg-info/SOURCES.txt'
+[0.380s] Built target ament_cmake_python_build_aug_2024_egg
+[0.392s] Invoked command in '/home/dkflippo/aug2024/build/aug_2024' returned '0': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/BMC_2024:/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/opt/ros/humble /usr/bin/cmake --build /home/dkflippo/aug2024/build/aug_2024 -- -j12 -l12
+[0.423s] Invoking command in '/home/dkflippo/aug2024/build/aug_2024': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/BMC_2024:/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/opt/ros/humble /usr/bin/cmake --install /home/dkflippo/aug2024/build/aug_2024
+[0.431s] -- Install configuration: ""
+[0.431s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/environment/pythonpath.sh
+[0.431s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/environment/pythonpath.dsv
+[0.431s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/local/lib/python3.10/dist-packages/aug_2024-0.0.0-py3.10.egg-info
+[0.431s] -- Installing: /home/dkflippo/aug2024/install/aug_2024/local/lib/python3.10/dist-packages/aug_2024-0.0.0-py3.10.egg-info/PKG-INFO
+[0.431s] -- Installing: /home/dkflippo/aug2024/install/aug_2024/local/lib/python3.10/dist-packages/aug_2024-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.432s] -- Installing: /home/dkflippo/aug2024/install/aug_2024/local/lib/python3.10/dist-packages/aug_2024-0.0.0-py3.10.egg-info/top_level.txt
+[0.432s] -- Installing: /home/dkflippo/aug2024/install/aug_2024/local/lib/python3.10/dist-packages/aug_2024-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.432s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/local/lib/python3.10/dist-packages/aug_2024
+[0.432s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/local/lib/python3.10/dist-packages/aug_2024/__init__.py
+[0.461s] Listing '/home/dkflippo/aug2024/install/aug_2024/local/lib/python3.10/dist-packages/aug_2024'...
+[0.464s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/lib/aug_2024/waypoint_navigator
+[0.465s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//config
+[0.465s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//config/nav2_params.yaml
+[0.465s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//config/backup
+[0.465s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//config/backup/map1.pgm
+[0.465s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//config/backup/map1.yaml
+[0.465s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//config/amcl_config.yaml
+[0.465s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//config/map1.pgm
+[0.465s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//config/twist_mux.yaml
+[0.465s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//config/map1.yaml
+[0.465s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//config/gazebo_ros2_control_params.yaml
+[0.466s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//config/flippo_controllers.yaml
+[0.466s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//config/ekf.yaml
+[0.466s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description
+[0.466s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/launch
+[0.466s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/config
+[0.466s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/config/aug_2024_joint_names.yaml
+[0.466s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/config/ekf.yaml
+[0.466s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/urdf
+[0.466s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/urdf/aug_2024-nocaster.urdf
+[0.467s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/urdf/other
+[0.467s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/urdf/other/aug_2024-cast.urdf
+[0.467s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/urdf/other/aug_2024-1.xacro
+[0.467s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/urdf/other/aug_2024_old.xacro
+[0.467s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/urdf/other/aug_2024.urdf
+[0.467s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/urdf/other/aug_2024 _no_caster.xacro
+[0.467s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/rviz
+[0.467s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/rviz/urdf_config.rviz
+[0.467s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/meshes
+[0.467s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/meshes/rear_right_wheel_link.STL
+[0.467s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/meshes/front_right_wheel_link.STL
+[0.467s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/meshes/rear_left_wheel_link.STL
+[0.467s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/meshes/front_left_wheel_link.STL
+[0.467s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//description/meshes/chassis_link.STL
+[0.467s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//launch
+[0.468s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//launch/aug_2024_launch.py
+[0.468s] -- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//launch/aug_2024_sim_launch.py
+[0.468s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//launch/sllidar_a2m12_launch .py
+[0.468s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//launch/aug_2024_sim_launch1.py
+[0.468s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//launch/ros2_control_debug.launch.py
+[0.468s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//worlds
+[0.468s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//worlds/usda_rough_dim.sdf
+[0.468s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//worlds/gaz_goof_001
+[0.468s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//worlds/usda_build_full
+[0.468s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//worlds/usda_build_full/model.config
+[0.468s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024//worlds/usda_build_full/model.sdf
+[0.468s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/ament_index/resource_index/package_run_dependencies/aug_2024
+[0.468s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/ament_index/resource_index/parent_prefix_path/aug_2024
+[0.468s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/environment/ament_prefix_path.sh
+[0.468s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/environment/ament_prefix_path.dsv
+[0.468s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/environment/path.sh
+[0.468s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/environment/path.dsv
+[0.469s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/local_setup.bash
+[0.469s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/local_setup.sh
+[0.469s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/local_setup.zsh
+[0.470s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/local_setup.dsv
+[0.470s] -- Installing: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/package.dsv
+[0.470s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/ament_index/resource_index/packages/aug_2024
+[0.470s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/cmake/aug_2024Config.cmake
+[0.471s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/cmake/aug_2024Config-version.cmake
+[0.471s] -- Up-to-date: /home/dkflippo/aug2024/install/aug_2024/share/aug_2024/package.xml
+[0.471s] Invoked command in '/home/dkflippo/aug2024/build/aug_2024' returned '0': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/BMC_2024:/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/opt/ros/humble /usr/bin/cmake --install /home/dkflippo/aug2024/build/aug_2024

@@ -1,0 +1,35 @@
+[0.023s] Invoking command in '/home/dkflippo/aug2024/build/BMC_2024': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble LD_LIBRARY_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control/lib:/home/dkflippo/aug2024/install/BMC_2024/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dkflippo/aug2024/build/BMC_2024 -- -j12 -l12
+[0.124s] [100%] Built target BMC_2024
+[0.140s] Invoked command in '/home/dkflippo/aug2024/build/BMC_2024' returned '0': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble LD_LIBRARY_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control/lib:/home/dkflippo/aug2024/install/BMC_2024/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dkflippo/aug2024/build/BMC_2024 -- -j12 -l12
+[0.178s] Invoking command in '/home/dkflippo/aug2024/build/BMC_2024': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble LD_LIBRARY_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control/lib:/home/dkflippo/aug2024/install/BMC_2024/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/dkflippo/aug2024/build/BMC_2024
+[0.188s] -- Install configuration: ""
+[0.188s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/lib/libBMC_2024.so
+[0.188s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/include
+[0.189s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/include/BMC_2024
+[0.189s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/include/BMC_2024/aug_2024_system.hpp
+[0.189s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/include/BMC_2024/visibility_control.h
+[0.189s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/include/BMC_2024/bmc_comms.hpp
+[0.189s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/aug_2024_hardware.xml
+[0.189s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/lib/libBMC_2024.so
+[0.189s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/environment/library_path.sh
+[0.189s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/environment/library_path.dsv
+[0.190s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/ament_index/resource_index/package_run_dependencies/BMC_2024
+[0.190s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/ament_index/resource_index/parent_prefix_path/BMC_2024
+[0.190s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/environment/ament_prefix_path.sh
+[0.190s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/environment/ament_prefix_path.dsv
+[0.190s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/environment/path.sh
+[0.190s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/environment/path.dsv
+[0.190s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/local_setup.bash
+[0.191s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/local_setup.sh
+[0.191s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/local_setup.zsh
+[0.191s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/local_setup.dsv
+[0.191s] -- Installing: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/package.dsv
+[0.191s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/ament_index/resource_index/packages/BMC_2024
+[0.191s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/BMC_2024
+[0.191s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.191s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake/ament_cmake_export_libraries-extras.cmake
+[0.192s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.192s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake/BMC_2024Config.cmake
+[0.192s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake/BMC_2024Config-version.cmake
+[0.192s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/package.xml
+[0.194s] Invoked command in '/home/dkflippo/aug2024/build/BMC_2024' returned '0': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble LD_LIBRARY_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control/lib:/home/dkflippo/aug2024/install/BMC_2024/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/dkflippo/aug2024/build/BMC_2024

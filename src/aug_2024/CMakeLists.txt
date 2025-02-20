@@ -29,6 +29,18 @@ find_package(ros2_controllers REQUIRED)
 find_package(BMC_2024 REQUIRED)
 
 # install
+ament_python_install_package(${PROJECT_NAME})
+install(PROGRAMS
+  src/waypoint_navigator.py
+  DESTINATION lib/${PROJECT_NAME}
+  RENAME waypoint_navigator
+)
+install(PROGRAMS
+  src/goal_replenisher.py   # Changed back to relative path
+  DESTINATION lib/${PROJECT_NAME}
+  RENAME goal_replenisher
+)
+
 install(
   DIRECTORY config description launch worlds
    

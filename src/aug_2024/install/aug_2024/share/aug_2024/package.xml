@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>aug_2024</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="dkflippo@ksu.edu">dkflippo</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>xacro</depend>
+  <depend>controller_manager</depend>
+  <depend>joint_state_broadcaster</depend>
+  <depend>diff_drive_controller</depend>
+  <exec_depend>BMC_2024</exec_depend>
+  <depend>rclpy</depend>
+  <exec_depend>twist_mux</exec_depend>
+  <exec_depend>joy</exec_depend>
+  <exec_depend>xterm</exec_depend>
+  <exec_depend>teleop_twist_joy</exec_depend>
+  <!-- Add these new dependencies -->
+  <depend>gazebo_ros</depend>
+  <depend>gazebo_ros2_control</depend>
+  <depend>ros2_control</depend>
+  <depend>ros2_controllers</depend>
+  <depend>rviz2</depend>
+  <depend>launch</depend>
+  <depend>launch_ros</depend>
+  <depend>nav2_amcl</depend>
+  <depend>nav2_msgs</depend>
+  
+  <depend>nav2_map_server</depend>
+  <depend>nav2_lifecycle_manager</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <buildtool_depend>setuptools</buildtool_depend>
+  
+
+  <export>
+    <build_type>ament_cmake</build_type>
+    <gazebo_ros gazebo_model_path="${prefix}/models"/>
+  </export>
+</package>

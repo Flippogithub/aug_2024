@@ -7,6 +7,7 @@ from launch.substitutions import Command, LaunchConfiguration, FindExecutable
 from launch_ros.actions import Node
 from ament_index_python.packages import get_package_share_directory
 
+
 def generate_launch_description():
     # Get the launch directory
     pkg_share = get_package_share_directory('aug_2024')
@@ -16,7 +17,7 @@ def generate_launch_description():
     urdf_file = os.path.join(pkg_share, 'description', 'urdf', 'aug_2024-nocaster.urdf') #was aug_2024.urdf
     with open(urdf_file, 'r') as infp:
         robot_desc = infp.read()
-
+    rviz_config_path = os.path.join(pkg_share, 'config', 'rviz_config.rviz')
     # Launch configuration variables
     use_sim_time = LaunchConfiguration('use_sim_time')
     map_yaml_file = LaunchConfiguration('map')
@@ -36,8 +37,18 @@ def generate_launch_description():
     gazebo = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([os.path.join(
             get_package_share_directory('gazebo_ros'), 'launch', 'gazebo.launch.py')]),
-        launch_arguments={'world': world_file_path}.items()
+        launch_arguments={
+            'world': world_file_path,
+            'extra_gazebo_args': '--gpu-ray-trace'
+        }.items()
     )
+    
+    camnode = Node(
+            package='image_view',
+            executable='image_view',
+            name='image_view',
+            remappings=[('image', '/camera/image_raw')]
+        )
 
     twist_mux_node = Node(
        package='twist_mux',
@@ -84,7 +95,8 @@ def generate_launch_description():
         name='robot_state_publisher',
         output='screen',
         parameters=[{'use_sim_time': use_sim_time, 
-                     'robot_description': Command(['xacro ', urdf_file])}]
+                     'robot_description': Command(['xacro ', urdf_file])}],
+        
     )
 
     # Diff drive controller spawner
@@ -93,6 +105,9 @@ def generate_launch_description():
         executable="spawner",
         arguments=["diff_cont"],
         parameters=[{'use_sim_time': use_sim_time}], 
+        remappings=[
+        ('/diff_cont/odom', '/odom')
+        ]
     )
 
     # Joint state broadcaster spawner
@@ -106,13 +121,20 @@ def generate_launch_description():
     # Nav2
     nav2_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([os.path.join(
-            get_package_share_directory('nav2_bringup'), 'launch', 'bringup_launch.py')]),
+             get_package_share_directory('nav2_bringup'), 'launch', 'bringup_launch.py')]),
         launch_arguments={
             'map': map_yaml_file,
             'use_sim_time': use_sim_time,
-            'params_file': os.path.join(pkg_share, 'config', 'nav2_params.yaml')
+            'params_file': os.path.join(pkg_share, 'config', 'nav2_params.yaml'),
+            'odom_topic': '/diff_cont/odom'
         }.items()
     )
+
+    #remap_odom = Node(
+    #    package='tf2_ros',
+    #    executable='static_transform_publisher',
+    #    arguments=['0', '0', '0', '0', '0', '0', '/diff_cont/odom', 'odom']
+    #)
 
     controller_manager = Node(
        package="controller_manager",
@@ -149,26 +171,49 @@ def generate_launch_description():
         actions=[spawn_entity]
     )
 
-
     rviz = Node(
         package='rviz2',
         executable='rviz2',
         name='rviz2',
-        output='screen'
-    )   
+        output='screen',
+        arguments=['-d', rviz_config_path]
+    )
         
-    
+    waypoint_navigator = Node(
+         package='aug_2024',  # Change to your package name
+         executable='waypoint_navigator',
+         name='waypoint_navigator',
+         parameters=[{'use_sim_time': use_sim_time}],
+         output='screen'
+    )
+
+    goal_replenisher = Node(
+         package='aug_2024',  # Change to your package name
+         executable='goal_replenisher',
+         name='goal_replenisher',
+         parameters=[{'use_sim_time': use_sim_time}],
+         output='screen'
+    )
+
+    # In the launch file
+    delayed_nav = TimerAction(
+        period=15.0,  # Wait 15 seconds
+        actions=[waypoint_navigator]
+    )
+
     return LaunchDescription([
-        gazebo,
         declare_use_sim_time_argument,
         declare_map_yaml_cmd,
+        gazebo,
         robot_state_publisher,
         controller_manager,
-        delay_controller_spawner,
+        delay_controller_spawner,  # This will spawn controllers after controller_manager
+        delayed_spawn,  # Robot spawning
         twist_mux_node,
-        delayed_spawn,  # Use the delayed spawn instead
         nav2_launch,
-        teleop_node,
-        #slam_toolbox,
-        rviz
+        #teleop_node,
+        #goal_replenisher,
+        rviz,
+        camnode
+        #slam
     ])

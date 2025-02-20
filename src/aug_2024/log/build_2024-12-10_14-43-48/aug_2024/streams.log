@@ -1,0 +1,145 @@
+[0.013s] Invoking command in '/home/dkflippo/aug2024/src/aug_2024/build/aug_2024': /usr/bin/cmake /home/dkflippo/aug2024/src/aug_2024 -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/src/aug_2024/install/aug_2024
+[0.146s] -- The C compiler identification is GNU 11.4.0
+[0.272s] -- The CXX compiler identification is GNU 11.4.0
+[0.292s] -- Detecting C compiler ABI info
+[0.436s] -- Detecting C compiler ABI info - done
+[0.451s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.452s] -- Detecting C compile features
+[0.455s] -- Detecting C compile features - done
+[0.459s] -- Detecting CXX compiler ABI info
+[0.603s] -- Detecting CXX compiler ABI info - done
+[0.612s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.612s] -- Detecting CXX compile features
+[0.612s] -- Detecting CXX compile features - done
+[0.617s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.812s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.938s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.006s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.015s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.028s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.047s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.072s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.134s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.140s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.253s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.284s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.330s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.357s] -- Looking for pthread.h
+[1.444s] -- Looking for pthread.h - found
+[1.445s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.529s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.530s] -- Found Threads: TRUE  
+[1.593s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.628s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[1.651s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.652s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.653s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.835s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[1.838s] -- Found controller_manager: 2.43.1 (/opt/ros/humble/share/controller_manager/cmake)
+[1.962s] -- Found joint_state_broadcaster: 2.37.3 (/opt/ros/humble/share/joint_state_broadcaster/cmake)
+[1.972s] -- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.994s] -- Found diff_drive_controller: 2.37.3 (/opt/ros/humble/share/diff_drive_controller/cmake)
+[2.027s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[2.041s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.043s] -- Checking for module 'bullet>=2.82'
+[2.060s] --   Found bullet, version 3.05
+[2.193s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[2.257s] -- Found assimp: /usr/include (found version "5.2.0") 
+[2.281s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.310s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[2.324s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.331s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.338s] -- Searching for dependencies of ignition-math6
+[2.339s] -- Looking for OGRE...
+[2.340s] -- OGRE_PREFIX_WATCH changed.
+[2.348s] -- Checking for module 'OGRE'
+[2.367s] --   Found OGRE, version 1.9.0
+[2.408s] -- Found Ogre Ghadamon (1.9.0)
+[2.415s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.427s] -- Looking for OGRE_Paging...
+[2.435s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.435s] -- Looking for OGRE_Terrain...
+[2.445s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.445s] -- Looking for OGRE_Property...
+[2.450s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.451s] -- Looking for OGRE_RTShaderSystem...
+[2.457s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.458s] -- Looking for OGRE_Volume...
+[2.465s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.465s] -- Looking for OGRE_Overlay...
+[2.470s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.623s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.627s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.627s] -- Searching for dependencies of ignition-transport8
+[2.650s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.666s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.671s] -- Checking for module 'libzmq >= 4'
+[2.689s] --   Found libzmq , version 4.3.4
+[2.734s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.741s] -- Checking for module 'uuid'
+[2.759s] --   Found uuid, version 2.37.2
+[2.801s] -- Found UUID: TRUE  
+[2.819s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.819s] -- Searching for dependencies of ignition-msgs5
+[2.843s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.853s] -- Checking for module 'tinyxml2'
+[2.872s] --   Found tinyxml2, version 9.0.0
+[2.916s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.919s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.920s] -- Searching for dependencies of ignition-common3
+[2.920s] -- Looking for dlfcn.h - found
+[2.921s] -- Looking for libdl - found
+[2.923s] -- Found DL: TRUE  
+[2.936s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[2.937s] -- Searching for <ignition-common3> component [graphics]
+[2.941s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.941s] -- Searching for dependencies of ignition-common3-graphics
+[2.942s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.947s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.947s] -- Searching for dependencies of ignition-fuel_tools4
+[3.042s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[3.055s] -- Checking for module 'jsoncpp'
+[3.072s] --   Found jsoncpp, version 1.9.5
+[3.117s] -- Found JSONCPP: TRUE  
+[3.123s] -- Checking for module 'libzip'
+[3.139s] --   Found libzip, version 1.7.3
+[3.188s] -- Found ZIP: TRUE  
+[3.189s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.189s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.190s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.194s] -- Gazebo version: 11.10
+[3.195s] -- Checking for module 'tbb'
+[3.223s] --   Found tbb, version 2021.5.0
+[3.272s] -- Found gazebo_ros2_control: 0.4.9 (/home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake)
+[3.298s] -- Found ros2_control: 2.43.1 (/opt/ros/humble/share/ros2_control/cmake)
+[3.300s] -- Found ros2_controllers: 2.37.3 (/opt/ros/humble/share/ros2_controllers/cmake)
+[3.301s] -- Found BMC_2024: 0.0.0 (/home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake)
+[3.314s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[3.373s] Error parsing '/home/dkflippo/aug2024/src/aug_2024/package.xml':
+[3.419s] Traceback (most recent call last):
+[3.419s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[3.419s]     main()
+[3.419s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[3.419s]     raise e
+[3.419s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[3.420s]     package = parse_package_string(
+[3.420s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[3.420s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[3.420s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/dkflippo/aug2024/src/aug_2024/package.xml':
+[3.420s] Error(s):
+[3.420s] - The generic dependency on 'rclpy' is redundant with: exec_depend
+[3.436s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[3.437s]   execute_process(/usr/bin/python3
+[3.437s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[3.437s]   /home/dkflippo/aug2024/src/aug_2024/package.xml
+[3.437s]   /home/dkflippo/aug2024/src/aug_2024/build/aug_2024/ament_cmake_core/package.cmake)
+[3.437s]   returned error code 1
+[3.437s] Call Stack (most recent call first):
+[3.437s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[3.437s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[3.437s]   CMakeLists.txt:45 (ament_package)
+[3.438s] 
+[3.438s] [0m
+[3.438s] -- Configuring incomplete, errors occurred!
+[3.438s] See also "/home/dkflippo/aug2024/src/aug_2024/build/aug_2024/CMakeFiles/CMakeOutput.log".
+[3.462s] Invoked command in '/home/dkflippo/aug2024/src/aug_2024/build/aug_2024' returned '1': /usr/bin/cmake /home/dkflippo/aug2024/src/aug_2024 -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/src/aug_2024/install/aug_2024

@@ -1,0 +1,86 @@
+[0.026s] Invoking command in '/home/dkflippo/aug2024/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble LD_LIBRARY_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control/lib:/home/dkflippo/aug2024/install/BMC_2024/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dkflippo/aug2024/build/gazebo_ros2_control_demos -- -j12 -l12
+[0.130s] [  7%] [32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o[0m
+[7.289s] [ 14%] [32m[1mLinking CXX executable example_position[0m
+[8.173s] [ 14%] Built target example_position
+[8.235s] [ 21%] [32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o[0m
+[14.862s] [ 28%] [32m[1mLinking CXX executable example_tricycle_drive[0m
+[15.098s] [ 28%] Built target example_tricycle_drive
+[15.141s] [ 42%] [32mBuilding CXX object CMakeFiles/example_position_pid.dir/examples/example_position_pid.cpp.o[0m
+[15.141s] [ 42%] [32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o[0m
+[15.141s] [ 50%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o[0m
+[21.764s] [ 57%] [32m[1mLinking CXX executable example_diff_drive[0m
+[21.919s] [ 64%] [32m[1mLinking CXX executable example_gripper[0m
+[22.068s] [ 71%] [32m[1mLinking CXX executable example_position_pid[0m
+[22.186s] [ 71%] Built target example_diff_drive
+[22.230s] [ 85%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o[0m
+[22.231s] [ 85%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_effort.cpp.o[0m
+[22.348s] [ 85%] Built target example_gripper
+[22.424s] [ 85%] Built target example_position_pid
+[28.344s] [ 92%] [32m[1mLinking CXX executable example_effort[0m
+[28.468s] [100%] [32m[1mLinking CXX executable example_velocity[0m
+[28.646s] [100%] Built target example_effort
+[28.820s] [100%] Built target example_velocity
+[28.838s] Invoked command in '/home/dkflippo/aug2024/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble LD_LIBRARY_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control/lib:/home/dkflippo/aug2024/install/BMC_2024/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dkflippo/aug2024/build/gazebo_ros2_control_demos -- -j12 -l12
+[28.916s] Invoking command in '/home/dkflippo/aug2024/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble LD_LIBRARY_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control/lib:/home/dkflippo/aug2024/install/BMC_2024/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/dkflippo/aug2024/build/gazebo_ros2_control_demos
+[28.925s] -- Install configuration: ""
+[28.926s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch
+[28.926s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_effort.launch.py
+[28.926s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_velocity_pid.launch.py
+[28.926s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive.launch.py
+[28.926s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_position.launch.py
+[28.927s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/pendulum_example_effort.launch.py
+[28.927s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py
+[28.927s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/pendulum_example_position.launch.py
+[28.927s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_velocity.launch.py
+[28.927s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_position_pid.launch.py
+[28.927s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/tricycle_drive.launch.py
+[28.927s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config
+[28.928s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_effort.yaml
+[28.928s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/gripper_controller.yaml
+[28.928s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_velocity.yaml
+[28.928s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/config.rviz
+[28.928s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller.yaml
+[28.928s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller.yaml
+[28.928s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_position.yaml
+[28.928s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/tricycle_drive_controller.yaml
+[28.928s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf
+[28.928s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_pendulum_effort.xacro.urdf
+[28.929s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[28.929s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf
+[28.929s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_position_pid.xacro.urdf
+[28.929s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[28.929s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[28.929s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_velocity_pid.xacro.urdf
+[28.929s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+[28.929s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[28.929s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_pendulum_position.xacro.urdf
+[28.929s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position
+[28.929s] -- Set runtime path of "/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position" to ""
+[28.929s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position_pid
+[28.932s] -- Set runtime path of "/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position_pid" to ""
+[28.932s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity
+[28.933s] -- Set runtime path of "/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity" to ""
+[28.934s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort
+[28.935s] -- Set runtime path of "/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort" to ""
+[28.935s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive
+[28.939s] -- Set runtime path of "/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive" to ""
+[28.939s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_tricycle_drive
+[28.941s] -- Set runtime path of "/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_tricycle_drive" to ""
+[28.941s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper
+[28.943s] -- Set runtime path of "/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper" to ""
+[28.943s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control_demos
+[28.943s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control_demos
+[28.943s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.sh
+[28.943s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.dsv
+[28.944s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.sh
+[28.944s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.dsv
+[28.944s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.bash
+[28.944s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.sh
+[28.944s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.zsh
+[28.944s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.dsv
+[28.944s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv
+[28.944s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/ament_index/resource_index/packages/gazebo_ros2_control_demos
+[28.944s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig.cmake
+[28.944s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig-version.cmake
+[28.945s] -- Up-to-date: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.xml
+[28.946s] Invoked command in '/home/dkflippo/aug2024/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble LD_LIBRARY_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control/lib:/home/dkflippo/aug2024/install/BMC_2024/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/dkflippo/aug2024/build/gazebo_ros2_control_demos

@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot name="aug_2024" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:arg name="use_sim" default="true"/>
+
+  <material name="white">
+    <color rgba="1 1 1 1"/>
+  </material>
+  
+  <material name="black">
+    <color rgba="0 0 0 1"/>
+  </material>
+
+  <material name="red">
+    <color rgba="1 0 0 1"/>
+  </material>
+
+  <link name="base_footprint"/>
+   
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size=".01 .01 .01"/> <!-- 20x18x20 inches -->
+      </geometry>
+      <material name="red"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0 0 0"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="10"/>
+      <inertia ixx="0.4" ixy="0.0" ixz="0.0" iyy="0.4" iyz="0.0" izz="0.2"/>
+    </inertial>
+  </link>
+  
+  <joint name="base_joint" type="fixed">
+    <parent link="base_footprint"/>
+    <child link="base_link"/>
+    <origin xyz="0 0 0.1016" rpy="0 0 0"/>
+  </joint>
+
+  <link name="chassis_link">
+    <visual>
+      <geometry>
+        <box size="0.208 0.1572 0.15"/> <!-- 20x18x20 inches -->
+      </geometry>
+      <material name="chassis_color">
+        <color rgba="1 1 0"/>  <!-- Light gray color, adjust as needed -->
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.208 0.1572 0.15"/> <!-- 20x18x20 inches -->
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="10"/>  <!-- Adjust mass as appropriate for your robot -->
+      <inertia ixx="0.3729" ixy="0.0" ixz="0.0" 
+               iyy="0.3929" iyz="0.0" 
+               izz="0.3729"/>
+      <!-- Inertia values are approximate. Adjust as needed. -->
+    </inertial>
+  </link>
+
+  <joint name="base_to_chassis" type="fixed">
+    <parent link="base_link"/>
+    <child link="chassis_link"/>
+    <origin xyz="0 0 0.5" rpy="0 0 0"/>  <!-- Adjust origin as needed -->
+  </joint>
+
+  <link name="rear_right_wheel">
+    <visual>
+      <geometry>
+        <cylinder length="0.0254" radius="0.1016"/> <!-- 8 inch diameter -->
+      </geometry>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.0254" radius="0.1016"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+  </link>
+
+  <joint name="rear_right_wheel_joint" type="continuous">
+    <parent link="chassis_link"/>
+    <child link="rear_right_wheel"/>
+    <origin xyz="-0.2032 -0.20955 -0.054" rpy="1.5707 0 0"/> <!-- 8 inches back, 8.25 inches right, 10 inches down -->
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <link name="rear_left_wheel">
+    <visual>
+      <geometry>
+        <cylinder length="0.0254" radius="0.1016"/> <!-- 8 inch diameter -->
+      </geometry>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.0254" radius="0.1016"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+  </link>
+
+  <joint name="rear_left_wheel_joint" type="continuous">
+    <parent link="chassis_link"/>
+    <child link="rear_left_wheel"/>
+    <origin xyz="-0.2032 0.20955 -0.054" rpy="1.5707 0 0"/> <!-- 8 inches back, 8.25 inches left, 10 inches down -->
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <gazebo reference="rear_left_wheel_joint">
+    <provideFeedback>true</provideFeedback>
+    <implicitSpringDamper>true</implicitSpringDamper>
+  </gazebo>
+
+  <gazebo reference="rear_right_wheel_joint">
+    <provideFeedback>true</provideFeedback>
+    <implicitSpringDamper>true</implicitSpringDamper>
+  </gazebo>
+
+  <link name="right_caster_base">
+    <visual>
+      <geometry>
+        <cylinder length="0.02" radius="0.02"/>
+      </geometry>
+      <material name="red"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.02" radius="0.02"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="0.00001" ixy="0" ixz="0" iyy="0.00001" iyz="0" izz="0.00001"/>
+    </inertial>
+  </link>
+
+  <joint name="right_caster_base_joint" type="fixed">
+    <parent link="chassis_link"/>
+    <child link="right_caster_base"/>
+    <origin xyz="0.2032 -0.2286 -0.04"/> 
+  </joint>
+
+  <link name="left_caster_base">
+    <visual>
+      <geometry>
+        <cylinder length="0.02" radius="0.02"/>
+      </geometry>
+      <material name="red"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.02" radius="0.02"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="0.00001" ixy="0" ixz="0" iyy="0.00001" iyz="0" izz="0.00001"/>
+    </inertial>
+  </link>
+
+  <joint name="left_caster_base_joint" type="fixed">
+    <parent link="chassis_link"/>
+    <child link="left_caster_base"/>
+    <origin xyz="0.2032 0.2286 -0.04"/> 
+  </joint>
+
+  <link name="right_caster_swivel">
+    <visual>
+      <geometry>
+        <cylinder length="0.05" radius="0.01"/>
+      </geometry>
+      <material name="red"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.05" radius="0.01"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="0.00001" ixy="0" ixz="0" iyy="0.00001" iyz="0" izz="0.00001"/>
+    </inertial>
+  </link>
+
+  <joint name="right_caster_swivel_joint" type="continuous">
+    <parent link="right_caster_base"/>
+    <child link="right_caster_swivel"/>
+    <axis xyz="0 0 1"/>
+    <origin xyz="0 0 -0.05"/>
+    <dynamics damping="0.5" friction="0.1"/>
+  </joint>
+
+  <link name="left_caster_swivel">
+    <visual>
+      <geometry>
+        <cylinder length="0.05" radius="0.01"/>
+      </geometry>
+      <material name="red"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.05" radius="0.01"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="0.00001" ixy="0" ixz="0" iyy="0.00001" iyz="0" izz="0.00001"/>
+    </inertial>
+  </link>
+
+  <joint name="left_caster_swivel_joint" type="continuous">
+    <parent link="left_caster_base"/>
+    <child link="left_caster_swivel"/>
+    <axis xyz="0 0 1"/>
+    <origin xyz="0 0 -0.05"/>
+    <dynamics damping="0.5" friction="0.1"/>
+  </joint>
+
+  <link name="right_caster_wheel">
+    <visual>
+      <geometry>
+        <cylinder length="0.02" radius="0.0454"/> 
+      </geometry>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.02" radius="0.0454"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="0.00002" ixy="0" ixz="0" iyy="0.00002" iyz="0" izz="0.00001"/>
+    </inertial>
+  </link>
+
+  <joint name="right_caster_wheel_joint" type="continuous">
+    <parent link="right_caster_swivel"/>
+    <child link="right_caster_wheel"/>
+    <origin xyz="-0.07 0 0" rpy="1.5707 0 0"/> 
+    <axis xyz="0 0 1 "/>
+    <dynamics damping="0.5" friction="0.1"/>
+  </joint>
+
+  <link name="left_caster_wheel">
+    <visual>
+      <geometry>
+        <cylinder length="0.02" radius="0.0454"/> 
+      </geometry>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.02" radius="0.0454"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="0.00002" ixy="0" ixz="0" iyy="0.00002" iyz="0" izz="0.00001"/>
+    </inertial>
+  </link>
+
+  <joint name="left_caster_wheel_joint" type="continuous">
+    <parent link="left_caster_swivel"/>
+    <child link="left_caster_wheel"/>
+    <origin xyz="-0.07 0 0" rpy="1.5707 0 0"/> 
+    <axis xyz="0 0 1 "/>
+    <dynamics damping="0.5" friction="0.1"/>
+  </joint>
+
+  <gazebo reference="right_caster_swivel_joint">
+    <implicitSpringDamper>1</implicitSpringDamper>
+  </gazebo>
+
+  <gazebo reference="right_caster_wheel_joint">
+    <implicitSpringDamper>1</implicitSpringDamper>
+  </gazebo>
+
+  <gazebo reference="left_caster_swivel_joint">
+    <implicitSpringDamper>1</implicitSpringDamper>
+  </gazebo>
+
+  <gazebo reference="left_caster_wheel_joint">
+    <implicitSpringDamper>1</implicitSpringDamper>
+  </gazebo>
+
+  <link name="lidar_link">
+    <visual>
+      <geometry>
+        <cylinder radius="0.05" length="0.04"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.05" length="0.04"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="0.000033" ixy="0.0" ixz="0.0" iyy="0.000033" iyz="0.0" izz="0.00006"/>
+    </inertial>
+  </link>
+
+  <joint name="lidar_joint" type="fixed">
+    <parent link="chassis_link"/>
+    <child link="lidar_link"/>
+    <origin xyz="0 0 0.1" rpy="0 0 0"/>
+  </joint>
+
+  <gazebo reference="lidar_link">
+    <sensor type="ray" name="lidar">
+      <pose>0 0 0 0 0 0</pose>
+      <visualize>true</visualize>
+      <update_rate>10</update_rate>
+      <ray>
+        <scan>
+          <horizontal>
+            <samples>360</samples>
+            <resolution>1</resolution>
+            <min_angle>-3.14159</min_angle>
+            <max_angle>3.14159</max_angle>
+          </horizontal>
+        </scan>
+        <range>
+          <min>0.3</min>
+          <max>12.0</max>
+          <resolution>0.01</resolution>
+        </range>
+      </ray>
+      <plugin name="gazebo_ros_lidar_controller" filename="libgazebo_ros_ray_sensor.so">
+        <ros>
+          <namespace>/</namespace>
+          <remapping>~/out:=scan</remapping>
+        </ros>
+        <output_type>sensor_msgs/LaserScan</output_type>
+        <frame_name>lidar_link</frame_name>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+  <ros2_control name="AUG2024System" type="system">
+    <xacro:if value="$(arg use_sim)">
+      <hardware>
+        <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+      </hardware>
+    </xacro:if>
+    <xacro:unless value="$(arg use_sim)">
+      <hardware>
+        <plugin>BMC_2024/AUG2024Hardware</plugin>
+        <param name="rear_left_wheel_name">rear_left_wheel_joint</param>
+        <param name="rear_right_wheel_name">rear_right_wheel_joint</param>
+        <param name="can_interface">can0</param>
+        <param name="can_rl_id">183</param>
+        <param name="can_rr_id">178</param>
+        <param name="rl_mult">1.0</param>
+        <param name="rr_mult">-1.0</param>
+        <param name="pid_p">0.5</param>
+        <param name="pid_i">10.0</param>
+        <param name="pid_d">0.0</param>
+      </hardware>
+    </xacro:unless>
+
+    <joint name="rear_left_wheel_joint">
+      <command_interface name="velocity">
+        <param name="min">-10</param>
+        <param name="max">10</param>
+      </command_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="position"/>
+    </joint>
+    <joint name="rear_right_wheel_joint">
+      <command_interface name="velocity">
+        <param name="min">-10</param>
+        <param name="max">10</param>
+      </command_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="position"/>
+    </joint>
+  </ros2_control>
+
+  <gazebo reference="base_link">
+    <material>Gazebo/Red</material>
+  </gazebo>
+
+  <gazebo>
+    <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+      <parameters>$(find aug_2024)/config/flippo_controllers.yaml</parameters>
+    </plugin>
+  </gazebo>
+
+  <gazebo>
+    <plugin name="gazebo_ros_state" filename="libgazebo_ros_state.so">
+      <update_rate>10</update_rate>
+    </plugin>
+  </gazebo>
+
+  <gazebo reference="rear_left_wheel">
+    <material>Gazebo/Black</material>
+    <mu1 value="1.0"/>
+    <mu2 value="1.0"/>
+    <kp value="10000000.0"/>
+    <kd value="1.0"/>
+  </gazebo>
+
+  <gazebo reference="rear_right_wheel">
+    <material>Gazebo/Black</material>
+    <mu1 value="1.0"/>
+    <mu2 value="1.0"/>
+    <kp value="10000000.0"/>
+    <kd value="1.0"/>
+  </gazebo>
+</robot>

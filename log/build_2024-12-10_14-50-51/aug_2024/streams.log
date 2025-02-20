@@ -1,0 +1,88 @@
+[0.019s] Invoking command in '/home/dkflippo/aug2024/build/aug_2024': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/BMC_2024:/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/opt/ros/humble /usr/bin/cmake --build /home/dkflippo/aug2024/build/aug_2024 -- -j12 -l12
+[0.076s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.211s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.244s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.248s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.253s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.263s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.274s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.306s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.308s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.420s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.470s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.497s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[0.501s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.502s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.609s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.609s] -- Found controller_manager: 2.43.1 (/opt/ros/humble/share/controller_manager/cmake)
+[0.699s] -- Found joint_state_broadcaster: 2.37.3 (/opt/ros/humble/share/joint_state_broadcaster/cmake)
+[0.703s] -- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.715s] -- Found diff_drive_controller: 2.37.3 (/opt/ros/humble/share/diff_drive_controller/cmake)
+[0.745s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.776s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.804s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.805s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.810s] -- Searching for dependencies of ignition-math6
+[0.811s] -- Looking for OGRE...
+[0.819s] -- Found Ogre Ghadamon (1.9.0)
+[0.820s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.830s] -- Looking for OGRE_Paging...
+[0.831s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.831s] -- Looking for OGRE_Terrain...
+[0.831s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.831s] -- Looking for OGRE_Property...
+[0.831s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.831s] -- Looking for OGRE_RTShaderSystem...
+[0.831s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.832s] -- Looking for OGRE_Volume...
+[0.832s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.832s] -- Looking for OGRE_Overlay...
+[0.832s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.973s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.973s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.974s] -- Searching for dependencies of ignition-transport8
+[0.993s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.006s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.011s] -- Checking for module 'libzmq >= 4'
+[1.033s] --   Found libzmq , version 4.3.4
+[1.085s] -- Checking for module 'uuid'
+[1.100s] --   Found uuid, version 2.37.2
+[1.150s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.150s] -- Searching for dependencies of ignition-msgs5
+[1.174s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.182s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.182s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.183s] -- Searching for dependencies of ignition-common3
+[1.183s] -- Looking for dlfcn.h - found
+[1.183s] -- Looking for libdl - found
+[1.194s] -- Searching for <ignition-common3> component [graphics]
+[1.194s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.195s] -- Searching for dependencies of ignition-common3-graphics
+[1.195s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.196s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.197s] -- Searching for dependencies of ignition-fuel_tools4
+[1.245s] -- Checking for module 'jsoncpp'
+[1.262s] --   Found jsoncpp, version 1.9.5
+[1.308s] -- Checking for module 'libzip'
+[1.326s] --   Found libzip, version 1.7.3
+[1.373s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.373s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.374s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.375s] -- Gazebo version: 11.10
+[1.376s] -- Found gazebo_ros2_control: 0.4.9 (/home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake)
+[1.390s] -- Found ros2_control: 2.43.1 (/opt/ros/humble/share/ros2_control/cmake)
+[1.390s] -- Found ros2_controllers: 2.37.3 (/opt/ros/humble/share/ros2_controllers/cmake)
+[1.390s] -- Found BMC_2024: 0.0.0 (/home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake)
+[1.513s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:66 (message):
+[1.513s]   ament_python_install_package() the Python package folder
+[1.513s]   '/home/dkflippo/aug2024/src/aug_2024/aug_2024' doesn't contain an
+[1.513s]   '__init__.py' file
+[1.513s] Call Stack (most recent call first):
+[1.513s]   /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[1.514s]   CMakeLists.txt:32 (ament_python_install_package)
+[1.514s] 
+[1.514s] [0m
+[1.514s] -- Configuring incomplete, errors occurred!
+[1.515s] See also "/home/dkflippo/aug2024/build/aug_2024/CMakeFiles/CMakeOutput.log".
+[1.552s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[1.555s] Invoked command in '/home/dkflippo/aug2024/build/aug_2024' returned '2': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/BMC_2024:/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/opt/ros/humble /usr/bin/cmake --build /home/dkflippo/aug2024/build/aug_2024 -- -j12 -l12

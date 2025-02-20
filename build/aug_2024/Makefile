@@ -197,6 +197,32 @@ aug_2024_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aug_2024_uninstall.dir/build.make CMakeFiles/aug_2024_uninstall.dir/build
 .PHONY : aug_2024_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named ament_cmake_python_copy_aug_2024
+
+# Build rule for target.
+ament_cmake_python_copy_aug_2024: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_aug_2024
+.PHONY : ament_cmake_python_copy_aug_2024
+
+# fast build rule for target.
+ament_cmake_python_copy_aug_2024/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_aug_2024.dir/build.make CMakeFiles/ament_cmake_python_copy_aug_2024.dir/build
+.PHONY : ament_cmake_python_copy_aug_2024/fast
+
+#=============================================================================
+# Target rules for targets named ament_cmake_python_build_aug_2024_egg
+
+# Build rule for target.
+ament_cmake_python_build_aug_2024_egg: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_build_aug_2024_egg
+.PHONY : ament_cmake_python_build_aug_2024_egg
+
+# fast build rule for target.
+ament_cmake_python_build_aug_2024_egg/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_aug_2024_egg.dir/build.make CMakeFiles/ament_cmake_python_build_aug_2024_egg.dir/build
+.PHONY : ament_cmake_python_build_aug_2024_egg/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -210,6 +236,8 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... ament_cmake_python_build_aug_2024_egg"
+	@echo "... ament_cmake_python_copy_aug_2024"
 	@echo "... aug_2024_uninstall"
 	@echo "... uninstall"
 .PHONY : help
