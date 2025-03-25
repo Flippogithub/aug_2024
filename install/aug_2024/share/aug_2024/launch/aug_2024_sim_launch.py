@@ -211,9 +211,9 @@ def generate_launch_description():
         delayed_spawn,  # Robot spawning
         twist_mux_node,
         nav2_launch,
-        #teleop_node,
+        teleop_node,
         #goal_replenisher,
         rviz,
-        camnode
+        #camnode
         #slam
     ])
