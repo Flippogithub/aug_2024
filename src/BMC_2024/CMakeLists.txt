@@ -67,7 +67,7 @@ ament_export_dependencies(
   pluginlib
   rclcpp
   rclcpp_lifecycle
-  gazebo_ros2_control
+  #gazebo_ros2_control
 )
 
 ament_package()
