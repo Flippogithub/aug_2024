@@ -21,7 +21,7 @@ def generate_launch_description():
     # Launch configuration variables
     use_sim_time = LaunchConfiguration('use_sim_time')
     map_yaml_file = LaunchConfiguration('map')
-    
+    ##
     # Declare the launch arguments
     declare_use_sim_time_argument = DeclareLaunchArgument(
         'use_sim_time',
