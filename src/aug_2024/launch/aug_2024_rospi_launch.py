@@ -113,12 +113,6 @@ def generate_launch_description():
         }.items()
     )
 
-    #remap_odom = Node(
-    #    package='tf2_ros',
-    #    executable='static_transform_publisher',
-    #    arguments=['0', '0', '0', '0', '0', '0', '/diff_cont/odom', 'odom']
-    #)
-
     controller_manager = Node(
        package="controller_manager",
        executable="ros2_control_node",
@@ -144,24 +138,9 @@ def generate_launch_description():
        remappings=[('/cmd_vel', '/cmd_vel_teleop')],
        parameters=[{'use_sim_time': LaunchConfiguration('use_sim_time')}]
     )
-    print(f"URDF file path: {urdf_file}")
-    print(f"Robot description length: {len(robot_desc)}")
-    
+
     from launch.actions import TimerAction
-
-    delayed_spawn = TimerAction(
-        period=5.0,
-        actions=[spawn_entity]
-    )
-
-    rviz = Node(
-        package='rviz2',
-        executable='rviz2',
-        name='rviz2',
-        output='screen',
-        arguments=['-d', rviz_config_path]
-    )
-        
+ 
     waypoint_navigator = Node(
          package='aug_2024',  # Change to your package name
          executable='waypoint_navigator',
@@ -170,33 +149,17 @@ def generate_launch_description():
          output='screen'
     )
 
-    goal_replenisher = Node(
-         package='aug_2024',  # Change to your package name
-         executable='goal_replenisher',
-         name='goal_replenisher',
-         parameters=[{'use_sim_time': use_sim_time}],
-         output='screen'
-    )
-
-    # In the launch file
-    delayed_nav = TimerAction(
-        period=15.0,  # Wait 15 seconds
-        actions=[waypoint_navigator]
-    )
 
     return LaunchDescription([
         declare_use_sim_time_argument,
         declare_map_yaml_cmd,
-        
         robot_state_publisher,
         controller_manager,
         delay_controller_spawner,  # This will spawn controllers after controller_manager
-        delayed_spawn,  # Robot spawning
+        #delayed_spawn,  # Robot spawning
         twist_mux_node,
         nav2_launch,
         teleop_node,
-        #goal_replenisher,
-        #rviz,
         #camnode
         #slam
     ])
