@@ -17,7 +17,7 @@ def generate_launch_description():
     urdf_file = os.path.join(pkg_share, 'description', 'urdf', 'aug_2024-nocaster.urdf') #was aug_2024.urdf
     with open(urdf_file, 'r') as infp:
         robot_desc = infp.read()
-    rviz_config_path = os.path.join(pkg_share, 'config', 'rviz_config.rviz')
+   
     # Launch configuration variables
     use_sim_time = LaunchConfiguration('use_sim_time')
     map_yaml_file = LaunchConfiguration('map')
