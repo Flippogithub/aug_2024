@@ -16,7 +16,7 @@ find_package(hardware_interface REQUIRED)
 find_package(pluginlib REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rclcpp_lifecycle REQUIRED)
-find_package(gazebo_ros2_control REQUIRED)
+#find_package(gazebo_ros2_control REQUIRED)
 
 add_library(${PROJECT_NAME} SHARED
   src/aug_2024_system.cpp
@@ -33,7 +33,7 @@ ament_target_dependencies(${PROJECT_NAME}
   pluginlib
   rclcpp
   rclcpp_lifecycle
-  gazebo_ros2_control
+  #gazebo_ros2_control
 )
 
 
