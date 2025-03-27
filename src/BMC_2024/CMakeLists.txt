@@ -17,7 +17,7 @@ find_package(pluginlib REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rclcpp_lifecycle REQUIRED)
 #find_package(gazebo_ros2_control REQUIRED)
-
+#trying to put on rasberry pi
 add_library(${PROJECT_NAME} SHARED
   src/aug_2024_system.cpp
   src/bmc_comms.cpp
