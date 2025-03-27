@@ -33,15 +33,7 @@ def generate_launch_description():
         default_value=os.path.join(pkg_share, 'config', 'map1.yaml'),
         description='Full path to map yaml file to load')
 
-    # Gazebo launch
-    gazebo = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([os.path.join(
-            get_package_share_directory('gazebo_ros'), 'launch', 'gazebo.launch.py')]),
-        launch_arguments={
-            'world': world_file_path,
-            'extra_gazebo_args': '--gpu-ray-trace'
-        }.items()
-    )
+  
     
     camnode = Node(
             package='image_view',
@@ -77,16 +69,7 @@ def generate_launch_description():
             }]
     )
     
-    # Spawn robot
-    spawn_entity = Node(
-        package='gazebo_ros',
-        executable='spawn_entity.py',
-        arguments=['-topic', 'robot_description',
-                '-entity', 'aug_2024_bot',
-                '-x', '17', '-y', '9', '-z', '0.1'],  # Raised slightly off the ground
-        parameters=[{'use_sim_time': use_sim_time}], 
-        output='screen'
-    )
+
 
     # Robot state publisher
     robot_state_publisher = Node(
@@ -204,7 +187,7 @@ def generate_launch_description():
     return LaunchDescription([
         declare_use_sim_time_argument,
         declare_map_yaml_cmd,
-        #gazebo,
+        
         robot_state_publisher,
         controller_manager,
         delay_controller_spawner,  # This will spawn controllers after controller_manager
