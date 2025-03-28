@@ -25,8 +25,9 @@
   <exec_depend>xterm</exec_depend>
   <exec_depend>teleop_twist_joy</exec_depend>
   <!-- Add these new dependencies -->
-  <!-- depend>gazebo_ros</depend>
-  <depend>gazebo_ros2_control</depend -->
+  <depend>gazebo_ros</depend>
+  <depend>gazebo_ros2_control</depend>   
+  <!-- above 2 lines comment out for rospi -->
   <depend>ros2_control</depend>
   <depend>ros2_controllers</depend>
   <depend>rviz2</depend>
@@ -46,6 +47,7 @@
 
   <export>
     <build_type>ament_cmake</build_type>
-    <!-- gazebo_ros gazebo_model_path="${prefix}/models"/ -->
+    <gazebo_ros gazebo_model_path="${prefix}/models"/>
+    <!-- above line comment out-->
   </export>
 </package>

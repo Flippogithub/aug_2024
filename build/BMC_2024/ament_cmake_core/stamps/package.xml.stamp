@@ -17,8 +17,8 @@
   <depend>pluginlib</depend>
   <depend>rclcpp</depend>
   <depend>rclcpp_lifecycle</depend>
-  <!-- depend>gazebo_ros2_control</depend -->
-  
+  <depend>gazebo_ros2_control</depend>
+  <!-- comment out above-->
   <exec_depend>controller_manager</exec_depend>
   <exec_depend>diff_drive_controller</exec_depend>
   <exec_depend>joint_state_broadcaster</exec_depend>
@@ -30,8 +30,8 @@
   <exec_depend>ros2launch</exec_depend>
   <exec_depend>rviz2</exec_depend>
   <exec_depend>xacro</exec_depend>
-  <!-- exec_depend>gazebo_ros</exec_depend -->
-  
+  <exec_depend>gazebo_ros</exec_depend>
+  <!-- comment out above-->
   <test_depend>ament_cmake_gtest</test_depend>
   <test_depend>ament_cmake_pytest</test_depend>
   <test_depend>launch_testing_ament_cmake</test_depend>

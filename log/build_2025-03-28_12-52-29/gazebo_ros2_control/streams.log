@@ -1,0 +1,5 @@
+[0.022s] Invoking command in '/home/dkflippo/aug2024/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dkflippo/aug2024/build/gazebo_ros2_control -- -j12 -l12
+[0.047s] [0mCMake Error: The source directory "/home/dkflippo/aug2024/src/gazebo_ros2_control/gazebo_ros2_control" does not exist.
+[0.047s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.049s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[0.051s] Invoked command in '/home/dkflippo/aug2024/build/gazebo_ros2_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dkflippo/aug2024/build/gazebo_ros2_control -- -j12 -l12

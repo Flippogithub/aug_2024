@@ -117,7 +117,7 @@ def generate_launch_description():
        package="controller_manager",
        executable="ros2_control_node",
        parameters=[{'robot_description': Command(['xacro ', urdf_file])},
-                os.path.join(pkg_share, 'config', 'my_controllers.yaml'),
+                os.path.join(pkg_share, 'config', 'flippo_controllers.yaml'),
                 {'use_sim_time': use_sim_time} ],
        output="screen",
     )
