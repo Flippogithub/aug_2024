@@ -1,0 +1,137 @@
+[0.010s] Invoking command in '/home/dkflippo/aug2024/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/gazebo_ros2_control/gazebo_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/install/gazebo_ros2_control_demos
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.115s] -- The CXX compiler identification is GNU 11.4.0
+[0.123s] -- Detecting C compiler ABI info
+[0.192s] -- Detecting C compiler ABI info - done
+[0.198s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.198s] -- Detecting C compile features
+[0.199s] -- Detecting C compile features - done
+[0.201s] -- Detecting CXX compiler ABI info
+[0.280s] -- Detecting CXX compiler ABI info - done
+[0.286s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.286s] -- Detecting CXX compile features
+[0.287s] -- Detecting CXX compile features - done
+[0.290s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.432s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.549s] -- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.591s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.597s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.606s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.620s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.637s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.759s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.801s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.804s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.905s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.934s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.976s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.986s] -- Looking for pthread.h
+[1.075s] -- Looking for pthread.h - found
+[1.075s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.151s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.152s] -- Found Threads: TRUE  
+[1.191s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.207s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.210s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.313s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.316s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.316s] -- Configured cppcheck include dirs: 
+[1.316s] -- Configured cppcheck exclude dirs and/or files: 
+[1.318s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.318s] -- Configured cpplint exclude dirs and/or files: 
+[1.319s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.320s] -- Added test 'lint_cmake' to check CMake code style
+[1.320s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.323s] -- Added test 'uncrustify' to check C / C++ code style
+[1.323s] -- Configured uncrustify additional arguments: 
+[1.323s] -- Added test 'xmllint' to check XML markup files
+[1.325s] -- Configuring done
+[1.356s] -- Generating done
+[1.367s] -- Build files have been written to: /home/dkflippo/aug2024/build/gazebo_ros2_control_demos
+[1.377s] Invoked command in '/home/dkflippo/aug2024/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/gazebo_ros2_control/gazebo_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/install/gazebo_ros2_control_demos
+[1.378s] Invoking command in '/home/dkflippo/aug2024/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble /usr/bin/cmake --build /home/dkflippo/aug2024/build/gazebo_ros2_control_demos -- -j12 -l12
+[1.442s] [ 21%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o[0m
+[1.443s] [ 28%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_effort.cpp.o[0m
+[1.443s] [ 28%] [32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o[0m
+[1.443s] [ 28%] [32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o[0m
+[1.443s] [ 35%] [32mBuilding CXX object CMakeFiles/example_position_pid.dir/examples/example_position_pid.cpp.o[0m
+[1.443s] [ 42%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o[0m
+[1.450s] [ 50%] [32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o[0m
+[6.806s] [ 57%] [32m[1mLinking CXX executable example_diff_drive[0m
+[6.910s] [ 64%] [32m[1mLinking CXX executable example_gripper[0m
+[7.100s] [ 64%] Built target example_diff_drive
+[7.214s] [ 71%] [32m[1mLinking CXX executable example_tricycle_drive[0m
+[7.341s] [ 71%] Built target example_gripper
+[7.344s] [ 78%] [32m[1mLinking CXX executable example_effort[0m
+[7.543s] [ 85%] [32m[1mLinking CXX executable example_position_pid[0m
+[7.611s] [ 85%] Built target example_tricycle_drive
+[7.620s] [ 92%] [32m[1mLinking CXX executable example_velocity[0m
+[7.720s] [ 92%] Built target example_effort
+[7.799s] [ 92%] Built target example_position_pid
+[7.835s] [ 92%] Built target example_velocity
+[7.899s] [100%] [32m[1mLinking CXX executable example_position[0m
+[8.089s] [100%] Built target example_position
+[8.101s] Invoked command in '/home/dkflippo/aug2024/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble /usr/bin/cmake --build /home/dkflippo/aug2024/build/gazebo_ros2_control_demos -- -j12 -l12
+[8.102s] Invoking command in '/home/dkflippo/aug2024/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble /usr/bin/cmake --install /home/dkflippo/aug2024/build/gazebo_ros2_control_demos
+[8.110s] -- Install configuration: ""
+[8.110s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch
+[8.110s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_effort.launch.py
+[8.111s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_velocity_pid.launch.py
+[8.111s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive.launch.py
+[8.111s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_position.launch.py
+[8.112s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/pendulum_example_effort.launch.py
+[8.112s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py
+[8.112s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/pendulum_example_position.launch.py
+[8.112s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_velocity.launch.py
+[8.113s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_position_pid.launch.py
+[8.113s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/tricycle_drive.launch.py
+[8.113s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config
+[8.114s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_effort.yaml
+[8.114s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/gripper_controller.yaml
+[8.114s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_velocity.yaml
+[8.114s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/config.rviz
+[8.115s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller.yaml
+[8.115s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller.yaml
+[8.115s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_position.yaml
+[8.116s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/tricycle_drive_controller.yaml
+[8.116s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf
+[8.116s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_pendulum_effort.xacro.urdf
+[8.116s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[8.117s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf
+[8.117s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_position_pid.xacro.urdf
+[8.117s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[8.118s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[8.118s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_velocity_pid.xacro.urdf
+[8.118s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+[8.119s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[8.119s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_pendulum_position.xacro.urdf
+[8.119s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position
+[8.121s] -- Set runtime path of "/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position" to ""
+[8.121s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position_pid
+[8.122s] -- Set runtime path of "/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position_pid" to ""
+[8.122s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity
+[8.124s] -- Set runtime path of "/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity" to ""
+[8.124s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort
+[8.126s] -- Set runtime path of "/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort" to ""
+[8.126s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive
+[8.127s] -- Set runtime path of "/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive" to ""
+[8.127s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_tricycle_drive
+[8.129s] -- Set runtime path of "/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_tricycle_drive" to ""
+[8.129s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper
+[8.131s] -- Set runtime path of "/home/dkflippo/aug2024/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper" to ""
+[8.131s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control_demos
+[8.131s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control_demos
+[8.131s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.sh
+[8.131s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.dsv
+[8.132s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.sh
+[8.132s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.dsv
+[8.132s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.bash
+[8.132s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.sh
+[8.132s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.zsh
+[8.133s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.dsv
+[8.133s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv
+[8.133s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/ament_index/resource_index/packages/gazebo_ros2_control_demos
+[8.133s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig.cmake
+[8.133s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig-version.cmake
+[8.134s] -- Installing: /home/dkflippo/aug2024/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.xml
+[8.137s] Invoked command in '/home/dkflippo/aug2024/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/opt/ros/humble /usr/bin/cmake --install /home/dkflippo/aug2024/build/gazebo_ros2_control_demos
