@@ -144,7 +144,24 @@ def generate_launch_description():
     print(f"URDF file path: {urdf_file}")
     print(f"Robot description length: {len(robot_desc)}")
     
+    # RPLidar node only
+    rplidar_node = Node(
+        package='sllidar_ros2',
+        executable='sllidar_node',
+        name='sllidar_node',
+        parameters=[{
+            'serial_port': '/dev/rplidar',
+            'serial_baudrate': 256000,
+            'frame_id': 'lidar_link',  # Make sure this matches your URDF link name
+            'scan_mode': 'Standard',
+            'angle_compensate': True,
+            'inverted': False,
+        }],
+        output='screen'
+    )
+    
     return LaunchDescription([
+        rplidar_node,
         declare_use_sim_time_argument,
         declare_map_yaml_cmd,
         robot_state_publisher,
@@ -156,5 +173,6 @@ def generate_launch_description():
         teleop_node,
         #slam_toolbox,
         static_tf_node,
+        
         rviz
     ])
