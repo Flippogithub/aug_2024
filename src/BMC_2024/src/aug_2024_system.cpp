@@ -30,6 +30,9 @@ namespace BMC_2024
 hardware_interface::CallbackReturn AUG2024Hardware::on_init(
   const hardware_interface::HardwareInfo & info)
 {
+  RCLCPP_INFO(rclcpp::get_logger("AUG2024Hardware"), "Configuring ...please wait...");
+
+
   if (
     hardware_interface::SystemInterface::on_init(info) !=
     hardware_interface::CallbackReturn::SUCCESS)
@@ -201,10 +204,19 @@ hardware_interface::CallbackReturn AUG2024Hardware::on_configure(
   RCLCPP_INFO(rclcpp::get_logger("AUG2024Hardware"), "Configuring ...please wait...");
 
   // open can sockets
+  bool rl_success = comms_rl_.open(cfg_.can_interface.c_str(), motor_rl_.can_id);
+  bool rr_success = comms_rr_.open(cfg_.can_interface.c_str(), motor_rr_.can_id);
+  
+  if (!rl_success || !rr_success) {
+    RCLCPP_ERROR(rclcpp::get_logger("AUG2024Hardware"), "Failed to open CAN sockets");
+    return hardware_interface::CallbackReturn::ERROR;
+  }
+  // all new above to catch CAN error
+  // open can sockets
   //comms_fl_.open(cfg_.can_interface.c_str(), motor_fl_.can_id);
   //comms_fr_.open(cfg_.can_interface.c_str(), motor_fr_.can_id);
-  comms_rl_.open(cfg_.can_interface.c_str(), motor_rl_.can_id);
-  comms_rr_.open(cfg_.can_interface.c_str(), motor_rr_.can_id);
+  //comms_rl_.open(cfg_.can_interface.c_str(), motor_rl_.can_id);
+  //comms_rr_.open(cfg_.can_interface.c_str(), motor_rr_.can_id);
   // set pids
   //comms_fl_.setPIDs(cfg_.pid_p, cfg_.pid_i, cfg_.pid_d);
   //comms_fr_.setPIDs(cfg_.pid_p, cfg_.pid_i, cfg_.pid_d);

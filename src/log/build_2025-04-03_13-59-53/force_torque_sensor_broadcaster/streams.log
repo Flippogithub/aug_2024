@@ -1,0 +1,32 @@
+[0.066s] Invoking command in '/home/dkflippo/aug2024/src/build/force_torque_sensor_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/ros2_controllers/force_torque_sensor_broadcaster -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/src/install/force_torque_sensor_broadcaster
+[0.865s] -- The C compiler identification is GNU 11.4.0
+[0.866s] -- The CXX compiler identification is GNU 11.4.0
+[0.867s] -- Detecting C compiler ABI info
+[0.868s] -- Detecting C compiler ABI info - done
+[0.868s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.869s] -- Detecting C compile features
+[0.869s] -- Detecting C compile features - done
+[0.869s] -- Detecting CXX compiler ABI info
+[0.869s] -- Detecting CXX compiler ABI info - done
+[0.887s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.887s] -- Detecting CXX compile features
+[0.887s] -- Detecting CXX compile features - done
+[0.895s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.895s]   By not providing "Findros2_control_cmake.cmake" in CMAKE_MODULE_PATH this
+[0.895s]   project has asked CMake to find a package configuration file provided by
+[0.896s]   "ros2_control_cmake", but CMake did not find one.
+[0.896s] 
+[0.897s]   Could not find a package configuration file provided by
+[0.897s]   "ros2_control_cmake" with any of the following names:
+[0.897s] 
+[0.897s]     ros2_control_cmakeConfig.cmake
+[0.898s]     ros2_control_cmake-config.cmake
+[0.898s] 
+[0.898s]   Add the installation prefix of "ros2_control_cmake" to CMAKE_PREFIX_PATH or
+[0.898s]   set "ros2_control_cmake_DIR" to a directory containing one of the above
+[0.898s]   files.  If "ros2_control_cmake" provides a separate development package or
+[0.899s]   SDK, be sure it has been installed.
+[0.899s] 
+[0.900s] -- Configuring incomplete, errors occurred!
+[0.900s] See also "/home/dkflippo/aug2024/src/build/force_torque_sensor_broadcaster/CMakeFiles/CMakeOutput.log".
+[0.900s] [0m

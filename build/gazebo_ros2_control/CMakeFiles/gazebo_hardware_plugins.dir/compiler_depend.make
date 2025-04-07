@@ -194,131 +194,15 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
   /opt/ros/humble/include/control_toolbox/control_toolbox/pid.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/clock.hpp \
-  /usr/include/c++/11/functional \
-  /usr/include/c++/11/bits/std_function.h \
-  /usr/include/c++/11/unordered_map \
-  /usr/include/c++/11/bits/hashtable.h \
-  /usr/include/c++/11/bits/hashtable_policy.h \
-  /usr/include/c++/11/bits/enable_special_members.h \
-  /usr/include/c++/11/bits/unordered_map.h \
-  /usr/include/c++/11/bits/stl_algo.h \
-  /usr/include/c++/11/bits/algorithmfwd.h \
-  /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/uniform_int_dist.h \
-  /usr/include/c++/11/mutex \
-  /usr/include/c++/11/chrono \
-  /usr/include/c++/11/ratio \
-  /usr/include/c++/11/ctime \
-  /usr/include/c++/11/bits/parse_numbers.h \
-  /usr/include/c++/11/system_error \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
-  /usr/include/c++/11/stdexcept \
-  /usr/include/c++/11/bits/std_mutex.h \
-  /usr/include/c++/11/bits/unique_lock.h \
-  /opt/ros/humble/include/rclcpp/rclcpp/contexts/default_context.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/context.hpp \
-  /usr/include/c++/11/condition_variable \
-  /usr/include/c++/11/typeindex \
-  /usr/include/c++/11/unordered_set \
-  /usr/include/c++/11/bits/unordered_set.h \
-  /opt/ros/humble/include/rcl/rcl/context.h \
-  /opt/ros/humble/include/rmw/rmw/init.h \
-  /opt/ros/humble/include/rmw/rmw/init_options.h \
-  /opt/ros/humble/include/rcutils/rcutils/allocator.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
-  /opt/ros/humble/include/rcutils/rcutils/macros.h \
-  /opt/ros/humble/include/rcutils/rcutils/testing/fault_injection.h \
-  /opt/ros/humble/include/rcutils/rcutils/visibility_control.h \
-  /opt/ros/humble/include/rcutils/rcutils/visibility_control_macros.h \
-  /opt/ros/humble/include/rcutils/rcutils/types/rcutils_ret.h \
-  /opt/ros/humble/include/rmw/rmw/domain_id.h \
-  /opt/ros/humble/include/rmw/rmw/localhost.h \
-  /opt/ros/humble/include/rmw/rmw/visibility_control.h \
-  /opt/ros/humble/include/rmw/rmw/macros.h \
-  /opt/ros/humble/include/rmw/rmw/ret_types.h \
-  /opt/ros/humble/include/rmw/rmw/security_options.h \
-  /opt/ros/humble/include/rcl/rcl/allocator.h \
-  /opt/ros/humble/include/rcl/rcl/arguments.h \
-  /opt/ros/humble/include/rcl/rcl/log_level.h \
-  /opt/ros/humble/include/rcl/rcl/macros.h \
-  /opt/ros/humble/include/rcl/rcl/types.h \
-  /opt/ros/humble/include/rmw/rmw/types.h \
-  /opt/ros/humble/include/rcutils/rcutils/logging.h \
-  /opt/ros/humble/include/rcutils/rcutils/error_handling.h \
-  /usr/include/assert.h \
-  /usr/include/c++/11/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /opt/ros/humble/include/rcutils/rcutils/snprintf.h \
-  /opt/ros/humble/include/rcutils/rcutils/time.h \
-  /opt/ros/humble/include/rcutils/rcutils/types.h \
-  /opt/ros/humble/include/rcutils/rcutils/types/array_list.h \
-  /opt/ros/humble/include/rcutils/rcutils/types/char_array.h \
-  /opt/ros/humble/include/rcutils/rcutils/types/hash_map.h \
-  /opt/ros/humble/include/rcutils/rcutils/types/string_array.h \
-  /opt/ros/humble/include/rcutils/rcutils/qsort.h \
-  /opt/ros/humble/include/rcutils/rcutils/types/string_map.h \
-  /opt/ros/humble/include/rcutils/rcutils/types/uint8_array.h \
-  /opt/ros/humble/include/rmw/rmw/events_statuses/events_statuses.h \
-  /opt/ros/humble/include/rmw/rmw/events_statuses/incompatible_qos.h \
-  /opt/ros/humble/include/rmw/rmw/qos_policy_kind.h \
-  /opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_changed.h \
-  /opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_lost.h \
-  /opt/ros/humble/include/rmw/rmw/events_statuses/message_lost.h \
-  /opt/ros/humble/include/rmw/rmw/events_statuses/offered_deadline_missed.h \
-  /opt/ros/humble/include/rmw/rmw/events_statuses/requested_deadline_missed.h \
-  /opt/ros/humble/include/rmw/rmw/serialized_message.h \
-  /opt/ros/humble/include/rmw/rmw/subscription_content_filter_options.h \
-  /opt/ros/humble/include/rmw/rmw/time.h \
-  /opt/ros/humble/include/rcl/rcl/visibility_control.h \
-  /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h \
-  /opt/ros/humble/include/rcl/rcl/init_options.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdalign.h \
-  /opt/ros/humble/include/rcl/rcl/guard_condition.h \
-  /opt/ros/humble/include/rcl/rcl/wait.h \
-  /opt/ros/humble/include/rcl/rcl/client.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
-  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
-  /opt/ros/humble/include/rcl/rcl/event_callback.h \
-  /opt/ros/humble/include/rmw/rmw/event_callback_type.h \
-  /opt/ros/humble/include/rcl/rcl/node.h \
-  /opt/ros/humble/include/rcl/rcl/node_options.h \
-  /opt/ros/humble/include/rcl/rcl/domain_id.h \
-  /opt/ros/humble/include/rcl/rcl/service.h \
-  /opt/ros/humble/include/rcl/rcl/subscription.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
-  /opt/ros/humble/include/rmw/rmw/message_sequence.h \
-  /opt/ros/humble/include/rcl/rcl/timer.h \
-  /opt/ros/humble/include/rcl/rcl/time.h \
-  /opt/ros/humble/include/rmw/rmw/rmw.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h \
-  /opt/ros/humble/include/rmw/rmw/event.h \
-  /opt/ros/humble/include/rmw/rmw/publisher_options.h \
-  /opt/ros/humble/include/rmw/rmw/qos_profiles.h \
-  /opt/ros/humble/include/rmw/rmw/subscription_options.h \
-  /opt/ros/humble/include/rcl/rcl/event.h \
-  /opt/ros/humble/include/rcl/rcl/publisher.h \
-  /opt/ros/humble/include/rclcpp/rclcpp/init_options.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/visibility_control.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/macros.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/time.hpp \
-  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
-  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
-  /usr/include/c++/11/algorithm \
-  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
-  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
-  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
-  /usr/include/c++/11/sstream \
-  /usr/include/c++/11/istream \
+  /usr/include/c++/11/iostream \
+  /usr/include/c++/11/ostream \
   /usr/include/c++/11/ios \
   /usr/include/c++/11/bits/ios_base.h \
   /usr/include/c++/11/bits/locale_classes.h \
   /usr/include/c++/11/bits/locale_classes.tcc \
+  /usr/include/c++/11/system_error \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/streambuf \
   /usr/include/c++/11/bits/streambuf.tcc \
   /usr/include/c++/11/bits/basic_ios.h \
@@ -331,173 +215,35 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
   /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
   /usr/include/c++/11/bits/locale_facets.tcc \
   /usr/include/c++/11/bits/basic_ios.tcc \
-  /usr/include/c++/11/ostream \
   /usr/include/c++/11/bits/ostream.tcc \
+  /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
-  /usr/include/c++/11/bits/sstream.tcc \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp \
-  /usr/include/c++/11/codecvt \
-  /usr/include/c++/11/bits/codecvt.h \
-  /usr/include/c++/11/iomanip \
-  /usr/include/c++/11/locale \
-  /usr/include/c++/11/bits/locale_facets_nonio.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
-  /usr/include/libintl.h \
-  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
-  /usr/include/c++/11/bits/locale_conv.h \
-  /usr/include/c++/11/bits/quoted_string.h \
-  /opt/ros/humble/include/rclcpp/rclcpp/duration.hpp \
-  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
-  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
-  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
-  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node.hpp \
-  /usr/include/c++/11/atomic \
-  /usr/include/c++/11/list \
-  /usr/include/c++/11/bits/stl_list.h \
-  /usr/include/c++/11/bits/list.tcc \
-  /opt/ros/humble/include/rcl/rcl/error_handling.h \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__struct.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__builder.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/client.hpp \
-  /usr/include/c++/11/future \
-  /usr/include/c++/11/bits/atomic_futex.h \
-  /usr/include/c++/11/bits/std_thread.h \
-  /usr/include/c++/11/optional \
-  /usr/include/c++/11/variant \
-  /opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/exceptions.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp \
-  /opt/ros/humble/include/rcpputils/rcpputils/join.hpp \
-  /usr/include/c++/11/iterator \
-  /usr/include/c++/11/bits/stream_iterator.h \
-  /opt/ros/humble/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/logger.hpp \
-  /opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp \
-  /opt/ros/humble/include/rcpputils/rcpputils/visibility_control.hpp \
-  /opt/ros/humble/include/rcutils/rcutils/logging_macros.h \
-  /opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp \
-  /opt/ros/humble/include/rcl/rcl/graph.h \
-  /opt/ros/humble/include/rmw/rmw/names_and_types.h \
-  /opt/ros/humble/include/rmw/rmw/get_topic_names_and_types.h \
-  /opt/ros/humble/include/rmw/rmw/topic_endpoint_info_array.h \
-  /opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h \
-  /opt/ros/humble/include/rclcpp/rclcpp/event.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/qos.hpp \
-  /opt/ros/humble/include/rcl/rcl/logging_rosout.h \
-  /opt/ros/humble/include/rmw/rmw/incompatible_qos_events_statuses.h \
-  /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
-  /opt/ros/humble/include/rmw/rmw/error_handling.h \
-  /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp \
-  /usr/include/c++/11/cxxabi.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
-  /usr/include/c++/11/iostream \
-  /opt/ros/humble/include/rmw/rmw/impl/config.h \
-  /opt/ros/humble/include/rclcpp/rclcpp/guard_condition.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/publisher_base.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/network_flow_endpoint.hpp \
-  /opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h \
-  /opt/ros/humble/include/rmw/rmw/network_flow_endpoint.h \
-  /opt/ros/humble/include/rmw/rmw/network_flow_endpoint_array.h \
-  /opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/waitable.hpp \
-  /opt/ros/humble/include/rcpputils/rcpputils/time.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/service.hpp \
-  /opt/ros/humble/include/tracetools/tracetools/tracetools.h \
-  /opt/ros/humble/include/tracetools/tracetools/config.h \
-  /opt/ros/humble/include/tracetools/tracetools/visibility_control.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp \
-  /opt/ros/humble/include/tracetools/tracetools/utils.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/subscription_base.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_common.hpp \
-  /usr/include/c++/11/cstring \
-  /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_deleter.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/message_info.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/serialized_message.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/type_adapter.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp \
-  /usr/include/c++/11/shared_mutex \
-  /opt/ros/humble/include/rclcpp/rclcpp/experimental/ros_message_intra_process_buffer.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/buffer_implementation_base.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/experimental/create_intra_process_buffer.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/intra_process_buffer_type.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/subscription_content_filter_options.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/timer.hpp \
+  /opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.hpp \
+  /usr/include/c++/11/chrono \
+  /usr/include/c++/11/ratio \
+  /usr/include/c++/11/ctime \
+  /usr/include/c++/11/bits/parse_numbers.h \
+  /usr/include/c++/11/mutex \
+  /usr/include/c++/11/bits/std_mutex.h \
+  /usr/include/c++/11/bits/unique_lock.h \
   /usr/include/c++/11/thread \
+  /usr/include/c++/11/bits/std_thread.h \
   /usr/include/c++/11/bits/this_thread_sleep.h \
-  /opt/ros/humble/include/rclcpp/rclcpp/rate.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp \
-  /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp \
-  /opt/ros/humble/include/rcutils/rcutils/shared_library.h \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_use_intra_process.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/intra_process_setting.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/is_ros_compatible_type.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/loaned_message.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/publisher_factory.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/message_memory_strategy.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp \
-  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
-  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp \
-  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp \
-  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp \
-  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp \
-  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp \
-  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
-  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
-  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
+  /home/dkflippo/aug2024/src/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp \
+  /opt/ros/humble/include/angles/angles/angles.h \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/bits/stl_algo.h \
+  /usr/include/c++/11/bits/algorithmfwd.h \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/functional \
+  /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/unordered_map.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -522,64 +268,6 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
   /usr/include/c++/11/tr1/poly_hermite.tcc \
   /usr/include/c++/11/tr1/poly_laguerre.tcc \
   /usr/include/c++/11/tr1/riemann_zeta.tcc \
-  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp \
-  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp \
-  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp \
-  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp \
-  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
-  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp \
-  /usr/include/c++/11/numeric \
-  /usr/include/c++/11/bits/stl_numeric.h \
-  /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
-  /opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp \
-  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
-  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/typesupport_helpers.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/generic_subscription.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_clock_interface.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_logging_interface.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/create_client.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/create_generic_publisher.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/create_generic_subscription.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/create_publisher.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp \
-  /opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface_traits.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/detail/qos_parameters.hpp \
-  /opt/ros/humble/include/rmw/rmw/qos_string_conversions.h \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface_traits.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_enable_topic_statistics.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_timers_interface.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/create_timer.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface_traits.hpp \
-  /opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h \
-  /opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.h \
-  /opt/ros/humble/include/control_toolbox/control_toolbox/visibility_control.hpp \
-  /home/dkflippo/aug2024/src/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp \
-  /opt/ros/humble/include/angles/angles/angles.h \
   /home/dkflippo/aug2024/src/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp \
   /usr/include/gazebo-11/gazebo/physics/Joint.hh \
   /usr/include/boost/any.hpp \
@@ -609,6 +297,9 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
   /usr/include/boost/type_index/type_index_facade.hpp \
   /usr/include/boost/container_hash/hash_fwd.hpp \
   /usr/include/boost/config/workaround.hpp \
+  /usr/include/c++/11/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
   /usr/include/boost/static_assert.hpp \
   /usr/include/boost/detail/workaround.hpp \
   /usr/include/boost/throw_exception.hpp \
@@ -617,6 +308,8 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
   /usr/include/boost/cstdint.hpp \
   /usr/include/boost/exception/exception.hpp \
   /usr/include/boost/core/demangle.hpp \
+  /usr/include/c++/11/cxxabi.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
   /usr/include/boost/type_traits/conditional.hpp \
   /usr/include/boost/type_traits/is_const.hpp \
   /usr/include/boost/type_traits/integral_constant.hpp \
@@ -644,8 +337,22 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
   /usr/include/ignition/math6/gz/math/Pose3.hh \
   /usr/include/ignition/math6/gz/math/Quaternion.hh \
   /usr/include/ignition/math6/gz/math/Helpers.hh \
+  /usr/include/c++/11/iomanip \
+  /usr/include/c++/11/locale \
+  /usr/include/c++/11/bits/locale_facets_nonio.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/libintl.h \
+  /usr/include/c++/11/bits/codecvt.h \
+  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/11/bits/locale_conv.h \
+  /usr/include/c++/11/bits/quoted_string.h \
+  /usr/include/c++/11/sstream \
+  /usr/include/c++/11/bits/sstream.tcc \
   /usr/include/c++/11/regex \
   /usr/include/c++/11/bitset \
+  /usr/include/c++/11/iterator \
+  /usr/include/c++/11/bits/stream_iterator.h \
   /usr/include/c++/11/stack \
   /usr/include/c++/11/deque \
   /usr/include/c++/11/bits/stl_deque.h \
@@ -676,8 +383,13 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
   /usr/include/ignition/math6/ignition/math/config.hh \
   /usr/include/ignition/math6/ignition/math/Vector3.hh \
   /usr/include/gazebo-11/gazebo/common/Event.hh \
+  /usr/include/c++/11/atomic \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/list.tcc \
   /usr/include/gazebo-11/gazebo/gazebo_config.h \
   /usr/include/gazebo-11/gazebo/common/Time.hh \
+  /usr/include/c++/11/stdlib.h \
   /usr/include/gazebo-11/gazebo/common/CommonTypes.hh \
   /usr/include/boost/shared_ptr.hpp \
   /usr/include/boost/smart_ptr/shared_ptr.hpp \
@@ -696,6 +408,7 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
   /usr/include/boost/smart_ptr/detail/sp_convertible.hpp \
   /usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp \
   /usr/include/boost/assert.hpp \
+  /usr/include/assert.h \
   /usr/include/boost/smart_ptr/detail/spinlock_pool.hpp \
   /usr/include/boost/smart_ptr/detail/spinlock.hpp \
   /usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp \
@@ -721,6 +434,7 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
   /usr/include/c++/11/bits/stl_set.h \
   /usr/include/c++/11/bits/stl_multiset.h \
   /usr/include/sdformat-9.7/sdf/Param.hh \
+  /usr/include/c++/11/variant \
   /usr/include/ignition/math6/ignition/math.hh \
   /usr/include/ignition/math6/gz/math.hh \
   /usr/include/ignition/math6/gz/math/graph/Edge.hh \
@@ -742,6 +456,7 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
   /usr/include/ignition/math6/gz/math/Box.hh \
   /usr/include/ignition/math6/gz/math/Plane.hh \
   /usr/include/ignition/math6/gz/math/Line2.hh \
+  /usr/include/c++/11/optional \
   /usr/include/ignition/math6/gz/math/detail/WellOrderedVector.hh \
   /usr/include/ignition/math6/gz/math/detail/Box.hh \
   /usr/include/ignition/math6/gz/math/Triangle3.hh \
@@ -772,6 +487,9 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
   /usr/include/c++/11/bits/random.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h \
   /usr/include/c++/11/bits/random.tcc \
+  /usr/include/c++/11/numeric \
+  /usr/include/c++/11/bits/stl_numeric.h \
+  /usr/include/c++/11/pstl/glue_numeric_defs.h \
   /usr/include/ignition/math6/gz/math/RollingMean.hh \
   /usr/include/ignition/math6/gz/math/RotationSpline.hh \
   /usr/include/ignition/math6/gz/math/SemanticVersion.hh \
@@ -1319,6 +1037,7 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
   /usr/include/boost/container_hash/detail/limits.hpp \
   /usr/include/boost/integer/static_log2.hpp \
   /usr/include/boost/integer_fwd.hpp \
+  /usr/include/c++/11/typeindex \
   /usr/include/boost/container_hash/extensions.hpp \
   /usr/include/boost/detail/container_fwd.hpp \
   /usr/include/c++/11/complex \
@@ -1677,6 +1396,8 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
   /usr/include/google/protobuf/stubs/strutil.h \
   /usr/include/google/protobuf/stubs/stringpiece.h \
   /usr/include/google/protobuf/stubs/hash.h \
+  /usr/include/c++/11/unordered_set \
+  /usr/include/c++/11/bits/unordered_set.h \
   /usr/include/google/protobuf/port.h \
   /usr/include/google/protobuf/arena.h \
   /usr/include/google/protobuf/arena_impl.h \
@@ -2105,6 +1826,7 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
   /usr/include/ignition/transport8/ignition/transport/Uuid.hh \
   /usr/include/uuid/uuid.h \
   /usr/include/ignition/transport8/ignition/transport/ReqHandler.hh \
+  /usr/include/c++/11/condition_variable \
   /usr/include/ignition/transport8/ignition/transport/SubscriptionHandler.hh \
   /usr/include/ignition/transport8/ignition/transport/MessageInfo.hh \
   /usr/include/ignition/transport8/ignition/transport/SubscribeOptions.hh \
@@ -2196,26 +1918,124 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
   /usr/include/gazebo-11/gazebo/physics/SurfaceParams.hh \
   /usr/include/gazebo-11/gazebo/physics/UniversalJoint.hh \
   /usr/include/gazebo-11/gazebo/physics/UserCmdManager.hh \
-  /opt/ros/humble/include/hardware_interface/system_interface.hpp \
-  /opt/ros/humble/include/hardware_interface/handle.hpp \
-  /opt/ros/humble/include/hardware_interface/macros.hpp \
-  /opt/ros/humble/include/hardware_interface/visibility_control.h \
-  /opt/ros/humble/include/hardware_interface/hardware_info.hpp \
-  /opt/ros/humble/include/hardware_interface/types/hardware_interface_return_values.hpp \
-  /opt/ros/humble/include/hardware_interface/types/lifecycle_state_names.hpp \
+  /home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/system_interface.hpp \
+  /home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/handle.hpp \
+  /home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/macros.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp \
+  /home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/visibility_control.h \
+  /home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/hardware_info.hpp \
+  /home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_return_values.hpp \
+  /home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/types/lifecycle_state_names.hpp \
   /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/state.hpp \
   /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
   /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__builder.hpp \
   /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__traits.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp \
+  /usr/include/c++/11/codecvt \
+  /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__type_support.hpp \
+  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+  /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/duration.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/rcl/rcl/time.h \
+  /opt/ros/humble/include/rcl/rcl/allocator.h \
+  /opt/ros/humble/include/rcutils/rcutils/allocator.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
+  /opt/ros/humble/include/rcutils/rcutils/macros.h \
+  /opt/ros/humble/include/rcutils/rcutils/testing/fault_injection.h \
+  /opt/ros/humble/include/rcutils/rcutils/visibility_control.h \
+  /opt/ros/humble/include/rcutils/rcutils/visibility_control_macros.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/rcutils_ret.h \
+  /opt/ros/humble/include/rcl/rcl/macros.h \
+  /opt/ros/humble/include/rcl/rcl/types.h \
+  /opt/ros/humble/include/rmw/rmw/types.h \
+  /opt/ros/humble/include/rcutils/rcutils/logging.h \
+  /opt/ros/humble/include/rcutils/rcutils/error_handling.h \
+  /opt/ros/humble/include/rcutils/rcutils/snprintf.h \
+  /opt/ros/humble/include/rcutils/rcutils/time.h \
+  /opt/ros/humble/include/rcutils/rcutils/types.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/array_list.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/char_array.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/hash_map.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/string_array.h \
+  /opt/ros/humble/include/rcutils/rcutils/qsort.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/string_map.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/uint8_array.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/events_statuses.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/incompatible_qos.h \
+  /opt/ros/humble/include/rmw/rmw/qos_policy_kind.h \
+  /opt/ros/humble/include/rmw/rmw/visibility_control.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_changed.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_lost.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/message_lost.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/offered_deadline_missed.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/requested_deadline_missed.h \
+  /opt/ros/humble/include/rmw/rmw/init.h \
+  /opt/ros/humble/include/rmw/rmw/init_options.h \
+  /opt/ros/humble/include/rmw/rmw/domain_id.h \
+  /opt/ros/humble/include/rmw/rmw/localhost.h \
+  /opt/ros/humble/include/rmw/rmw/macros.h \
+  /opt/ros/humble/include/rmw/rmw/ret_types.h \
+  /opt/ros/humble/include/rmw/rmw/security_options.h \
+  /opt/ros/humble/include/rmw/rmw/serialized_message.h \
+  /opt/ros/humble/include/rmw/rmw/subscription_content_filter_options.h \
+  /opt/ros/humble/include/rmw/rmw/time.h \
+  /opt/ros/humble/include/rcl/rcl/visibility_control.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/visibility_control.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/time.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp \
   /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
   /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \
   /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp \
   /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp \
   /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp \
+  /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp \
   /opt/ros/humble/include/rcl_lifecycle/rcl_lifecycle/rcl_lifecycle.h \
   /opt/ros/humble/include/rcl_lifecycle/rcl_lifecycle/data_types.h \
   /opt/ros/humble/include/rcl/rcl/rcl.h \
   /opt/ros/humble/include/rcl/rcl/init.h \
+  /opt/ros/humble/include/rcl/rcl/context.h \
+  /opt/ros/humble/include/rcl/rcl/arguments.h \
+  /opt/ros/humble/include/rcl/rcl/log_level.h \
+  /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h \
+  /opt/ros/humble/include/rcl/rcl/init_options.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdalign.h \
+  /opt/ros/humble/include/rcl/rcl/node.h \
+  /opt/ros/humble/include/rcl/rcl/guard_condition.h \
+  /opt/ros/humble/include/rcl/rcl/node_options.h \
+  /opt/ros/humble/include/rcl/rcl/domain_id.h \
+  /opt/ros/humble/include/rcl/rcl/publisher.h \
+  /opt/ros/humble/include/rcl/rcl/subscription.h \
+  /opt/ros/humble/include/rcl/rcl/event_callback.h \
+  /opt/ros/humble/include/rmw/rmw/event_callback_type.h \
+  /opt/ros/humble/include/rmw/rmw/message_sequence.h \
+  /opt/ros/humble/include/rcl/rcl/wait.h \
+  /opt/ros/humble/include/rcl/rcl/client.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
+  /opt/ros/humble/include/rcl/rcl/service.h \
+  /opt/ros/humble/include/rcl/rcl/timer.h \
+  /opt/ros/humble/include/rmw/rmw/rmw.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h \
+  /opt/ros/humble/include/rmw/rmw/event.h \
+  /opt/ros/humble/include/rmw/rmw/publisher_options.h \
+  /opt/ros/humble/include/rmw/rmw/qos_profiles.h \
+  /opt/ros/humble/include/rmw/rmw/subscription_options.h \
+  /opt/ros/humble/include/rcl/rcl/event.h \
   /opt/ros/humble/include/rcl_lifecycle/rcl_lifecycle/visibility_control.h \
   /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h \
   /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h \
@@ -2232,15 +2052,209 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
   /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
   /usr/include/c++/11/csignal \
   /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp \
+  /usr/include/c++/11/future \
+  /usr/include/c++/11/bits/atomic_futex.h \
   /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp \
   /opt/ros/humble/include/rcpputils/rcpputils/scope_exit.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/context.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/init_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/macros.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/contexts/default_context.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/guard_condition.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/client.hpp \
+  /opt/ros/humble/include/rcl/rcl/error_handling.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/exceptions.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/join.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/logger.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/visibility_control.hpp \
+  /opt/ros/humble/include/rcutils/rcutils/logging_macros.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp \
+  /opt/ros/humble/include/rcl/rcl/graph.h \
+  /opt/ros/humble/include/rmw/rmw/names_and_types.h \
+  /opt/ros/humble/include/rmw/rmw/get_topic_names_and_types.h \
+  /opt/ros/humble/include/rmw/rmw/topic_endpoint_info_array.h \
+  /opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/event.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/qos.hpp \
+  /opt/ros/humble/include/rcl/rcl/logging_rosout.h \
+  /opt/ros/humble/include/rmw/rmw/incompatible_qos_events_statuses.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
+  /opt/ros/humble/include/rmw/rmw/error_handling.h \
+  /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp \
+  /opt/ros/humble/include/rmw/rmw/impl/config.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/publisher_base.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/network_flow_endpoint.hpp \
+  /opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h \
+  /opt/ros/humble/include/rmw/rmw/network_flow_endpoint.h \
+  /opt/ros/humble/include/rmw/rmw/network_flow_endpoint_array.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/waitable.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/time.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/service.hpp \
+  /opt/ros/humble/include/tracetools/tracetools/tracetools.h \
+  /opt/ros/humble/include/tracetools/tracetools/config.h \
+  /opt/ros/humble/include/tracetools/tracetools/visibility_control.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp \
+  /opt/ros/humble/include/tracetools/tracetools/utils.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_base.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_common.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_deleter.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/message_info.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/serialized_message.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/type_adapter.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp \
+  /usr/include/c++/11/shared_mutex \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/ros_message_intra_process_buffer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/buffer_implementation_base.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/create_intra_process_buffer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/intra_process_buffer_type.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_content_filter_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/timer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/clock.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/rate.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_use_intra_process.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/intra_process_setting.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/message_memory_strategy.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/is_ros_compatible_type.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/loaned_message.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/future_return_code.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp \
+  /opt/ros/humble/include/rcutils/rcutils/shared_library.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/publisher_factory.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/typesupport_helpers.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/generic_subscription.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_clock_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_logging_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_client.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_generic_publisher.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_generic_subscription.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_publisher.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/qos_parameters.hpp \
+  /opt/ros/humble/include/rmw/rmw/qos_string_conversions.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_enable_topic_statistics.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_timers_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_timer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface_traits.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/executors/static_single_threaded_executor.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/executors/static_executor_entities_collector.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/experimental/executable_list.hpp \
@@ -2249,26 +2263,32 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp \
   /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
   /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
   /opt/ros/humble/include/rclcpp/rclcpp/parameter_map.hpp \
@@ -2290,6 +2310,8 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__struct.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__builder.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__type_support.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /usr/include/gazebo-11/gazebo/sensors/ImuSensor.hh \
   /usr/include/gazebo-11/gazebo/sensors/Sensor.hh \
   /usr/include/gazebo-11/gazebo/rendering/RenderTypes.hh \
@@ -2298,7 +2320,7 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
   /usr/include/gazebo-11/gazebo/common/Assert.hh \
   /usr/include/gazebo-11/gazebo/sensors/ForceTorqueSensor.hh \
   /usr/include/gazebo-11/gazebo/sensors/SensorManager.hh \
-  /opt/ros/humble/include/hardware_interface/types/hardware_interface_type_values.hpp \
+  /home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_type_values.hpp \
   /opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp \
   /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
   /usr/include/console_bridge/console.h \
@@ -2322,11 +2344,13 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:
 
-/opt/ros/humble/include/hardware_interface/types/hardware_interface_type_values.hpp:
-
 /usr/include/gazebo-11/gazebo/sensors/SensorTypes.hh:
 
 /usr/include/gazebo-11/gazebo/rendering/RenderTypes.hh:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__type_support.hpp:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/bool.hpp:
 
@@ -2350,15 +2374,21 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp:
 
@@ -2370,7 +2400,151 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /opt/ros/humble/include/rclcpp/rclcpp/executors/static_single_threaded_executor.hpp:
 
+/opt/ros/humble/include/rclcpp/rclcpp/create_timer.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface_traits.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface_traits.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/create_publisher.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/create_generic_subscription.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/create_client.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/typesupport_helpers.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/publisher_factory.hpp:
+
+/opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__builder.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp:
+
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp:
+
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp:
+
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp:
+
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/intra_process_setting.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/subscription_content_filter_options.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/buffer_implementation_base.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/experimental/ros_message_intra_process_buffer.hpp:
+
+/usr/include/c++/11/shared_mutex:
+
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:
+
+/opt/ros/humble/include/tracetools/tracetools/config.h:
+
+/opt/ros/humble/include/tracetools/tracetools/tracetools.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:
+
+/opt/ros/humble/include/rcpputils/rcpputils/time.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/waitable.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/network_flow_endpoint.hpp:
+
+/opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp:
+
+/opt/ros/humble/include/rmw/rmw/error_handling.h:
+
+/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp:
+
+/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp:
+
+/opt/ros/humble/include/rcl/rcl/logging_rosout.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:
+
+/opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h:
+
+/opt/ros/humble/include/rmw/rmw/topic_endpoint_info_array.h:
+
+/opt/ros/humble/include/rmw/rmw/get_topic_names_and_types.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:
+
+/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:
+
+/opt/ros/humble/include/rcpputils/rcpputils/visibility_control.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp:
+
+/opt/ros/humble/include/rcl/rcl/error_handling.h:
+
+/opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:
+
+/usr/include/gazebo-11/gazebo/sensors/Sensor.hh:
+
+/opt/ros/humble/include/rclcpp/rclcpp/guard_condition.hpp:
 
 /opt/ros/humble/include/rcpputils/rcpputils/scope_exit.hpp:
 
@@ -2386,19 +2560,115 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h:
 
+/opt/ros/humble/include/rcl/rcl/event.h:
+
+/opt/ros/humble/include/rmw/rmw/qos_profiles.h:
+
+/opt/ros/humble/include/rmw/rmw/publisher_options.h:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h:
+
+/opt/ros/humble/include/rmw/rmw/event_callback_type.h:
+
 /opt/ros/humble/include/rcl/rcl/rcl.h:
 
 /opt/ros/humble/include/rcl_lifecycle/rcl_lifecycle/rcl_lifecycle.h:
 
+/opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp:
+
 /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/visibility_control.hpp:
+
+/opt/ros/humble/include/rmw/rmw/time.h:
+
+/opt/ros/humble/include/rmw/rmw/serialized_message.h:
+
+/opt/ros/humble/include/rmw/rmw/macros.h:
+
+/opt/ros/humble/include/rmw/rmw/localhost.h:
+
+/opt/ros/humble/include/rmw/rmw/domain_id.h:
+
+/opt/ros/humble/include/rmw/rmw/init_options.h:
+
+/opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_lost.h:
+
+/opt/ros/humble/include/rmw/rmw/visibility_control.h:
+
+/opt/ros/humble/include/rmw/rmw/qos_policy_kind.h:
+
+/opt/ros/humble/include/rcutils/rcutils/types/uint8_array.h:
+
+/opt/ros/humble/include/rcutils/rcutils/types/string_map.h:
+
+/opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h:
+
+/opt/ros/humble/include/rcutils/rcutils/qsort.h:
+
+/opt/ros/humble/include/rmw/rmw/events_statuses/events_statuses.h:
+
+/opt/ros/humble/include/rcutils/rcutils/types/string_array.h:
+
+/opt/ros/humble/include/rcutils/rcutils/types/hash_map.h:
+
+/opt/ros/humble/include/rcutils/rcutils/types/char_array.h:
+
+/opt/ros/humble/include/rcutils/rcutils/types.h:
+
+/opt/ros/humble/include/rcutils/rcutils/snprintf.h:
+
+/opt/ros/humble/include/rcutils/rcutils/logging.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp:
+
+/opt/ros/humble/include/rcl/rcl/macros.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h:
+
+/opt/ros/humble/include/rcl/rcl/time.h:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
+
+/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:
+
+/opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__type_support.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp:
+
+/usr/include/c++/11/codecvt:
 
 /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__builder.hpp:
 
+/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp:
+
+/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp:
+
 /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.hpp:
 
-/opt/ros/humble/include/hardware_interface/macros.hpp:
+/home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/hardware_info.hpp:
 
-/opt/ros/humble/include/hardware_interface/handle.hpp:
+/home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/visibility_control.h:
+
+/opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp:
+
+/home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/handle.hpp:
 
 /usr/include/gazebo-11/gazebo/physics/UserCmdManager.hh:
 
@@ -2424,11 +2694,17 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/gazebo-11/gazebo/physics/Link.hh:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp:
+
 /usr/include/gazebo-11/gazebo/common/PID.hh:
 
 /usr/include/gazebo-11/gazebo/physics/Hinge2Joint.hh:
 
 /usr/include/gazebo-11/gazebo/common/Dem.hh:
+
+/opt/ros/humble/include/rcl/rcl/types.h:
+
+/usr/include/gazebo-11/gazebo/common/ImageHeightmap.hh:
 
 /usr/include/gazebo-11/gazebo/physics/CylinderShape.hh:
 
@@ -2439,6 +2715,10 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 /usr/include/boost/swap.hpp:
 
 /usr/include/boost/preprocessor/seq/size.hpp:
+
+/opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h:
+
+/usr/include/boost/preprocessor/seq/enum.hpp:
 
 /usr/include/boost/unordered/detail/implementation.hpp:
 
@@ -2454,17 +2734,39 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/unordered/unordered_set.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp:
+
+/usr/include/gazebo-11/gazebo/physics/Shape.hh:
+
 /usr/include/gazebo-11/gazebo/physics/Atmosphere.hh:
 
 /usr/include/gazebo-11/gazebo/physics/AdiabaticAtmosphere.hh:
+
+/opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp:
+
+/usr/include/ignition/math6/ignition/math/Spline.hh:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdalign.h:
+
+/usr/include/gazebo-11/gazebo/common/Animation.hh:
 
 /usr/include/gazebo-11/gazebo/physics/Actor.hh:
 
 /usr/include/gazebo-11/gazebo/physics/physics.hh:
 
+/opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp:
+
+/usr/include/gazebo-11/gazebo/common/SphericalCoordinates.hh:
+
 /usr/include/gazebo-11/gazebo/physics/Road.hh:
 
 /usr/include/ignition/math6/ignition/math/MassMatrix3.hh:
+
+/opt/ros/humble/include/rclcpp/rclcpp/generic_subscription.hpp:
+
+/opt/ros/humble/include/rmw/rmw/init.h:
+
+/usr/include/gazebo-11/gazebo/msgs/msgs.hh:
 
 /usr/include/ignition/transport8/ignition/transport/detail/Node.hh:
 
@@ -2479,6 +2781,10 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 /usr/include/gazebo-11/gazebo/common/EnumIface.hh:
 
 /usr/include/ignition/transport8/ignition/transport/MessageInfo.hh:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__struct.hpp:
+
+/usr/include/c++/11/condition_variable:
 
 /usr/include/ignition/transport8/ignition/transport/ReqHandler.hh:
 
@@ -2504,9 +2810,21 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/ignition/msgs5/ignition/msgs/visual_v.pb.h:
 
+/opt/ros/humble/include/rclcpp/rclcpp/experimental/create_intra_process_buffer.hpp:
+
+/usr/include/ignition/msgs5/ignition/msgs/world_reset.pb.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp:
+
+/usr/include/ignition/msgs5/ignition/msgs/uint64_v.pb.h:
+
 /usr/include/ignition/msgs5/ignition/msgs/test.pb.h:
 
 /usr/include/ignition/msgs5/ignition/msgs/tactile.pb.h:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
+
+/usr/include/ignition/msgs5/ignition/msgs/stringmsg.pb.h:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__traits.hpp:
 
@@ -2514,15 +2832,37 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/ignition/msgs5/ignition/msgs/spherical_coordinates.pb.h:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp:
+
+/usr/include/ignition/msgs5/ignition/msgs/wireless_node.pb.h:
+
+/usr/include/ignition/msgs5/ignition/msgs/sim_event.pb.h:
+
 /usr/include/ignition/msgs5/ignition/msgs/shadows.pb.h:
 
+/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:
+
+/opt/ros/humble/include/rcl/rcl/graph.h:
+
+/usr/include/ignition/msgs5/ignition/msgs/server_control.pb.h:
+
 /usr/include/ignition/msgs5/ignition/msgs/sensor_v.pb.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/sequential_synchronization.hpp:
+
+/opt/ros/humble/include/rmw/rmw/names_and_types.h:
+
+/usr/include/ignition/msgs5/ignition/msgs/selection.pb.h:
 
 /usr/include/ignition/msgs5/ignition/msgs/sky.pb.h:
 
 /usr/include/ignition/msgs5/ignition/msgs/rest_response.pb.h:
 
 /usr/include/ignition/msgs5/ignition/msgs/rest_post.pb.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_clock_interface.hpp:
+
+/usr/include/ignition/msgs5/ignition/msgs/rest_logout.pb.h:
 
 /usr/include/ignition/msgs5/ignition/msgs/raysensor.pb.h:
 
@@ -2547,6 +2887,10 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 /usr/include/ignition/msgs5/ignition/msgs/stringmsg_v.pb.h:
 
 /usr/include/ignition/msgs5/ignition/msgs/pose_v.pb.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:
+
+/usr/include/ignition/msgs5/ignition/msgs/occupancy_grid.pb.h:
 
 /usr/include/ignition/msgs5/ignition/msgs/model_configuration.pb.h:
 
@@ -2620,6 +2964,10 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/ignition/msgs5/ignition/msgs/entity_factory.pb.h:
 
+/opt/ros/humble/include/rcl/rcl/timer.h:
+
+/usr/include/ignition/msgs5/ignition/msgs/empty.pb.h:
+
 /usr/include/ignition/msgs5/ignition/msgs/duration.pb.h:
 
 /usr/include/ignition/msgs5/ignition/msgs/double.pb.h:
@@ -2640,9 +2988,15 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/ignition/msgs5/ignition/msgs/geometry.pb.h:
 
+/opt/ros/humble/include/rcl/rcl/service.h:
+
+/usr/include/ignition/msgs5/ignition/msgs/collision.pb.h:
+
 /usr/include/ignition/msgs5/ignition/msgs/cmd_vel2d.pb.h:
 
 /usr/include/ignition/msgs5/ignition/msgs/distortion.pb.h:
+
+/home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/system_interface.hpp:
 
 /usr/include/ignition/msgs5/ignition/msgs/camerasensor.pb.h:
 
@@ -2651,6 +3005,10 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 /usr/include/ignition/msgs5/ignition/msgs/boxgeom.pb.h:
 
 /usr/include/ignition/msgs5/ignition/msgs/battery_state.pb.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/contexts/default_context.hpp:
+
+/usr/include/ignition/msgs5/ignition/msgs/battery.pb.h:
 
 /usr/include/ignition/msgs5/ignition/msgs/axis_aligned_box.pb.h:
 
@@ -2664,7 +3022,19 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/ignition/msgs5/ignition/msgs/altimeter.pb.h:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp:
+
+/usr/include/ignition/msgs5/ignition/msgs/quaternion.pb.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/exceptions.hpp:
+
+/usr/include/ignition/msgs5/ignition/msgs/vector3d.pb.h:
+
 /usr/include/x86_64-linux-gnu/bits/sysmacros.h:
+
+/opt/ros/humble/include/rmw/rmw/network_flow_endpoint_array.h:
+
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
 
 /usr/include/ignition/msgs5/ignition/msgs/video_record.pb.h:
 
@@ -2679,6 +3049,10 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 /usr/include/ignition/msgs5/ignition/msgs/SuppressWarning.hh:
 
 /usr/include/ignition/msgs5/ignition/msgs/Factory.hh:
+
+/opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_common.hpp:
+
+/usr/include/ignition/msgs5/ignition/msgs/detail/SuppressWarning.hh:
 
 /usr/include/ignition/msgs5/ignition/msgs/config.hh:
 
@@ -2696,6 +3070,10 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/regex/v4/regex_match.hpp:
 
+/opt/ros/humble/include/rcl/rcl/context.h:
+
+/usr/include/boost/regex/v4/instances.hpp:
+
 /usr/include/boost/regex/v4/iterator_category.hpp:
 
 /usr/include/boost/regex/v4/perl_matcher.hpp:
@@ -2703,6 +3081,12 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 /usr/include/gazebo-11/gazebo/common/HeightmapData.hh:
 
 /usr/include/boost/regex/v4/match_results.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_enable_topic_statistics.hpp:
+
+/usr/include/boost/regex/v4/regex_format.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp:
 
 /usr/include/boost/regex/v4/sub_match.hpp:
 
@@ -2722,11 +3106,25 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/regex/pending/object_cache.hpp:
 
+/opt/ros/humble/include/rmw/rmw/impl/config.h:
+
+/usr/include/ignition/msgs5/ignition/msgs/entity_factory_v.pb.h:
+
+/usr/include/boost/regex/pattern_except.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:
+
+/usr/include/boost/regex/v4/error_type.hpp:
+
 /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/state.hpp:
 
 /usr/include/boost/regex/v4/syntax_type.hpp:
 
 /usr/include/boost/regex/v4/regex_traits.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp:
+
+/usr/include/boost/smart_ptr/scoped_ptr.hpp:
 
 /usr/include/boost/scoped_ptr.hpp:
 
@@ -2750,6 +3148,12 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/gazebo-11/gazebo/physics/State.hh:
 
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:
+
+/usr/include/ignition/transport8/ignition/transport/HandlerStorage.hh:
+
+/usr/include/gazebo-11/gazebo/msgs/world_modify.pb.h:
+
 /usr/include/gazebo-11/gazebo/msgs/wireless_nodes.pb.h:
 
 /usr/include/gazebo-11/gazebo/msgs/wireless_node.pb.h:
@@ -2757,6 +3161,10 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 /usr/include/gazebo-11/gazebo/msgs/wind.pb.h:
 
 /usr/include/gazebo-11/gazebo/msgs/user_cmd_stats.pb.h:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp:
+
+/usr/include/gazebo-11/gazebo/msgs/world_reset.pb.h:
 
 /usr/include/gazebo-11/gazebo/msgs/topic_info.pb.h:
 
@@ -2834,11 +3242,19 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/gazebo-11/gazebo/msgs/gz_string_v.pb.h:
 
+/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:
+
+/usr/include/gazebo-11/gazebo/msgs/track_visual.pb.h:
+
 /usr/include/gazebo-11/gazebo/msgs/gui_camera.pb.h:
 
 /usr/include/gazebo-11/gazebo/msgs/gps_sensor.pb.h:
 
 /usr/include/gazebo-11/gazebo/msgs/gps.pb.h:
+
+/opt/ros/humble/include/rcutils/rcutils/shared_library.h:
+
+/usr/include/gazebo-11/gazebo/msgs/factory.pb.h:
 
 /usr/include/gazebo-11/gazebo/msgs/density.pb.h:
 
@@ -2882,7 +3298,15 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/google/protobuf/extension_set.h:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp:
+
+/usr/include/google/protobuf/stubs/callback.h:
+
 /usr/include/google/protobuf/io/zero_copy_stream_impl_lite.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/detail/qos_parameters.hpp:
+
+/usr/include/google/protobuf/generated_enum_reflection.h:
 
 /usr/include/google/protobuf/stubs/mutex.h:
 
@@ -2893,6 +3317,10 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 /usr/include/google/protobuf/inlined_string_field.h:
 
 /usr/include/google/protobuf/any.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:
+
+/usr/include/google/protobuf/map_entry_lite.h:
 
 /usr/include/google/protobuf/wire_format_lite.h:
 
@@ -2910,6 +3338,8 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/google/protobuf/port.h:
 
+/usr/include/c++/11/unordered_set:
+
 /usr/include/ignition/msgs5/ignition/msgs/actor.pb.h:
 
 /usr/include/google/protobuf/stubs/hash.h:
@@ -2918,13 +3348,15 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/google/protobuf/stubs/strutil.h:
 
+/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:
+
+/usr/include/google/protobuf/stubs/logging.h:
+
 /usr/include/google/protobuf/stubs/macros.h:
 
 /usr/include/byteswap.h:
 
 /usr/include/google/protobuf/stubs/platform_macros.h:
-
-/opt/ros/humble/include/hardware_interface/hardware_info.hpp:
 
 /usr/include/google/protobuf/stubs/common.h:
 
@@ -2941,8 +3373,6 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 /usr/include/ignition/msgs5/ignition/msgs/vector2d.pb.h:
 
 /usr/include/x86_64-linux-gnu/sys/ucontext.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
 
@@ -3018,6 +3448,8 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/preprocessor/iterate.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp:
+
 /usr/include/ignition/msgs5/ignition/msgs/sonar.pb.h:
 
 /usr/include/boost/function.hpp:
@@ -3037,6 +3469,10 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 /usr/include/boost/utility/compare_pointees.hpp:
 
 /usr/include/boost/type_traits/has_nothrow_assign.hpp:
+
+/opt/ros/humble/include/tracetools/tracetools/utils.hpp:
+
+/usr/include/boost/type_traits/has_trivial_move_assign.hpp:
 
 /usr/include/gazebo-11/gazebo/msgs/pose_trajectory.pb.h:
 
@@ -3068,6 +3504,10 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp:
 
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp:
+
 /usr/include/ignition/msgs5/ignition/msgs/response.pb.h:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp:
@@ -3095,6 +3535,10 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 /usr/include/boost/mpl/bind.hpp:
 
 /usr/include/boost/mpl/lambda.hpp:
+
+/opt/ros/humble/include/rmw/rmw/incompatible_qos_events_statuses.h:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp:
 
 /usr/include/boost/mpl/apply_fwd.hpp:
 
@@ -3130,6 +3574,10 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/mpl/assert.hpp:
 
+/opt/ros/humble/include/rcutils/rcutils/testing/fault_injection.h:
+
+/usr/include/boost/mpl/arg_fwd.hpp:
+
 /usr/include/boost/mpl/arg.hpp:
 
 /usr/include/boost/mpl/placeholders.hpp:
@@ -3138,7 +3586,15 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/iterator/advance.hpp:
 
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:
+
+/usr/include/boost/type_traits/has_minus_assign.hpp:
+
 /usr/include/boost/type_traits/remove_pointer.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/publisher_base.hpp:
+
+/usr/include/boost/type_traits/has_plus_assign.hpp:
 
 /usr/include/boost/type_traits/detail/has_binary_operator.hpp:
 
@@ -3160,9 +3616,17 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/exception/detail/clone_current_exception.hpp:
 
+/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp:
+
+/usr/include/boost/exception/current_exception_cast.hpp:
+
 /usr/include/boost/exception/get_error_info.hpp:
 
 /usr/include/boost/exception/diagnostic_information.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp:
+
+/usr/include/boost/exception/detail/shared_ptr.hpp:
 
 /usr/include/boost/type_traits/enable_if.hpp:
 
@@ -3190,6 +3654,10 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/exception/to_string.hpp:
 
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp:
+
+/usr/include/boost/exception/to_string_stub.hpp:
+
 /usr/include/boost/exception/info.hpp:
 
 /usr/include/boost/exception_ptr.hpp:
@@ -3200,6 +3668,8 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/thread/detail/variadic_footer.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp:
+
 /usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh:
 
 /usr/include/boost/preprocessor/repetition/repeat_from_to.hpp:
@@ -3207,6 +3677,10 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 /usr/include/boost/core/swap.hpp:
 
 /usr/include/boost/utility/swap.hpp:
+
+/opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h:
+
+/usr/include/boost/tuple/detail/tuple_basic.hpp:
 
 /usr/include/gazebo-11/gazebo/msgs/boxgeom.pb.h:
 
@@ -3216,7 +3690,17 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/preprocessor/slot/detail/shared.hpp:
 
+/opt/ros/humble/include/rmw/rmw/subscription_content_filter_options.h:
+
+/usr/include/boost/preprocessor/iteration/detail/iter/forward1.hpp:
+
 /usr/include/boost/type_traits/type_identity.hpp:
+
+/opt/ros/humble/include/rmw/rmw/events_statuses/incompatible_qos.h:
+
+/usr/include/boost/thread/future.hpp:
+
+/usr/include/boost/preprocessor/repetition/enum_binary_params.hpp:
 
 /usr/include/boost/preprocessor/slot/detail/def.hpp:
 
@@ -3244,6 +3728,16 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/thread/detail/nullary_function.hpp:
 
+/opt/ros/humble/include/rclcpp/rclcpp/is_ros_compatible_type.hpp:
+
+/usr/include/gazebo-11/gazebo/physics/SurfaceParams.hh:
+
+/usr/include/boost/thread/barrier.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:
+
+/usr/include/boost/thread/shared_lock_guard.hpp:
+
 /usr/include/boost/thread/locks.hpp:
 
 /usr/include/gazebo-11/gazebo/physics/AtmosphereFactory.hh:
@@ -3262,11 +3756,19 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/atomic/detail/type_traits/is_trivially_copyable.hpp:
 
+/opt/ros/humble/include/rcutils/rcutils/error_handling.h:
+
+/usr/include/boost/function/function_fwd.hpp:
+
+/usr/include/boost/atomic/detail/extra_fp_operations_fwd.hpp:
+
 /usr/include/boost/atomic/detail/extra_fp_ops_generic.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
 
 /usr/include/boost/atomic/detail/fp_operations_fwd.hpp:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp:
 
 /usr/include/boost/atomic/detail/fp_ops_generic.hpp:
 
@@ -3281,6 +3783,10 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 /usr/include/boost/atomic/detail/type_traits/conditional.hpp:
 
 /usr/include/boost/atomic/detail/type_traits/is_trivially_default_constructible.hpp:
+
+/opt/ros/humble/include/rmw/rmw/events_statuses/message_lost.h:
+
+/usr/include/boost/atomic/detail/extra_ops_gcc_x86.hpp:
 
 /usr/include/boost/atomic/detail/extra_ops_emulated.hpp:
 
@@ -3306,415 +3812,67 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/type_traits/make_unsigned.hpp:
 
-/usr/include/boost/atomic/detail/type_traits/make_signed.hpp:
+/usr/include/sdformat-9.7/sdf/Light.hh:
 
-/usr/include/boost/atomic/detail/integral_conversions.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp:
 
-/usr/include/google/protobuf/arena.h:
+/usr/include/ignition/msgs5/ignition/msgs/int64.pb.h:
 
-/usr/include/boost/atomic/detail/type_traits/integral_constant.hpp:
+/usr/include/sdformat-9.7/sdf/Geometry.hh:
 
-/usr/include/boost/atomic/detail/bitwise_cast.hpp:
+/opt/ros/humble/include/rcl/rcl/guard_condition.h:
 
-/usr/include/boost/atomic/detail/type_traits/alignment_of.hpp:
+/usr/include/boost/type_traits/function_traits.hpp:
 
-/usr/include/boost/atomic/detail/aligned_variable.hpp:
+/usr/include/sdformat-9.7/sdf/Collision.hh:
 
-/usr/include/boost/atomic/detail/storage_traits.hpp:
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp:
+/usr/include/boost/mpl/aux_/lambda_support.hpp:
 
-/usr/include/boost/atomic/detail/atomic_impl.hpp:
+/usr/include/sdformat-9.7/sdf/Camera.hh:
 
-/usr/include/gazebo-11/gazebo/msgs/heightmapgeom.pb.h:
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:
 
-/usr/include/boost/atomic/detail/type_traits/is_floating_point.hpp:
+/usr/include/sdformat-9.7/sdf/Material.hh:
 
-/opt/ros/humble/include/rclcpp/rclcpp/parameter_map.hpp:
+/usr/include/sdformat-9.7/sdf/Altimeter.hh:
 
-/usr/include/boost/atomic/detail/type_traits/is_function.hpp:
-
-/usr/include/boost/mpl/next.hpp:
-
-/usr/include/boost/atomic/atomic.hpp:
-
-/usr/include/boost/atomic/detail/wait_caps_futex.hpp:
-
-/usr/include/boost/atomic/detail/caps_arch_gcc_x86.hpp:
-
-/usr/include/ignition/msgs5/ignition/msgs/density.pb.h:
-
-/usr/include/ignition/msgs5/ignition/msgs/actuators.pb.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/float.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:
-
-/usr/include/boost/atomic/detail/float_sizes.hpp:
-
-/usr/include/boost/atomic/detail/footer.hpp:
-
-/usr/include/boost/atomic/detail/intptr.hpp:
-
-/usr/include/boost/thread/detail/variadic_header.hpp:
-
-/usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
-
-/usr/include/x86_64-linux-gnu/asm/posix_types.h:
-
-/usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
-
-/usr/include/asm-generic/int-ll64.h:
-
-/usr/include/asm-generic/types.h:
-
-/usr/include/x86_64-linux-gnu/asm/types.h:
-
-/usr/include/linux/types.h:
-
-/usr/include/linux/futex.h:
-
-/usr/include/google/protobuf/metadata_lite.h:
-
-/usr/include/x86_64-linux-gnu/asm/unistd_64.h:
-
-/usr/include/x86_64-linux-gnu/asm/unistd.h:
-
-/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:
-
-/usr/include/boost/mpl/aux_/na_assert.hpp:
-
-/usr/include/x86_64-linux-gnu/sys/syscall.h:
-
-/usr/include/boost/atomic/detail/addressof.hpp:
-
-/usr/include/boost/atomic/detail/futex.hpp:
-
-/usr/include/boost/atomic/detail/core_operations_emulated_fwd.hpp:
-
-/usr/include/boost/atomic/detail/platform.hpp:
-
-/usr/include/boost/atomic/detail/capabilities.hpp:
-
-/usr/include/boost/atomic/capabilities.hpp:
-
-/usr/include/boost/memory_order.hpp:
-
-/usr/include/boost/atomic.hpp:
-
-/usr/include/boost/thread/shared_mutex.hpp:
-
-/usr/include/boost/move/make_unique.hpp:
-
-/usr/include/gazebo-11/gazebo/physics/LightState.hh:
-
-/usr/include/boost/unordered/detail/set.hpp:
-
-/usr/include/boost/none.hpp:
-
-/usr/include/boost/move/adl_move_swap.hpp:
-
-/usr/include/boost/move/detail/unique_ptr_meta_utils.hpp:
-
-/usr/include/boost/thread/csbl/memory/config.hpp:
-
-/usr/include/boost/thread/detail/thread_group.hpp:
-
-/usr/include/boost/thread/pthread/condition_variable.hpp:
-
-/usr/include/boost/tuple/tuple.hpp:
-
-/usr/include/boost/container_hash/extensions.hpp:
-
-/usr/include/boost/integer_fwd.hpp:
-
-/usr/include/boost/integer/static_log2.hpp:
-
-/usr/include/boost/container_hash/detail/limits.hpp:
-
-/usr/include/boost/container_hash/detail/float_functions.hpp:
-
-/usr/include/ignition/msgs5/ignition/msgs/serialized_map.pb.h:
-
-/usr/include/boost/container_hash/detail/hash_float.hpp:
-
-/usr/include/ignition/msgs5/ignition/msgs/topic_info.pb.h:
-
-/usr/include/boost/functional/hash.hpp:
-
-/usr/include/boost/io_fwd.hpp:
-
-/usr/include/boost/io/ios_state.hpp:
-
-/usr/include/boost/type_traits/cv_traits.hpp:
-
-/usr/include/boost/bind/placeholders.hpp:
-
-/usr/include/gazebo-11/gazebo/msgs/imu.pb.h:
-
-/usr/include/boost/bind/bind_cc.hpp:
-
-/usr/include/boost/move/default_delete.hpp:
-
-/usr/include/boost/bind/storage.hpp:
-
-/usr/include/boost/core/is_same.hpp:
-
-/usr/include/boost/visit_each.hpp:
-
-/usr/include/boost/utility/result_of.hpp:
-
-/usr/include/boost/bind/mem_fn_cc.hpp:
-
-/usr/include/ignition/msgs5/ignition/msgs/bytes.pb.h:
-
-/usr/include/boost/config/no_tr1/memory.hpp:
-
-/usr/include/ignition/msgs5/ignition/msgs/laserscan.pb.h:
-
-/usr/include/boost/bind/mem_fn.hpp:
-
-/usr/include/boost/regex/config/cwchar.hpp:
-
-/usr/include/boost/mem_fn.hpp:
-
-/usr/include/boost/ref.hpp:
-
-/usr/include/boost/bind/bind.hpp:
-
-/usr/include/gazebo-11/gazebo/msgs/request.pb.h:
-
-/usr/include/boost/thread/detail/is_convertible.hpp:
-
-/usr/include/boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp:
-
-/usr/include/boost/thread/pthread/thread_heap_alloc.hpp:
-
-/usr/include/boost/thread/interruption.hpp:
-
-/usr/include/boost/thread/detail/thread.hpp:
-
-/usr/include/boost/smart_ptr/weak_ptr.hpp:
-
-/usr/include/ignition/msgs5/ignition/msgs/discovery.pb.h:
-
-/usr/include/boost/regex/pending/static_mutex.hpp:
-
-/usr/include/google/protobuf/has_bits.h:
-
-/usr/include/boost/thread/pthread/condition_variable_fwd.hpp:
-
-/usr/include/gazebo-11/gazebo/physics/ScrewJoint.hh:
-
-/usr/include/gazebo-11/gazebo/msgs/altimeter.pb.h:
-
-/usr/include/boost/thread/pthread/pthread_helpers.hpp:
-
-/usr/include/boost/thread/pthread/pthread_mutex_scoped_lock.hpp:
-
-/usr/include/boost/chrono/clock_string.hpp:
-
-/usr/include/boost/chrono/system_clocks.hpp:
-
-/usr/include/boost/date_time/filetime_functions.hpp:
-
-/usr/include/ignition/msgs5/ignition/msgs/double_v.pb.h:
-
-/usr/include/boost/thread/xtime.hpp:
-
-/opt/ros/humble/include/class_loader/class_loader/register_macro.hpp:
-
-/usr/include/boost/core/ignore_unused.hpp:
-
-/usr/include/boost/thread/pthread/mutex.hpp:
-
-/usr/include/gazebo-11/gazebo/msgs/imagegeom.pb.h:
-
-/usr/include/boost/thread/mutex.hpp:
-
-/usr/include/boost/regex/v4/char_regex_traits.hpp:
-
-/usr/include/boost/type_traits/common_type.hpp:
-
-/usr/include/ignition/msgs5/ignition/msgs/user_cmd.pb.h:
-
-/usr/include/boost/ratio/ratio_fwd.hpp:
-
-/usr/include/gazebo-11/gazebo/physics/BoxShape.hh:
-
-/usr/include/x86_64-linux-gnu/bits/syscall.h:
-
-/usr/include/boost/integer_traits.hpp:
-
-/usr/include/boost/ratio/detail/mpl/lcm.hpp:
-
-/usr/include/boost/ratio/detail/mpl/gcd.hpp:
-
-/usr/include/boost/ratio/detail/mpl/sign.hpp:
-
-/usr/include/boost/ratio/detail/mpl/abs.hpp:
-
-/usr/include/boost/ratio/ratio.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
-
-/usr/include/ignition/msgs5/ignition/msgs/track_visual.pb.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
-
-/usr/include/c++/11/climits:
-
-/usr/include/boost/chrono/detail/static_assert.hpp:
-
-/usr/include/boost/predef/hardware/simd/ppc.h:
-
-/usr/include/boost/predef/hardware/simd/arm/versions.h:
-
-/usr/include/boost/predef/hardware/simd/arm.h:
-
-/usr/include/boost/type_traits/is_pointer.hpp:
-
-/usr/include/boost/predef/hardware/simd/x86.h:
-
-/usr/include/boost/predef/hardware/simd.h:
-
-/usr/include/boost/detail/container_fwd.hpp:
-
-/usr/include/boost/predef/hardware.h:
-
-/usr/include/boost/predef/platform/ios.h:
-
-/usr/include/gazebo-11/gazebo/msgs/link.pb.h:
-
-/usr/include/boost/predef/platform/windows_system.h:
-
-/usr/include/ignition/msgs5/ignition/msgs/plugin.pb.h:
-
-/usr/include/boost/atomic/detail/core_operations.hpp:
-
-/usr/include/boost/predef/platform/windows_store.h:
-
-/usr/include/google/protobuf/map_field_lite.h:
-
-/usr/include/boost/predef/platform/windows_server.h:
-
-/usr/include/boost/type_traits/is_constructible.hpp:
-
-/usr/include/boost/predef/platform/windows_phone.h:
-
-/usr/include/boost/predef/platform/windows_desktop.h:
-
-/usr/include/boost/atomic/detail/string_ops.hpp:
-
-/usr/include/boost/predef/platform/mingw64.h:
-
-/usr/include/gazebo-11/gazebo/transport/TransportTypes.hh:
-
-/usr/include/boost/predef/platform/mingw.h:
-
-/usr/include/boost/mpl/always.hpp:
-
-/usr/include/boost/predef/platform.h:
-
-/usr/include/gazebo-11/gazebo/msgs/magnetometer.pb.h:
-
-/usr/include/boost/predef/platform/android.h:
-
-/usr/include/boost/preprocessor/iteration/detail/bounds/upper1.hpp:
-
-/usr/include/boost/predef/other/endian.h:
-
-/usr/include/ignition/msgs5/ignition/msgs/scene.pb.h:
-
-/usr/include/boost/predef/os/windows.h:
-
-/usr/include/boost/predef/os/vms.h:
-
-/usr/include/boost/atomic/detail/atomic_flag_impl.hpp:
-
-/usr/include/boost/predef/os/unix.h:
-
-/usr/include/boost/predef/os/solaris.h:
-
-/usr/include/ignition/math6/ignition/math/AxisAlignedBox.hh:
-
-/usr/include/boost/predef/os/qnxnto.h:
-
-/usr/include/x86_64-linux-gnu/asm/param.h:
-
-/usr/include/boost/predef/os/linux.h:
-
-/usr/include/boost/predef/os/irix.h:
-
-/usr/include/boost/predef/os/haiku.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:
-
-/usr/include/boost/type_traits/add_volatile.hpp:
-
-/usr/include/boost/predef/os/bsd/open.h:
-
-/usr/include/boost/type_traits/remove_const.hpp:
-
-/usr/include/boost/predef/os/bsd/free.h:
-
-/usr/include/boost/predef/os/bsd/dragonfly.h:
-
-/usr/include/boost/predef/os/bsd/bsdi.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
 /usr/include/boost/predef/os/ios.h:
 
-/usr/include/boost/predef/os/macos.h:
+/usr/include/boost/predef/os/haiku.h:
 
-/usr/include/boost/predef/os/bsd.h:
+/usr/include/boost/bind/bind.hpp:
 
-/usr/include/boost/predef/os/beos.h:
+/usr/include/boost/type_traits/is_fundamental.hpp:
 
-/usr/include/boost/chrono/detail/is_evenly_divisible_by.hpp:
+/usr/include/sdformat-9.7/sdf/Joint.hh:
 
-/usr/include/boost/predef/os/aix.h:
+/usr/include/gazebo-11/gazebo/msgs/pose_stamped.pb.h:
 
-/usr/include/boost/predef/os.h:
+/usr/include/c++/11/variant:
 
-/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp:
+/usr/include/ignition/math6/gz/math/Vector3Stats.hh:
 
-/usr/include/boost/next_prior.hpp:
+/usr/include/ignition/msgs5/ignition/msgs/logical_camera_image.pb.h:
 
-/usr/include/boost/predef/library/std/stlport.h:
+/usr/include/sdformat-9.7/sdf/Atmosphere.hh:
 
-/usr/include/boost/predef/library/std/sgi.h:
+/usr/include/x86_64-linux-gnu/bits/sigaction.h:
 
-/usr/include/boost/predef/library/std/roguewave.h:
+/usr/include/ignition/math6/gz/math/Temperature.hh:
 
-/usr/include/boost/utility/addressof.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp:
 
-/usr/include/boost/predef/library/std/msl.h:
+/usr/include/boost/predef/other.h:
 
-/usr/include/boost/predef/library/std/modena.h:
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
-/usr/include/boost/predef/library/std/libcomo.h:
+/usr/include/boost/numeric/conversion/detail/udt_builtin_mixture.hpp:
 
-/usr/include/boost/predef/library/std/dinkumware.h:
-
-/usr/include/ignition/msgs5/ignition/msgs/pose.pb.h:
-
-/usr/include/boost/predef/library/std/_prefix.h:
-
-/usr/include/boost/predef/library/std.h:
-
-/usr/include/boost/predef/library/c/zos.h:
-
-/usr/include/boost/predef/platform/mingw32.h:
-
-/usr/include/boost/predef/library/c/gnu.h:
-
-/usr/include/boost/predef/os/hpux.h:
-
-/usr/include/boost/predef/library/c/cloudabi.h:
+/usr/include/ignition/math6/gz/math/RollingMean.hh:
 
 /usr/include/gazebo-11/gazebo/physics/HeightmapShape.hh:
 
@@ -3722,119 +3880,9 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/predef/library/c/_prefix.h:
 
-/usr/include/boost/predef/library.h:
+/usr/include/gazebo-11/gazebo/msgs/spherical_coordinates.pb.h:
 
-/usr/include/boost/predef/compiler/watcom.h:
-
-/usr/include/boost/predef/compiler/visualc.h:
-
-/usr/include/boost/predef/compiler/tendra.h:
-
-/usr/include/boost/unordered/detail/fwd.hpp:
-
-/usr/include/boost/predef/compiler/sunpro.h:
-
-/usr/include/boost/predef/compiler/sgi_mipspro.h:
-
-/usr/include/boost/predef/compiler/pgi.h:
-
-/usr/include/boost/function/detail/maybe_include.hpp:
-
-/usr/include/boost/predef/compiler/nvcc.h:
-
-/usr/include/boost/predef/compiler/microtec.h:
-
-/opt/ros/humble/include/rcl_lifecycle/rcl_lifecycle/data_types.h:
-
-/usr/include/gazebo-11/gazebo/msgs/contactsensor.pb.h:
-
-/usr/include/boost/predef/compiler/metaware.h:
-
-/usr/include/boost/regex/v4/indexed_bit_flag.hpp:
-
-/usr/include/boost/mpl/next_prior.hpp:
-
-/usr/include/boost/predef/compiler/llvm.h:
-
-/usr/include/boost/predef/compiler/kai.h:
-
-/usr/include/boost/predef/compiler/hp_acc.h:
-
-/usr/include/boost/predef/compiler/palm.h:
-
-/usr/include/boost/predef/compiler/greenhills.h:
-
-/usr/include/boost/atomic/detail/wait_operations.hpp:
-
-/usr/include/boost/predef/detail/comp_detected.h:
-
-/usr/include/ignition/msgs5/ignition/msgs/diagnostics.pb.h:
-
-/usr/include/boost/type_traits/is_assignable.hpp:
-
-/usr/include/boost/predef/compiler/gcc.h:
-
-/usr/include/boost/predef/compiler/ekopath.h:
-
-/usr/include/boost/predef/compiler/edg.h:
-
-/usr/include/boost/predef/compiler/diab.h:
-
-/usr/include/ignition/math6/ignition/math/Quaternion.hh:
-
-/usr/include/boost/predef/compiler/compaq.h:
-
-/usr/include/boost/integer.hpp:
-
-/usr/include/boost/predef/compiler/comeau.h:
-
-/usr/include/boost/predef/compiler/clang.h:
-
-/usr/include/ignition/transport8/ignition/transport/Publisher.hh:
-
-/usr/include/boost/predef/compiler/borland.h:
-
-/usr/include/boost/predef/compiler.h:
-
-/usr/include/boost/thread/detail/atomic_redef_macros.hpp:
-
-/usr/include/boost/predef/architecture/x86/32.h:
-
-/usr/include/boost/predef/architecture/sys390.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp:
-
-/usr/include/gazebo-11/gazebo/msgs/rest_response.pb.h:
-
-/usr/include/boost/predef/architecture/sys370.h:
-
-/usr/include/boost/container_hash/hash.hpp:
-
-/usr/include/boost/predef/architecture/sparc.h:
-
-/usr/include/boost/predef/architecture/rs6k.h:
-
-/usr/include/boost/predef/architecture/riscv.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
-
-/usr/include/boost/predef/architecture/pyramid.h:
-
-/usr/include/boost/predef/architecture/ptx.h:
-
-/usr/include/boost/predef/architecture/ppc.h:
-
-/usr/include/boost/thread/lock_algorithms.hpp:
-
-/usr/include/boost/predef/architecture/parisc.h:
-
-/usr/include/boost/predef/architecture/mips.h:
-
-/usr/include/boost/predef/architecture/m68k.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:
+/usr/include/sdformat-9.7/sdf/SDFImpl.hh:
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_wait_set_mask.hpp:
 
@@ -3842,37 +3890,613 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/linux/close_range.h:
 
-/usr/include/boost/mpl/aux_/config/dependent_nttp.hpp:
+/usr/include/c++/11/bits/random.h:
 
-/usr/include/c++/11/numeric:
+/opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process.hpp:
 
-/usr/include/boost/predef/compiler/mpw.h:
+/usr/include/boost/mpl/aux_/has_apply.hpp:
 
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:
+/usr/include/boost/utility/detail/result_of_iterate.hpp:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp:
+/usr/include/boost/atomic/detail/atomic_ref_impl.hpp:
 
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:
+/usr/include/c++/11/random:
 
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
+/usr/include/boost/regex/v4/indexed_bit_flag.hpp:
+
+/usr/include/boost/mpl/next_prior.hpp:
+
+/usr/include/boost/predef/compiler/llvm.h:
+
+/usr/include/ignition/msgs5/ignition/msgs/road.pb.h:
+
+/usr/include/ignition/math6/gz/math/PID.hh:
+
+/usr/include/gazebo-11/gazebo/physics/Light.hh:
+
+/usr/include/sdformat-9.7/sdf/Plane.hh:
+
+/usr/include/ignition/math6/gz/math/MecanumDriveOdometry.hh:
+
+/usr/include/boost/atomic/detail/bitwise_cast.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/rate.hpp:
+
+/usr/include/sdformat-9.7/sdf/ForceTorque.hh:
+
+/usr/include/ignition/math6/gz/math/Matrix4.hh:
+
+/usr/include/asm-generic/types.h:
+
+/usr/include/gazebo-11/gazebo/physics/MultiRayShape.hh:
+
+/usr/include/ignition/math6/gz/math/GaussMarkovProcess.hh:
+
+/usr/include/c++/11/bits/stringfwd.h:
+
+/usr/include/boost/atomic/detail/type_traits/is_iec559.hpp:
+
+/usr/include/ignition/math6/gz/math/Cylinder.hh:
+
+/usr/include/boost/atomic/detail/link.hpp:
+
+/usr/include/ignition/math6/gz/math/Inertial.hh:
+
+/usr/include/boost/type_traits/remove_const.hpp:
+
+/usr/include/boost/predef/os/bsd/free.h:
+
+/usr/include/boost/predef/hardware/simd/ppc.h:
+
+/usr/include/boost/predef/architecture/sys390.h:
+
+/opt/ros/humble/include/rcutils/rcutils/time.h:
+
+/usr/include/ignition/math6/gz/math/Vector4.hh:
+
+/usr/include/google/protobuf/message.h:
+
+/usr/include/boost/mpl/aux_/integral_wrapper.hpp:
+
+/usr/include/boost/unordered/unordered_set_fwd.hpp:
+
+/usr/include/ignition/msgs5/ignition/msgs/Export.hh:
+
+/usr/include/c++/11/optional:
+
+/usr/include/ignition/msgs5/ignition/msgs/log_control.pb.h:
+
+/usr/include/ignition/math6/gz/math/Box.hh:
+
+/usr/include/gazebo-11/gazebo/physics/JointController.hh:
+
+/usr/include/boost/date_time/date_defs.hpp:
+
+/usr/include/ignition/math6/gz/math/Vector2.hh:
+
+/usr/include/linux/types.h:
+
+/usr/include/c++/11/bits/atomic_futex.h:
+
+/usr/include/ignition/math6/gz/math/MassMatrix3.hh:
+
+/usr/include/boost/move/core.hpp:
+
+/usr/include/boost/predef/os/amigaos.h:
 
 /usr/include/ignition/math6/gz/math/Line3.hh:
 
 /usr/include/boost/date_time/year_month_day.hpp:
 
-/usr/include/boost/predef/library/c/vms.h:
+/usr/include/gazebo-11/gazebo/msgs/camera_cmd.pb.h:
 
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp:
+/usr/include/ignition/math6/gz/math/Region3.hh:
 
-/usr/include/limits.h:
+/usr/include/boost/mpl/equal_to.hpp:
 
-/usr/include/c++/11/tr1/riemann_zeta.tcc:
+/usr/include/ignition/math6/gz/math/AdditivelySeparableScalarField3.hh:
 
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/typesupport_helpers.hpp:
+/usr/include/c++/11/cassert:
+
+/usr/include/sdformat-9.7/sdf/Param.hh:
+
+/usr/include/boost/type_traits/is_rvalue_reference.hpp:
+
+/usr/include/boost/system/detail/system_category_posix.hpp:
+
+/usr/include/c++/11/bits/stl_set.h:
+
+/usr/include/gazebo-11/gazebo/transport/TransportTypes.hh:
+
+/usr/include/boost/predef/platform/mingw.h:
+
+/usr/include/sdformat-9.7/sdf/Actor.hh:
+
+/usr/include/gazebo-11/gazebo/common/Events.hh:
+
+/usr/include/ignition/msgs5/ignition/msgs/pointcloud.pb.h:
+
+/usr/include/ignition/common3/ignition/common/config.hh:
+
+/usr/include/ignition/math6/gz/math/Filter.hh:
+
+/usr/include/ignition/math6/gz/math/Material.hh:
+
+/usr/include/gazebo-11/gazebo/physics/Inertial.hh:
+
+/usr/include/boost/mpl/int.hpp:
+
+/usr/include/ignition/msgs5/ignition/msgs/light.pb.h:
+
+/usr/include/ignition/msgs5/ignition/msgs/contacts.pb.h:
+
+/usr/include/boost/smart_ptr/detail/local_counted_base.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/usr/include/ignition/transport8/ignition/transport/Publisher.hh:
+
+/usr/include/boost/predef/compiler/borland.h:
+
+/usr/include/boost/atomic/detail/core_operations_emulated.hpp:
+
+/usr/include/c++/11/cerrno:
+
+/usr/include/boost/smart_ptr/detail/operator_bool.hpp:
+
+/usr/include/boost/preprocessor/repetition/enum_trailing_params.hpp:
+
+/usr/include/boost/predef/architecture/m68k.h:
+
+/usr/include/boost/mpl/always.hpp:
+
+/usr/include/boost/predef/platform.h:
+
+/usr/include/boost/ratio/detail/mpl/sign.hpp:
+
+/usr/include/c++/11/bits/allocated_ptr.h:
+
+/usr/include/boost/assert.hpp:
+
+/usr/include/c++/11/backward/auto_ptr.h:
+
+/usr/include/boost/predef/os.h:
+
+/usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp:
+
+/usr/include/boost/date_time/filetime_functions.hpp:
+
+/usr/include/boost/smart_ptr/detail/sp_counted_impl.hpp:
+
+/usr/include/boost/smart_ptr/detail/sp_typeinfo_.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/signal_ext.h:
+
+/usr/include/boost/smart_ptr/detail/sp_counted_base_gcc_atomic.hpp:
+
+/usr/include/ignition/math6/gz/math/graph/GraphAlgorithms.hh:
+
+/usr/include/boost/smart_ptr/detail/sp_has_sync_intrinsics.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/subscription_base.hpp:
+
+/usr/include/boost/predef/architecture/superh.h:
+
+/usr/include/boost/smart_ptr/detail/sp_has_gcc_intrinsics.hpp:
+
+/usr/include/boost/smart_ptr/bad_weak_ptr.hpp:
+
+/usr/include/boost/date_time/time.hpp:
+
+/usr/include/boost/ratio/ratio.hpp:
+
+/usr/include/boost/preprocessor/facilities/intercept.hpp:
+
+/usr/include/gazebo-11/gazebo/common/CommonTypes.hh:
+
+/usr/include/ignition/msgs5/ignition/msgs/world_control.pb.h:
+
+/usr/include/boost/config/no_tr1/functional.hpp:
+
+/usr/include/c++/11/stdlib.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp:
+
+/home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/types/lifecycle_state_names.hpp:
+
+/usr/include/c++/11/bitset:
+
+/usr/include/c++/11/list:
+
+/usr/include/gazebo-11/gazebo/msgs/laserscan_stamped.pb.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp:
+
+/usr/include/google/protobuf/unknown_field_set.h:
+
+/usr/include/boost/type_traits/add_pointer.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
+
+/usr/include/boost/optional/optional_fwd.hpp:
+
+/usr/include/boost/numeric/conversion/udt_builtin_mixture_enum.hpp:
+
+/usr/include/boost/unordered/detail/fwd.hpp:
+
+/usr/include/boost/predef/compiler/sunpro.h:
+
+/usr/include/ignition/math6/gz/math/Sphere.hh:
+
+/usr/include/ignition/msgs5/ignition/msgs.hh:
+
+/usr/include/c++/11/fstream:
+
+/usr/include/sdformat-9.7/sdf/parser.hh:
+
+/usr/include/ignition/math6/gz/math/Vector3.hh:
+
+/usr/include/ignition/common3/ignition/common/SingletonT.hh:
+
+/usr/include/boost/ratio/detail/mpl/lcm.hpp:
+
+/usr/include/asm-generic/int-ll64.h:
+
+/usr/include/ignition/math6/gz/math/Angle.hh:
+
+/usr/include/c++/11/bits/regex_executor.h:
+
+/usr/include/c++/11/bits/regex_compiler.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:
+
+/usr/include/boost/thread/condition_variable.hpp:
+
+/usr/include/ignition/math6/gz/math/Matrix3.hh:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp:
+
+/usr/include/sdformat-9.7/sdf/Magnetometer.hh:
+
+/usr/include/boost/config/abi_suffix.hpp:
+
+/usr/include/c++/11/bits/regex_automaton.h:
+
+/opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp:
+
+/usr/include/gazebo-11/gazebo/msgs/raysensor.pb.h:
+
+/usr/include/c++/11/bits/stl_stack.h:
+
+/usr/include/ignition/common3/ignition/common/profiler/Export.hh:
+
+/usr/include/boost/type_traits/is_array.hpp:
+
+/usr/include/gazebo-11/gazebo/msgs/physics.pb.h:
+
+/usr/include/c++/11/bits/deque.tcc:
+
+/usr/include/ignition/msgs5/ignition/msgs/spheregeom.pb.h:
+
+/usr/include/boost/mpl/aux_/config/msvc_typename.hpp:
+
+/usr/include/c++/11/stack:
+
+/usr/include/c++/11/sstream:
+
+/usr/include/boost/optional/detail/optional_factory_support.hpp:
+
+/usr/include/c++/11/bits/quoted_string.h:
+
+/usr/include/boost/regex/v4/perl_matcher_common.hpp:
+
+/usr/include/boost/smart_ptr/detail/sp_thread_pause.hpp:
+
+/usr/include/ignition/msgs5/ignition/msgs/log_status.pb.h:
+
+/usr/include/boost/regex_fwd.hpp:
+
+/usr/include/ignition/math6/gz/math/SpeedLimiter.hh:
+
+/usr/include/c++/11/bits/locale_facets_nonio.tcc:
+
+/usr/include/boost/date_time/gregorian/gregorian_types.hpp:
+
+/opt/ros/humble/include/rmw/rmw/subscription_options.h:
+
+/usr/include/c++/11/complex:
+
+/usr/include/boost/predef/architecture/alpha.h:
+
+/usr/include/ignition/msgs5/ignition/msgs/pose.pb.h:
+
+/usr/include/boost/predef/library/std/_prefix.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/message_memory_strategy.hpp:
+
+/usr/include/boost/move/unique_ptr.hpp:
+
+/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:
+
+/usr/include/ignition/math6/gz/math/Export.hh:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h:
+
+/usr/include/boost/type_traits/detail/yes_no_type.hpp:
+
+/usr/include/c++/11/bits/locale_facets_nonio.h:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:
+
+/usr/include/boost/atomic/detail/extra_operations_fwd.hpp:
+
+/usr/include/boost/preprocessor/tuple/rem.hpp:
+
+/usr/include/ignition/math6/gz/math/Pose3.hh:
+
+/usr/include/sdformat-9.7/sdf/Root.hh:
+
+/usr/include/c++/11/ext/concurrence.h:
+
+/usr/include/gazebo-11/gazebo/physics/Contact.hh:
+
+/usr/include/boost/mpl/aux_/config/lambda.hpp:
+
+/usr/include/x86_64-linux-gnu/asm/param.h:
+
+/usr/include/boost/predef/os/linux.h:
+
+/usr/include/boost/core/addressof.hpp:
+
+/usr/include/ignition/msgs5/ignition/msgs/any.pb.h:
+
+/usr/include/c++/11/atomic:
+
+/usr/include/boost/thread/detail/thread_interruption.hpp:
+
+/usr/include/gazebo-11/gazebo/msgs/contacts.pb.h:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/times.hpp:
+
+/usr/include/boost/utility/enable_if.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp:
+
+/usr/include/gazebo-11/gazebo/physics/FixedJoint.hh:
+
+/usr/include/boost/unordered/unordered_map.hpp:
+
+/usr/include/ignition/transport8/ignition/transport/TransportTypes.hh:
+
+/usr/include/gazebo-11/gazebo/msgs/friction.pb.h:
+
+/usr/include/boost/type_traits/add_const.hpp:
+
+/usr/include/boost/core/explicit_operator_bool.hpp:
+
+/usr/include/boost/type_traits/remove_extent.hpp:
+
+/usr/include/ignition/math6/gz/math/SphericalCoordinates.hh:
+
+/opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_changed.h:
+
+/usr/include/ignition/math6/ignition/math/Cylinder.hh:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
+
+/usr/include/boost/atomic/detail/caps_arch_gcc_x86.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:
+
+/usr/include/gazebo-11/gazebo/msgs/sonar.pb.h:
+
+/usr/include/boost/type_traits/detail/is_function_cxx_11.hpp:
+
+/usr/include/boost/regex/v4/cpp_regex_traits.hpp:
+
+/usr/include/boost/version.hpp:
+
+/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:
+
+/usr/include/boost/type_traits/is_function.hpp:
+
+/opt/ros/humble/include/rcl/rcl/allocator.h:
+
+/usr/include/boost/type_traits/composite_traits.hpp:
+
+/usr/include/boost/thread/detail/invoke.hpp:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/usr/include/boost/regex.hpp:
+
+/usr/include/ignition/math6/gz/math/Quaternion.hh:
+
+/usr/include/boost/type_traits/remove_volatile.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+
+/usr/include/boost/type_traits/decay.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:
+
+/usr/include/boost/type_traits/remove_reference.hpp:
+
+/usr/include/boost/move/traits.hpp:
+
+/usr/include/boost/thread/pthread/recursive_mutex.hpp:
+
+/usr/include/boost/preprocessor/array/data.hpp:
+
+/usr/include/boost/none_t.hpp:
+
+/usr/include/sdformat-9.7/sdf/Cylinder.hh:
+
+/usr/include/google/protobuf/stubs/casts.h:
+
+/usr/include/boost/preprocessor/tuple/detail/is_single_return.hpp:
+
+/usr/include/ignition/math6/gz/math/detail/Box.hh:
+
+/usr/include/c++/11/bits/locale_classes.h:
+
+/usr/include/boost/type_traits/is_lvalue_reference.hpp:
+
+/usr/include/boost/function/function_template.hpp:
+
+/usr/include/boost/type_traits/is_reference.hpp:
+
+/usr/include/boost/date_time/date_duration.hpp:
+
+/usr/include/boost/move/make_unique.hpp:
+
+/usr/include/boost/type_traits/add_reference.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h:
+
+/opt/ros/humble/include/rmw/rmw/types.h:
+
+/usr/include/boost/date_time/posix_time/ptime.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h:
+
+/usr/include/c++/11/bits/basic_ios.h:
+
+/usr/include/boost/move/algo/move.hpp:
+
+/usr/include/c++/11/cxxabi.h:
+
+/usr/include/boost/core/demangle.hpp:
+
+/usr/include/sdformat-9.7/sdf/SemanticPose.hh:
+
+/usr/include/boost/exception/exception.hpp:
+
+/usr/include/boost/preprocessor/stringize.hpp:
+
+/usr/include/boost/cstdint.hpp:
+
+/usr/include/boost/predef/compiler/greenhills.h:
+
+/usr/include/boost/predef/compiler/palm.h:
+
+/usr/include/ignition/msgs5/ignition/msgs/gps_sensor.pb.h:
+
+/usr/include/boost/current_function.hpp:
+
+/usr/include/boost/regex/v4/regex_fwd.hpp:
+
+/usr/include/boost/mpl/aux_/config/bcc.hpp:
+
+/usr/include/sdformat-9.7/sdf/sdf.hh:
+
+/usr/include/ignition/msgs5/ignition/msgs/uint32_v.pb.h:
+
+/usr/include/ignition/msgs5/ignition/msgs/joy.pb.h:
+
+/usr/include/boost/date_time/time_system_split.hpp:
+
+/usr/include/boost/iterator/iterator_categories.hpp:
+
+/usr/include/boost/detail/workaround.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/event.hpp:
+
+/usr/include/strings.h:
+
+/usr/include/ignition/math6/gz/math/detail/Capsule.hh:
+
+/usr/include/gazebo-11/gazebo/common/Time.hh:
+
+/usr/include/ignition/math6/gz/math/MovingWindowFilter.hh:
+
+/usr/include/boost/container_hash/hash_fwd.hpp:
+
+/usr/include/ignition/msgs5/ignition/msgs/uint32.pb.h:
+
+/usr/include/gazebo-11/gazebo/msgs/user_cmd.pb.h:
+
+/usr/include/boost/date_time/gregorian/greg_year.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp:
+
+/usr/include/boost/config/helper_macros.hpp:
+
+/usr/include/c++/11/bits/locale_conv.h:
+
+/usr/include/boost/config/platform/linux.hpp:
+
+/usr/include/boost/smart_ptr/detail/sp_convertible.hpp:
+
+/usr/include/boost/config/detail/select_platform_config.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+
+/usr/include/boost/numeric/conversion/int_float_mixture_enum.hpp:
+
+/usr/include/ignition/msgs5/ignition/msgs/rest_login.pb.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
+/usr/include/c++/11/bits/functexcept.h:
+
+/usr/include/linux/futex.h:
+
+/usr/include/gazebo-11/gazebo/msgs/light.pb.h:
+
+/usr/include/boost/predef/version_number.h:
+
+/usr/include/c++/11/deque:
+
+/usr/include/gazebo-11/gazebo/common/Assert.hh:
+
+/usr/include/ignition/msgs5/ignition/msgs/sensor_noise.pb.h:
+
+/usr/include/ignition/common3/ignition/common/Profiler.hh:
+
+/usr/include/boost/config/compiler/gcc.hpp:
+
+/usr/include/boost/detail/select_type.hpp:
+
+/usr/include/boost/config/detail/select_compiler_config.hpp:
+
+/usr/include/linux/errno.h:
+
+/usr/include/boost/thread/detail/thread_heap_alloc.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
+
+/usr/include/boost/atomic/detail/type_traits/alignment_of.hpp:
 
 /usr/include/boost/preprocessor/facilities/identity.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp:
+
+/usr/include/ignition/msgs5/ignition/msgs/int64_v.pb.h:
+
+/usr/include/boost/atomic/detail/wait_ops_emulated.hpp:
+
+/usr/include/boost/predef/library/c/uc.h:
+
+/usr/include/ignition/math6/gz/math/Spline.hh:
+
+/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp:
+
+/usr/include/boost/next_prior.hpp:
+
+/usr/include/boost/predef/library/std/stlport.h:
 
 /usr/include/ignition/transport8/ignition/transport/config.hh:
 
@@ -3888,121 +4512,173 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
 
-/usr/include/c++/11/tr1/special_function_util.h:
+/opt/ros/humble/include/class_loader/class_loader/register_macro.hpp:
 
-/usr/include/ignition/math6/ignition/math/Plane.hh:
+/usr/include/boost/core/ignore_unused.hpp:
+
+/usr/include/boost/type_traits/has_minus.hpp:
+
+/usr/include/ignition/math6/gz/math/Polynomial3.hh:
+
+/usr/include/boost/preprocessor/comma_if.hpp:
+
+/usr/include/boost/integer/static_log2.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp:
+
+/usr/include/c++/11/tr1/bessel_function.tcc:
+
+/usr/include/boost/type_traits/declval.hpp:
+
+/usr/include/boost/atomic/detail/extra_fp_operations.hpp:
+
+/usr/include/boost/config/detail/posix_features.hpp:
+
+/usr/include/c++/11/iterator:
+
+/opt/ros/humble/include/rcl_lifecycle/rcl_lifecycle/default_state_machine.h:
+
+/opt/ros/humble/include/rmw/rmw/rmw.h:
+
+/usr/include/ignition/math6/gz/math/Line2.hh:
+
+/usr/include/boost/preprocessor/arithmetic/add.hpp:
+
+/usr/include/ignition/msgs5/ignition/msgs/clock.pb.h:
+
+/usr/include/sdformat-9.7/sdf/Box.hh:
+
+/home/dkflippo/aug2024/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:
+
+/usr/include/boost/predef/library/std/sgi.h:
+
+/usr/include/boost/preprocessor/array/elem.hpp:
+
+/usr/include/c++/11/bits/stl_pair.h:
+
+/usr/include/assert.h:
+
+/usr/include/boost/mpl/aux_/config/has_xxx.hpp:
+
+/usr/include/google/protobuf/port_def.inc:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/c++/11/bits/stl_map.h:
+
+/usr/include/boost/date_time/posix_time/conversion.hpp:
+
+/usr/include/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+
+/usr/include/gazebo-11/gazebo/msgs/header.pb.h:
+
+/usr/include/boost/thread.hpp:
+
+/usr/include/boost/mpl/bool_fwd.hpp:
+
+/usr/include/c++/11/bits/unordered_map.h:
+
+/usr/include/sdformat-9.7/sdf/Filesystem.hh:
+
+/usr/include/boost/mpl/aux_/config/workaround.hpp:
 
 /usr/include/gazebo-11/gazebo/msgs/color.pb.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+/opt/ros/humble/include/rmw/rmw/ret_types.h:
 
-/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+/usr/include/sdformat-9.7/sdf/Frame.hh:
 
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp:
+/usr/include/boost/atomic/detail/bitwise_fp_cast.hpp:
 
-/opt/ros/humble/include/rmw/rmw/time.h:
+/usr/include/c++/11/bits/stl_deque.h:
 
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp:
+/usr/include/ignition/math6/gz/math/config.hh:
 
-/usr/include/boost/cerrno.hpp:
+/usr/include/boost/atomic/detail/atomic_flag_impl.hpp:
 
-/usr/include/boost/type_traits/is_destructible.hpp:
+/usr/include/boost/predef/os/unix.h:
 
-/usr/include/boost/type_traits/add_cv.hpp:
+/usr/include/boost/thread/pthread/thread_heap_alloc.hpp:
 
-/usr/include/boost/type_traits/add_rvalue_reference.hpp:
+/usr/include/ignition/math6/ignition/math/Quaternion.hh:
 
-/opt/ros/humble/include/rmw/rmw/qos_profiles.h:
+/usr/include/boost/predef/compiler/compaq.h:
 
-/usr/include/boost/move/unique_ptr.hpp:
+/usr/include/c++/11/bits/basic_string.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/message_memory_strategy.hpp:
+/usr/include/boost/smart_ptr/detail/shared_count.hpp:
 
-/usr/include/gazebo-11/gazebo/common/SphericalCoordinates.hh:
+/usr/include/boost/core/checked_delete.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp:
+/usr/include/google/protobuf/generated_message_table_driven.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp:
+/usr/include/c++/11/bits/hashtable.h:
 
-/usr/include/gazebo-11/gazebo/physics/SurfaceParams.hh:
+/usr/include/c++/11/bits/refwrap.h:
 
-/usr/include/boost/thread/barrier.hpp:
+/usr/include/c++/11/ext/new_allocator.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/is_ros_compatible_type.hpp:
+/usr/include/ignition/math6/gz/math/Plane.hh:
 
-/usr/include/x86_64-linux-gnu/bits/signal_ext.h:
+/usr/include/boost/thread/detail/thread_group.hpp:
 
-/usr/include/boost/smart_ptr/detail/sp_counted_base_gcc_atomic.hpp:
+/opt/ros/humble/include/rcl/rcl/publisher.h:
 
-/usr/include/ignition/math6/gz/math/graph/GraphAlgorithms.hh:
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
-/usr/include/google/protobuf/stubs/logging.h:
+/opt/ros/humble/include/rcl/rcl/node_options.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp:
 
-/usr/include/ignition/msgs5/ignition/msgs/world_reset.pb.h:
+/usr/include/features-time64.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/experimental/create_intra_process_buffer.hpp:
+/usr/include/gazebo-11/gazebo/physics/HingeJoint.hh:
 
-/usr/include/google/protobuf/map_entry_lite.h:
+/usr/include/c++/11/system_error:
 
-/opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:
+/opt/ros/humble/include/rcutils/rcutils/macros.h:
 
-/usr/include/gazebo-11/gazebo/physics/World.hh:
+/usr/include/ignition/msgs5/ignition/msgs/cylindergeom.pb.h:
 
-/usr/include/ignition/msgs5/ignition/msgs/fluid.pb.h:
+/usr/include/boost/predef/compiler/intel.h:
 
-/usr/include/boost/date_time/posix_time/posix_time_types.hpp:
+/usr/include/ignition/msgs5/ignition/msgs/contact.pb.h:
 
-/usr/include/gazebo-11/gazebo/physics/FixedJoint.hh:
+/home/dkflippo/aug2024/src/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:
 
-/usr/include/boost/unordered/unordered_map.hpp:
+/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
-/usr/include/ignition/transport8/ignition/transport/TransportTypes.hh:
+/usr/include/boost/mpl/aux_/na_spec.hpp:
 
-/usr/include/gazebo-11/gazebo/msgs/friction.pb.h:
+/usr/include/boost/type_traits/is_enum.hpp:
 
-/usr/include/boost/type_traits/add_const.hpp:
+/usr/include/boost/type_traits/detail/config.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp:
+/usr/include/ignition/msgs5/ignition/msgs/uint64.pb.h:
 
-/usr/include/c++/11/shared_mutex:
+/usr/include/ignition/math6/gz/math/MaterialType.hh:
 
-/opt/ros/humble/include/rclcpp/rclcpp/create_generic_subscription.hpp:
+/usr/include/ignition/msgs5/ignition/msgs/heightmapgeom.pb.h:
 
-/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.h:
+/usr/include/c++/11/bits/vector.tcc:
 
-/usr/include/gazebo-11/gazebo/common/Events.hh:
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:
+/usr/include/gazebo-11/gazebo/msgs/spheregeom.pb.h:
 
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+/usr/include/c++/11/version:
 
-/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:
+/usr/include/boost/smart_ptr/detail/yield_k.hpp:
 
-/usr/include/boost/predef/architecture/superh.h:
+/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/subscription_base.hpp:
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
-/usr/include/boost/type_traits/has_trivial_move_assign.hpp:
-
-/opt/ros/humble/include/tracetools/tracetools/utils.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/math-vector.h:
-
-/usr/include/ignition/msgs5/ignition/msgs/light.pb.h:
-
-/usr/include/ignition/msgs5/ignition/msgs/contacts.pb.h:
-
-/usr/include/boost/smart_ptr/detail/local_counted_base.hpp:
-
-/usr/include/boost/predef/hardware/simd/x86/versions.h:
-
-/usr/include/boost/numeric/conversion/numeric_cast_traits.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:
+/usr/include/ignition/math6/ignition/math/Color.hh:
 
 /usr/include/ignition/msgs5/ignition/msgs/subscribe.pb.h:
 
@@ -4010,321 +4686,123 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/type_traits/conditional.hpp:
 
-/opt/ros/humble/include/rcpputils/rcpputils/time.hpp:
+/usr/include/ignition/msgs5/ignition/msgs/diagnostics.pb.h:
 
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
+/usr/include/boost/type_traits/is_assignable.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/waitable.hpp:
+/usr/include/boost/predef/compiler/gcc.h:
 
-/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
+/usr/include/ignition/msgs5/ignition/msgs/serialized.pb.h:
 
-/opt/ros/humble/include/rmw/rmw/network_flow_endpoint_array.h:
+/usr/include/boost/config/stdlib/libstdcpp3.hpp:
 
-/usr/include/ignition/transport8/ignition/transport/HandlerStorage.hh:
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
-/usr/include/gazebo-11/gazebo/msgs/world_modify.pb.h:
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
-/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
-/usr/include/gazebo-11/gazebo/msgs/collision.pb.h:
+/usr/include/c++/11/bits/std_mutex.h:
 
-/usr/include/boost/ratio/detail/overflow_helpers.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/future_return_code.hpp:
 
-/opt/ros/humble/include/rmw/rmw/network_flow_endpoint.h:
+/usr/include/ignition/msgs5/ignition/msgs/physics.pb.h:
 
-/usr/include/boost/type_traits/has_plus_assign.hpp:
+/usr/include/sdformat-9.7/sdf/Assert.hh:
 
-/opt/ros/humble/include/rclcpp/rclcpp/publisher_base.hpp:
+/usr/include/sdformat-9.7/sdf/JointAxis.hh:
 
-/usr/include/gazebo-11/gazebo/sensors/Sensor.hh:
+/usr/include/ignition/msgs5/ignition/msgs/plugin_v.pb.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/guard_condition.hpp:
+/usr/include/boost/regex/v4/protected_call.hpp:
 
-/usr/include/ignition/msgs5/ignition/msgs/entity_factory_v.pb.h:
+/usr/include/locale.h:
 
-/usr/include/boost/regex/pattern_except.hpp:
+/usr/include/ignition/math6/ignition/math/Temperature.hh:
 
-/opt/ros/humble/include/rmw/rmw/impl/config.h:
+/usr/include/boost/date_time/gregorian/greg_duration_types.hpp:
 
-/opt/ros/humble/include/rmw/rmw/error_handling.h:
+/usr/include/boost/predef/compiler/edg.h:
 
-/usr/include/ignition/msgs5/ignition/msgs/vector3d.pb.h:
+/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/exceptions.hpp:
+/usr/include/boost/predef/architecture/pyramid.h:
 
-/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:
+/usr/include/c++/11/cwchar:
 
-/opt/ros/humble/include/rcl/rcl/logging_rosout.h:
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
-/opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h:
+/usr/include/boost/atomic/capabilities.hpp:
 
-/usr/include/wctype.h:
+/usr/include/ignition/msgs5/ignition/msgs/sdf_generator_config.pb.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/sequential_synchronization.hpp:
+/usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
 
-/usr/include/ignition/msgs5/ignition/msgs/selection.pb.h:
+/usr/include/c++/11/bits/regex_scanner.tcc:
 
-/opt/ros/humble/include/rmw/rmw/names_and_types.h:
+/usr/include/c++/11/bits/stl_algobase.h:
 
-/usr/include/sdformat-9.7/sdf/Mesh.hh:
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
 
-/usr/include/boost/move/detail/type_traits.hpp:
+/usr/include/sdformat-9.7/sdf/Imu.hh:
 
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
 
-/usr/include/boost/regex/v4/error_type.hpp:
+/usr/include/x86_64-linux-gnu/bits/timex.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:
+/usr/include/boost/predef/os/beos.h:
 
-/usr/include/boost/thread/shared_lock_guard.hpp:
+/usr/include/c++/11/tr1/special_function_util.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:
+/usr/include/ignition/math6/ignition/math/Plane.hh:
 
-/opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp:
+/usr/include/c++/11/bits/functional_hash.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:
+/usr/include/boost/date_time/gregorian/greg_ymd.hpp:
 
-/usr/include/gazebo-11/gazebo/msgs/track_visual.pb.h:
+/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:
+/usr/include/c++/11/regex:
 
-/usr/include/boost/unordered/unordered_set_fwd.hpp:
+/usr/include/boost/regex/v4/states.hpp:
 
-/usr/include/ignition/msgs5/ignition/msgs/Export.hh:
+/usr/include/x86_64-linux-gnu/sys/select.h:
 
-/usr/include/c++/11/optional:
+/usr/include/boost/atomic/detail/intptr.hpp:
 
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__struct.hpp:
+/usr/include/boost/shared_ptr.hpp:
 
-/usr/include/c++/11/condition_variable:
+/usr/include/gazebo-11/gazebo/msgs/link_data.pb.h:
 
-/usr/include/boost/predef/version.h:
+/usr/include/ignition/math6/gz/math/Capsule.hh:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp:
+/home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_return_values.hpp:
 
-/opt/ros/humble/include/rcpputils/rcpputils/visibility_control.hpp:
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
-/usr/include/boost/exception/to_string_stub.hpp:
+/usr/include/c++/11/bits/range_access.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp:
+/usr/include/x86_64-linux-gnu/bits/types.h:
 
-/usr/include/boost/mpl/void.hpp:
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:
+/usr/include/gazebo-11/gazebo/msgs/joint_cmd.pb.h:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp:
+/usr/include/c++/11/bits/hash_bytes.h:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__builder.hpp:
+/usr/include/c++/11/bits/move.h:
 
-/usr/include/ignition/msgs5/ignition/msgs/wireless_node.pb.h:
+/usr/include/boost/iterator/detail/config_undef.hpp:
 
-/usr/include/ignition/msgs5/ignition/msgs/sim_event.pb.h:
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp:
+/usr/include/boost/move/iterator.hpp:
 
-/usr/include/boost/thread/detail/platform.hpp:
+/usr/include/c++/11/bit:
 
-/usr/include/boost/date_time/gregorian/greg_month.hpp:
+/usr/include/gazebo-11/gazebo/msgs/imu.pb.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/intra_process_setting.hpp:
-
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp:
-
-/usr/include/ignition/msgs5/ignition/msgs/uint64_v.pb.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/buffer_implementation_base.hpp:
-
-/usr/include/boost/smart_ptr/detail/sp_counted_base.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp:
-
-/usr/include/c++/11/bits/stl_construct.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
-
-/usr/include/ignition/msgs5/ignition/msgs/imagegeom.pb.h:
-
-/usr/include/boost/mpl/aux_/adl_barrier.hpp:
-
-/usr/include/boost/preprocessor/list/detail/fold_right.hpp:
-
-/usr/include/c++/11/ext/string_conversions.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp:
-
-/usr/include/c++/11/bits/stl_list.h:
-
-/usr/include/c++/11/list:
-
-/usr/include/ignition/msgs5/ignition/msgs/any.pb.h:
-
-/usr/include/boost/thread/detail/thread_interruption.hpp:
-
-/usr/include/c++/11/atomic:
-
-/usr/include/ignition/common3/ignition/common/SingletonT.hh:
-
-/opt/ros/humble/include/rclcpp/rclcpp/subscription_content_filter_options.hpp:
-
-/usr/include/boost/preprocessor/list/reverse.hpp:
-
-/usr/include/gazebo-11/gazebo/msgs/world_reset.pb.h:
-
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp:
-
-/usr/include/ignition/msgs5/ignition/msgs/occupancy_grid.pb.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:
-
-/usr/include/c++/11/bits/atomic_futex.h:
-
-/usr/include/ignition/math6/gz/math/MassMatrix3.hh:
-
-/opt/ros/humble/include/rclcpp/rclcpp/experimental/ros_message_intra_process_buffer.hpp:
-
-/usr/include/gazebo-11/gazebo/msgs/performance_metrics.pb.h:
-
-/usr/include/boost/thread/csbl/memory/shared_ptr.hpp:
-
-/usr/include/boost/date_time/special_defs.hpp:
-
-/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h:
-
-/opt/ros/humble/include/rcutils/rcutils/logging.h:
-
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:
-
-/usr/include/boost/type_traits/has_minus_assign.hpp:
-
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:
-
-/usr/include/boost/optional/detail/optional_factory_support.hpp:
-
-/usr/include/c++/11/bits/quoted_string.h:
-
-/usr/include/google/protobuf/stubs/callback.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:
-
-/usr/include/c++/11/bits/locale_conv.h:
-
-/usr/include/boost/date_time/gregorian/gregorian_types.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
-/usr/include/boost/move/algo/move.hpp:
-
-/usr/include/c++/11/cxxabi.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h:
-
-/usr/include/c++/11/bits/basic_ios.h:
-
-/usr/include/boost/type_traits/detail/yes_no_type.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp:
-
-/usr/include/boost/chrono/ceil.hpp:
-
-/usr/include/c++/11/ostream:
-
-/opt/ros/humble/include/class_loader/class_loader/visibility_control.hpp:
-
-/usr/include/c++/11/bits/streambuf_iterator.h:
-
-/usr/include/c++/11/cwctype:
-
-/opt/ros/humble/include/hardware_interface/visibility_control.h:
-
-/usr/include/boost/predef/platform/windows_runtime.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp:
-
-/usr/include/c++/11/ext/aligned_buffer.h:
-
-/usr/include/ignition/msgs5/ignition/msgs/quaternion.pb.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp:
-
-/usr/include/c++/11/bits/std_abs.h:
-
-/opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp:
-
-/usr/include/c++/11/bits/locale_classes.h:
-
-/usr/include/c++/11/istream:
-
-/usr/include/c++/11/sstream:
-
-/usr/include/boost/mpl/logical.hpp:
-
-/usr/include/c++/11/bits/list.tcc:
-
-/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp:
-
-/usr/include/boost/date_time/posix_time/conversion.hpp:
-
-/usr/include/c++/11/bits/stl_map.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp:
-
-/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp:
-
-/usr/include/google/protobuf/message_lite.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:
-
-/usr/include/c++/11/algorithm:
-
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:
-
-/usr/include/boost/preprocessor/logical/bitand.hpp:
-
-/opt/ros/humble/include/tracetools/tracetools/tracetools.h:
-
-/usr/include/boost/iterator/detail/config_def.hpp:
-
-/usr/include/boost/config/user.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/visibility_control.hpp:
-
-/usr/include/boost/smart_ptr/bad_weak_ptr.hpp:
-
-/usr/include/boost/date_time/time.hpp:
-
-/usr/include/boost/checked_delete.hpp:
-
-/opt/ros/humble/include/rcl/rcl/event.h:
-
-/usr/include/c++/11/bits/istream.tcc:
-
-/usr/include/c++/11/clocale:
-
-/usr/include/ignition/msgs5/ignition/msgs/detail/SuppressWarning.hh:
-
-/opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_common.hpp:
-
-/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp:
-
-/usr/include/boost/smart_ptr/detail/sp_has_gcc_intrinsics.hpp:
-
-/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h:
-
-/usr/include/c++/11/bits/regex_automaton.tcc:
-
-/opt/ros/humble/include/rcl/rcl/time.h:
+/usr/include/boost/bind/bind_cc.hpp:
 
 /usr/include/boost/smart_ptr/make_shared_object.hpp:
 
@@ -4348,395 +4826,19 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/preprocessor/list/fold_left.hpp:
 
-/usr/include/c++/11/bits/locale_facets_nonio.h:
+/usr/include/boost/unordered/unordered_map_fwd.hpp:
 
-/usr/include/ignition/msgs5/ignition/msgs/empty.pb.h:
+/usr/include/boost/mpl/aux_/config/integral.hpp:
 
-/opt/ros/humble/include/rcl/rcl/timer.h:
+/usr/include/c++/11/bits/align.h:
 
-/usr/include/c++/11/bits/ios_base.h:
+/usr/include/c++/11/vector:
 
-/usr/include/boost/date_time/gregorian/greg_duration.hpp:
+/usr/include/sdformat-9.7/sdf/Gui.hh:
 
-/usr/include/boost/mpl/aux_/config/static_constant.hpp:
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__struct.hpp:
 
-/opt/ros/humble/include/rcl/rcl/subscription.h:
-
-/usr/include/boost/preprocessor/config/config.hpp:
-
-/usr/include/ignition/msgs5/ignition/msgs/collision.pb.h:
-
-/opt/ros/humble/include/rcl/rcl/service.h:
-
-/usr/include/ignition/msgs5/ignition/msgs/publishers.pb.h:
-
-/usr/include/boost/predef/compiler/iar.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:
-
-/opt/ros/humble/include/rcl/rcl/domain_id.h:
-
-/usr/include/c++/11/tr1/hypergeometric.tcc:
-
-/usr/include/ignition/math6/gz/math/Triangle3.hh:
-
-/usr/include/gazebo-11/gazebo/msgs/twist.pb.h:
-
-/usr/include/boost/atomic/detail/type_traits/make_unsigned.hpp:
-
-/usr/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_common.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp:
-
-/usr/include/boost/regex/v4/perl_matcher_common.hpp:
-
-/usr/include/boost/smart_ptr/detail/sp_thread_pause.hpp:
-
-/opt/ros/humble/include/rmw/rmw/event_callback_type.h:
-
-/usr/include/boost/regex/v4/instances.hpp:
-
-/opt/ros/humble/include/rcl/rcl/context.h:
-
-/usr/include/boost/tuple/detail/tuple_basic.hpp:
-
-/opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp:
-
-/usr/include/boost/predef/detail/_cassert.h:
-
-/opt/ros/humble/include/rcl/rcl/client.h:
-
-/usr/include/boost/thread/once.hpp:
-
-/usr/include/ignition/common3/ignition/common/profiler/detail/Export.hh:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface_traits.hpp:
-
-/usr/include/boost/type_traits/is_const.hpp:
-
-/usr/include/boost/numeric/conversion/detail/converter.hpp:
-
-/usr/include/gazebo-11/gazebo/common/Animation.hh:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdalign.h:
-
-/usr/include/c++/11/bits/locale_facets.tcc:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:
-
-/usr/include/ignition/msgs5/ignition/msgs/log_control.pb.h:
-
-/usr/include/ignition/math6/gz/math/Box.hh:
-
-/usr/include/gazebo-11/gazebo/physics/JointController.hh:
-
-/usr/include/boost/date_time/date_defs.hpp:
-
-/usr/include/boost/preprocessor/seq/enum.hpp:
-
-/opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h:
-
-/usr/include/c++/11/bits/allocated_ptr.h:
-
-/usr/include/c++/11/codecvt:
-
-/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:
-
-/usr/include/boost/mpl/multiplies.hpp:
-
-/usr/include/boost/predef/platform/cloudabi.h:
-
-/opt/ros/humble/include/rcl/rcl/visibility_control.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp:
-
-/usr/include/boost/optional/detail/optional_aligned_storage.hpp:
-
-/usr/include/c++/11/set:
-
-/usr/include/boost/preprocessor/identity.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
-
-/opt/ros/humble/include/rcl/rcl/error_handling.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp:
-
-/usr/include/boost/preprocessor/iteration/detail/iter/forward1.hpp:
-
-/opt/ros/humble/include/rmw/rmw/subscription_content_filter_options.h:
-
-/usr/include/boost/predef/hardware/simd/x86_amd/versions.h:
-
-/opt/ros/humble/include/rmw/rmw/events_statuses/offered_deadline_missed.h:
-
-/usr/include/boost/atomic/detail/extra_ops_gcc_x86.hpp:
-
-/opt/ros/humble/include/rmw/rmw/events_statuses/message_lost.h:
-
-/usr/include/c++/11/tr1/bessel_function.tcc:
-
-/usr/include/boost/type_traits/declval.hpp:
-
-/opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_lost.h:
-
-/usr/include/gazebo-11/gazebo/msgs/fluid.pb.h:
-
-/opt/ros/humble/include/rcpputils/rcpputils/join.hpp:
-
-/usr/include/c++/11/bits/codecvt.h:
-
-/usr/include/boost/move/iterator.hpp:
-
-/usr/include/c++/11/bit:
-
-/opt/ros/humble/include/rmw/rmw/qos_policy_kind.h:
-
-/usr/include/boost/thread/future.hpp:
-
-/usr/include/boost/preprocessor/repetition/enum_binary_params.hpp:
-
-/opt/ros/humble/include/rmw/rmw/events_statuses/incompatible_qos.h:
-
-/usr/include/boost/thread/condition_variable.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h:
-
-/usr/include/c++/11/functional:
-
-/usr/include/gazebo-11/gazebo/msgs/visual.pb.h:
-
-/usr/include/boost/mpl/bool.hpp:
-
-/usr/include/ignition/msgs5/ignition/msgs/rest_logout.pb.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_clock_interface.hpp:
-
-/usr/include/boost/preprocessor/array/elem.hpp:
-
-/usr/include/c++/11/bits/stl_pair.h:
-
-/usr/include/assert.h:
-
-/usr/include/boost/mpl/aux_/config/has_xxx.hpp:
-
-/usr/include/google/protobuf/port_def.inc:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/usr/include/time.h:
-
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
-
-/usr/include/gazebo-11/gazebo/msgs/header.pb.h:
-
-/usr/include/boost/thread.hpp:
-
-/usr/include/boost/mpl/bool_fwd.hpp:
-
-/usr/include/boost/regex/v4/regex_traits_defaults.hpp:
-
-/usr/include/boost/type_traits/is_unsigned.hpp:
-
-/usr/include/c++/11/bits/shared_ptr_base.h:
-
-/usr/include/c++/11/bits/basic_string.h:
-
-/usr/include/c++/11/ext/concurrence.h:
-
-/usr/include/gazebo-11/gazebo/physics/Contact.hh:
-
-/usr/include/boost/mpl/aux_/config/lambda.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
-
-/opt/ros/humble/include/rcutils/rcutils/types/string_map.h:
-
-/usr/include/c++/11/bits/refwrap.h:
-
-/usr/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp:
-
-/opt/ros/humble/include/rmw/rmw/incompatible_qos_events_statuses.h:
-
-/usr/include/sdformat-9.7/sdf/Visual.hh:
-
-/usr/include/ignition/msgs5/ignition/msgs/clock.pb.h:
-
-/home/dkflippo/aug2024/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:
-
-/usr/include/sdformat-9.7/sdf/Box.hh:
-
-/usr/include/ignition/msgs5/ignition/msgs/propagation_grid.pb.h:
-
-/usr/include/c++/11/bits/specfun.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/include/c++/11/ext/new_allocator.h:
-
-/opt/ros/humble/include/rcl/rcl/publisher.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/opt/ros/humble/include/rcl/rcl/node_options.h:
-
-/usr/include/features-time64.h:
-
-/usr/include/gazebo-11/gazebo/physics/HingeJoint.hh:
-
-/usr/include/c++/11/system_error:
-
-/usr/include/c++/11/bits/this_thread_sleep.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:
-
-/opt/ros/humble/include/rmw/rmw/event.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/c++/11/bits/stringfwd.h:
-
-/usr/include/gazebo-11/gazebo/physics/MultiRayShape.hh:
-
-/usr/include/ignition/math6/gz/math/GaussMarkovProcess.hh:
-
-/opt/ros/humble/include/rclcpp/rclcpp/network_flow_endpoint.hpp:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp:
-
-/usr/include/c++/11/unordered_set:
-
-/usr/include/boost/atomic/detail/caps_gcc_atomic.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/opt/ros/humble/include/hardware_interface/system_interface.hpp:
-
-/usr/include/boost/predef/language/objc.h:
-
-/usr/include/boost/predef/os/cygwin.h:
-
-/usr/include/boost/predef/compiler/dignus.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/usr/include/gazebo-11/gazebo/msgs/hydra.pb.h:
-
-/usr/include/c++/11/bits/node_handle.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp:
-
-/usr/include/c++/11/bitset:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp:
-
-/usr/include/c++/11/bits/std_mutex.h:
-
-/usr/include/sdformat-9.7/sdf/Types.hh:
-
-/usr/include/ignition/msgs5/ignition/msgs/plugin_v.pb.h:
-
-/usr/include/boost/regex/v4/protected_call.hpp:
-
-/usr/include/locale.h:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:
-
-/usr/include/boost/is_placeholder.hpp:
-
-/usr/include/wchar.h:
-
-/usr/include/boost/predef/library/std/vacpp.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/boost/date_time/gregorian/greg_duration_types.hpp:
-
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp:
-
-/usr/include/boost/type_traits/is_member_function_pointer.hpp:
-
-/usr/include/c++/11/bits/uniform_int_dist.h:
-
-/usr/include/c++/11/cwchar:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
-
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
-
-/usr/include/x86_64-linux-gnu/bits/timex.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp:
-
-/usr/include/gazebo-11/gazebo/physics/RayShape.hh:
-
-/usr/include/boost/predef/architecture/z.h:
-
-/usr/include/c++/11/bits/invoke.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/usr/include/c++/11/bits/postypes.h:
-
-/usr/include/boost/atomic/detail/header.hpp:
-
-/usr/include/c++/11/bits/string_view.tcc:
-
-/usr/include/features.h:
-
-/usr/include/c++/11/bits/functional_hash.h:
-
-/usr/include/boost/date_time/gregorian/greg_ymd.hpp:
-
-/usr/include/boost/regex/v4/states.hpp:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-/usr/include/c++/11/bits/range_access.h:
-
-/opt/ros/humble/include/rcutils/rcutils/types/uint8_array.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp:
-
-/usr/include/gazebo-11/gazebo/msgs/joint_cmd.pb.h:
-
-/usr/include/c++/11/bits/hash_bytes.h:
-
-/usr/include/c++/11/bits/move.h:
-
-/usr/include/boost/iterator/detail/config_undef.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:
-
-/usr/include/boost/function/function_fwd.hpp:
-
-/usr/include/boost/atomic/detail/extra_fp_operations_fwd.hpp:
-
-/opt/ros/humble/include/rcutils/rcutils/error_handling.h:
-
-/usr/include/boost/date_time/posix_time/date_duration_operators.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp:
-
-/usr/include/math.h:
+/usr/include/boost/predef/architecture/x86.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
@@ -4746,35 +4848,13 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/c++/11/bits/charconv.h:
 
-/usr/include/c++/11/backward/auto_ptr.h:
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp:
 
-/usr/include/boost/assert.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
-/usr/include/boost/smart_ptr/detail/local_sp_deleter.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:
-
-/usr/include/boost/unordered/unordered_map_fwd.hpp:
-
-/usr/include/boost/mpl/aux_/config/integral.hpp:
-
-/usr/include/c++/11/bits/align.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:
-
-/usr/include/c++/11/vector:
+/usr/include/math.h:
 
 /usr/include/c++/11/typeinfo:
 
-/usr/include/boost/mpl/arg_fwd.hpp:
-
-/opt/ros/humble/include/rcutils/rcutils/testing/fault_injection.h:
-
-/opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h:
-
-/opt/ros/humble/include/rcutils/rcutils/qsort.h:
+/usr/include/boost/config.hpp:
 
 /usr/include/ignition/math6/ignition/math/Angle.hh:
 
@@ -4782,75 +4862,67 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:
+
+/usr/include/boost/predef/compiler/mpw.h:
+
 /usr/include/c++/11/ext/type_traits.h:
 
-/usr/include/strings.h:
+/usr/include/sdformat-9.7/sdf/Heightmap.hh:
 
-/opt/ros/humble/include/rclcpp/rclcpp/event.hpp:
+/usr/include/boost/detail/indirect_traits.hpp:
+
+/usr/include/sdformat-9.7/sdf/sdf_config.h:
+
+/usr/include/boost/mpl/aux_/include_preprocessed.hpp:
+
+/usr/include/ignition/math6/gz/math/graph/Vertex.hh:
+
+/usr/include/boost/mpl/aux_/config/bind.hpp:
+
+/usr/include/ignition/math6/ignition/math/Pose3.hh:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/boost/predef/library/std/vacpp.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
 
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
 /usr/include/boost/date_time/compiler_config.hpp:
 
-/usr/include/sdformat-9.7/sdf/Error.hh:
-
-/usr/include/boost/mpl/aux_/numeric_cast_utils.hpp:
-
-/usr/include/c++/11/bits/exception_defines.h:
-
-/usr/include/ignition/msgs5/ignition/msgs/cylindergeom.pb.h:
-
-/usr/include/boost/predef/compiler/intel.h:
-
-/opt/ros/humble/include/rcutils/rcutils/macros.h:
-
-/usr/include/boost/atomic/atomic_ref.hpp:
-
-/usr/include/c++/11/bits/locale_classes.tcc:
-
-/usr/include/c++/11/bits/cxxabi_init_exception.h:
-
-/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:
-
-/usr/include/ignition/math6/gz/math/Vector2.hh:
-
-/opt/ros/humble/include/rcutils/rcutils/types/hash_map.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:
-
-/opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h:
-
-/usr/include/boost/atomic/detail/link.hpp:
-
-/usr/include/ignition/math6/gz/math/Inertial.hh:
+/usr/include/c++/11/bits/stl_tree.h:
 
 /usr/include/c++/11/tuple:
 
-/usr/include/c++/11/bits/functexcept.h:
-
-/usr/include/ignition/msgs5/ignition/msgs/rest_login.pb.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
-
-/opt/ros/humble/include/tracetools/tracetools/config.h:
-
-/usr/include/c++/11/debug/assertions.h:
-
-/usr/include/c++/11/bits/char_traits.h:
+/usr/include/boost/thread/detail/thread.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp:
 
+/usr/include/c++/11/bits/char_traits.h:
+
 /usr/include/c++/11/bits/concept_check.h:
+
+/usr/include/boost/chrono/detail/static_assert.hpp:
+
+/usr/include/boost/container_hash/detail/float_functions.hpp:
 
 /usr/include/gazebo-11/gazebo/msgs/diagnostics.pb.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/ss_flags.h:
+/usr/include/ignition/msgs5/ignition/msgs/topic_info.pb.h:
 
-/usr/include/boost/core/ref.hpp:
+/usr/include/boost/functional/hash.hpp:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
+/opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp:
+
+/usr/include/c++/11/streambuf:
 
 /usr/include/gazebo-11/gazebo/msgs/param.pb.h:
 
@@ -4858,69 +4930,103 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/c++/11/bits/memoryfwd.h:
 
+/usr/include/c++/11/bits/stl_function.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
 /usr/include/c++/11/bits/std_function.h:
 
 /usr/include/boost/preprocessor/control/expr_iif.hpp:
 
+/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:
+
+/usr/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp:
+
+/usr/include/c++/11/map:
+
 /usr/include/boost/type_traits/extent.hpp:
 
 /usr/include/boost/date_time/microsec_time_clock.hpp:
 
-/usr/include/c++/11/iterator:
+/usr/include/boost/type_traits/is_volatile.hpp:
 
-/usr/include/boost/atomic/detail/extra_fp_operations.hpp:
+/usr/include/boost/integer_fwd.hpp:
 
-/usr/include/boost/config/detail/posix_features.hpp:
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
 
-/opt/ros/humble/include/rcl_lifecycle/rcl_lifecycle/default_state_machine.h:
+/usr/include/ignition/math6/gz/math/SemanticVersion.hh:
 
-/opt/ros/humble/include/rmw/rmw/rmw.h:
-
-/usr/include/ignition/math6/gz/math/Line2.hh:
-
-/usr/include/boost/preprocessor/arithmetic/add.hpp:
+/usr/include/boost/smart_ptr/shared_ptr.hpp:
 
 /usr/include/c++/11/bits/stl_multimap.h:
 
-/opt/ros/humble/include/rmw/rmw/message_sequence.h:
+/usr/include/features.h:
 
-/usr/include/c++/11/tr1/gamma.tcc:
+/usr/include/gazebo-11/gazebo/msgs/test.pb.h:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+/usr/include/ignition/math6/gz/math/DiffDriveOdometry.hh:
 
-/usr/include/boost/numeric/conversion/detail/numeric_cast_traits.hpp:
+/usr/include/boost/iterator/detail/enable_if.hpp:
+
+/usr/include/ignition/math6/gz/math/Kmeans.hh:
+
+/usr/include/ignition/math6/gz/math/Color.hh:
+
+/usr/include/boost/thread/detail/thread_safety.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/context.hpp:
 
 /usr/include/boost/atomic/detail/wait_ops_generic.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/context.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
 /usr/include/boost/mpl/aux_/yes_no.hpp:
 
-/usr/include/gazebo-11/gazebo/common/ImageHeightmap.hh:
+/usr/include/ignition/math6/gz/math/PiecewiseScalarField3.hh:
 
-/opt/ros/humble/include/rcl/rcl/types.h:
+/usr/include/boost/type_traits/is_arithmetic.hpp:
+
+/usr/include/sdformat-9.7/sdf/Console.hh:
+
+/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp:
+
+/usr/include/c++/11/bits/stl_list.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:
+
+/usr/include/boost/smart_ptr/detail/local_sp_deleter.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/c++/11/debug/assertions.h:
+
+/usr/include/boost/core/enable_if.hpp:
+
+/usr/include/boost/system/api_config.hpp:
+
+/usr/include/c++/11/bits/stl_construct.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
+
+/usr/include/ignition/msgs5/ignition/msgs/imagegeom.pb.h:
+
+/usr/include/boost/mpl/aux_/adl_barrier.hpp:
+
+/usr/include/boost/smart_ptr/detail/spinlock.hpp:
+
+/usr/include/boost/move/detail/config_end.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
-/usr/include/ignition/msgs5/ignition/msgs/sdf_generator_config.pb.h:
+/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
-
-/usr/include/ignition/msgs5/ignition/msgs/undo_redo.pb.h:
-
-/usr/include/boost/predef/detail/_exception.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:
-
-/usr/include/ignition/math6/ignition/math/Box.hh:
+/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.hpp:
 
 /usr/include/boost/regex/v4/iterator_traits.hpp:
 
@@ -4929,6 +5035,12 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 /usr/include/c++/11/bits/shared_ptr.h:
 
 /usr/include/boost/mpl/aux_/msvc_eti_base.hpp:
+
+/usr/include/ignition/msgs5/ignition/msgs/log_playback_control.pb.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/boost/smart_ptr/weak_ptr.hpp:
 
 /usr/include/boost/atomic/detail/fp_ops_emulated.hpp:
 
@@ -4944,81 +5056,83 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/mpl/aux_/arity.hpp:
 
-/usr/include/ignition/msgs5/ignition/msgs/odometry.pb.h:
+/usr/include/ignition/msgs5/ignition/msgs/packet.pb.h:
 
-/usr/include/c++/11/cmath:
+/usr/include/gazebo-11/gazebo/msgs/wrench_stamped.pb.h:
 
-/usr/include/google/protobuf/generated_enum_reflection.h:
+/usr/include/unistd.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/detail/qos_parameters.hpp:
-
-/usr/include/boost/mpl/aux_/preprocessed/gcc/and.hpp:
-
-/usr/include/linux/limits.h:
-
-/usr/include/c++/11/bits/allocator.h:
+/usr/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_long_long.hpp:
 
 /usr/include/google/protobuf/map.h:
 
 /usr/include/c++/11/type_traits:
 
-/opt/ros/humble/include/rmw/rmw/visibility_control.h:
-
-/usr/include/c++/11/tr1/modified_bessel_func.tcc:
-
-/usr/include/c++/11/bits/ostream.tcc:
-
-/opt/ros/humble/include/rclcpp/rclcpp/create_generic_publisher.hpp:
-
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
 /usr/include/c++/11/bits/stl_tempbuf.h:
 
-/usr/include/stdc-predef.h:
+/usr/include/boost/predef/library/std.h:
 
-/usr/include/boost/mpl/aux_/config/bind.hpp:
+/usr/include/c++/11/tr1/hypergeometric.tcc:
 
-/usr/include/ignition/math6/ignition/math/Pose3.hh:
+/usr/include/ignition/math6/gz/math/Triangle3.hh:
+
+/usr/include/gazebo-11/gazebo/msgs/twist.pb.h:
+
+/usr/include/boost/atomic/detail/type_traits/make_unsigned.hpp:
+
+/usr/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_common.hpp:
 
 /usr/include/c++/11/bits/alloc_traits.h:
 
 /usr/include/errno.h:
 
-/usr/include/boost/type_traits/composite_traits.hpp:
-
-/usr/include/boost/thread/detail/invoke.hpp:
-
-/opt/ros/humble/include/rcl/rcl/allocator.h:
-
 /usr/include/boost/atomic/detail/extra_ops_generic.hpp:
 
 /usr/include/sdformat-9.7/sdf/World.hh:
 
-/usr/include/ignition/msgs5/ignition/msgs/detail/Export.hh:
+/usr/include/sdformat-9.7/sdf/Mesh.hh:
 
-/usr/include/boost/core/no_exceptions_support.hpp:
+/usr/include/boost/move/detail/type_traits.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp:
+/opt/ros/humble/include/rcl_lifecycle/rcl_lifecycle/data_types.h:
+
+/usr/include/gazebo-11/gazebo/msgs/contactsensor.pb.h:
+
+/usr/include/boost/predef/compiler/metaware.h:
+
+/usr/include/boost/config/detail/select_stdlib_config.hpp:
+
+/usr/include/ignition/math6/gz/math/OrientedBox.hh:
+
+/usr/include/c++/11/any:
+
+/usr/include/boost/type_index/type_index_facade.hpp:
 
 /usr/include/c++/11/bits/unique_ptr.h:
+
+/usr/include/boost/chrono/ceil.hpp:
+
+/usr/include/c++/11/ostream:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:
+
+/usr/include/c++/11/bits/regex_compiler.tcc:
 
 /usr/include/boost/regex/v4/regex_merge.hpp:
 
 /usr/include/c++/11/bits/stl_uninitialized.h:
 
-/usr/include/c++/11/bits/std_thread.h:
+/usr/include/ignition/msgs5/ignition/msgs/user_cmd_stats.pb.h:
 
-/usr/include/endian.h:
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
-/usr/include/boost/thread/detail/move.hpp:
+/usr/include/boost/predef/architecture/arm.h:
 
-/usr/include/gazebo-11/gazebo/msgs/quaternion.pb.h:
+/usr/include/boost/predef/hardware/simd/x86_amd.h:
 
-/usr/include/c++/11/bits/stl_iterator_base_funcs.h:
-
-/usr/include/c++/11/bits/streambuf.tcc:
-
-/usr/include/boost/preprocessor/control/if.hpp:
+/usr/include/c++/11/bits/stl_queue.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
@@ -5032,43 +5146,51 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/preprocessor/arithmetic/inc.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/sdformat-9.7/sdf/Altimeter.hh:
-
-/opt/ros/humble/include/rmw/rmw/serialized_message.h:
-
-/usr/include/gazebo-11/gazebo/msgs/test.pb.h:
-
-/usr/include/ignition/math6/gz/math/DiffDriveOdometry.hh:
-
-/usr/include/boost/iterator/detail/enable_if.hpp:
-
-/usr/include/ignition/math6/gz/math/Kmeans.hh:
-
-/usr/include/google/protobuf/repeated_field.h:
-
-/usr/include/boost/core/use_default.hpp:
-
-/usr/include/boost/thread/cv_status.hpp:
-
-/usr/include/c++/11/memory:
-
 /usr/include/ignition/math6/ignition/math/Sphere.hh:
+
+/usr/include/boost/mpl/aux_/config/preprocessor.hpp:
+
+/usr/include/c++/11/ext/numeric_traits.h:
+
+/usr/include/boost/thread/detail/platform.hpp:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h:
+
+/usr/include/gazebo-11/gazebo/msgs/performance_metrics.pb.h:
+
+/usr/include/boost/thread/csbl/memory/shared_ptr.hpp:
+
+/usr/include/boost/date_time/special_defs.hpp:
+
+/usr/include/boost/date_time/gregorian/greg_month.hpp:
+
+/usr/include/c++/11/ext/string_conversions.h:
+
+/usr/include/boost/preprocessor/list/detail/fold_right.hpp:
+
+/opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp:
+
+/usr/include/gazebo-11/gazebo/msgs/undo_redo.pb.h:
+
+/usr/include/c++/11/bits/atomic_base.h:
 
 /usr/include/gazebo-11/gazebo/msgs/geometry.pb.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
-/usr/include/boost/mpl/limits/arity.hpp:
-
-/usr/include/c++/11/bits/sstream.tcc:
+/usr/include/ignition/math6/gz/math/Frustum.hh:
 
 /usr/include/ignition/msgs5/ignition/msgs/friction.pb.h:
 
 /usr/include/boost/mpl/aux_/value_wknd.hpp:
 
+/usr/include/gazebo-11/gazebo/physics/Joint.hh:
+
+/usr/include/c++/11/new:
+
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp:
 
 /usr/include/gazebo-11/gazebo/common/Image.hh:
 
@@ -5076,9 +5198,37 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
+/usr/include/ignition/msgs5/ignition/msgs/odometry.pb.h:
+
+/usr/include/c++/11/cmath:
+
+/usr/include/gazebo-11/gazebo/sensors/ImuSensor.hh:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:
+
+/usr/include/ignition/msgs5/ignition/msgs/planegeom.pb.h:
+
+/usr/include/boost/static_assert.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
+/usr/include/sdformat-9.7/sdf/NavSat.hh:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
+
+/opt/ros/humble/include/angles/angles/angles.h:
+
+/usr/include/boost/thread/thread_only.hpp:
+
 /usr/include/c++/11/bits/cxxabi_forced.h:
+
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:
+
+/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h:
+
+/usr/include/sdformat-9.7/sdf/Lidar.hh:
 
 /usr/include/c++/11/bits/stl_raw_storage_iter.h:
 
@@ -5086,51 +5236,35 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/c++/11/tr1/beta_function.tcc:
 
-/usr/include/boost/atomic/detail/type_traits/is_integral.hpp:
-
-/usr/include/c++/11/tr1/poly_laguerre.tcc:
-
-/usr/include/c++/11/array:
-
 /usr/include/c++/11/backward/binders.h:
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
 
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
-/opt/ros/humble/include/hardware_interface/types/hardware_interface_return_values.hpp:
+/usr/include/boost/predef/compiler/pgi.h:
+
+/usr/include/boost/throw_exception.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
 
 /usr/include/c++/11/bits/stl_relops.h:
 
 /usr/include/boost/preprocessor/detail/is_binary.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:
 
-/usr/include/boost/thread/pthread/once_atomic.hpp:
+/usr/include/google/protobuf/message_lite.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/loaned_message.hpp:
+/usr/include/c++/11/algorithm:
 
-/usr/include/ignition/msgs5/ignition/msgs/stringmsg.pb.h:
+/usr/include/gazebo-11/gazebo/msgs/pose.pb.h:
 
-/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
+/usr/include/sdformat-9.7/sdf/Noise.hh:
 
-/usr/include/boost/bind/mem_fn_template.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
+/usr/include/c++/11/ctime:
 
 /usr/include/boost/system/system_error.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp:
-
-/usr/include/ignition/msgs5/ignition/msgs/packet.pb.h:
-
-/usr/include/gazebo-11/gazebo/msgs/wrench_stamped.pb.h:
-
-/usr/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_long_long.hpp:
-
-/usr/include/unistd.h:
-
-/usr/include/boost/exception/exception.hpp:
 
 /usr/include/boost/core/default_allocator.hpp:
 
@@ -5139,6 +5273,14 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 /usr/include/c++/11/bits/ptr_traits.h:
 
 /usr/include/c++/11/bits/erase_if.h:
+
+/usr/include/endian.h:
+
+/usr/include/c++/11/bits/stream_iterator.h:
+
+/usr/include/c++/11/bits/cpp_type_traits.h:
+
+/usr/include/boost/thread/detail/move.hpp:
 
 /usr/include/c++/11/iosfwd:
 
@@ -5154,17 +5296,11 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/c++/11/bits/predefined_ops.h:
 
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp:
 
-/usr/include/ignition/msgs5/ignition/msgs/log_status.pb.h:
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_timers_interface.hpp:
 
-/usr/include/boost/regex_fwd.hpp:
-
-/usr/include/c++/11/bits/locale_facets_nonio.tcc:
-
-/usr/include/ignition/math6/gz/math/SpeedLimiter.hh:
-
-/usr/include/boost/numeric/conversion/detail/udt_builtin_mixture.hpp:
+/usr/include/boost/predef/architecture/ia64.h:
 
 /usr/include/boost/preprocessor/repetition/enum_shifted_params.hpp:
 
@@ -5174,65 +5310,35 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/predef/architecture.h:
 
-/usr/include/boost/thread/csbl/memory/unique_ptr.hpp:
+/usr/include/boost/type_traits/is_constructible.hpp:
 
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:
+/usr/include/boost/predef/platform/windows_phone.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp:
+/usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h:
 
-/opt/ros/humble/include/rmw/rmw/get_topic_names_and_types.h:
-
-/usr/include/boost/thread/detail/config.hpp:
-
-/usr/include/boost/enable_shared_from_this.hpp:
-
-/usr/include/boost/date_time/date_generators.hpp:
-
-/usr/include/c++/11/bits/locale_facets.h:
-
-/usr/include/boost/predef/other.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
-
-/usr/include/c++/11/bits/exception.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp:
-
-/usr/include/boost/bind/arg.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/c++/11/tr1/legendre_function.tcc:
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
-/usr/include/boost/predef/architecture/x86/64.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
-
-/usr/include/linux/posix_types.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/init_options.hpp:
-
 /usr/include/c++/11/exception:
 
-/usr/include/ignition/msgs5/ignition/msgs/server_control.pb.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:
-
-/opt/ros/humble/include/rcl/rcl/graph.h:
-
-/opt/ros/humble/include/rmw/rmw/topic_endpoint_info_array.h:
-
-/opt/ros/humble/include/rmw/rmw/publisher_options.h:
-
-/usr/include/sdformat-9.7/sdf/Root.hh:
+/usr/include/c++/11/bits/regex_automaton.tcc:
 
 /usr/include/boost/regex/v4/regex_iterator.hpp:
 
 /usr/include/c++/11/bits/nested_exception.h:
+
+/usr/include/c++/11/queue:
+
+/opt/ros/humble/include/rcutils/rcutils/visibility_control_macros.h:
+
+/usr/include/boost/type_traits/aligned_storage.hpp:
+
+/usr/include/c++/11/iomanip:
+
+/usr/include/c++/11/bits/shared_ptr_atomic.h:
+
+/usr/include/boost/predef/hardware/simd.h:
 
 /usr/include/c++/11/bits/parse_numbers.h:
 
@@ -5240,35 +5346,77 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
 
-/usr/include/c++/11/complex:
+/usr/include/google/protobuf/stubs/fastmem.h:
 
-/usr/include/boost/predef/architecture/alpha.h:
+/usr/include/string.h:
 
-/opt/ros/humble/include/rmw/rmw/subscription_options.h:
+/usr/include/boost/predef/language/stdcpp.h:
 
-/usr/include/ignition/math6/gz/math/Matrix3.hh:
+/usr/include/c++/11/bits/streambuf.tcc:
 
-/usr/include/sdformat-9.7/sdf/Magnetometer.hh:
+/usr/include/gazebo-11/gazebo/msgs/quaternion.pb.h:
 
-/usr/include/boost/config/abi_suffix.hpp:
+/usr/include/c++/11/bits/stl_iterator_base_funcs.h:
+
+/usr/include/boost/preprocessor/control/if.hpp:
+
+/usr/include/boost/predef/library/c/zos.h:
+
+/opt/ros/humble/include/rmw/rmw/security_options.h:
+
+/usr/include/c++/11/string:
+
+/usr/include/boost/thread/shared_mutex.hpp:
+
+/usr/include/c++/11/tr1/poly_laguerre.tcc:
+
+/usr/include/c++/11/array:
+
+/usr/include/boost/atomic/detail/type_traits/is_integral.hpp:
+
+/usr/include/boost/predef/compiler/watcom.h:
+
+/usr/include/boost/type_traits/remove_bounds.hpp:
 
 /usr/include/asm-generic/errno-base.h:
 
-/usr/include/linux/errno.h:
+/usr/include/boost/predef/architecture/rs6k.h:
 
-/usr/include/boost/thread/detail/thread_heap_alloc.hpp:
+/usr/include/c++/11/bits/string_view.tcc:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
+/usr/include/boost/atomic/detail/header.hpp:
 
-/usr/include/c++/11/new:
+/usr/include/c++/11/functional:
 
-/usr/include/gazebo-11/gazebo/physics/Joint.hh:
+/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 /usr/include/c++/11/cstdint:
 
 /usr/include/c++/11/bits/localefwd.h:
 
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:
+/usr/include/c++/11/bits/regex.tcc:
+
+/usr/include/boost/smart_ptr/detail/sp_noexcept.hpp:
+
+/usr/include/boost/predef/os/aix.h:
+
+/usr/include/boost/chrono/detail/is_evenly_divisible_by.hpp:
+
+/usr/include/ignition/msgs5/ignition/msgs/double_v.pb.h:
+
+/usr/include/boost/thread/xtime.hpp:
+
+/usr/include/ignition/msgs5/ignition/msgs/bytes.pb.h:
+
+/usr/include/boost/config/no_tr1/memory.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/create_generic_publisher.hpp:
+
+/usr/include/c++/11/tr1/modified_bessel_func.tcc:
+
+/usr/include/c++/11/bits/ostream.tcc:
 
 /usr/include/ignition/math6/gz/math/Triangle.hh:
 
@@ -5278,15 +5426,9 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
-/usr/include/gazebo-11/gazebo/msgs/factory.pb.h:
+/usr/include/ignition/msgs5/ignition/msgs/track_visual.pb.h:
 
-/opt/ros/humble/include/rcutils/rcutils/shared_library.h:
-
-/usr/include/boost/shared_ptr.hpp:
-
-/usr/include/gazebo-11/gazebo/msgs/link_data.pb.h:
-
-/usr/include/ignition/math6/gz/math/Capsule.hh:
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
 /usr/include/boost/smart_ptr/allocate_shared_array.hpp:
 
@@ -5294,173 +5436,125 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/c++/11/cctype:
 
+/home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_type_values.hpp:
+
+/usr/include/ignition/math6/ignition/math.hh:
+
 /usr/include/c++/11/unordered_map:
-
-/opt/ros/humble/include/rmw/rmw/domain_id.h:
-
-/usr/include/boost/thread/pthread/shared_mutex.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/message_info.hpp:
-
-/usr/include/sdformat-9.7/sdf/Scene.hh:
 
 /usr/include/c++/11/locale:
 
-/usr/include/boost/type_traits/is_nothrow_swappable.hpp:
-
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp:
+
+/usr/include/boost/type_traits/is_nothrow_swappable.hpp:
 
 /usr/include/ctype.h:
 
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
-
-/usr/include/boost/detail/select_type.hpp:
-
-/usr/include/boost/config/detail/select_compiler_config.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
-
-/usr/include/c++/11/cstdlib:
-
-/usr/include/c++/11/string_view:
-
-/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:
-
-/usr/include/boost/type_traits/is_complete.hpp:
-
-/usr/include/ignition/msgs5/ignition/msgs/link_data.pb.h:
-
-/usr/include/boost/preprocessor/detail/auto_rec.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/publisher_factory.hpp:
-
-/usr/include/boost/regex/v4/regex_fwd.hpp:
-
-/usr/include/boost/mpl/aux_/config/bcc.hpp:
-
-/usr/include/sdformat-9.7/sdf/sdf.hh:
-
-/usr/include/ignition/msgs5/ignition/msgs/uint32_v.pb.h:
-
-/usr/include/ignition/msgs5/ignition/msgs/joy.pb.h:
-
-/usr/include/boost/date_time/time_system_split.hpp:
-
 /usr/include/stdlib.h:
+
+/usr/include/ignition/math6/ignition/math/Vector2.hh:
+
+/usr/include/boost/date_time/locale_config.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
 /usr/include/boost/thread/detail/delete.hpp:
 
-/usr/include/boost/atomic/detail/fence_ops_gcc_atomic.hpp:
+/usr/include/c++/11/ext/aligned_buffer.h:
 
-/usr/include/boost/predef/compiler/metrowerks.h:
+/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:
 
-/usr/include/c++/11/future:
+/usr/include/boost/atomic/atomic_ref.hpp:
 
-/usr/include/gazebo-11/gazebo/msgs/rest_post.pb.h:
+/usr/include/c++/11/bits/cxxabi_init_exception.h:
 
-/usr/include/boost/smart_ptr/enable_shared_from_this.hpp:
+/usr/include/c++/11/bits/locale_classes.tcc:
 
-/usr/include/x86_64-linux-gnu/sys/types.h:
+/usr/include/sdformat-9.7/sdf/Exception.hh:
 
-/usr/include/boost/exception/current_exception_cast.hpp:
-
-/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp:
-
-/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
+/usr/include/alloca.h:
 
 /usr/include/c++/11/cstdio:
 
-/usr/include/c++/11/streambuf:
-
-/opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
-/usr/include/c++/11/chrono:
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp:
 
-/opt/ros/humble/include/rcutils/rcutils/snprintf.h:
+/usr/include/gazebo-11/gazebo/msgs/joint_wrench_stamped.pb.h:
+
+/usr/include/boost/ratio/config.hpp:
+
+/usr/include/c++/11/chrono:
 
 /usr/include/boost/atomic/detail/fence_arch_operations.hpp:
 
 /usr/include/stdio.h:
 
-/opt/ros/humble/include/rmw/rmw/events_statuses/events_statuses.h:
-
-/opt/ros/humble/include/rcutils/rcutils/types/string_array.h:
-
-/usr/include/gazebo-11/gazebo/physics/Entity.hh:
+/usr/include/boost/container_hash/detail/limits.hpp:
 
 /opt/ros/humble/include/rcl/rcl/arguments.h:
 
+/usr/include/gazebo-11/gazebo/physics/Entity.hh:
+
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
-/usr/include/ignition/msgs5/ignition/msgs/battery.pb.h:
+/usr/include/c++/11/bits/regex_executor.tcc:
 
-/opt/ros/humble/include/rclcpp/rclcpp/contexts/default_context.hpp:
+/opt/ros/humble/include/control_toolbox/control_toolbox/pid.hpp:
 
-/usr/include/boost/unordered/detail/map.hpp:
-
-/usr/include/boost/numeric/conversion/detail/int_float_mixture.hpp:
-
-/usr/include/c++/11/string:
-
-/opt/ros/humble/include/rmw/rmw/security_options.h:
+/usr/include/sdformat-9.7/sdf/Types.hh:
 
 /usr/include/ignition/msgs5/ignition/msgs/marker_v.pb.h:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
-/usr/include/boost/type_traits/remove_volatile.hpp:
+/usr/include/boost/iterator/detail/config_def.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+/usr/include/boost/config/user.hpp:
 
-/usr/include/boost/regex.hpp:
+/usr/include/boost/predef/hardware/simd/arm/versions.h:
 
-/usr/include/ignition/math6/gz/math/Quaternion.hh:
+/usr/include/wctype.h:
+
+/usr/include/boost/utility/result_of.hpp:
+
+/usr/include/boost/bind/mem_fn_cc.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
 
 /usr/include/boost/thread/recursive_mutex.hpp:
 
 /usr/include/asm-generic/errno.h:
 
-/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp:
-
-/usr/include/ignition/msgs5/ignition/msgs/boolean.pb.h:
-
-/usr/include/ignition/msgs5/ignition/msgs/entity.pb.h:
-
-/usr/include/linux/stddef.h:
-
-/usr/include/ignition/math6/gz/math/graph/Edge.hh:
-
-/usr/include/alloca.h:
-
-/usr/include/sdformat-9.7/sdf/Exception.hh:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:
-
-/usr/include/sdformat-9.7/sdf/Material.hh:
-
-/usr/include/boost/predef/os/amigaos.h:
-
-/usr/include/boost/move/core.hpp:
-
-/usr/include/google/protobuf/stubs/casts.h:
-
-/usr/include/ignition/math6/gz/math/detail/Box.hh:
-
-/usr/include/boost/preprocessor/tuple/detail/is_single_return.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
-/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:
+/usr/include/ignition/math6/gz/math/Helpers.hh:
 
-/usr/include/boost/preprocessor/repeat.hpp:
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+
+/usr/include/ignition/msgs5/ignition/msgs/model_v.pb.h:
+
+/usr/include/asm-generic/param.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
+
+/usr/include/c++/11/limits:
+
+/usr/include/ignition/math6/gz/math/Stopwatch.hh:
 
 /usr/include/c++/11/bits/algorithmfwd.h:
 
 /usr/include/c++/11/bits/basic_string.tcc:
+
+/usr/include/boost/regex/v4/perl_matcher_non_recursive.hpp:
+
+/usr/include/ignition/math6/gz/math/detail/Export.hh:
+
+/usr/include/ignition/msgs5/ignition/msgs/user_cmd.pb.h:
+
+/usr/include/boost/ratio/ratio_fwd.hpp:
+
+/usr/include/c++/11/cstddef:
 
 /usr/include/c++/11/bits/stl_vector.h:
 
@@ -5468,71 +5562,181 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/date_time/time_defs.hpp:
 
-/usr/include/boost/atomic/detail/config.hpp:
-
-/opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp:
-
-/usr/include/boost/type_traits/is_lvalue_reference.hpp:
-
-/usr/include/boost/date_time/locale_config.hpp:
-
-/usr/include/ignition/math6/ignition/math/Vector2.hh:
-
-/usr/include/boost/get_pointer.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:
-
-/usr/include/ignition/math6/ignition/math/Color.hh:
-
 /usr/include/ignition/msgs5/ignition/msgs/twist.pb.h:
 
 /usr/include/ignition/msgs5/ignition/msgs/header.pb.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
-/usr/include/gazebo-11/gazebo/physics/Shape.hh:
+/usr/include/ignition/math6/gz/math/Matrix6.hh:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp:
+/usr/include/c++/11/bits/stl_bvector.h:
 
-/usr/include/ignition/msgs5/ignition/msgs/heightmapgeom.pb.h:
+/usr/include/gazebo-11/gazebo/physics/CollisionState.hh:
 
-/usr/include/c++/11/bits/vector.tcc:
+/usr/include/sdformat-9.7/sdf/system_util.hh:
 
-/usr/include/boost/type_traits/is_enum.hpp:
+/usr/include/c++/11/mutex:
 
-/usr/include/boost/type_traits/detail/config.hpp:
+/usr/include/boost/preprocessor/repetition/repeat.hpp:
 
-/usr/include/ignition/msgs5/ignition/msgs/uint64.pb.h:
+/usr/include/c++/11/bits/ios_base.h:
 
-/usr/include/ignition/math6/gz/math/MaterialType.hh:
+/usr/include/boost/ref.hpp:
 
-/usr/include/google/protobuf/generated_message_table_driven.h:
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
-/usr/include/c++/11/bits/hashtable.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
-/opt/ros/humble/include/rmw/rmw/init_options.h:
+/usr/include/boost/numeric/conversion/detail/numeric_cast_traits.hpp:
 
-/usr/include/boost/move/detail/meta_utils_core.hpp:
+/opt/ros/humble/include/rmw/rmw/message_sequence.h:
 
-/opt/ros/humble/include/rcutils/rcutils/types.h:
+/usr/include/c++/11/tr1/gamma.tcc:
+
+/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:
+
+/usr/include/boost/config/detail/suffix.hpp:
+
+/usr/include/boost/predef/compiler/gcc_xml.h:
+
+/usr/include/boost/system/detail/generic_category.hpp:
+
+/usr/include/gazebo-11/gazebo/msgs/hydra.pb.h:
+
+/usr/include/c++/11/bits/node_handle.h:
+
+/usr/include/c++/11/bits/stl_multiset.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/boost/date_time/time_iterator.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/boost/predef/language/objc.h:
+
+/usr/include/c++/11/ios:
+
+/usr/include/c++/11/utility:
+
+/usr/include/boost/predef/hardware/simd/arm.h:
+
+/usr/include/boost/smart_ptr/detail/sp_counted_base.hpp:
+
+/usr/include/c++/11/stdexcept:
+
+/usr/include/boost/atomic/detail/footer.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+
+/usr/include/c++/11/bits/exception.h:
+
+/usr/include/c++/11/bits/locale_facets.h:
+
+/usr/include/c++/11/cwctype:
+
+/opt/ros/humble/include/class_loader/class_loader/visibility_control.hpp:
+
+/usr/include/c++/11/bits/streambuf_iterator.h:
+
+/opt/ros/humble/include/rcl/rcl/log_level.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:
+
+/opt/ros/humble/include/rmw/rmw/event.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/usr/include/boost/date_time/gregorian/conversion.hpp:
+
+/usr/include/c++/11/bits/this_thread_sleep.h:
+
+/usr/include/c++/11/bits/locale_facets.tcc:
+
+/usr/include/x86_64-linux-gnu/asm/unistd.h:
+
+/usr/include/c++/11/istream:
+
+/usr/include/sdformat-9.7/sdf/Sky.hh:
+
+/usr/include/boost/date_time/time_resolution_traits.hpp:
+
+/usr/include/c++/11/bits/regex_scanner.h:
+
+/usr/include/c++/11/clocale:
+
+/usr/include/c++/11/bits/istream.tcc:
+
+/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:
+
+/usr/include/c++/11/thread:
+
+/usr/include/x86_64-linux-gnu/bits/ss_flags.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
+
+/usr/include/boost/core/ref.hpp:
+
+/usr/include/c++/11/ratio:
+
+/usr/include/c++/11/bits/std_thread.h:
+
+/usr/include/boost/core/is_same.hpp:
+
+/usr/include/gazebo-11/gazebo/msgs/visual.pb.h:
+
+/usr/include/boost/mpl/bool.hpp:
+
+/home/dkflippo/aug2024/src/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp:
+
+/usr/include/gazebo-11/gazebo/msgs/rest_response.pb.h:
+
+/usr/include/boost/predef/architecture/sys370.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp:
+
+/usr/include/boost/smart_ptr/detail/sp_forward.hpp:
+
+/usr/include/c++/11/pstl/execution_defs.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp:
+
+/usr/include/c++/11/bits/std_abs.h:
+
+/usr/include/c++/11/bits/stl_heap.h:
+
+/usr/include/c++/11/bits/regex_constants.h:
+
+/usr/include/sdformat-9.7/sdf/AirPressure.hh:
+
+/usr/include/pthread.h:
+
+/usr/include/boost/date_time/period.hpp:
+
+/usr/include/boost/io/ios_state.hpp:
 
 /usr/include/c++/11/bits/hashtable_policy.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:
+/usr/include/ignition/math6/gz/math/SignalStats.hh:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/type_adapter.hpp:
 
-/usr/include/boost/predef/architecture/x86.h:
+/usr/include/gazebo-11/gazebo/util/system.hh:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__struct.hpp:
+/usr/include/boost/preprocessor/punctuation/comma_if.hpp:
 
-/opt/ros/humble/include/control_toolbox/control_toolbox/pid.hpp:
+/opt/ros/humble/include/rcpputils/rcpputils/join.hpp:
 
-/usr/include/c++/11/bits/regex_executor.tcc:
+/usr/include/gazebo-11/gazebo/msgs/fluid.pb.h:
+
+/usr/include/c++/11/bits/codecvt.h:
 
 /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__traits.hpp:
 
@@ -5550,881 +5754,81 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/mpl/aux_/largest_int.hpp:
 
-/usr/include/boost/date_time/date.hpp:
-
-/usr/include/c++/11/bits/stl_algo.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp:
-
-/usr/include/boost/smart_ptr/detail/sp_forward.hpp:
-
-/usr/include/c++/11/pstl/execution_defs.h:
-
-/usr/include/c++/11/bits/stl_heap.h:
-
-/usr/include/c++/11/ratio:
-
-/usr/include/c++/11/ios:
-
-/usr/include/c++/11/utility:
-
-/usr/include/ignition/math6/ignition/math/Spline.hh:
-
-/opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp:
-
-/usr/include/c++/11/stdexcept:
-
-/usr/include/c++/11/bits/unordered_map.h:
-
-/usr/include/sdformat-9.7/sdf/Filesystem.hh:
-
-/usr/include/boost/mpl/aux_/config/workaround.hpp:
-
-/usr/include/ignition/msgs5/ignition/msgs/log_playback_control.pb.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/boost/thread/futures/future_error.hpp:
-
-/usr/include/c++/11/typeindex:
-
-/usr/include/boost/type_traits/aligned_storage.hpp:
-
-/opt/ros/humble/include/rcutils/rcutils/visibility_control_macros.h:
-
-/usr/include/c++/11/iomanip:
-
-/usr/include/c++/11/bits/shared_ptr_atomic.h:
-
-/usr/include/gazebo-11/gazebo/msgs/msgs.hh:
-
-/opt/ros/humble/include/rclcpp/rclcpp/generic_subscription.hpp:
-
-/opt/ros/humble/include/rmw/rmw/init.h:
-
-/usr/include/boost/atomic/detail/memory_order_utils.hpp:
-
-/usr/include/boost/atomic/detail/type_traits/is_signed.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
-
-/usr/include/gazebo-11/gazebo/common/Event.hh:
-
-/usr/include/gazebo-11/gazebo/msgs/contacts.pb.h:
-
-/usr/include/boost/mpl/aux_/preprocessed/gcc/times.hpp:
-
-/usr/include/c++/11/bits/stl_tree.h:
-
-/usr/include/boost/mpl/aux_/config/msvc.hpp:
-
-/opt/ros/humble/include/rmw/rmw/localhost.h:
-
-/usr/include/boost/type_traits/decay.hpp:
-
-/opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp:
-
-/usr/include/c++/11/bits/cpp_type_traits.h:
-
-/usr/include/c++/11/bits/stream_iterator.h:
-
-/usr/include/c++/11/bits/stl_algobase.h:
-
-/usr/include/c++/11/bits/regex_scanner.tcc:
-
-/opt/ros/humble/include/rmw/rmw/macros.h:
-
-/usr/include/gazebo-11/gazebo/msgs/joint_wrench_stamped.pb.h:
-
-/usr/include/boost/ratio/config.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp:
-
-/usr/include/boost/exception/detail/shared_ptr.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
-
-/opt/ros/humble/include/rcl/rcl/log_level.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp:
-
-/opt/ros/humble/include/rcl/rcl/macros.h:
-
-/usr/include/boost/date_time/posix_time/ptime.hpp:
-
-/opt/ros/humble/include/rmw/rmw/types.h:
-
-/usr/include/boost/thread/thread_time.hpp:
-
-/opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp:
-
-/usr/include/ignition/msgs5/ignition/msgs/world_control.pb.h:
-
-/usr/include/boost/config/no_tr1/functional.hpp:
-
-/usr/include/c++/11/stdlib.h:
-
-/usr/include/google/protobuf/stubs/fastmem.h:
-
-/usr/include/string.h:
-
-/usr/include/boost/predef/language/stdcpp.h:
-
-/usr/include/gazebo-11/gazebo/msgs/undo_redo.pb.h:
-
-/usr/include/c++/11/bits/atomic_base.h:
-
-/opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp:
-
-/usr/include/boost/mpl/apply_wrap.hpp:
-
-/usr/include/ignition/math6/gz/math/Vector4.hh:
-
-/opt/ros/humble/include/rcutils/rcutils/time.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:
-
-/usr/include/boost/type_traits/remove_reference.hpp:
-
-/usr/include/boost/move/traits.hpp:
-
-/usr/include/boost/thread/pthread/recursive_mutex.hpp:
-
-/usr/include/boost/preprocessor/array/data.hpp:
-
-/usr/include/gazebo-11/gazebo/msgs/pose_stamped.pb.h:
-
-/usr/include/c++/11/variant:
-
-/usr/include/boost/type_traits/is_fundamental.hpp:
-
-/usr/include/sdformat-9.7/sdf/Joint.hh:
-
-/opt/ros/humble/include/rcutils/rcutils/types/char_array.h:
-
-/usr/include/boost/regex/v4/regex_format.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_enable_topic_statistics.hpp:
-
-/usr/include/boost/smart_ptr/scoped_ptr.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp:
-
-/usr/include/ignition/msgs5/ignition/msgs/image.pb.h:
-
-/usr/include/boost/numeric/conversion/detail/meta.hpp:
-
-/usr/include/boost/mpl/or.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp:
-
-/usr/include/ignition/math6/gz/math/Color.hh:
-
-/usr/include/boost/thread/detail/thread_safety.hpp:
-
-/usr/include/boost/thread/detail/platform_time.hpp:
-
-/usr/include/c++/11/bits/unordered_set.h:
-
-/opt/ros/humble/include/rcutils/rcutils/visibility_control.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/create_publisher.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/create_client.hpp:
-
-/usr/include/pthread.h:
-
-/usr/include/boost/date_time/period.hpp:
-
-/usr/include/boost/type_traits/is_signed.hpp:
-
-/opt/ros/humble/include/rmw/rmw/qos_string_conversions.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface_traits.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/sigaction.h:
-
-/usr/include/ignition/math6/gz/math/Temperature.hh:
-
-/opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:
-
-/usr/include/c++/11/thread:
-
-/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp:
-
-/usr/include/boost/predef/architecture/ia64.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_timers_interface.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/create_timer.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp:
-
-/usr/include/boost/config/helper_macros.hpp:
-
-/usr/include/c++/11/bits/stl_function.h:
-
-/opt/ros/humble/include/control_toolbox/control_toolbox/visibility_control.hpp:
-
-/home/dkflippo/aug2024/src/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp:
-
-/opt/ros/humble/include/angles/angles/angles.h:
-
-/usr/include/sdformat-9.7/sdf/NavSat.hh:
-
-/usr/include/boost/thread/thread_only.hpp:
-
-/usr/include/ignition/msgs5/ignition/msgs/contact.pb.h:
-
-/home/dkflippo/aug2024/src/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:
-
-/usr/include/boost/predef/hardware/simd/ppc/versions.h:
-
-/usr/include/boost/predef/os/os400.h:
-
-/usr/include/boost/mpl/aux_/config/ttp.hpp:
-
-/usr/include/boost/any.hpp:
-
-/usr/include/boost/config.hpp:
-
-/usr/include/c++/11/cstddef:
-
-/usr/include/gazebo-11/gazebo/msgs/camera_cmd.pb.h:
-
-/usr/include/ignition/math6/gz/math/Region3.hh:
-
-/usr/include/boost/mpl/equal_to.hpp:
-
-/usr/include/ignition/msgs5/ignition/msgs/serialized.pb.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-/usr/include/boost/config/stdlib/libstdcpp3.hpp:
-
-/usr/include/boost/date_time/gregorian/conversion.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
-
-/usr/include/gazebo-11/gazebo/msgs/pose.pb.h:
-
-/usr/include/c++/11/ctime:
-
-/usr/include/sdformat-9.7/sdf/Noise.hh:
-
-/usr/include/x86_64-linux-gnu/bits/environments.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h:
-
-/usr/include/c++/11/ext/numeric_traits.h:
-
-/usr/include/boost/mpl/aux_/config/preprocessor.hpp:
-
-/usr/include/gazebo-11/gazebo/physics/Gripper.hh:
-
-/usr/include/boost/type_traits/is_union.hpp:
-
-/usr/include/boost/atomic/detail/core_ops_gcc_atomic.hpp:
-
-/usr/include/boost/numeric/conversion/converter_policies.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/confname.h:
-
-/usr/include/ignition/msgs5/ignition/msgs/user_cmd_stats.pb.h:
-
-/usr/include/boost/predef/architecture/arm.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
-
-/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
-
-/usr/include/boost/numeric/conversion/int_float_mixture_enum.hpp:
-
-/usr/include/boost/config/detail/select_platform_config.hpp:
-
-/usr/include/boost/config/platform/linux.hpp:
-
-/usr/include/boost/smart_ptr/detail/sp_convertible.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:
-
-/usr/include/boost/config/detail/suffix.hpp:
-
-/usr/include/boost/type_traits/make_signed.hpp:
-
-/usr/include/boost/date_time/gregorian/greg_day_of_year.hpp:
-
-/usr/include/boost/type_index/type_index_facade.hpp:
-
-/usr/include/boost/container_hash/hash_fwd.hpp:
-
-/usr/include/ignition/msgs5/ignition/msgs/uint32.pb.h:
-
-/usr/include/gazebo-11/gazebo/msgs/user_cmd.pb.h:
-
-/usr/include/boost/date_time/gregorian/greg_year.hpp:
-
-/usr/include/boost/predef/compiler/gcc_xml.h:
-
-/usr/include/boost/system/detail/generic_category.hpp:
-
-/usr/include/gazebo-11/gazebo/sensors/ImuSensor.hh:
-
-/usr/include/ignition/msgs5/ignition/msgs/planegeom.pb.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:
-
-/usr/include/boost/static_assert.hpp:
-
-/usr/include/boost/iterator/iterator_categories.hpp:
-
-/usr/include/boost/detail/workaround.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/boost/throw_exception.hpp:
-
-/usr/include/ignition/msgs5/ignition/msgs/gps_sensor.pb.h:
-
-/usr/include/boost/current_function.hpp:
-
-/usr/include/boost/core/demangle.hpp:
-
-/usr/include/boost/predef/library/std/stdcpp3.h:
-
-/usr/include/c++/11/bits/regex.h:
-
-/usr/include/boost/type_traits/integral_constant.hpp:
-
-/usr/include/boost/type_traits/add_reference.hpp:
-
-/usr/include/boost/function/function_template.hpp:
-
-/usr/include/boost/type_traits/is_reference.hpp:
-
-/usr/include/boost/date_time/date_duration.hpp:
-
-/usr/include/boost/type_traits/is_rvalue_reference.hpp:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/include/boost/date_time/time_iterator.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
-
-/usr/include/c++/11/bits/stl_multiset.h:
-
-/usr/include/boost/system/detail/system_category_posix.hpp:
-
-/usr/include/boost/type_traits/is_volatile.hpp:
-
-/opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp:
-
-/usr/include/gazebo-11/gazebo/msgs/raysensor.pb.h:
-
-/usr/include/c++/11/bits/stl_stack.h:
-
-/usr/include/boost/regex/v4/cpp_regex_traits.hpp:
-
-/usr/include/boost/version.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:
-
-/usr/include/gazebo-11/gazebo/msgs/sonar.pb.h:
-
-/usr/include/boost/type_traits/detail/is_function_cxx_11.hpp:
-
-/usr/include/boost/type_traits/remove_bounds.hpp:
-
-/usr/include/boost/core/explicit_operator_bool.hpp:
-
-/usr/include/boost/type_traits/remove_extent.hpp:
-
-/usr/include/ignition/math6/gz/math/SphericalCoordinates.hh:
-
-/opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_changed.h:
-
-/usr/include/ignition/math6/ignition/math/Cylinder.hh:
-
-/usr/include/google/protobuf/unknown_field_set.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp:
-
-/usr/include/boost/type_traits/add_pointer.hpp:
-
-/usr/include/gazebo-11/gazebo/msgs/laserscan_stamped.pb.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
-
-/usr/include/boost/utility/enable_if.hpp:
-
-/usr/include/boost/core/enable_if.hpp:
-
-/usr/include/boost/system/api_config.hpp:
-
-/usr/include/boost/core/addressof.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
-
-/usr/include/ignition/math6/gz/math/Helpers.hh:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
-
-/usr/include/c++/11/regex:
-
-/usr/include/c++/11/stack:
-
-/usr/include/c++/11/deque:
-
-/usr/include/boost/atomic/detail/bitwise_fp_cast.hpp:
-
-/usr/include/c++/11/bits/stl_deque.h:
-
-/usr/include/ignition/math6/gz/math/config.hh:
-
-/usr/include/gazebo-11/gazebo/msgs/physics.pb.h:
-
-/usr/include/c++/11/bits/deque.tcc:
-
-/usr/include/ignition/msgs5/ignition/msgs/spheregeom.pb.h:
-
-/usr/include/boost/mpl/aux_/config/msvc_typename.hpp:
-
-/usr/include/sdformat-9.7/sdf/AirPressure.hh:
-
-/usr/include/c++/11/bits/regex_constants.h:
-
-/usr/include/c++/11/bits/regex_automaton.h:
-
-/usr/include/c++/11/bits/regex_scanner.h:
-
-/usr/include/c++/11/bits/regex_compiler.h:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:
-
-/usr/include/c++/11/bits/regex_compiler.tcc:
-
-/usr/include/c++/11/bits/regex.tcc:
-
-/usr/include/c++/11/bits/regex_executor.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h:
-
-/usr/include/ignition/math6/gz/math/Export.hh:
-
-/usr/include/boost/regex/v4/perl_matcher_non_recursive.hpp:
-
-/usr/include/ignition/math6/gz/math/detail/Export.hh:
-
-/usr/include/ignition/math6/gz/math/Angle.hh:
-
-/usr/include/ignition/math6/gz/math/Vector3.hh:
-
-/usr/include/ignition/msgs5/ignition/msgs.hh:
-
-/usr/include/c++/11/fstream:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
-
-/usr/include/boost/optional/optional_fwd.hpp:
-
-/usr/include/boost/numeric/conversion/udt_builtin_mixture_enum.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
-/usr/include/boost/smart_ptr/detail/spinlock.hpp:
-
-/usr/include/boost/move/detail/config_end.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
-
-/usr/include/ignition/math6/ignition/math/Vector3.hh:
-
-/usr/include/boost/cstdint.hpp:
-
-/usr/include/boost/preprocessor/stringize.hpp:
-
-/usr/include/boost/preprocessor/facilities/intercept.hpp:
-
-/usr/include/gazebo-11/gazebo/common/CommonTypes.hh:
-
-/usr/include/boost/smart_ptr/shared_ptr.hpp:
-
-/usr/include/boost/core/checked_delete.hpp:
-
-/usr/include/boost/smart_ptr/detail/shared_count.hpp:
-
-/usr/include/boost/smart_ptr/detail/sp_has_sync_intrinsics.hpp:
-
-/usr/include/boost/smart_ptr/detail/sp_typeinfo_.hpp:
-
-/usr/include/boost/smart_ptr/detail/sp_counted_impl.hpp:
-
-/usr/include/boost/smart_ptr/detail/sp_noexcept.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:
-
-/usr/include/c++/11/map:
-
-/usr/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp:
-
-/usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp:
-
-/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:
-
-/usr/include/gazebo-11/gazebo/msgs/spheregeom.pb.h:
-
-/usr/include/c++/11/version:
-
-/usr/include/boost/smart_ptr/detail/yield_k.hpp:
-
-/usr/include/boost/type_traits/is_function.hpp:
-
-/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:
-
-/usr/include/boost/atomic/detail/core_operations_emulated.hpp:
-
-/usr/include/c++/11/cerrno:
-
-/usr/include/boost/smart_ptr/detail/operator_bool.hpp:
-
-/usr/include/boost/preprocessor/repetition/enum_trailing_params.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/type_adapter.hpp:
-
-/usr/include/gazebo-11/gazebo/util/system.hh:
-
-/usr/include/boost/preprocessor/punctuation/comma_if.hpp:
-
-/usr/include/gazebo-11/gazebo/common/Assert.hh:
-
-/usr/include/ignition/msgs5/ignition/msgs/sensor_noise.pb.h:
-
-/usr/include/boost/config/compiler/gcc.hpp:
-
-/usr/include/ignition/common3/ignition/common/Profiler.hh:
-
-/usr/include/gazebo-11/gazebo/physics/Inertial.hh:
-
-/usr/include/boost/mpl/int.hpp:
-
-/usr/include/boost/type_traits/is_array.hpp:
-
-/usr/include/ignition/common3/ignition/common/profiler/Export.hh:
-
-/usr/include/ignition/msgs5/ignition/msgs/pointcloud.pb.h:
-
-/usr/include/ignition/common3/ignition/common/config.hh:
-
-/usr/include/sdformat-9.7/sdf/Actor.hh:
-
-/usr/include/boost/core/scoped_enum.hpp:
-
-/usr/include/sdformat-9.7/sdf/Element.hh:
-
-/usr/include/boost/predef.h:
-
-/usr/include/boost/date_time/c_time.hpp:
-
-/usr/include/c++/11/any:
-
-/usr/include/c++/11/bits/stl_set.h:
-
-/usr/include/sdformat-9.7/sdf/Param.hh:
-
-/usr/include/ignition/math6/ignition/math.hh:
-
-/usr/include/google/protobuf/io/zero_copy_stream.h:
-
-/usr/include/asm-generic/posix_types.h:
-
-/usr/include/ignition/math6/gz/math.hh:
-
-/usr/include/ignition/math6/gz/math/graph/Vertex.hh:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp:
-
-/usr/include/c++/11/cassert:
-
-/usr/include/c++/11/queue:
-
-/usr/include/boost/predef/hardware/simd/x86_amd.h:
-
-/usr/include/c++/11/bits/stl_queue.h:
-
-/usr/include/ignition/math6/gz/math/AdditivelySeparableScalarField3.hh:
-
 /usr/include/ignition/msgs5/ignition/msgs/request.pb.h:
-
-/usr/include/c++/11/cstring:
 
 /usr/include/ignition/math6/gz/math/Interval.hh:
 
-/usr/include/ignition/math6/gz/math/Plane.hh:
+/usr/include/c++/11/cstring:
 
-/usr/include/google/protobuf/message.h:
+/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
 
-/usr/include/boost/mpl/aux_/integral_wrapper.hpp:
+/usr/include/c++/11/cstdlib:
 
-/usr/include/boost/atomic/detail/type_traits/is_iec559.hpp:
+/usr/include/c++/11/string_view:
 
-/usr/include/ignition/math6/gz/math/Cylinder.hh:
+/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:
 
-/usr/include/boost/predef/compiler/digitalmars.h:
+/usr/include/boost/type_traits/is_complete.hpp:
 
-/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:
+/usr/include/ignition/msgs5/ignition/msgs/link_data.pb.h:
 
-/usr/include/ignition/math6/gz/math/Ellipsoid.hh:
+/usr/include/boost/preprocessor/detail/auto_rec.hpp:
 
-/usr/include/boost/atomic/detail/classify.hpp:
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
-/opt/ros/humble/include/rcl/rcl/node.h:
+/usr/include/ignition/math6/ignition/math/AxisAlignedBox.hh:
 
-/usr/include/ignition/math6/gz/math/detail/Ellipsoid.hh:
+/usr/include/boost/predef/os/qnxnto.h:
 
-/usr/include/ignition/math6/gz/math/Material.hh:
+/usr/include/boost/io_fwd.hpp:
 
-/usr/include/ignition/math6/gz/math/Filter.hh:
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
-/usr/include/ignition/math6/gz/math/Frustum.hh:
+/usr/include/boost/checked_delete.hpp:
 
-/usr/include/ignition/math6/gz/math/Matrix4.hh:
+/usr/include/c++/11/bits/exception_defines.h:
 
-/usr/include/c++/11/bits/stl_bvector.h:
+/usr/include/sdformat-9.7/sdf/Error.hh:
 
-/usr/include/ignition/math6/gz/math/Matrix6.hh:
+/usr/include/boost/mpl/aux_/numeric_cast_utils.hpp:
 
-/usr/include/ignition/math6/gz/math/MecanumDriveOdometry.hh:
+/usr/include/boost/date_time/c_time.hpp:
 
-/usr/include/gazebo-11/gazebo/common/Time.hh:
+/usr/include/boost/predef.h:
 
-/usr/include/ignition/math6/gz/math/detail/Capsule.hh:
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
-/usr/include/ignition/math6/gz/math/MovingWindowFilter.hh:
+/usr/include/c++/11/bits/postypes.h:
 
-/usr/include/boost/config/detail/select_stdlib_config.hpp:
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
-/usr/include/ignition/math6/gz/math/OrientedBox.hh:
+/usr/include/ignition/msgs5/ignition/msgs/propagation_grid.pb.h:
 
-/usr/include/asm-generic/bitsperlong.h:
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/or.hpp:
-
-/usr/include/boost/thread/lock_types.hpp:
-
-/usr/include/ignition/msgs5/ignition/msgs/road.pb.h:
-
-/usr/include/ignition/math6/gz/math/PID.hh:
-
-/usr/include/gazebo-11/gazebo/physics/Light.hh:
-
-/usr/include/sdformat-9.7/sdf/Plane.hh:
-
-/usr/include/boost/type_traits/has_minus.hpp:
-
-/usr/include/ignition/math6/gz/math/Polynomial3.hh:
-
-/usr/include/boost/preprocessor/comma_if.hpp:
-
-/usr/include/gazebo-11/gazebo/msgs/light.pb.h:
-
-/usr/include/boost/predef/version_number.h:
-
-/usr/include/boost/utility/detail/result_of_iterate.hpp:
-
-/usr/include/boost/atomic/detail/atomic_ref_impl.hpp:
-
-/usr/include/c++/11/random:
-
-/usr/include/boost/atomic/detail/extra_operations_fwd.hpp:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:
-
-/usr/include/ignition/math6/gz/math/Pose3.hh:
-
-/usr/include/boost/preprocessor/tuple/rem.hpp:
-
-/usr/include/c++/11/bits/random.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process.hpp:
-
-/usr/include/boost/mpl/aux_/has_apply.hpp:
-
-/usr/include/ignition/math6/gz/math/RollingMean.hh:
-
-/usr/include/ignition/math6/gz/math/SemanticVersion.hh:
-
-/usr/include/ignition/math6/gz/math/SignalStats.hh:
-
-/usr/include/ignition/math6/gz/math/Sphere.hh:
-
-/usr/include/boost/predef/os/bsd/net.h:
-
-/usr/include/ignition/math6/gz/math/detail/Sphere.hh:
-
-/usr/include/ignition/msgs5/ignition/msgs/int64_v.pb.h:
-
-/usr/include/boost/atomic/detail/wait_ops_emulated.hpp:
-
-/usr/include/boost/predef/library/c/uc.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp:
-
-/usr/include/ignition/math6/gz/math/Spline.hh:
-
-/usr/include/ignition/msgs5/ignition/msgs/model_v.pb.h:
-
-/usr/include/asm-generic/param.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
-
-/usr/include/c++/11/limits:
-
-/usr/include/ignition/math6/gz/math/Stopwatch.hh:
-
-/usr/include/ignition/math6/gz/math/Vector3Stats.hh:
-
-/usr/include/boost/type_traits/is_arithmetic.hpp:
-
-/usr/include/ignition/math6/gz/math/PiecewiseScalarField3.hh:
-
-/usr/include/sdformat-9.7/sdf/Console.hh:
-
-/usr/include/boost/date_time/time_resolution_traits.hpp:
-
-/usr/include/sdformat-9.7/sdf/Sky.hh:
-
-/usr/include/gazebo-11/gazebo/physics/CollisionState.hh:
-
-/usr/include/sdformat-9.7/sdf/system_util.hh:
-
-/usr/include/c++/11/mutex:
-
-/usr/include/boost/preprocessor/repetition/repeat.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/param.h:
-
-/usr/include/boost/predef/platform/windows_uwp.h:
-
-/usr/include/sdformat-9.7/sdf/Link.hh:
-
-/usr/include/boost/mpl/aux_/na_spec.hpp:
-
-/usr/include/sdformat-9.7/sdf/SemanticPose.hh:
-
-/usr/include/ignition/msgs5/ignition/msgs/logical_camera_image.pb.h:
-
-/usr/include/sdformat-9.7/sdf/Atmosphere.hh:
-
-/usr/include/ignition/math6/ignition/math/Temperature.hh:
-
-/usr/include/sdformat-9.7/sdf/Camera.hh:
-
-/usr/include/boost/type_traits/function_traits.hpp:
-
-/opt/ros/humble/include/rcl/rcl/guard_condition.h:
-
-/usr/include/sdformat-9.7/sdf/Collision.hh:
-
-/usr/include/boost/mpl/aux_/lambda_support.hpp:
-
-/usr/include/boost/none_t.hpp:
-
-/usr/include/sdformat-9.7/sdf/Cylinder.hh:
-
-/opt/ros/humble/include/rclcpp/rclcpp/rate.hpp:
-
-/usr/include/sdformat-9.7/sdf/ForceTorque.hh:
-
-/opt/ros/humble/include/rmw/rmw/ret_types.h:
-
-/usr/include/sdformat-9.7/sdf/Frame.hh:
-
-/usr/include/ignition/msgs5/ignition/msgs/int64.pb.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp:
-
-/usr/include/sdformat-9.7/sdf/Geometry.hh:
-
-/usr/include/sdformat-9.7/sdf/Gui.hh:
-
-/usr/include/sdformat-9.7/sdf/Heightmap.hh:
-
-/usr/include/boost/detail/indirect_traits.hpp:
-
-/usr/include/sdformat-9.7/sdf/sdf_config.h:
-
-/usr/include/boost/mpl/aux_/include_preprocessed.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
-
-/usr/include/sdformat-9.7/sdf/Imu.hh:
-
-/opt/ros/humble/include/rclcpp/rclcpp/future_return_code.hpp:
-
-/usr/include/ignition/msgs5/ignition/msgs/physics.pb.h:
-
-/usr/include/sdformat-9.7/sdf/Assert.hh:
-
-/usr/include/sdformat-9.7/sdf/JointAxis.hh:
-
-/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h:
-
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:
-
-/usr/include/sdformat-9.7/sdf/Lidar.hh:
-
-/usr/include/sdformat-9.7/sdf/Light.hh:
-
-/usr/include/sdformat-9.7/sdf/parser.hh:
-
-/usr/include/gazebo-11/gazebo/msgs/spherical_coordinates.pb.h:
-
-/usr/include/sdformat-9.7/sdf/SDFImpl.hh:
-
-/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
-
-/usr/include/boost/type_index.hpp:
-
-/usr/include/sdformat-9.7/sdf/Pbr.hh:
+/usr/include/c++/11/bits/specfun.h:
 
 /usr/include/c++/11/bits/random.tcc:
 
 /usr/include/sdformat-9.7/sdf/Physics.hh:
 
+/opt/ros/humble/include/rclcpp/rclcpp/message_info.hpp:
+
+/usr/include/boost/thread/pthread/shared_mutex.hpp:
+
+/usr/include/sdformat-9.7/sdf/Scene.hh:
+
+/usr/include/boost/regex/v4/regex_traits_defaults.hpp:
+
+/usr/include/c++/11/bits/shared_ptr_base.h:
+
+/usr/include/boost/type_traits/is_unsigned.hpp:
+
 /usr/include/sdformat-9.7/sdf/Sensor.hh:
 
 /usr/include/sdformat-9.7/sdf/Sphere.hh:
 
-/usr/include/boost/bind/bind_mf2_cc.hpp:
-
-/usr/include/boost/predef/compiler/ibm.h:
-
-/usr/include/boost/move/detail/workaround.hpp:
+/usr/include/boost/predef/library/std/dinkumware.h:
 
 /usr/include/boost/numeric/conversion/converter.hpp:
 
@@ -6434,25 +5838,39 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/date_time/dst_rules.hpp:
 
-/usr/include/boost/predef/detail/os_detected.h:
+/usr/include/sdformat-9.7/sdf/Visual.hh:
+
+/usr/include/boost/detail/container_fwd.hpp:
+
+/usr/include/boost/predef/hardware.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_use_intra_process.hpp:
 
+/usr/include/boost/predef/detail/os_detected.h:
+
 /usr/include/gazebo-11/gazebo/common/Console.hh:
-
-/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:
-
-/usr/include/boost/mpl/tag.hpp:
-
-/usr/include/boost/thread/thread.hpp:
 
 /usr/include/boost/config/requires_threads.hpp:
 
 /usr/include/boost/thread/pthread/thread_data.hpp:
 
+/usr/include/boost/thread/detail/config.hpp:
+
+/usr/include/boost/enable_shared_from_this.hpp:
+
+/usr/include/boost/date_time/date_generators.hpp:
+
 /usr/include/gazebo-11/gazebo/physics/GearboxJoint.hh:
 
 /usr/include/boost/thread/exceptions.hpp:
+
+/usr/include/boost/predef/architecture/riscv.h:
+
+/usr/include/x86_64-linux-gnu/bits/param.h:
+
+/usr/include/sdformat-9.7/sdf/Link.hh:
+
+/usr/include/boost/predef/platform/windows_uwp.h:
 
 /usr/include/boost/system/error_code.hpp:
 
@@ -6461,6 +5879,10 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 /usr/include/boost/system/detail/config.hpp:
 
 /usr/include/boost/date_time/posix_time/posix_time_duration.hpp:
+
+/usr/include/boost/atomic/detail/storage_traits.hpp:
+
+/usr/include/boost/cerrno.hpp:
 
 /usr/include/boost/config/abi_prefix.hpp:
 
@@ -6474,7 +5896,21 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/thread/lock_guard.hpp:
 
+/usr/include/google/protobuf/repeated_field.h:
+
+/usr/include/boost/core/use_default.hpp:
+
+/usr/include/c++/11/memory:
+
+/usr/include/boost/thread/cv_status.hpp:
+
 /usr/include/boost/type_traits/intrinsics.hpp:
+
+/usr/include/boost/type_traits/is_destructible.hpp:
+
+/usr/include/boost/type_traits/add_cv.hpp:
+
+/usr/include/boost/type_traits/add_rvalue_reference.hpp:
 
 /usr/include/boost/type_traits/is_void.hpp:
 
@@ -6492,9 +5928,9 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/type_traits/is_abstract.hpp:
 
-/usr/include/boost/atomic/ipc_atomic_ref.hpp:
-
 /opt/ros/humble/include/rcl/rcl/event_callback.h:
+
+/usr/include/boost/atomic/ipc_atomic_ref.hpp:
 
 /usr/include/boost/assert/source_location.hpp:
 
@@ -6502,9 +5938,9 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/move/utility.hpp:
 
-/usr/include/boost/move/detail/to_raw_pointer.hpp:
-
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp:
+
+/usr/include/boost/move/detail/to_raw_pointer.hpp:
 
 /usr/include/boost/move/detail/config_begin.hpp:
 
@@ -6516,17 +5952,35 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/move/detail/meta_utils.hpp:
 
+/usr/include/boost/move/detail/meta_utils_core.hpp:
+
 /usr/include/boost/thread/detail/lockable_wrapper.hpp:
 
 /usr/include/boost/thread/lock_options.hpp:
 
 /usr/include/boost/thread/lockable_traits.hpp:
 
+/usr/include/boost/thread/thread_time.hpp:
+
+/usr/include/boost/predef/compiler/clang.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
 /usr/include/boost/date_time/time_clock.hpp:
 
 /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:
+
+/usr/include/gazebo-11/gazebo/physics/BoxShape.hh:
+
+/usr/include/x86_64-linux-gnu/bits/syscall.h:
+
+/usr/include/boost/integer_traits.hpp:
+
+/usr/include/gazebo-11/gazebo/physics/World.hh:
+
+/usr/include/ignition/msgs5/ignition/msgs/fluid.pb.h:
+
+/usr/include/boost/date_time/posix_time/posix_time_types.hpp:
 
 /usr/include/gazebo-11/gazebo/msgs/logical_camera_sensor.pb.h:
 
@@ -6535,6 +5989,8 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 /usr/include/boost/regex/v4/regbase.hpp:
 
 /usr/include/boost/date_time/posix_time/posix_time_config.hpp:
+
+/usr/include/boost/atomic/detail/wait_caps_futex.hpp:
 
 /usr/include/x86_64-linux-gnu/sys/time.h:
 
@@ -6553,6 +6009,12 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 /usr/include/boost/type_traits/is_same.hpp:
 
 /usr/include/boost/date_time/int_adapter.hpp:
+
+/usr/include/c++/11/bits/stl_algo.h:
+
+/usr/include/boost/date_time/date.hpp:
+
+/usr/include/boost/preprocessor/config/config.hpp:
 
 /usr/include/boost/date_time/gregorian/greg_calendar.hpp:
 
@@ -6582,19 +6044,15 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/mpl/aux_/config/intel.hpp:
 
-/usr/include/boost/bind/bind_mf_cc.hpp:
-
-/usr/include/boost/config/workaround.hpp:
-
-/usr/include/boost/mpl/aux_/preprocessor/enum.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_logging_interface.hpp:
 
 /usr/include/gazebo-11/gazebo/physics/PolylineShape.hh:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_logging_interface.hpp:
 
 /usr/include/boost/date_time/gregorian/greg_day.hpp:
 
 /usr/include/boost/date_time/time_system_counted.hpp:
+
+/usr/include/boost/date_time/gregorian/greg_duration.hpp:
 
 /usr/include/ignition/math6/ignition/math/Matrix3.hh:
 
@@ -6609,6 +6067,12 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
 /usr/include/boost/date_time/date_clock_device.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/boost/bind/mem_fn_template.hpp:
+
+/usr/include/boost/date_time/posix_time/date_duration_operators.hpp:
 
 /usr/include/boost/numeric/conversion/cast.hpp:
 
@@ -6626,11 +6090,17 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/numeric/conversion/detail/conversion_traits.hpp:
 
+/usr/include/ignition/msgs5/ignition/msgs/image.pb.h:
+
+/usr/include/boost/numeric/conversion/detail/meta.hpp:
+
 /usr/include/boost/mpl/if.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/serialized_message.hpp:
 
 /usr/include/boost/mpl/aux_/static_cast.hpp:
+
+/usr/include/boost/mpl/aux_/config/msvc.hpp:
 
 /usr/include/boost/mpl/aux_/config/eti.hpp:
 
@@ -6650,23 +6120,33 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/preprocessor/punctuation/comma.hpp:
 
+/opt/ros/humble/include/rcl/rcl/subscription.h:
+
+/usr/include/boost/mpl/aux_/config/static_constant.hpp:
+
+/usr/include/boost/thread/pthread/mutex.hpp:
+
 /usr/include/ignition/msgs5/ignition/msgs/time.pb.h:
 
 /usr/include/boost/mpl/aux_/na_fwd.hpp:
 
 /usr/include/boost/mpl/aux_/config/ctps.hpp:
 
-/usr/include/ignition/msgs5/ignition/msgs/camera_cmd.pb.h:
+/usr/include/ignition/common3/ignition/common/profiler/detail/Export.hh:
+
+/usr/include/boost/thread/once.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface_traits.hpp:
+
+/usr/include/ignition/msgs5/ignition/msgs/camera_cmd.pb.h:
 
 /usr/include/boost/mpl/int_fwd.hpp:
 
 /usr/include/boost/type_traits/has_plus.hpp:
 
-/usr/include/boost/type_traits/is_convertible.hpp:
-
 /usr/include/boost/date_time/date_duration_types.hpp:
+
+/usr/include/boost/type_traits/is_convertible.hpp:
 
 /usr/include/boost/mpl/aux_/nttp_decl.hpp:
 
@@ -6678,19 +6158,25 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/preprocessor/cat.hpp:
 
+/usr/include/boost/thread/pthread/pthread_mutex_scoped_lock.hpp:
+
 /usr/include/ignition/msgs5/ignition/msgs/wireless_nodes.pb.h:
 
 /usr/include/gazebo-11/gazebo/msgs/fog.pb.h:
 
 /usr/include/boost/mpl/aux_/lambda_arity_param.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/boost/thread/interruption.hpp:
+
 /usr/include/boost/mpl/aux_/template_arity_fwd.hpp:
 
 /usr/include/gazebo-11/gazebo/sensors/SensorManager.hh:
 
-/opt/ros/humble/include/tracetools/tracetools/visibility_control.hpp:
-
 /opt/ros/humble/include/rclcpp/rclcpp/intra_process_buffer_type.hpp:
+
+/opt/ros/humble/include/tracetools/tracetools/visibility_control.hpp:
 
 /usr/include/boost/mpl/aux_/config/dtp.hpp:
 
@@ -6708,6 +6194,8 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/mpl/integral_c_fwd.hpp:
 
+/usr/include/boost/preprocessor/repeat.hpp:
+
 /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h:
 
 /usr/include/boost/optional/detail/optional_trivially_copyable_base.hpp:
@@ -6718,17 +6206,39 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/preprocessor/tuple/eat.hpp:
 
-/usr/include/boost/predef/library/std/cxx.h:
+/usr/include/gazebo-11/gazebo/msgs/heightmapgeom.pb.h:
 
-/usr/include/boost/preprocessor/logical/and.hpp:
+/usr/include/boost/atomic/detail/type_traits/is_floating_point.hpp:
+
+/usr/include/c++/11/bits/sstream.tcc:
+
+/usr/include/boost/mpl/limits/arity.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/usr/include/boost/regex/config/cwchar.hpp:
+
+/usr/include/boost/mem_fn.hpp:
+
+/usr/include/boost/preprocessor/logical/bitand.hpp:
+
+/usr/include/c++/11/bits/uniform_int_dist.h:
+
+/usr/include/boost/type_traits/is_member_function_pointer.hpp:
+
+/usr/include/boost/optional/detail/optional_aligned_storage.hpp:
+
+/usr/include/c++/11/set:
+
+/usr/include/boost/preprocessor/identity.hpp:
 
 /usr/include/boost/preprocessor/empty.hpp:
 
 /usr/include/boost/preprocessor/arithmetic/dec.hpp:
 
-/usr/include/boost/atomic/detail/wait_capabilities.hpp:
-
 /opt/ros/humble/include/rmw/rmw/events_statuses/requested_deadline_missed.h:
+
+/usr/include/boost/atomic/detail/wait_capabilities.hpp:
 
 /usr/include/boost/preprocessor/control/while.hpp:
 
@@ -6739,6 +6249,10 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 /usr/include/boost/mpl/aux_/config/use_preprocessed.hpp:
 
 /usr/include/boost/preprocessor/list/detail/fold_left.hpp:
+
+/usr/include/boost/function/detail/maybe_include.hpp:
+
+/usr/include/boost/predef/compiler/nvcc.h:
 
 /usr/include/google/protobuf/map_entry.h:
 
@@ -6754,11 +6268,17 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/preprocessor/logical/compl.hpp:
 
+/usr/include/boost/predef/os/vms.h:
+
 /usr/include/boost/preprocessor/list/fold_right.hpp:
 
-/usr/include/boost/regex/config.hpp:
+/usr/include/boost/preprocessor/list/reverse.hpp:
+
+/usr/include/boost/predef/compiler/ekopath.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_deleter.hpp:
+
+/usr/include/boost/regex/config.hpp:
 
 /usr/include/boost/preprocessor/control/detail/while.hpp:
 
@@ -6766,17 +6286,35 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/preprocessor/facilities/expand.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/c++/11/tr1/legendre_function.tcc:
+
+/usr/include/boost/bind/arg.hpp:
+
 /usr/include/boost/preprocessor/facilities/overload.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp:
 
 /usr/include/boost/preprocessor/variadic/size.hpp:
 
+/usr/include/ignition/msgs5/ignition/msgs/density.pb.h:
+
+/usr/include/ignition/msgs5/ignition/msgs/actuators.pb.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/float.h:
+
 /usr/include/boost/type_traits/has_trivial_copy.hpp:
 
 /usr/include/boost/preprocessor/variadic/elem.hpp:
 
 /usr/include/boost/preprocessor/arithmetic/sub.hpp:
+
+/usr/include/boost/container_hash/hash.hpp:
+
+/usr/include/boost/predef/architecture/sparc.h:
 
 /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp:
 
@@ -6792,9 +6330,23 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/mpl/numeric_cast.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/boost/atomic/detail/caps_gcc_atomic.hpp:
+
+/usr/include/google/protobuf/arena.h:
+
+/usr/include/boost/atomic/detail/type_traits/integral_constant.hpp:
+
+/usr/include/boost/mpl/apply_wrap.hpp:
+
 /usr/include/gazebo-11/gazebo/gazebo_config.h:
 
 /usr/include/boost/mpl/has_xxx.hpp:
+
+/usr/include/google/protobuf/map_field_lite.h:
+
+/usr/include/boost/predef/platform/windows_server.h:
 
 /usr/include/boost/mpl/aux_/config/arrays.hpp:
 
@@ -6806,23 +6358,35 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/preprocessor/repetition/enum_params.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp:
+
+/usr/include/boost/predef/platform/windows_runtime.h:
+
 /usr/include/ignition/msgs5/ignition/msgs/camera_info.pb.h:
 
 /usr/include/boost/type_traits/remove_cv.hpp:
 
 /usr/include/boost/mpl/aux_/config/has_apply.hpp:
 
-/usr/include/boost/predef/library/c.h:
+/usr/include/c++/11/tr1/riemann_zeta.tcc:
 
-/opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp:
-
-/usr/include/c++/11/pstl/glue_algorithm_defs.h:
-
-/usr/include/boost/mpl/aux_/msvc_never_true.hpp:
+/usr/include/limits.h:
 
 /usr/include/boost/mpl/aux_/config/compiler.hpp:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp:
+
+/usr/include/boost/integer.hpp:
+
+/usr/include/boost/predef/compiler/comeau.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:
+
+/usr/include/boost/thread/thread.hpp:
+
+/usr/include/boost/mpl/tag.hpp:
+
+/usr/include/boost/mpl/void.hpp:
 
 /usr/include/c++/11/iostream:
 
@@ -6830,9 +6394,21 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/mpl/aux_/config/forwarding.hpp:
 
+/usr/include/gazebo-11/gazebo/msgs/imagegeom.pb.h:
+
+/usr/include/boost/thread/mutex.hpp:
+
+/opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp:
+
+/usr/include/boost/atomic/detail/config.hpp:
+
 /usr/include/ignition/math6/gz/math/detail/WellOrderedVector.hh:
 
 /usr/include/boost/mpl/aux_/is_msvc_eti_arg.hpp:
+
+/usr/include/boost/regex/v4/char_regex_traits.hpp:
+
+/usr/include/boost/type_traits/common_type.hpp:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/equal_to.hpp:
 
@@ -6840,9 +6416,17 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/mpl/not.hpp:
 
+/usr/include/boost/predef/compiler/microtec.h:
+
 /usr/include/boost/mpl/aux_/nested_type_wknd.hpp:
 
+/usr/include/boost/mpl/aux_/preprocessed/gcc/and.hpp:
+
 /usr/include/boost/mpl/identity.hpp:
+
+/usr/include/boost/unordered/detail/map.hpp:
+
+/usr/include/boost/numeric/conversion/detail/int_float_mixture.hpp:
 
 /usr/include/c++/11/pstl/pstl_config.h:
 
@@ -6862,6 +6446,8 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/numeric/conversion/detail/is_subranged.hpp:
 
+/usr/include/boost/mpl/multiplies.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
 
 /usr/include/sched.h:
@@ -6872,19 +6458,35 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/mpl/aux_/preprocessor/default_params.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:
-
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:
 
 /usr/include/boost/mpl/less.hpp:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/less.hpp:
+
+/usr/include/gazebo-11/gazebo/physics/Gripper.hh:
+
+/usr/include/boost/type_traits/is_union.hpp:
+
+/usr/include/boost/atomic/detail/core_ops_gcc_atomic.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/usr/include/boost/numeric/conversion/converter_policies.hpp:
+
+/usr/include/boost/type_traits/is_const.hpp:
+
+/usr/include/boost/numeric/conversion/detail/converter.hpp:
 
 /usr/include/ignition/math6/gz/math/Rand.hh:
 
 /usr/include/boost/numeric/conversion/detail/bounds.hpp:
 
 /usr/include/boost/date_time/posix_time/time_period.hpp:
+
+/usr/include/boost/predef/os/irix.h:
 
 /usr/include/boost/atomic/detail/wait_ops_futex.hpp:
 
@@ -6893,6 +6495,8 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 /usr/include/boost/thread/detail/make_tuple_indices.hpp:
 
 /usr/include/boost/chrono/config.hpp:
+
+/usr/include/boost/atomic/detail/aligned_variable.hpp:
 
 /usr/include/gazebo-11/gazebo/msgs/laserscan.pb.h:
 
@@ -6906,14 +6510,476 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: /home/dkflippo/a
 
 /usr/include/boost/predef/make.h:
 
-/usr/include/boost/chrono/detail/system.hpp:
-
-/usr/include/boost/predef/detail/test.h:
-
 /opt/ros/humble/include/rcutils/rcutils/types/array_list.h:
 
 /usr/include/boost/predef/language/cuda.h:
 
-/opt/ros/humble/include/hardware_interface/types/lifecycle_state_names.hpp:
-
 /usr/include/boost/predef/architecture/convex.h:
+
+/usr/include/x86_64-linux-gnu/asm/types.h:
+
+/usr/include/boost/predef/architecture/mips.h:
+
+/usr/include/boost/ratio/detail/mpl/abs.hpp:
+
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:
+
+/usr/include/boost/thread/csbl/memory/unique_ptr.hpp:
+
+/usr/include/boost/thread/lock_algorithms.hpp:
+
+/usr/include/boost/predef/architecture/parisc.h:
+
+/usr/include/boost/predef/architecture/ppc.h:
+
+/usr/include/boost/predef/architecture/ptx.h:
+
+/usr/include/boost/thread/detail/atomic_redef_macros.hpp:
+
+/usr/include/boost/predef/architecture/x86/32.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
+
+/usr/include/boost/predef/architecture/x86/64.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp:
+
+/usr/include/gazebo-11/gazebo/physics/RayShape.hh:
+
+/usr/include/c++/11/bits/invoke.h:
+
+/usr/include/boost/predef/architecture/z.h:
+
+/usr/include/boost/predef/compiler.h:
+
+/usr/include/boost/predef/compiler/diab.h:
+
+/usr/include/ignition/msgs5/ignition/msgs/plugin.pb.h:
+
+/usr/include/boost/atomic/detail/core_operations.hpp:
+
+/usr/include/boost/predef/platform/windows_store.h:
+
+/usr/include/ignition/math6/gz/math/Ellipsoid.hh:
+
+/usr/include/boost/predef/compiler/digitalmars.h:
+
+/usr/include/boost/atomic/detail/wait_operations.hpp:
+
+/usr/include/boost/predef/detail/comp_detected.h:
+
+/usr/include/boost/predef/compiler/hp_acc.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:
+
+/opt/ros/humble/include/rcl/rcl/domain_id.h:
+
+/usr/include/ignition/msgs5/ignition/msgs/publishers.pb.h:
+
+/usr/include/boost/predef/compiler/iar.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp:
+
+/usr/include/c++/11/pstl/glue_algorithm_defs.h:
+
+/usr/include/boost/mpl/aux_/msvc_never_true.hpp:
+
+/usr/include/boost/predef/library/c.h:
+
+/usr/include/boost/config/workaround.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessor/enum.hpp:
+
+/usr/include/boost/bind/bind_mf_cc.hpp:
+
+/usr/include/boost/predef/compiler/kai.h:
+
+/usr/include/c++/11/future:
+
+/usr/include/boost/atomic/detail/fence_ops_gcc_atomic.hpp:
+
+/usr/include/boost/predef/compiler/metrowerks.h:
+
+/opt/ros/humble/include/rmw/rmw/events_statuses/offered_deadline_missed.h:
+
+/usr/include/boost/predef/hardware/simd/x86_amd/versions.h:
+
+/usr/include/boost/predef/compiler/sgi_mipspro.h:
+
+/usr/include/boost/predef/compiler/tendra.h:
+
+/usr/include/boost/thread/detail/variadic_header.hpp:
+
+/usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
+
+/usr/include/boost/predef/compiler/visualc.h:
+
+/usr/include/boost/chrono/system_clocks.hpp:
+
+/usr/include/boost/predef/library.h:
+
+/usr/include/ignition/msgs5/ignition/msgs/serialized_map.pb.h:
+
+/usr/include/boost/container_hash/detail/hash_float.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp:
+
+/opt/ros/humble/include/rcl/rcl/client.h:
+
+/usr/include/boost/predef/detail/_cassert.h:
+
+/usr/include/boost/predef/os/hpux.h:
+
+/usr/include/boost/predef/library/c/cloudabi.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:
+
+/usr/include/boost/atomic/detail/float_sizes.hpp:
+
+/usr/include/boost/predef/platform/mingw32.h:
+
+/usr/include/boost/predef/library/c/gnu.h:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp:
+
+/usr/include/boost/predef/library/c/vms.h:
+
+/usr/include/google/protobuf/io/zero_copy_stream.h:
+
+/usr/include/ignition/math6/gz/math.hh:
+
+/usr/include/asm-generic/posix_types.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:
+
+/usr/include/ignition/msgs5/ignition/msgs/undo_redo.pb.h:
+
+/usr/include/ignition/math6/ignition/math/Box.hh:
+
+/usr/include/boost/predef/detail/_exception.h:
+
+/usr/include/boost/preprocessor/logical/and.hpp:
+
+/usr/include/boost/predef/library/std/cxx.h:
+
+/usr/include/boost/predef/library/std/libcomo.h:
+
+/usr/include/boost/predef/library/std/modena.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/loaned_message.hpp:
+
+/usr/include/boost/thread/pthread/once_atomic.hpp:
+
+/usr/include/boost/utility/addressof.hpp:
+
+/usr/include/boost/predef/library/std/msl.h:
+
+/usr/include/boost/predef/library/std/roguewave.h:
+
+/usr/include/c++/11/bits/regex.h:
+
+/usr/include/boost/type_traits/integral_constant.hpp:
+
+/usr/include/boost/predef/library/std/stdcpp3.h:
+
+/usr/include/boost/predef/os/bsd.h:
+
+/usr/include/boost/predef/os/macos.h:
+
+/usr/include/boost/predef/os/bsd/bsdi.h:
+
+/usr/include/boost/predef/os/bsd/dragonfly.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:
+
+/usr/include/boost/type_traits/add_volatile.hpp:
+
+/usr/include/boost/predef/os/bsd/open.h:
+
+/usr/include/ignition/math6/gz/math/detail/Sphere.hh:
+
+/usr/include/boost/predef/os/bsd/net.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/boost/predef/compiler/dignus.h:
+
+/usr/include/boost/predef/os/cygwin.h:
+
+/usr/include/boost/mpl/aux_/config/ttp.hpp:
+
+/usr/include/boost/any.hpp:
+
+/usr/include/boost/predef/hardware/simd/ppc/versions.h:
+
+/usr/include/boost/predef/os/os400.h:
+
+/usr/include/boost/predef/os/solaris.h:
+
+/usr/include/ignition/msgs5/ignition/msgs/scene.pb.h:
+
+/usr/include/boost/predef/os/windows.h:
+
+/usr/include/boost/preprocessor/iteration/detail/bounds/upper1.hpp:
+
+/usr/include/boost/predef/other/endian.h:
+
+/usr/include/gazebo-11/gazebo/msgs/magnetometer.pb.h:
+
+/usr/include/boost/predef/platform/android.h:
+
+/opt/ros/humble/include/rcl/rcl/visibility_control.h:
+
+/usr/include/boost/predef/platform/cloudabi.h:
+
+/usr/include/boost/atomic/detail/string_ops.hpp:
+
+/usr/include/boost/predef/platform/mingw64.h:
+
+/usr/include/boost/predef/platform/windows_desktop.h:
+
+/usr/include/gazebo-11/gazebo/msgs/link.pb.h:
+
+/usr/include/boost/predef/platform/windows_system.h:
+
+/usr/include/boost/predef/platform/ios.h:
+
+/usr/include/boost/numeric/conversion/numeric_cast_traits.hpp:
+
+/usr/include/boost/predef/hardware/simd/x86/versions.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp:
+
+/usr/include/boost/predef/version.h:
+
+/usr/include/c++/11/climits:
+
+/usr/include/boost/atomic/detail/type_traits/make_signed.hpp:
+
+/usr/include/gazebo-11/gazebo/common/Event.hh:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
+
+/usr/include/c++/11/bits/allocator.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/ignition/math6/ignition/math/Vector3.hh:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+/usr/include/sdformat-9.7/sdf/Element.hh:
+
+/usr/include/boost/core/scoped_enum.hpp:
+
+/usr/include/wchar.h:
+
+/usr/include/boost/is_placeholder.hpp:
+
+/usr/include/boost/type_index.hpp:
+
+/usr/include/sdformat-9.7/sdf/Pbr.hh:
+
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+
+/usr/include/c++/11/bits/list.tcc:
+
+/usr/include/boost/mpl/logical.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp:
+
+/usr/include/boost/mpl/or.hpp:
+
+/usr/include/boost/ratio/detail/mpl/gcd.hpp:
+
+/usr/include/c++/11/numeric:
+
+/usr/include/boost/mpl/aux_/config/dependent_nttp.hpp:
+
+/opt/ros/humble/include/rmw/rmw/network_flow_endpoint.h:
+
+/usr/include/gazebo-11/gazebo/msgs/collision.pb.h:
+
+/usr/include/boost/ratio/detail/overflow_helpers.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp:
+
+/opt/ros/humble/include/rcutils/rcutils/visibility_control.h:
+
+/usr/include/c++/11/bits/unordered_set.h:
+
+/usr/include/boost/thread/detail/platform_time.hpp:
+
+/usr/include/boost/predef/detail/test.h:
+
+/usr/include/boost/chrono/detail/system.hpp:
+
+/usr/include/boost/chrono/clock_string.hpp:
+
+/usr/include/gazebo-11/gazebo/physics/ScrewJoint.hh:
+
+/usr/include/gazebo-11/gazebo/msgs/altimeter.pb.h:
+
+/usr/include/boost/thread/pthread/pthread_helpers.hpp:
+
+/usr/include/ignition/msgs5/ignition/msgs/discovery.pb.h:
+
+/usr/include/boost/regex/pending/static_mutex.hpp:
+
+/usr/include/google/protobuf/has_bits.h:
+
+/usr/include/boost/thread/pthread/condition_variable_fwd.hpp:
+
+/usr/include/gazebo-11/gazebo/msgs/rest_post.pb.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/boost/smart_ptr/enable_shared_from_this.hpp:
+
+/usr/include/boost/predef/hardware/simd/x86.h:
+
+/usr/include/boost/type_traits/is_pointer.hpp:
+
+/usr/include/boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp:
+
+/usr/include/gazebo-11/gazebo/msgs/request.pb.h:
+
+/usr/include/boost/thread/detail/is_convertible.hpp:
+
+/usr/include/ignition/msgs5/ignition/msgs/laserscan.pb.h:
+
+/usr/include/boost/bind/mem_fn.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp:
+
+/usr/include/boost/get_pointer.hpp:
+
+/usr/include/boost/visit_each.hpp:
+
+/usr/include/boost/move/default_delete.hpp:
+
+/usr/include/boost/bind/storage.hpp:
+
+/usr/include/boost/move/detail/workaround.hpp:
+
+/usr/include/boost/predef/compiler/ibm.h:
+
+/usr/include/boost/bind/bind_mf2_cc.hpp:
+
+/usr/include/boost/type_traits/cv_traits.hpp:
+
+/usr/include/boost/bind/placeholders.hpp:
+
+/usr/include/boost/thread/futures/future_error.hpp:
+
+/usr/include/c++/11/typeindex:
+
+/usr/include/boost/tuple/tuple.hpp:
+
+/usr/include/boost/container_hash/extensions.hpp:
+
+/usr/include/boost/thread/pthread/condition_variable.hpp:
+
+/usr/include/boost/thread/csbl/memory/config.hpp:
+
+/usr/include/boost/move/detail/unique_ptr_meta_utils.hpp:
+
+/usr/include/gazebo-11/gazebo/physics/LightState.hh:
+
+/usr/include/boost/unordered/detail/set.hpp:
+
+/usr/include/boost/none.hpp:
+
+/usr/include/boost/move/adl_move_swap.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp:
+
+/usr/include/ignition/msgs5/ignition/msgs/detail/Export.hh:
+
+/usr/include/boost/core/no_exceptions_support.hpp:
+
+/usr/include/boost/atomic.hpp:
+
+/usr/include/boost/memory_order.hpp:
+
+/usr/include/boost/atomic/detail/capabilities.hpp:
+
+/home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/macros.hpp:
+
+/usr/include/boost/atomic/detail/core_operations_emulated_fwd.hpp:
+
+/usr/include/boost/atomic/detail/platform.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:
+
+/usr/include/boost/mpl/aux_/na_assert.hpp:
+
+/usr/include/x86_64-linux-gnu/sys/syscall.h:
+
+/usr/include/google/protobuf/metadata_lite.h:
+
+/usr/include/x86_64-linux-gnu/asm/unistd_64.h:
+
+/usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
+
+/usr/include/boost/thread/lock_types.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/or.hpp:
+
+/usr/include/asm-generic/bitsperlong.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/init_options.hpp:
+
+/usr/include/linux/posix_types.h:
+
+/usr/include/ignition/msgs5/ignition/msgs/boolean.pb.h:
+
+/usr/include/ignition/msgs5/ignition/msgs/entity.pb.h:
+
+/usr/include/ignition/math6/gz/math/graph/Edge.hh:
+
+/usr/include/linux/stddef.h:
+
+/usr/include/x86_64-linux-gnu/asm/posix_types.h:
+
+/usr/include/boost/mpl/next.hpp:
+
+/usr/include/boost/atomic/atomic.hpp:
+
+/opt/ros/humble/include/rcl/rcl/node.h:
+
+/usr/include/ignition/math6/gz/math/detail/Ellipsoid.hh:
+
+/usr/include/boost/atomic/detail/classify.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/parameter_map.hpp:
+
+/usr/include/boost/atomic/detail/type_traits/is_function.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp:
+
+/usr/include/boost/atomic/detail/atomic_impl.hpp:
+
+/usr/include/boost/atomic/detail/futex.hpp:
+
+/usr/include/boost/atomic/detail/addressof.hpp:
+
+/usr/include/boost/atomic/detail/integral_conversions.hpp:
+
+/usr/include/boost/atomic/detail/memory_order_utils.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
+/usr/include/boost/atomic/detail/type_traits/is_signed.hpp:
+
+/opt/ros/humble/include/rmw/rmw/qos_string_conversions.h:
+
+/usr/include/boost/type_traits/is_signed.hpp:
+
+/usr/include/boost/date_time/gregorian/greg_day_of_year.hpp:
+
+/usr/include/boost/type_traits/make_signed.hpp:

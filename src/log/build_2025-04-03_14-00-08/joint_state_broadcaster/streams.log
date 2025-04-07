@@ -1,0 +1,21 @@
+[0.061s] Invoking command in '/home/dkflippo/aug2024/src/build/joint_state_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/ros2_controllers/joint_state_broadcaster -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/src/install/joint_state_broadcaster
+[0.124s] -- Configuring incomplete, errors occurred!
+[0.124s] See also "/home/dkflippo/aug2024/src/build/joint_state_broadcaster/CMakeFiles/CMakeOutput.log".
+[0.124s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.125s]   By not providing "Findros2_control_cmake.cmake" in CMAKE_MODULE_PATH this
+[0.125s]   project has asked CMake to find a package configuration file provided by
+[0.125s]   "ros2_control_cmake", but CMake did not find one.
+[0.125s] 
+[0.126s]   Could not find a package configuration file provided by
+[0.126s]   "ros2_control_cmake" with any of the following names:
+[0.127s] 
+[0.127s]     ros2_control_cmakeConfig.cmake
+[0.127s]     ros2_control_cmake-config.cmake
+[0.127s] 
+[0.128s]   Add the installation prefix of "ros2_control_cmake" to CMAKE_PREFIX_PATH or
+[0.128s]   set "ros2_control_cmake_DIR" to a directory containing one of the above
+[0.129s]   files.  If "ros2_control_cmake" provides a separate development package or
+[0.129s]   SDK, be sure it has been installed.
+[0.129s] 
+[0.129s] [0m
+[0.173s] Invoked command in '/home/dkflippo/aug2024/src/build/joint_state_broadcaster' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/ros2_controllers/joint_state_broadcaster -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/src/install/joint_state_broadcaster

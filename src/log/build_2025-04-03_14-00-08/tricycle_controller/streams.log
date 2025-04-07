@@ -1,0 +1,21 @@
+[0.063s] Invoking command in '/home/dkflippo/aug2024/src/build/tricycle_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/ros2_controllers/tricycle_controller -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/src/install/tricycle_controller
+[0.145s] -- Configuring incomplete, errors occurred!
+[0.145s] See also "/home/dkflippo/aug2024/src/build/tricycle_controller/CMakeFiles/CMakeOutput.log".
+[0.146s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.146s]   By not providing "Findros2_control_cmake.cmake" in CMAKE_MODULE_PATH this
+[0.146s]   project has asked CMake to find a package configuration file provided by
+[0.147s]   "ros2_control_cmake", but CMake did not find one.
+[0.147s] 
+[0.148s]   Could not find a package configuration file provided by
+[0.148s]   "ros2_control_cmake" with any of the following names:
+[0.148s] 
+[0.149s]     ros2_control_cmakeConfig.cmake
+[0.149s]     ros2_control_cmake-config.cmake
+[0.150s] 
+[0.152s]   Add the installation prefix of "ros2_control_cmake" to CMAKE_PREFIX_PATH or
+[0.153s]   set "ros2_control_cmake_DIR" to a directory containing one of the above
+[0.153s]   files.  If "ros2_control_cmake" provides a separate development package or
+[0.153s]   SDK, be sure it has been installed.
+[0.153s] 
+[0.154s] [0m
+[0.170s] Invoked command in '/home/dkflippo/aug2024/src/build/tricycle_controller' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/ros2_controllers/tricycle_controller -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/src/install/tricycle_controller

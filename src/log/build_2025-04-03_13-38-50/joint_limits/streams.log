@@ -1,0 +1,27 @@
+[0.047s] Invoking command in '/home/dkflippo/aug2024/src/build/joint_limits': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/ros2_control/joint_limits -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/src/install/joint_limits
+[0.466s] -- The CXX compiler identification is GNU 11.4.0
+[0.467s] -- Detecting CXX compiler ABI info
+[0.468s] -- Detecting CXX compiler ABI info - done
+[0.469s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.470s] -- Detecting CXX compile features
+[0.470s] -- Detecting CXX compile features - done
+[0.470s] -- Configuring incomplete, errors occurred!
+[0.471s] See also "/home/dkflippo/aug2024/src/build/joint_limits/CMakeFiles/CMakeOutput.log".
+[0.471s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.472s]   By not providing "Findros2_control_cmake.cmake" in CMAKE_MODULE_PATH this
+[0.473s]   project has asked CMake to find a package configuration file provided by
+[0.473s]   "ros2_control_cmake", but CMake did not find one.
+[0.473s] 
+[0.473s]   Could not find a package configuration file provided by
+[0.474s]   "ros2_control_cmake" with any of the following names:
+[0.474s] 
+[0.474s]     ros2_control_cmakeConfig.cmake
+[0.475s]     ros2_control_cmake-config.cmake
+[0.475s] 
+[0.475s]   Add the installation prefix of "ros2_control_cmake" to CMAKE_PREFIX_PATH or
+[0.476s]   set "ros2_control_cmake_DIR" to a directory containing one of the above
+[0.478s]   files.  If "ros2_control_cmake" provides a separate development package or
+[0.478s]   SDK, be sure it has been installed.
+[0.479s] 
+[0.479s] [0m
+[0.483s] Invoked command in '/home/dkflippo/aug2024/src/build/joint_limits' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/ros2_control/joint_limits -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/src/install/joint_limits

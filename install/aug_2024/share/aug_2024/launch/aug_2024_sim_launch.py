@@ -32,12 +32,7 @@ def generate_launch_description():
         default_value=os.path.join(pkg_share, 'config', 'map1.yaml'),
         description='Full path to map yaml file to load')
 
-    # Gazebo launch
-    gazebo = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([os.path.join(
-            get_package_share_directory('gazebo_ros'), 'launch', 'gazebo.launch.py')]),
-        launch_arguments={'world': world_file_path}.items()
-    )
+
 
     twist_mux_node = Node(
        package='twist_mux',
@@ -64,17 +59,6 @@ def generate_launch_description():
                 'minimum_travel_heading': 0.1,
                 'scan_topic': '/scan'
             }]
-    )
-    
-    # Spawn robot
-    spawn_entity = Node(
-        package='gazebo_ros',
-        executable='spawn_entity.py',
-        arguments=['-topic', 'robot_description',
-                '-entity', 'aug_2024_bot',
-                '-x', '17', '-y', '9', '-z', '0.1'],  # Raised slightly off the ground
-        parameters=[{'use_sim_time': use_sim_time}], 
-        output='screen'
     )
 
     # Robot state publisher
@@ -118,7 +102,7 @@ def generate_launch_description():
        package="controller_manager",
        executable="ros2_control_node",
        parameters=[{'robot_description': Command(['xacro ', urdf_file])},
-                os.path.join(pkg_share, 'config', 'my_controllers.yaml'),
+                os.path.join(pkg_share, 'config', 'flippo_controllers.yaml'),
                 {'use_sim_time': use_sim_time} ],
        output="screen",
     )
@@ -139,16 +123,6 @@ def generate_launch_description():
        remappings=[('/cmd_vel', '/cmd_vel_teleop')],
        parameters=[{'use_sim_time': LaunchConfiguration('use_sim_time')}]
     )
-    print(f"URDF file path: {urdf_file}")
-    print(f"Robot description length: {len(robot_desc)}")
-    
-    from launch.actions import TimerAction
-
-    delayed_spawn = TimerAction(
-        period=5.0,
-        actions=[spawn_entity]
-    )
-
 
     rviz = Node(
         package='rviz2',
@@ -157,16 +131,16 @@ def generate_launch_description():
         output='screen'
     )   
         
+    print(f"URDF file path: {urdf_file}")
+    print(f"Robot description length: {len(robot_desc)}")
     
     return LaunchDescription([
-        gazebo,
         declare_use_sim_time_argument,
         declare_map_yaml_cmd,
         robot_state_publisher,
         controller_manager,
         delay_controller_spawner,
         twist_mux_node,
-        delayed_spawn,  # Use the delayed spawn instead
         nav2_launch,
         teleop_node,
         #slam_toolbox,

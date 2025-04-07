@@ -1,0 +1,32 @@
+[0.065s] Invoking command in '/home/dkflippo/aug2024/src/build/admittance_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/ros2_controllers/admittance_controller -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/src/install/admittance_controller
+[0.858s] -- The C compiler identification is GNU 11.4.0
+[0.858s] -- The CXX compiler identification is GNU 11.4.0
+[0.858s] -- Detecting C compiler ABI info
+[0.858s] -- Detecting C compiler ABI info - done
+[0.858s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.859s] -- Detecting C compile features
+[0.862s] -- Detecting C compile features - done
+[0.865s] -- Detecting CXX compiler ABI info
+[0.894s] -- Detecting CXX compiler ABI info - done
+[0.906s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.906s] -- Detecting CXX compile features
+[0.906s] -- Detecting CXX compile features - done
+[0.926s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.927s]   By not providing "Findros2_control_cmake.cmake" in CMAKE_MODULE_PATH this
+[0.927s]   project has asked CMake to find a package configuration file provided by
+[0.927s]   "ros2_control_cmake", but CMake did not find one.
+[0.927s] 
+[0.927s]   Could not find a package configuration file provided by
+[0.927s]   "ros2_control_cmake" with any of the following names:
+[0.927s] 
+[0.927s]     ros2_control_cmakeConfig.cmake
+[0.927s]     ros2_control_cmake-config.cmake
+[0.927s] 
+[0.927s]   Add the installation prefix of "ros2_control_cmake" to CMAKE_PREFIX_PATH or
+[0.927s]   set "ros2_control_cmake_DIR" to a directory containing one of the above
+[0.928s]   files.  If "ros2_control_cmake" provides a separate development package or
+[0.928s]   SDK, be sure it has been installed.
+[0.928s] 
+[0.928s] [0m
+[0.928s] -- Configuring incomplete, errors occurred!
+[0.928s] See also "/home/dkflippo/aug2024/src/build/admittance_controller/CMakeFiles/CMakeOutput.log".

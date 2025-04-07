@@ -1,0 +1,956 @@
+[0.126s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.126s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x778307cfa950>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x778307cfa320>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x778307cfa320>>, mixin_verb=('build',))
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.313s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dkflippo/aug2024/src'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(BMC_2024) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(BMC_2024) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(BMC_2024) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(BMC_2024) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(BMC_2024) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(BMC_2024) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(BMC_2024) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(BMC_2024) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(BMC_2024) by extension 'ros'
+[0.325s] DEBUG:colcon.colcon_core.package_identification:Package 'BMC_2024' with type 'ros.ament_cmake' and name 'BMC_2024'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(aug_2024) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(aug_2024) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(aug_2024) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(aug_2024) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(aug_2024) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(aug_2024) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(aug_2024) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(aug_2024) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(aug_2024) by extension 'ros'
+[0.327s] DEBUG:colcon.colcon_core.package_identification:Package 'aug_2024' with type 'ros.ament_cmake' and name 'aug_2024'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024) by extension 'ros'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024) by extensions ['cmake', 'python']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024) by extension 'cmake'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024) by extension 'python'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024) by extensions ['python_setup_py']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024) by extension 'python_setup_py'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware) by extension 'ros'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware) by extensions ['cmake', 'python']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware) by extension 'cmake'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware) by extension 'python'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware) by extensions ['python_setup_py']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware) by extension 'python_setup_py'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware/include) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware/include) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware/include) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware/include) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware/include) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware/include) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware/include) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware/include) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware/include) by extension 'ros'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware/include) by extensions ['cmake', 'python']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware/include) by extension 'cmake'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware/include) by extension 'python'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware/include) by extensions ['python_setup_py']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware/include) by extension 'python_setup_py'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware/include/rowbot_bmc) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware/include/rowbot_bmc) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware/include/rowbot_bmc) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware/include/rowbot_bmc) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware/include/rowbot_bmc) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware/include/rowbot_bmc) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware/include/rowbot_bmc) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware/include/rowbot_bmc) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware/include/rowbot_bmc) by extension 'ros'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware/include/rowbot_bmc) by extensions ['cmake', 'python']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware/include/rowbot_bmc) by extension 'cmake'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware/include/rowbot_bmc) by extension 'python'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware/include/rowbot_bmc) by extensions ['python_setup_py']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/hardware/include/rowbot_bmc) by extension 'python_setup_py'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/include) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/include) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/include) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/include) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/include) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/include) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/include) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/include) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/include) by extension 'ros'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/include) by extensions ['cmake', 'python']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/include) by extension 'cmake'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/include) by extension 'python'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/include) by extensions ['python_setup_py']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/include) by extension 'python_setup_py'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/include/bmc_2024) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/include/bmc_2024) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/include/bmc_2024) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/include/bmc_2024) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/include/bmc_2024) by extension 'colcon_pkg'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/include/bmc_2024) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/include/bmc_2024) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/include/bmc_2024) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/include/bmc_2024) by extension 'ros'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/include/bmc_2024) by extensions ['cmake', 'python']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/include/bmc_2024) by extension 'cmake'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/include/bmc_2024) by extension 'python'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/include/bmc_2024) by extensions ['python_setup_py']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/include/bmc_2024) by extension 'python_setup_py'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/src) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/src) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/src) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/src) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/src) by extension 'colcon_pkg'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/src) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/src) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/src) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/src) by extension 'ros'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/src) by extensions ['cmake', 'python']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/src) by extension 'cmake'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/src) by extension 'python'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/src) by extensions ['python_setup_py']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(bmc_2024/src) by extension 'python_setup_py'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control) by extension 'ros'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control) by extensions ['cmake', 'python']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control) by extension 'cmake'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control) by extension 'python'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control) by extensions ['python_setup_py']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control) by extension 'python_setup_py'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/Docker) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/Docker) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/Docker) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/Docker) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/Docker) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/Docker) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/Docker) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/Docker) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/Docker) by extension 'ros'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/Docker) by extensions ['cmake', 'python']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/Docker) by extension 'cmake'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/Docker) by extension 'python'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/Docker) by extensions ['python_setup_py']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/Docker) by extension 'python_setup_py'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/doc) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/doc) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/doc) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/doc) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/doc) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/doc) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/doc) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/doc) by extension 'ros'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/doc) by extensions ['cmake', 'python']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/doc) by extension 'cmake'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/doc) by extension 'python'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/doc) by extensions ['python_setup_py']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/doc) by extension 'python_setup_py'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/doc/img) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/doc/img) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/doc/img) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/doc/img) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/doc/img) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/doc/img) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/doc/img) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/doc/img) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/doc/img) by extension 'ros'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/doc/img) by extensions ['cmake', 'python']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/doc/img) by extension 'cmake'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/doc/img) by extension 'python'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/doc/img) by extensions ['python_setup_py']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/doc/img) by extension 'python_setup_py'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/gazebo_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/gazebo_ros2_control) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/gazebo_ros2_control) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/gazebo_ros2_control) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/gazebo_ros2_control) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/gazebo_ros2_control) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/gazebo_ros2_control) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/gazebo_ros2_control) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/gazebo_ros2_control) by extension 'ros'
+[0.336s] DEBUG:colcon.colcon_core.package_identification:Package 'gazebo_ros2_control/gazebo_ros2_control' with type 'ros.ament_cmake' and name 'gazebo_ros2_control'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/gazebo_ros2_control_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/gazebo_ros2_control_demos) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/gazebo_ros2_control_demos) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/gazebo_ros2_control_demos) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/gazebo_ros2_control_demos) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/gazebo_ros2_control_demos) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/gazebo_ros2_control_demos) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/gazebo_ros2_control_demos) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_ros2_control/gazebo_ros2_control_demos) by extension 'ros'
+[0.337s] DEBUG:colcon.colcon_core.package_identification:Package 'gazebo_ros2_control/gazebo_ros2_control_demos' with type 'ros.ament_cmake' and name 'gazebo_ros2_control_demos'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_nav2) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_nav2) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_nav2) by extension 'ignore_ament_install'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_nav2) by extensions ['colcon_pkg']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_nav2) by extension 'colcon_pkg'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_nav2) by extensions ['colcon_meta']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_nav2) by extension 'colcon_meta'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_nav2) by extensions ['ros']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_nav2) by extension 'ros'
+[0.338s] DEBUG:colcon.colcon_core.package_identification:Package 'my_robot_nav2' with type 'ros.ament_cmake' and name 'my_robot_nav2'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers) by extension 'ignore'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers) by extensions ['colcon_pkg']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers) by extension 'ros'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers) by extensions ['cmake', 'python']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers) by extension 'cmake'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers) by extension 'python'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers) by extensions ['python_setup_py']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers) by extension 'python_setup_py'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/ackermann_steering_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/ackermann_steering_controller) by extension 'ignore'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/ackermann_steering_controller) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/ackermann_steering_controller) by extensions ['colcon_pkg']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/ackermann_steering_controller) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/ackermann_steering_controller) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/ackermann_steering_controller) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/ackermann_steering_controller) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/ackermann_steering_controller) by extension 'ros'
+[0.341s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_controllers/ackermann_steering_controller' with type 'ros.ament_cmake' and name 'ackermann_steering_controller'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/admittance_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/admittance_controller) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/admittance_controller) by extension 'ignore_ament_install'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/admittance_controller) by extensions ['colcon_pkg']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/admittance_controller) by extension 'colcon_pkg'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/admittance_controller) by extensions ['colcon_meta']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/admittance_controller) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/admittance_controller) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/admittance_controller) by extension 'ros'
+[0.343s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_controllers/admittance_controller' with type 'ros.ament_cmake' and name 'admittance_controller'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/bicycle_steering_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/bicycle_steering_controller) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/bicycle_steering_controller) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/bicycle_steering_controller) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/bicycle_steering_controller) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/bicycle_steering_controller) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/bicycle_steering_controller) by extension 'colcon_meta'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/bicycle_steering_controller) by extensions ['ros']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/bicycle_steering_controller) by extension 'ros'
+[0.345s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_controllers/bicycle_steering_controller' with type 'ros.ament_cmake' and name 'bicycle_steering_controller'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/diff_drive_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/diff_drive_controller) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/diff_drive_controller) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/diff_drive_controller) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/diff_drive_controller) by extension 'colcon_pkg'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/diff_drive_controller) by extensions ['colcon_meta']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/diff_drive_controller) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/diff_drive_controller) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/diff_drive_controller) by extension 'ros'
+[0.346s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_controllers/diff_drive_controller' with type 'ros.ament_cmake' and name 'diff_drive_controller'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/doc) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/doc) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/doc) by extensions ['colcon_pkg']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/doc) by extension 'colcon_pkg'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/doc) by extensions ['colcon_meta']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/doc) by extension 'colcon_meta'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/doc) by extensions ['ros']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/doc) by extension 'ros'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/doc) by extensions ['cmake', 'python']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/doc) by extension 'cmake'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/doc) by extension 'python'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/doc) by extensions ['python_setup_py']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/doc) by extension 'python_setup_py'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/doc/images) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/doc/images) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/doc/images) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/doc/images) by extensions ['colcon_pkg']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/doc/images) by extension 'colcon_pkg'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/doc/images) by extensions ['colcon_meta']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/doc/images) by extension 'colcon_meta'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/doc/images) by extensions ['ros']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/doc/images) by extension 'ros'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/doc/images) by extensions ['cmake', 'python']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/doc/images) by extension 'cmake'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/doc/images) by extension 'python'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/doc/images) by extensions ['python_setup_py']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/doc/images) by extension 'python_setup_py'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/effort_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/effort_controllers) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/effort_controllers) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/effort_controllers) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/effort_controllers) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/effort_controllers) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/effort_controllers) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/effort_controllers) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/effort_controllers) by extension 'ros'
+[0.349s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_controllers/effort_controllers' with type 'ros.ament_cmake' and name 'effort_controllers'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/force_torque_sensor_broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/force_torque_sensor_broadcaster) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/force_torque_sensor_broadcaster) by extension 'ignore_ament_install'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/force_torque_sensor_broadcaster) by extensions ['colcon_pkg']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/force_torque_sensor_broadcaster) by extension 'colcon_pkg'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/force_torque_sensor_broadcaster) by extensions ['colcon_meta']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/force_torque_sensor_broadcaster) by extension 'colcon_meta'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/force_torque_sensor_broadcaster) by extensions ['ros']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/force_torque_sensor_broadcaster) by extension 'ros'
+[0.350s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_controllers/force_torque_sensor_broadcaster' with type 'ros.ament_cmake' and name 'force_torque_sensor_broadcaster'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/forward_command_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/forward_command_controller) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/forward_command_controller) by extension 'ignore_ament_install'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/forward_command_controller) by extensions ['colcon_pkg']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/forward_command_controller) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/forward_command_controller) by extensions ['colcon_meta']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/forward_command_controller) by extension 'colcon_meta'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/forward_command_controller) by extensions ['ros']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/forward_command_controller) by extension 'ros'
+[0.352s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_controllers/forward_command_controller' with type 'ros.ament_cmake' and name 'forward_command_controller'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/gpio_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/gpio_controllers) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/gpio_controllers) by extension 'ignore_ament_install'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/gpio_controllers) by extensions ['colcon_pkg']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/gpio_controllers) by extension 'colcon_pkg'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/gpio_controllers) by extensions ['colcon_meta']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/gpio_controllers) by extension 'colcon_meta'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/gpio_controllers) by extensions ['ros']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/gpio_controllers) by extension 'ros'
+[0.353s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_controllers/gpio_controllers' with type 'ros.ament_cmake' and name 'gpio_controllers'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/gripper_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/gripper_controllers) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/gripper_controllers) by extension 'ignore_ament_install'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/gripper_controllers) by extensions ['colcon_pkg']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/gripper_controllers) by extension 'colcon_pkg'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/gripper_controllers) by extensions ['colcon_meta']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/gripper_controllers) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/gripper_controllers) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/gripper_controllers) by extension 'ros'
+[0.355s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_controllers/gripper_controllers' with type 'ros.ament_cmake' and name 'gripper_controllers'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/imu_sensor_broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/imu_sensor_broadcaster) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/imu_sensor_broadcaster) by extension 'ignore_ament_install'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/imu_sensor_broadcaster) by extensions ['colcon_pkg']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/imu_sensor_broadcaster) by extension 'colcon_pkg'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/imu_sensor_broadcaster) by extensions ['colcon_meta']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/imu_sensor_broadcaster) by extension 'colcon_meta'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/imu_sensor_broadcaster) by extensions ['ros']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/imu_sensor_broadcaster) by extension 'ros'
+[0.357s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_controllers/imu_sensor_broadcaster' with type 'ros.ament_cmake' and name 'imu_sensor_broadcaster'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/joint_state_broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/joint_state_broadcaster) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/joint_state_broadcaster) by extension 'ignore_ament_install'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/joint_state_broadcaster) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/joint_state_broadcaster) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/joint_state_broadcaster) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/joint_state_broadcaster) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/joint_state_broadcaster) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/joint_state_broadcaster) by extension 'ros'
+[0.359s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_controllers/joint_state_broadcaster' with type 'ros.ament_cmake' and name 'joint_state_broadcaster'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/joint_trajectory_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/joint_trajectory_controller) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/joint_trajectory_controller) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/joint_trajectory_controller) by extensions ['colcon_pkg']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/joint_trajectory_controller) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/joint_trajectory_controller) by extensions ['colcon_meta']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/joint_trajectory_controller) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/joint_trajectory_controller) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/joint_trajectory_controller) by extension 'ros'
+[0.361s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_controllers/joint_trajectory_controller' with type 'ros.ament_cmake' and name 'joint_trajectory_controller'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/mecanum_drive_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/mecanum_drive_controller) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/mecanum_drive_controller) by extension 'ignore_ament_install'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/mecanum_drive_controller) by extensions ['colcon_pkg']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/mecanum_drive_controller) by extension 'colcon_pkg'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/mecanum_drive_controller) by extensions ['colcon_meta']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/mecanum_drive_controller) by extension 'colcon_meta'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/mecanum_drive_controller) by extensions ['ros']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/mecanum_drive_controller) by extension 'ros'
+[0.363s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_controllers/mecanum_drive_controller' with type 'ros.ament_cmake' and name 'mecanum_drive_controller'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/parallel_gripper_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/parallel_gripper_controller) by extension 'ignore'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/parallel_gripper_controller) by extension 'ignore_ament_install'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/parallel_gripper_controller) by extensions ['colcon_pkg']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/parallel_gripper_controller) by extension 'colcon_pkg'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/parallel_gripper_controller) by extensions ['colcon_meta']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/parallel_gripper_controller) by extension 'colcon_meta'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/parallel_gripper_controller) by extensions ['ros']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/parallel_gripper_controller) by extension 'ros'
+[0.365s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_controllers/parallel_gripper_controller' with type 'ros.ament_cmake' and name 'parallel_gripper_controller'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/pid_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/pid_controller) by extension 'ignore'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/pid_controller) by extension 'ignore_ament_install'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/pid_controller) by extensions ['colcon_pkg']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/pid_controller) by extension 'colcon_pkg'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/pid_controller) by extensions ['colcon_meta']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/pid_controller) by extension 'colcon_meta'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/pid_controller) by extensions ['ros']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/pid_controller) by extension 'ros'
+[0.366s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_controllers/pid_controller' with type 'ros.ament_cmake' and name 'pid_controller'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/pose_broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/pose_broadcaster) by extension 'ignore'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/pose_broadcaster) by extension 'ignore_ament_install'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/pose_broadcaster) by extensions ['colcon_pkg']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/pose_broadcaster) by extension 'colcon_pkg'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/pose_broadcaster) by extensions ['colcon_meta']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/pose_broadcaster) by extension 'colcon_meta'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/pose_broadcaster) by extensions ['ros']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/pose_broadcaster) by extension 'ros'
+[0.368s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_controllers/pose_broadcaster' with type 'ros.ament_cmake' and name 'pose_broadcaster'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/position_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/position_controllers) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/position_controllers) by extension 'ignore_ament_install'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/position_controllers) by extensions ['colcon_pkg']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/position_controllers) by extension 'colcon_pkg'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/position_controllers) by extensions ['colcon_meta']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/position_controllers) by extension 'colcon_meta'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/position_controllers) by extensions ['ros']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/position_controllers) by extension 'ros'
+[0.369s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_controllers/position_controllers' with type 'ros.ament_cmake' and name 'position_controllers'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/range_sensor_broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/range_sensor_broadcaster) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/range_sensor_broadcaster) by extension 'ignore_ament_install'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/range_sensor_broadcaster) by extensions ['colcon_pkg']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/range_sensor_broadcaster) by extension 'colcon_pkg'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/range_sensor_broadcaster) by extensions ['colcon_meta']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/range_sensor_broadcaster) by extension 'colcon_meta'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/range_sensor_broadcaster) by extensions ['ros']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/range_sensor_broadcaster) by extension 'ros'
+[0.371s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_controllers/range_sensor_broadcaster' with type 'ros.ament_cmake' and name 'range_sensor_broadcaster'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/ros2_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/ros2_controllers) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/ros2_controllers) by extension 'ignore_ament_install'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/ros2_controllers) by extensions ['colcon_pkg']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/ros2_controllers) by extension 'colcon_pkg'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/ros2_controllers) by extensions ['colcon_meta']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/ros2_controllers) by extension 'colcon_meta'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/ros2_controllers) by extensions ['ros']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/ros2_controllers) by extension 'ros'
+[0.372s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_controllers/ros2_controllers' with type 'ros.ament_cmake' and name 'ros2_controllers'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/ros2_controllers_test_nodes) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/ros2_controllers_test_nodes) by extension 'ignore'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/ros2_controllers_test_nodes) by extension 'ignore_ament_install'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/ros2_controllers_test_nodes) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/ros2_controllers_test_nodes) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/ros2_controllers_test_nodes) by extensions ['colcon_meta']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/ros2_controllers_test_nodes) by extension 'colcon_meta'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/ros2_controllers_test_nodes) by extensions ['ros']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/ros2_controllers_test_nodes) by extension 'ros'
+[0.373s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_controllers/ros2_controllers_test_nodes' with type 'ros.ament_python' and name 'ros2_controllers_test_nodes'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/rqt_joint_trajectory_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/rqt_joint_trajectory_controller) by extension 'ignore'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/rqt_joint_trajectory_controller) by extension 'ignore_ament_install'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/rqt_joint_trajectory_controller) by extensions ['colcon_pkg']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/rqt_joint_trajectory_controller) by extension 'colcon_pkg'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/rqt_joint_trajectory_controller) by extensions ['colcon_meta']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/rqt_joint_trajectory_controller) by extension 'colcon_meta'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/rqt_joint_trajectory_controller) by extensions ['ros']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/rqt_joint_trajectory_controller) by extension 'ros'
+[0.374s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_controllers/rqt_joint_trajectory_controller' with type 'ros.ament_python' and name 'rqt_joint_trajectory_controller'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/steering_controllers_library) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/steering_controllers_library) by extension 'ignore'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/steering_controllers_library) by extension 'ignore_ament_install'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/steering_controllers_library) by extensions ['colcon_pkg']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/steering_controllers_library) by extension 'colcon_pkg'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/steering_controllers_library) by extensions ['colcon_meta']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/steering_controllers_library) by extension 'colcon_meta'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/steering_controllers_library) by extensions ['ros']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/steering_controllers_library) by extension 'ros'
+[0.376s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_controllers/steering_controllers_library' with type 'ros.ament_cmake' and name 'steering_controllers_library'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/tricycle_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/tricycle_controller) by extension 'ignore'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/tricycle_controller) by extension 'ignore_ament_install'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/tricycle_controller) by extensions ['colcon_pkg']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/tricycle_controller) by extension 'colcon_pkg'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/tricycle_controller) by extensions ['colcon_meta']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/tricycle_controller) by extension 'colcon_meta'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/tricycle_controller) by extensions ['ros']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/tricycle_controller) by extension 'ros'
+[0.378s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_controllers/tricycle_controller' with type 'ros.ament_cmake' and name 'tricycle_controller'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/tricycle_steering_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/tricycle_steering_controller) by extension 'ignore'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/tricycle_steering_controller) by extension 'ignore_ament_install'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/tricycle_steering_controller) by extensions ['colcon_pkg']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/tricycle_steering_controller) by extension 'colcon_pkg'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/tricycle_steering_controller) by extensions ['colcon_meta']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/tricycle_steering_controller) by extension 'colcon_meta'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/tricycle_steering_controller) by extensions ['ros']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/tricycle_steering_controller) by extension 'ros'
+[0.380s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_controllers/tricycle_steering_controller' with type 'ros.ament_cmake' and name 'tricycle_steering_controller'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/velocity_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/velocity_controllers) by extension 'ignore'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/velocity_controllers) by extension 'ignore_ament_install'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/velocity_controllers) by extensions ['colcon_pkg']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/velocity_controllers) by extension 'colcon_pkg'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/velocity_controllers) by extensions ['colcon_meta']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/velocity_controllers) by extension 'colcon_meta'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/velocity_controllers) by extensions ['ros']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_controllers/velocity_controllers) by extension 'ros'
+[0.381s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_controllers/velocity_controllers' with type 'ros.ament_cmake' and name 'velocity_controllers'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'ignore'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'ignore_ament_install'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extensions ['colcon_pkg']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'colcon_pkg'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extensions ['colcon_meta']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'colcon_meta'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extensions ['ros']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'ros'
+[0.382s] DEBUG:colcon.colcon_core.package_identification:Package 'sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.411s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/dkflippo/aug2024/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.412s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 420 installed packages in /opt/ros/humble
+[0.414s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'admittance_controller' build argument 'cmake_args' from command line to 'None'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'admittance_controller' build argument 'cmake_target' from command line to 'None'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'admittance_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'admittance_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'admittance_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'admittance_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'admittance_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'admittance_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'admittance_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.461s] DEBUG:colcon.colcon_core.verb:Building package 'admittance_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/src/build/admittance_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/src/install/admittance_controller', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/ros2_controllers/admittance_controller', 'symlink_install': False, 'test_result_base': None}
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_controller' build argument 'cmake_args' from command line to 'None'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_controller' build argument 'cmake_target' from command line to 'None'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.462s] DEBUG:colcon.colcon_core.verb:Building package 'diff_drive_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/src/build/diff_drive_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/src/install/diff_drive_controller', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/ros2_controllers/diff_drive_controller', 'symlink_install': False, 'test_result_base': None}
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'force_torque_sensor_broadcaster' build argument 'cmake_args' from command line to 'None'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'force_torque_sensor_broadcaster' build argument 'cmake_target' from command line to 'None'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'force_torque_sensor_broadcaster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'force_torque_sensor_broadcaster' build argument 'cmake_clean_cache' from command line to 'False'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'force_torque_sensor_broadcaster' build argument 'cmake_clean_first' from command line to 'False'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'force_torque_sensor_broadcaster' build argument 'cmake_force_configure' from command line to 'False'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'force_torque_sensor_broadcaster' build argument 'ament_cmake_args' from command line to 'None'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'force_torque_sensor_broadcaster' build argument 'catkin_cmake_args' from command line to 'None'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'force_torque_sensor_broadcaster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.462s] DEBUG:colcon.colcon_core.verb:Building package 'force_torque_sensor_broadcaster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/src/build/force_torque_sensor_broadcaster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/src/install/force_torque_sensor_broadcaster', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/ros2_controllers/force_torque_sensor_broadcaster', 'symlink_install': False, 'test_result_base': None}
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'cmake_args' from command line to 'None'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'cmake_target' from command line to 'None'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.463s] DEBUG:colcon.colcon_core.verb:Building package 'forward_command_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/src/build/forward_command_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/src/install/forward_command_controller', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/ros2_controllers/forward_command_controller', 'symlink_install': False, 'test_result_base': None}
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_args' from command line to 'None'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_target' from command line to 'None'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.463s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/src/build/gazebo_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/src/install/gazebo_ros2_control', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/gazebo_ros2_control/gazebo_ros2_control', 'symlink_install': False, 'test_result_base': None}
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'gpio_controllers' build argument 'cmake_args' from command line to 'None'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'gpio_controllers' build argument 'cmake_target' from command line to 'None'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'gpio_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'gpio_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'gpio_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'gpio_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'gpio_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'gpio_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'gpio_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.464s] DEBUG:colcon.colcon_core.verb:Building package 'gpio_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/src/build/gpio_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/src/install/gpio_controllers', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/ros2_controllers/gpio_controllers', 'symlink_install': False, 'test_result_base': None}
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'gripper_controllers' build argument 'cmake_args' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'gripper_controllers' build argument 'cmake_target' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'gripper_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'gripper_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'gripper_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'gripper_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'gripper_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'gripper_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'gripper_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.464s] DEBUG:colcon.colcon_core.verb:Building package 'gripper_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/src/build/gripper_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/src/install/gripper_controllers', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/ros2_controllers/gripper_controllers', 'symlink_install': False, 'test_result_base': None}
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'imu_sensor_broadcaster' build argument 'cmake_args' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'imu_sensor_broadcaster' build argument 'cmake_target' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'imu_sensor_broadcaster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'imu_sensor_broadcaster' build argument 'cmake_clean_cache' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'imu_sensor_broadcaster' build argument 'cmake_clean_first' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'imu_sensor_broadcaster' build argument 'cmake_force_configure' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'imu_sensor_broadcaster' build argument 'ament_cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'imu_sensor_broadcaster' build argument 'catkin_cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'imu_sensor_broadcaster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.465s] DEBUG:colcon.colcon_core.verb:Building package 'imu_sensor_broadcaster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/src/build/imu_sensor_broadcaster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/src/install/imu_sensor_broadcaster', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/ros2_controllers/imu_sensor_broadcaster', 'symlink_install': False, 'test_result_base': None}
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'joint_state_broadcaster' build argument 'cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'joint_state_broadcaster' build argument 'cmake_target' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'joint_state_broadcaster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'joint_state_broadcaster' build argument 'cmake_clean_cache' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'joint_state_broadcaster' build argument 'cmake_clean_first' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'joint_state_broadcaster' build argument 'cmake_force_configure' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'joint_state_broadcaster' build argument 'ament_cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'joint_state_broadcaster' build argument 'catkin_cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'joint_state_broadcaster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.465s] DEBUG:colcon.colcon_core.verb:Building package 'joint_state_broadcaster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/src/build/joint_state_broadcaster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/src/install/joint_state_broadcaster', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/ros2_controllers/joint_state_broadcaster', 'symlink_install': False, 'test_result_base': None}
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'cmake_target' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.466s] DEBUG:colcon.colcon_core.verb:Building package 'joint_trajectory_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/src/build/joint_trajectory_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/src/install/joint_trajectory_controller', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/ros2_controllers/joint_trajectory_controller', 'symlink_install': False, 'test_result_base': None}
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'cmake_target' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.466s] DEBUG:colcon.colcon_core.verb:Building package 'mecanum_drive_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/src/build/mecanum_drive_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/src/install/mecanum_drive_controller', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/ros2_controllers/mecanum_drive_controller', 'symlink_install': False, 'test_result_base': None}
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'my_robot_nav2' build argument 'cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'my_robot_nav2' build argument 'cmake_target' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'my_robot_nav2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'my_robot_nav2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'my_robot_nav2' build argument 'cmake_clean_first' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'my_robot_nav2' build argument 'cmake_force_configure' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'my_robot_nav2' build argument 'ament_cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'my_robot_nav2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'my_robot_nav2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.467s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_nav2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/src/build/my_robot_nav2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/src/install/my_robot_nav2', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/my_robot_nav2', 'symlink_install': False, 'test_result_base': None}
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'parallel_gripper_controller' build argument 'cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'parallel_gripper_controller' build argument 'cmake_target' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'parallel_gripper_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'parallel_gripper_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'parallel_gripper_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'parallel_gripper_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'parallel_gripper_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'parallel_gripper_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'parallel_gripper_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.467s] DEBUG:colcon.colcon_core.verb:Building package 'parallel_gripper_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/src/build/parallel_gripper_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/src/install/parallel_gripper_controller', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/ros2_controllers/parallel_gripper_controller', 'symlink_install': False, 'test_result_base': None}
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'pid_controller' build argument 'cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'pid_controller' build argument 'cmake_target' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'pid_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'pid_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'pid_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'pid_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'pid_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'pid_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'pid_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.468s] DEBUG:colcon.colcon_core.verb:Building package 'pid_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/src/build/pid_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/src/install/pid_controller', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/ros2_controllers/pid_controller', 'symlink_install': False, 'test_result_base': None}
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'pose_broadcaster' build argument 'cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'pose_broadcaster' build argument 'cmake_target' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'pose_broadcaster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'pose_broadcaster' build argument 'cmake_clean_cache' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'pose_broadcaster' build argument 'cmake_clean_first' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'pose_broadcaster' build argument 'cmake_force_configure' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'pose_broadcaster' build argument 'ament_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'pose_broadcaster' build argument 'catkin_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'pose_broadcaster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.468s] DEBUG:colcon.colcon_core.verb:Building package 'pose_broadcaster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/src/build/pose_broadcaster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/src/install/pose_broadcaster', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/ros2_controllers/pose_broadcaster', 'symlink_install': False, 'test_result_base': None}
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'range_sensor_broadcaster' build argument 'cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'range_sensor_broadcaster' build argument 'cmake_target' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'range_sensor_broadcaster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'range_sensor_broadcaster' build argument 'cmake_clean_cache' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'range_sensor_broadcaster' build argument 'cmake_clean_first' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'range_sensor_broadcaster' build argument 'cmake_force_configure' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'range_sensor_broadcaster' build argument 'ament_cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'range_sensor_broadcaster' build argument 'catkin_cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'range_sensor_broadcaster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.469s] DEBUG:colcon.colcon_core.verb:Building package 'range_sensor_broadcaster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/src/build/range_sensor_broadcaster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/src/install/range_sensor_broadcaster', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/ros2_controllers/range_sensor_broadcaster', 'symlink_install': False, 'test_result_base': None}
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers_test_nodes' build argument 'cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers_test_nodes' build argument 'cmake_target' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers_test_nodes' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers_test_nodes' build argument 'cmake_clean_cache' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers_test_nodes' build argument 'cmake_clean_first' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers_test_nodes' build argument 'cmake_force_configure' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers_test_nodes' build argument 'ament_cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers_test_nodes' build argument 'catkin_cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers_test_nodes' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.469s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_controllers_test_nodes' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/src/build/ros2_controllers_test_nodes', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/src/install/ros2_controllers_test_nodes', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/ros2_controllers/ros2_controllers_test_nodes', 'symlink_install': False, 'test_result_base': None}
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'rqt_joint_trajectory_controller' build argument 'cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'rqt_joint_trajectory_controller' build argument 'cmake_target' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'rqt_joint_trajectory_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'rqt_joint_trajectory_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'rqt_joint_trajectory_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'rqt_joint_trajectory_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'rqt_joint_trajectory_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'rqt_joint_trajectory_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'rqt_joint_trajectory_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.470s] DEBUG:colcon.colcon_core.verb:Building package 'rqt_joint_trajectory_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/src/build/rqt_joint_trajectory_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/src/install/rqt_joint_trajectory_controller', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/ros2_controllers/rqt_joint_trajectory_controller', 'symlink_install': False, 'test_result_base': None}
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.470s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/src/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/src/install/sllidar_ros2', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/sllidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'steering_controllers_library' build argument 'cmake_args' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'steering_controllers_library' build argument 'cmake_target' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'steering_controllers_library' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'steering_controllers_library' build argument 'cmake_clean_cache' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'steering_controllers_library' build argument 'cmake_clean_first' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'steering_controllers_library' build argument 'cmake_force_configure' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'steering_controllers_library' build argument 'ament_cmake_args' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'steering_controllers_library' build argument 'catkin_cmake_args' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'steering_controllers_library' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.471s] DEBUG:colcon.colcon_core.verb:Building package 'steering_controllers_library' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/src/build/steering_controllers_library', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/src/install/steering_controllers_library', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/ros2_controllers/steering_controllers_library', 'symlink_install': False, 'test_result_base': None}
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'tricycle_controller' build argument 'cmake_args' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'tricycle_controller' build argument 'cmake_target' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'tricycle_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'tricycle_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'tricycle_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'tricycle_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'tricycle_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'tricycle_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'tricycle_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.471s] DEBUG:colcon.colcon_core.verb:Building package 'tricycle_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/src/build/tricycle_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/src/install/tricycle_controller', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/ros2_controllers/tricycle_controller', 'symlink_install': False, 'test_result_base': None}
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'BMC_2024' build argument 'cmake_args' from command line to 'None'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'BMC_2024' build argument 'cmake_target' from command line to 'None'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'BMC_2024' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'BMC_2024' build argument 'cmake_clean_cache' from command line to 'False'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'BMC_2024' build argument 'cmake_clean_first' from command line to 'False'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'BMC_2024' build argument 'cmake_force_configure' from command line to 'False'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'BMC_2024' build argument 'ament_cmake_args' from command line to 'None'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'BMC_2024' build argument 'catkin_cmake_args' from command line to 'None'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'BMC_2024' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.472s] DEBUG:colcon.colcon_core.verb:Building package 'BMC_2024' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/src/build/BMC_2024', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/src/install/BMC_2024', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/BMC_2024', 'symlink_install': False, 'test_result_base': None}
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'ackermann_steering_controller' build argument 'cmake_args' from command line to 'None'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'ackermann_steering_controller' build argument 'cmake_target' from command line to 'None'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'ackermann_steering_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'ackermann_steering_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'ackermann_steering_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'ackermann_steering_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'ackermann_steering_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'ackermann_steering_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'ackermann_steering_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.472s] DEBUG:colcon.colcon_core.verb:Building package 'ackermann_steering_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/src/build/ackermann_steering_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/src/install/ackermann_steering_controller', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/ros2_controllers/ackermann_steering_controller', 'symlink_install': False, 'test_result_base': None}
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'bicycle_steering_controller' build argument 'cmake_args' from command line to 'None'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'bicycle_steering_controller' build argument 'cmake_target' from command line to 'None'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'bicycle_steering_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'bicycle_steering_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'bicycle_steering_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'bicycle_steering_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'bicycle_steering_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'bicycle_steering_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'bicycle_steering_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.473s] DEBUG:colcon.colcon_core.verb:Building package 'bicycle_steering_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/src/build/bicycle_steering_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/src/install/bicycle_steering_controller', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/ros2_controllers/bicycle_steering_controller', 'symlink_install': False, 'test_result_base': None}
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'effort_controllers' build argument 'cmake_args' from command line to 'None'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'effort_controllers' build argument 'cmake_target' from command line to 'None'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'effort_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'effort_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'effort_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'effort_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'effort_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'effort_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'effort_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.473s] DEBUG:colcon.colcon_core.verb:Building package 'effort_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/src/build/effort_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/src/install/effort_controllers', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/ros2_controllers/effort_controllers', 'symlink_install': False, 'test_result_base': None}
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'position_controllers' build argument 'cmake_args' from command line to 'None'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'position_controllers' build argument 'cmake_target' from command line to 'None'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'position_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'position_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'position_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'position_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'position_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'position_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'position_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.474s] DEBUG:colcon.colcon_core.verb:Building package 'position_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/src/build/position_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/src/install/position_controllers', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/ros2_controllers/position_controllers', 'symlink_install': False, 'test_result_base': None}
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'tricycle_steering_controller' build argument 'cmake_args' from command line to 'None'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'tricycle_steering_controller' build argument 'cmake_target' from command line to 'None'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'tricycle_steering_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'tricycle_steering_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'tricycle_steering_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'tricycle_steering_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'tricycle_steering_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'tricycle_steering_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'tricycle_steering_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.474s] DEBUG:colcon.colcon_core.verb:Building package 'tricycle_steering_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/src/build/tricycle_steering_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/src/install/tricycle_steering_controller', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/ros2_controllers/tricycle_steering_controller', 'symlink_install': False, 'test_result_base': None}
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'velocity_controllers' build argument 'cmake_args' from command line to 'None'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'velocity_controllers' build argument 'cmake_target' from command line to 'None'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'velocity_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'velocity_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'velocity_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'velocity_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'velocity_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'velocity_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'velocity_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.475s] DEBUG:colcon.colcon_core.verb:Building package 'velocity_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/src/build/velocity_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/src/install/velocity_controllers', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/ros2_controllers/velocity_controllers', 'symlink_install': False, 'test_result_base': None}
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_args' from command line to 'None'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_target' from command line to 'None'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_clean_first' from command line to 'False'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_force_configure' from command line to 'False'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'ament_cmake_args' from command line to 'None'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.475s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros2_control_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/src/build/gazebo_ros2_control_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/src/install/gazebo_ros2_control_demos', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/gazebo_ros2_control/gazebo_ros2_control_demos', 'symlink_install': False, 'test_result_base': None}
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers' build argument 'cmake_args' from command line to 'None'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers' build argument 'cmake_target' from command line to 'None'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.476s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/src/build/ros2_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/src/install/ros2_controllers', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/ros2_controllers/ros2_controllers', 'symlink_install': False, 'test_result_base': None}
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'aug_2024' build argument 'cmake_args' from command line to 'None'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'aug_2024' build argument 'cmake_target' from command line to 'None'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'aug_2024' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'aug_2024' build argument 'cmake_clean_cache' from command line to 'False'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'aug_2024' build argument 'cmake_clean_first' from command line to 'False'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'aug_2024' build argument 'cmake_force_configure' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'aug_2024' build argument 'ament_cmake_args' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'aug_2024' build argument 'catkin_cmake_args' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'aug_2024' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.477s] DEBUG:colcon.colcon_core.verb:Building package 'aug_2024' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dkflippo/aug2024/src/build/aug_2024', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dkflippo/aug2024/src/install/aug_2024', 'merge_install': False, 'path': '/home/dkflippo/aug2024/src/aug_2024', 'symlink_install': False, 'test_result_base': None}
+[0.477s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.478s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.478s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dkflippo/aug2024/src/ros2_controllers/forward_command_controller' with build type 'ament_cmake'
+[0.478s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dkflippo/aug2024/src/ros2_controllers/forward_command_controller'
+[0.481s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.481s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.481s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.484s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dkflippo/aug2024/src/ros2_controllers/steering_controllers_library' with build type 'ament_cmake'
+[0.484s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dkflippo/aug2024/src/ros2_controllers/steering_controllers_library'
+[0.484s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.484s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.488s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dkflippo/aug2024/src/ros2_controllers/diff_drive_controller' with build type 'ament_cmake'
+[0.488s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dkflippo/aug2024/src/ros2_controllers/diff_drive_controller'
+[0.488s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.488s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.491s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dkflippo/aug2024/src/ros2_controllers/joint_state_broadcaster' with build type 'ament_cmake'
+[0.491s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dkflippo/aug2024/src/ros2_controllers/joint_state_broadcaster'
+[0.492s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.492s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.495s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dkflippo/aug2024/src/gazebo_ros2_control/gazebo_ros2_control' with build type 'ament_cmake'
+[0.495s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dkflippo/aug2024/src/gazebo_ros2_control/gazebo_ros2_control'
+[0.495s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.495s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.498s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dkflippo/aug2024/src/ros2_controllers/imu_sensor_broadcaster' with build type 'ament_cmake'
+[0.498s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dkflippo/aug2024/src/ros2_controllers/imu_sensor_broadcaster'
+[0.499s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.499s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.502s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dkflippo/aug2024/src/ros2_controllers/joint_trajectory_controller' with build type 'ament_cmake'
+[0.502s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dkflippo/aug2024/src/ros2_controllers/joint_trajectory_controller'
+[0.502s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.502s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.505s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dkflippo/aug2024/src/ros2_controllers/tricycle_controller' with build type 'ament_cmake'
+[0.506s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dkflippo/aug2024/src/ros2_controllers/tricycle_controller'
+[0.506s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.506s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.510s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dkflippo/aug2024/src/ros2_controllers/admittance_controller' with build type 'ament_cmake'
+[0.510s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dkflippo/aug2024/src/ros2_controllers/admittance_controller'
+[0.511s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.511s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.516s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dkflippo/aug2024/src/ros2_controllers/force_torque_sensor_broadcaster' with build type 'ament_cmake'
+[0.516s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dkflippo/aug2024/src/ros2_controllers/force_torque_sensor_broadcaster'
+[0.517s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.517s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.521s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dkflippo/aug2024/src/ros2_controllers/gpio_controllers' with build type 'ament_cmake'
+[0.521s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dkflippo/aug2024/src/ros2_controllers/gpio_controllers'
+[0.522s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.522s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.526s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dkflippo/aug2024/src/ros2_controllers/gripper_controllers' with build type 'ament_cmake'
+[0.527s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dkflippo/aug2024/src/ros2_controllers/gripper_controllers'
+[0.527s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.527s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dkflippo/aug2024/src/build/forward_command_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/ros2_controllers/forward_command_controller -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/src/install/forward_command_controller
+[0.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dkflippo/aug2024/src/build/steering_controllers_library': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/ros2_controllers/steering_controllers_library -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/src/install/steering_controllers_library
+[0.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dkflippo/aug2024/src/build/diff_drive_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/ros2_controllers/diff_drive_controller -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/src/install/diff_drive_controller
+[0.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dkflippo/aug2024/src/build/joint_state_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/ros2_controllers/joint_state_broadcaster -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/src/install/joint_state_broadcaster
+[0.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dkflippo/aug2024/src/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/gazebo_ros2_control/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/src/install/gazebo_ros2_control
+[0.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dkflippo/aug2024/src/build/imu_sensor_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/ros2_controllers/imu_sensor_broadcaster -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/src/install/imu_sensor_broadcaster
+[0.565s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dkflippo/aug2024/src/build/joint_trajectory_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/ros2_controllers/joint_trajectory_controller -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/src/install/joint_trajectory_controller
+[0.566s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dkflippo/aug2024/src/build/tricycle_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/ros2_controllers/tricycle_controller -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/src/install/tricycle_controller
+[0.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dkflippo/aug2024/src/build/admittance_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/ros2_controllers/admittance_controller -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/src/install/admittance_controller
+[0.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dkflippo/aug2024/src/build/force_torque_sensor_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/ros2_controllers/force_torque_sensor_broadcaster -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/src/install/force_torque_sensor_broadcaster
+[0.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dkflippo/aug2024/src/build/gpio_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/ros2_controllers/gpio_controllers -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/src/install/gpio_controllers
+[0.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dkflippo/aug2024/src/build/gripper_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/ros2_controllers/gripper_controllers -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/src/install/gripper_controllers
+[1.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dkflippo/aug2024/src/build/joint_state_broadcaster' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/ros2_controllers/joint_state_broadcaster -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/src/install/joint_state_broadcaster
+[1.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dkflippo/aug2024/src/build/steering_controllers_library' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/ros2_controllers/steering_controllers_library -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/src/install/steering_controllers_library
+[1.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dkflippo/aug2024/src/build/diff_drive_controller' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/ros2_controllers/diff_drive_controller -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/src/install/diff_drive_controller
+[1.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dkflippo/aug2024/src/build/tricycle_controller' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/ros2_controllers/tricycle_controller -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/src/install/tricycle_controller
+[1.406s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joint_state_broadcaster)
+[1.419s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/src/install/joint_state_broadcaster' for CMake module files
+[1.420s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/src/install/joint_state_broadcaster' for CMake config files
+[1.421s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/src/install/joint_state_broadcaster/bin'
+[1.421s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/src/install/joint_state_broadcaster/lib/pkgconfig/joint_state_broadcaster.pc'
+[1.422s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/src/install/joint_state_broadcaster/lib/python3.10/site-packages'
+[1.422s] Level 1:colcon.colcon_core.environment:checking '/home/dkflippo/aug2024/src/install/joint_state_broadcaster/bin'
+[1.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/src/install/joint_state_broadcaster/share/joint_state_broadcaster/package.ps1'
+[1.424s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dkflippo/aug2024/src/install/joint_state_broadcaster/share/joint_state_broadcaster/package.dsv'
+[1.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/src/install/joint_state_broadcaster/share/joint_state_broadcaster/package.sh'
+[1.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/src/install/joint_state_broadcaster/share/joint_state_broadcaster/package.bash'
+[1.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/dkflippo/aug2024/src/install/joint_state_broadcaster/share/joint_state_broadcaster/package.zsh'
+[1.432s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dkflippo/aug2024/src/install/joint_state_broadcaster/share/colcon-core/packages/joint_state_broadcaster)
+[3.407s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.407s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.407s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[3.407s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.412s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.413s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.413s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.422s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.422s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dkflippo/aug2024/src/install/local_setup.ps1'
+[3.423s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dkflippo/aug2024/src/install/_local_setup_util_ps1.py'
+[3.425s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dkflippo/aug2024/src/install/setup.ps1'
+[3.426s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dkflippo/aug2024/src/install/local_setup.sh'
+[3.427s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dkflippo/aug2024/src/install/_local_setup_util_sh.py'
+[3.428s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dkflippo/aug2024/src/install/setup.sh'
+[3.429s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dkflippo/aug2024/src/install/local_setup.bash'
+[3.430s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dkflippo/aug2024/src/install/setup.bash'
+[3.431s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dkflippo/aug2024/src/install/local_setup.zsh'
+[3.431s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dkflippo/aug2024/src/install/setup.zsh'

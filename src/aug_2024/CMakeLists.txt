@@ -10,7 +10,9 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-
+# Add the path to your ros2_control_ws
+list(APPEND CMAKE_PREFIX_PATH "$ENV{HOME}/ros2_control_ws/install")
+list(APPEND CMAKE_PREFIX_PATH "/opt/ros/humble")
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
@@ -22,8 +24,8 @@ find_package(xacro REQUIRED)
 find_package(controller_manager REQUIRED)
 find_package(joint_state_broadcaster REQUIRED)
 find_package(diff_drive_controller REQUIRED)
-find_package(gazebo_ros REQUIRED)
-find_package(gazebo_ros2_control REQUIRED)
+#find_package(gazebo_ros REQUIRED)
+#find_package(gazebo_ros2_control REQUIRED)
 find_package(ros2_control REQUIRED)
 find_package(ros2_controllers REQUIRED)
 find_package(BMC_2024 REQUIRED)

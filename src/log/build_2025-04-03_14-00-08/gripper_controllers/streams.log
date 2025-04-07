@@ -1,0 +1,20 @@
+[0.101s] Invoking command in '/home/dkflippo/aug2024/src/build/gripper_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/ros2_controllers/gripper_controllers -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/src/install/gripper_controllers
+[0.150s] -- Configuring incomplete, errors occurred!
+[0.150s] See also "/home/dkflippo/aug2024/src/build/gripper_controllers/CMakeFiles/CMakeOutput.log".
+[0.150s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.150s]   By not providing "Findros2_control_cmake.cmake" in CMAKE_MODULE_PATH this
+[0.151s]   project has asked CMake to find a package configuration file provided by
+[0.151s]   "ros2_control_cmake", but CMake did not find one.
+[0.151s] 
+[0.151s]   Could not find a package configuration file provided by
+[0.151s]   "ros2_control_cmake" with any of the following names:
+[0.151s] 
+[0.151s]     ros2_control_cmakeConfig.cmake
+[0.151s]     ros2_control_cmake-config.cmake
+[0.151s] 
+[0.151s]   Add the installation prefix of "ros2_control_cmake" to CMAKE_PREFIX_PATH or
+[0.151s]   set "ros2_control_cmake_DIR" to a directory containing one of the above
+[0.152s]   files.  If "ros2_control_cmake" provides a separate development package or
+[0.152s]   SDK, be sure it has been installed.
+[0.152s] 
+[0.152s] [0m

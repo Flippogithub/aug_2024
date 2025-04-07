@@ -1,0 +1,32 @@
+[0.070s] Invoking command in '/home/dkflippo/aug2024/src/build/gpio_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/ros2_controllers/gpio_controllers -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/src/install/gpio_controllers
+[0.871s] -- The C compiler identification is GNU 11.4.0
+[0.872s] -- The CXX compiler identification is GNU 11.4.0
+[0.872s] -- Detecting C compiler ABI info
+[0.873s] -- Detecting C compiler ABI info - done
+[0.873s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.873s] -- Detecting C compile features
+[0.873s] -- Detecting C compile features - done
+[0.873s] -- Detecting CXX compiler ABI info
+[0.875s] -- Detecting CXX compiler ABI info - done
+[0.886s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.886s] -- Detecting CXX compile features
+[0.886s] -- Detecting CXX compile features - done
+[0.910s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.910s]   By not providing "Findros2_control_cmake.cmake" in CMAKE_MODULE_PATH this
+[0.910s]   project has asked CMake to find a package configuration file provided by
+[0.911s]   "ros2_control_cmake", but CMake did not find one.
+[0.911s] 
+[0.911s]   Could not find a package configuration file provided by
+[0.912s]   "ros2_control_cmake" with any of the following names:
+[0.913s] 
+[0.913s]     ros2_control_cmakeConfig.cmake
+[0.913s]     ros2_control_cmake-config.cmake
+[0.913s] 
+[0.913s]   Add the installation prefix of "ros2_control_cmake" to CMAKE_PREFIX_PATH or
+[0.914s]   set "ros2_control_cmake_DIR" to a directory containing one of the above
+[0.914s]   files.  If "ros2_control_cmake" provides a separate development package or
+[0.914s]   SDK, be sure it has been installed.
+[0.914s] 
+[0.914s] [0m
+[0.914s] -- Configuring incomplete, errors occurred!
+[0.914s] See also "/home/dkflippo/aug2024/src/build/gpio_controllers/CMakeFiles/CMakeOutput.log".

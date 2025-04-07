@@ -1,0 +1,78 @@
+[0.023s] Invoking command in '/home/dkflippo/aug2024/build/BMC_2024': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/home/dkflippo/ros2_control_ws/install/ros2_controllers:/home/dkflippo/ros2_control_ws/install/velocity_controllers:/home/dkflippo/ros2_control_ws/install/tricycle_steering_controller:/home/dkflippo/ros2_control_ws/install/tricycle_controller:/home/dkflippo/ros2_control_ws/install/ros2_control:/home/dkflippo/ros2_control_ws/install/transmission_interface:/home/dkflippo/ros2_control_ws/install/bicycle_steering_controller:/home/dkflippo/ros2_control_ws/install/ackermann_steering_controller:/home/dkflippo/ros2_control_ws/install/steering_controllers_library:/home/dkflippo/ros2_control_ws/install/hardware_interface_testing:/home/dkflippo/ros2_control_ws/install/controller_manager:/home/dkflippo/ros2_control_ws/install/ros2_control_test_assets:/home/dkflippo/ros2_control_ws/install/range_sensor_broadcaster:/home/dkflippo/ros2_control_ws/install/position_controllers:/home/dkflippo/ros2_control_ws/install/pose_broadcaster:/home/dkflippo/ros2_control_ws/install/pid_controller:/home/dkflippo/ros2_control_ws/install/mecanum_drive_controller:/home/dkflippo/ros2_control_ws/install/joint_trajectory_controller:/home/dkflippo/ros2_control_ws/install/joint_state_broadcaster:/home/dkflippo/ros2_control_ws/install/joint_limits:/home/dkflippo/ros2_control_ws/install/imu_sensor_broadcaster:/home/dkflippo/ros2_control_ws/install/gripper_controllers:/home/dkflippo/ros2_control_ws/install/gpio_controllers:/home/dkflippo/ros2_control_ws/install/effort_controllers:/home/dkflippo/ros2_control_ws/install/forward_command_controller:/home/dkflippo/ros2_control_ws/install/force_torque_sensor_broadcaster:/home/dkflippo/ros2_control_ws/install/diff_drive_controller:/home/dkflippo/ros2_control_ws/install/admittance_controller:/home/dkflippo/ros2_control_ws/install/controller_interface:/home/dkflippo/ros2_control_ws/install/hardware_interface:/home/dkflippo/ros2_control_ws/install/controller_manager_msgs:/home/dkflippo/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/dkflippo/ros2_control_ws/install/rqt_controller_manager:/home/dkflippo/ros2_control_ws/install/ros2controlcli:/home/dkflippo/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control/lib:/home/dkflippo/ros2_control_ws/install/velocity_controllers/lib:/home/dkflippo/ros2_control_ws/install/tricycle_steering_controller/lib:/home/dkflippo/ros2_control_ws/install/tricycle_controller/lib:/home/dkflippo/ros2_control_ws/install/transmission_interface/lib:/home/dkflippo/ros2_control_ws/install/bicycle_steering_controller/lib:/home/dkflippo/ros2_control_ws/install/ackermann_steering_controller/lib:/home/dkflippo/ros2_control_ws/install/steering_controllers_library/lib:/home/dkflippo/ros2_control_ws/install/hardware_interface_testing/lib:/home/dkflippo/ros2_control_ws/install/controller_manager/lib:/home/dkflippo/ros2_control_ws/install/range_sensor_broadcaster/lib:/home/dkflippo/ros2_control_ws/install/position_controllers/lib:/home/dkflippo/ros2_control_ws/install/pose_broadcaster/lib:/home/dkflippo/ros2_control_ws/install/pid_controller/lib:/home/dkflippo/ros2_control_ws/install/mecanum_drive_controller/lib:/home/dkflippo/ros2_control_ws/install/joint_trajectory_controller/lib:/home/dkflippo/ros2_control_ws/install/joint_state_broadcaster/lib:/home/dkflippo/ros2_control_ws/install/joint_limits/lib:/home/dkflippo/ros2_control_ws/install/imu_sensor_broadcaster/lib:/home/dkflippo/ros2_control_ws/install/gripper_controllers/lib:/home/dkflippo/ros2_control_ws/install/gpio_controllers/lib:/home/dkflippo/ros2_control_ws/install/effort_controllers/lib:/home/dkflippo/ros2_control_ws/install/forward_command_controller/lib:/home/dkflippo/ros2_control_ws/install/force_torque_sensor_broadcaster/lib:/home/dkflippo/ros2_control_ws/install/diff_drive_controller/lib:/home/dkflippo/ros2_control_ws/install/admittance_controller/lib:/home/dkflippo/ros2_control_ws/install/controller_interface/lib:/home/dkflippo/ros2_control_ws/install/hardware_interface/lib:/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/lib:/home/dkflippo/aug2024/install/BMC_2024/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dkflippo/aug2024/build/BMC_2024 -- -j12 -l12
+[0.079s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.257s] -- Found hardware_interface: 2.49.0 (/home/dkflippo/ros2_control_ws/install/hardware_interface/share/hardware_interface/cmake)
+[0.294s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.298s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.306s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.321s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.338s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.540s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.543s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.565s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.576s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.596s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.607s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.620s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.670s] -- Found gazebo_ros2_control: 0.4.9 (/home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake)
+[0.747s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.777s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.778s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.784s] -- Searching for dependencies of ignition-math6
+[0.786s] -- Looking for OGRE...
+[0.793s] -- Found Ogre Ghadamon (1.9.0)
+[0.793s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.803s] -- Looking for OGRE_Paging...
+[0.804s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.804s] -- Looking for OGRE_Terrain...
+[0.804s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.804s] -- Looking for OGRE_Property...
+[0.804s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.804s] -- Looking for OGRE_RTShaderSystem...
+[0.804s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.804s] -- Looking for OGRE_Volume...
+[0.805s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.805s] -- Looking for OGRE_Overlay...
+[0.805s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.029s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.030s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.030s] -- Searching for dependencies of ignition-transport8
+[1.060s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.078s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.087s] -- Checking for module 'libzmq >= 4'
+[1.112s] --   Found libzmq , version 4.3.4
+[1.172s] -- Checking for module 'uuid'
+[1.199s] --   Found uuid, version 2.37.2
+[1.252s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.252s] -- Searching for dependencies of ignition-msgs5
+[1.280s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.290s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.291s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.291s] -- Searching for dependencies of ignition-common3
+[1.291s] -- Looking for dlfcn.h - found
+[1.291s] -- Looking for libdl - found
+[1.305s] -- Searching for <ignition-common3> component [graphics]
+[1.305s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.306s] -- Searching for dependencies of ignition-common3-graphics
+[1.306s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.307s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.308s] -- Searching for dependencies of ignition-fuel_tools4
+[1.359s] -- Checking for module 'jsoncpp'
+[1.383s] --   Found jsoncpp, version 1.9.5
+[1.445s] -- Checking for module 'libzip'
+[1.466s] --   Found libzip, version 1.7.3
+[1.524s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.525s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.525s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.527s] -- Gazebo version: 11.10
+[1.588s] [31mCMake Error at /opt/ros/humble/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake:84 (message):
+[1.588s]   Given plugin description file
+[1.588s]   '/home/dkflippo/aug2024/src/BMC_2024//home/dkflippo/aug2024/src/BMC_2024/aug_2024_hardware.xml'
+[1.588s]   does not exist
+[1.588s] Call Stack (most recent call first):
+[1.588s]   CMakeLists.txt:53 (pluginlib_export_plugin_description_file)
+[1.589s] 
+[1.589s] [0m
+[1.589s] -- Configuring incomplete, errors occurred!
+[1.589s] See also "/home/dkflippo/aug2024/build/BMC_2024/CMakeFiles/CMakeOutput.log".
+[1.599s] gmake: *** [Makefile:294: cmake_check_build_system] Error 1
+[1.603s] Invoked command in '/home/dkflippo/aug2024/build/BMC_2024' returned '2': CMAKE_PREFIX_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control:/home/dkflippo/aug2024/install/sllidar_ros2:/home/dkflippo/aug2024/install/my_robot_nav2:/home/dkflippo/aug2024/install/gazebo_ros2_control_demos:/home/dkflippo/aug2024/install/aug_2024:/home/dkflippo/aug2024/install/BMC_2024:/home/dkflippo/ros2_control_ws/install/ros2_controllers:/home/dkflippo/ros2_control_ws/install/velocity_controllers:/home/dkflippo/ros2_control_ws/install/tricycle_steering_controller:/home/dkflippo/ros2_control_ws/install/tricycle_controller:/home/dkflippo/ros2_control_ws/install/ros2_control:/home/dkflippo/ros2_control_ws/install/transmission_interface:/home/dkflippo/ros2_control_ws/install/bicycle_steering_controller:/home/dkflippo/ros2_control_ws/install/ackermann_steering_controller:/home/dkflippo/ros2_control_ws/install/steering_controllers_library:/home/dkflippo/ros2_control_ws/install/hardware_interface_testing:/home/dkflippo/ros2_control_ws/install/controller_manager:/home/dkflippo/ros2_control_ws/install/ros2_control_test_assets:/home/dkflippo/ros2_control_ws/install/range_sensor_broadcaster:/home/dkflippo/ros2_control_ws/install/position_controllers:/home/dkflippo/ros2_control_ws/install/pose_broadcaster:/home/dkflippo/ros2_control_ws/install/pid_controller:/home/dkflippo/ros2_control_ws/install/mecanum_drive_controller:/home/dkflippo/ros2_control_ws/install/joint_trajectory_controller:/home/dkflippo/ros2_control_ws/install/joint_state_broadcaster:/home/dkflippo/ros2_control_ws/install/joint_limits:/home/dkflippo/ros2_control_ws/install/imu_sensor_broadcaster:/home/dkflippo/ros2_control_ws/install/gripper_controllers:/home/dkflippo/ros2_control_ws/install/gpio_controllers:/home/dkflippo/ros2_control_ws/install/effort_controllers:/home/dkflippo/ros2_control_ws/install/forward_command_controller:/home/dkflippo/ros2_control_ws/install/force_torque_sensor_broadcaster:/home/dkflippo/ros2_control_ws/install/diff_drive_controller:/home/dkflippo/ros2_control_ws/install/admittance_controller:/home/dkflippo/ros2_control_ws/install/controller_interface:/home/dkflippo/ros2_control_ws/install/hardware_interface:/home/dkflippo/ros2_control_ws/install/controller_manager_msgs:/home/dkflippo/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/dkflippo/ros2_control_ws/install/rqt_controller_manager:/home/dkflippo/ros2_control_ws/install/ros2controlcli:/home/dkflippo/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control/lib:/home/dkflippo/ros2_control_ws/install/velocity_controllers/lib:/home/dkflippo/ros2_control_ws/install/tricycle_steering_controller/lib:/home/dkflippo/ros2_control_ws/install/tricycle_controller/lib:/home/dkflippo/ros2_control_ws/install/transmission_interface/lib:/home/dkflippo/ros2_control_ws/install/bicycle_steering_controller/lib:/home/dkflippo/ros2_control_ws/install/ackermann_steering_controller/lib:/home/dkflippo/ros2_control_ws/install/steering_controllers_library/lib:/home/dkflippo/ros2_control_ws/install/hardware_interface_testing/lib:/home/dkflippo/ros2_control_ws/install/controller_manager/lib:/home/dkflippo/ros2_control_ws/install/range_sensor_broadcaster/lib:/home/dkflippo/ros2_control_ws/install/position_controllers/lib:/home/dkflippo/ros2_control_ws/install/pose_broadcaster/lib:/home/dkflippo/ros2_control_ws/install/pid_controller/lib:/home/dkflippo/ros2_control_ws/install/mecanum_drive_controller/lib:/home/dkflippo/ros2_control_ws/install/joint_trajectory_controller/lib:/home/dkflippo/ros2_control_ws/install/joint_state_broadcaster/lib:/home/dkflippo/ros2_control_ws/install/joint_limits/lib:/home/dkflippo/ros2_control_ws/install/imu_sensor_broadcaster/lib:/home/dkflippo/ros2_control_ws/install/gripper_controllers/lib:/home/dkflippo/ros2_control_ws/install/gpio_controllers/lib:/home/dkflippo/ros2_control_ws/install/effort_controllers/lib:/home/dkflippo/ros2_control_ws/install/forward_command_controller/lib:/home/dkflippo/ros2_control_ws/install/force_torque_sensor_broadcaster/lib:/home/dkflippo/ros2_control_ws/install/diff_drive_controller/lib:/home/dkflippo/ros2_control_ws/install/admittance_controller/lib:/home/dkflippo/ros2_control_ws/install/controller_interface/lib:/home/dkflippo/ros2_control_ws/install/hardware_interface/lib:/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/lib:/home/dkflippo/aug2024/install/BMC_2024/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dkflippo/aug2024/build/BMC_2024 -- -j12 -l12

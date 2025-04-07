@@ -1,0 +1,21 @@
+[0.062s] Invoking command in '/home/dkflippo/aug2024/src/build/forward_command_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/ros2_controllers/forward_command_controller -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/src/install/forward_command_controller
+[0.110s] -- Configuring incomplete, errors occurred!
+[0.110s] See also "/home/dkflippo/aug2024/src/build/forward_command_controller/CMakeFiles/CMakeOutput.log".
+[0.111s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.111s]   By not providing "Findros2_control_cmake.cmake" in CMAKE_MODULE_PATH this
+[0.111s]   project has asked CMake to find a package configuration file provided by
+[0.111s]   "ros2_control_cmake", but CMake did not find one.
+[0.111s] 
+[0.111s]   Could not find a package configuration file provided by
+[0.111s]   "ros2_control_cmake" with any of the following names:
+[0.112s] 
+[0.113s]     ros2_control_cmakeConfig.cmake
+[0.113s]     ros2_control_cmake-config.cmake
+[0.114s] 
+[0.114s]   Add the installation prefix of "ros2_control_cmake" to CMAKE_PREFIX_PATH or
+[0.114s]   set "ros2_control_cmake_DIR" to a directory containing one of the above
+[0.115s]   files.  If "ros2_control_cmake" provides a separate development package or
+[0.115s]   SDK, be sure it has been installed.
+[0.116s] 
+[0.116s] [0m
+[0.176s] Invoked command in '/home/dkflippo/aug2024/src/build/forward_command_controller' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dkflippo/aug2024/src/ros2_controllers/forward_command_controller -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/src/install/forward_command_controller

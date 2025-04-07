@@ -639,7 +639,7 @@ ZeroMQ_DIR:PATH=ZeroMQ_DIR-NOTFOUND
 ZeroMQ_LIBRARY_zmq:FILEPATH=/usr/lib/x86_64-linux-gnu/libzmq.so
 
 //Path to a library.
-_lib:FILEPATH=/home/dkflippo/aug2024/install/BMC_2024/lib/libBMC_2024.so
+_lib:FILEPATH=/opt/ros/humble/lib/libgazebo_hardware_plugins.so
 
 //The directory containing a CMake configuration file for action_msgs.
 action_msgs_DIR:PATH=/opt/ros/humble/share/action_msgs/cmake
@@ -753,16 +753,16 @@ console_bridge_DIR:PATH=/usr/lib/x86_64-linux-gnu/console_bridge/cmake
 control_msgs_DIR:PATH=/opt/ros/humble/share/control_msgs/cmake
 
 //The directory containing a CMake configuration file for controller_interface.
-controller_interface_DIR:PATH=/opt/ros/humble/share/controller_interface/cmake
+controller_interface_DIR:PATH=/home/dkflippo/ros2_control_ws/install/controller_interface/share/controller_interface/cmake
 
 //The directory containing a CMake configuration file for controller_manager.
-controller_manager_DIR:PATH=/opt/ros/humble/share/controller_manager/cmake
+controller_manager_DIR:PATH=/home/dkflippo/ros2_control_ws/install/controller_manager/share/controller_manager/cmake
 
 //The directory containing a CMake configuration file for controller_manager_msgs.
-controller_manager_msgs_DIR:PATH=/opt/ros/humble/share/controller_manager_msgs/cmake
+controller_manager_msgs_DIR:PATH=/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake
 
 //The directory containing a CMake configuration file for diff_drive_controller.
-diff_drive_controller_DIR:PATH=/opt/ros/humble/share/diff_drive_controller/cmake
+diff_drive_controller_DIR:PATH=/home/dkflippo/ros2_control_ws/install/diff_drive_controller/share/diff_drive_controller/cmake
 
 //The directory containing a CMake configuration file for eigen3_cmake_module.
 eigen3_cmake_module_DIR:PATH=/opt/ros/humble/share/eigen3_cmake_module/cmake
@@ -792,7 +792,7 @@ gazebo_dev_DIR:PATH=/opt/ros/humble/share/gazebo_dev/cmake
 gazebo_proto_msgs_lib:FILEPATH=/usr/lib/x86_64-linux-gnu/libgazebo_msgs.so
 
 //The directory containing a CMake configuration file for gazebo_ros2_control.
-gazebo_ros2_control_DIR:PATH=/home/dkflippo/aug2024/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake
+gazebo_ros2_control_DIR:PATH=/opt/ros/humble/share/gazebo_ros2_control/cmake
 
 //The directory containing a CMake configuration file for gazebo_ros.
 gazebo_ros_DIR:PATH=/opt/ros/humble/share/gazebo_ros/cmake
@@ -804,7 +804,7 @@ generate_parameter_library_DIR:PATH=/opt/ros/humble/share/generate_parameter_lib
 geometry_msgs_DIR:PATH=/opt/ros/humble/share/geometry_msgs/cmake
 
 //The directory containing a CMake configuration file for hardware_interface.
-hardware_interface_DIR:PATH=/opt/ros/humble/share/hardware_interface/cmake
+hardware_interface_DIR:PATH=/home/dkflippo/ros2_control_ws/install/hardware_interface/share/hardware_interface/cmake
 
 //The directory containing a CMake configuration file for ignition-cmake2.
 ignition-cmake2_DIR:PATH=/usr/share/cmake/ignition-cmake2
@@ -828,7 +828,7 @@ ignition-msgs5_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/ignition-msgs5
 ignition-transport8_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/ignition-transport8
 
 //The directory containing a CMake configuration file for joint_state_broadcaster.
-joint_state_broadcaster_DIR:PATH=/opt/ros/humble/share/joint_state_broadcaster/cmake
+joint_state_broadcaster_DIR:PATH=/home/dkflippo/ros2_control_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake
 
 //The directory containing a CMake configuration file for jsoncpp.
 jsoncpp_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/jsoncpp
@@ -1002,10 +1002,10 @@ rmw_implementation_cmake_DIR:PATH=/opt/ros/humble/share/rmw_implementation_cmake
 robot_state_publisher_DIR:PATH=/opt/ros/humble/share/robot_state_publisher/cmake
 
 //The directory containing a CMake configuration file for ros2_control.
-ros2_control_DIR:PATH=/opt/ros/humble/share/ros2_control/cmake
+ros2_control_DIR:PATH=/home/dkflippo/ros2_control_ws/install/ros2_control/share/ros2_control/cmake
 
 //The directory containing a CMake configuration file for ros2_controllers.
-ros2_controllers_DIR:PATH=/opt/ros/humble/share/ros2_controllers/cmake
+ros2_controllers_DIR:PATH=/home/dkflippo/ros2_control_ws/install/ros2_controllers/share/ros2_controllers/cmake
 
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/humble/share/rosgraph_msgs/cmake

@@ -428,12 +428,14 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
   /usr/include/c++/11/bits/locale_facets_nonio.tcc \
   /usr/include/c++/11/bits/locale_conv.h \
   /usr/include/c++/11/bits/quoted_string.h \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
   /opt/ros/humble/include/rcl/rcl/logging_rosout.h \
   /opt/ros/humble/include/rmw/rmw/incompatible_qos_events_statuses.h \
   /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
   /opt/ros/humble/include/rmw/rmw/error_handling.h \
   /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp \
@@ -482,6 +484,7 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/rate.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp \
@@ -497,6 +500,8 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp \
@@ -507,6 +512,8 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
   /usr/include/c++/11/cmath \
@@ -559,6 +566,7 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
@@ -567,6 +575,7 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp \
@@ -575,6 +584,7 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp \
   /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp \
   /opt/ros/humble/include/rcutils/rcutils/shared_library.h \
@@ -590,13 +600,16 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
   /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp \
@@ -629,26 +642,32 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp \
   /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
   /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
   /opt/ros/humble/include/rclcpp/rclcpp/parameter_map.hpp \
@@ -1711,21 +1730,23 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
   /opt/ros/humble/include/gazebo_ros/node_visibility_control.h \
   /opt/ros/humble/include/gazebo_ros/qos.hpp \
   /home/dkflippo/aug2024/src/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp \
-  /opt/ros/humble/include/controller_manager/controller_manager.hpp \
-  /opt/ros/humble/include/controller_interface/chainable_controller_interface.hpp \
-  /opt/ros/humble/include/controller_interface/controller_interface_base.hpp \
-  /opt/ros/humble/include/controller_interface/visibility_control.h \
-  /opt/ros/humble/include/hardware_interface/handle.hpp \
-  /opt/ros/humble/include/hardware_interface/macros.hpp \
-  /opt/ros/humble/include/hardware_interface/visibility_control.h \
-  /opt/ros/humble/include/hardware_interface/loaned_command_interface.hpp \
-  /opt/ros/humble/include/hardware_interface/loaned_state_interface.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager/include/controller_manager/controller_manager.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_interface/include/controller_interface/chainable_controller_interface.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_interface/include/controller_interface/controller_interface_base.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_interface/include/controller_interface/visibility_control.h \
+  /home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/handle.hpp \
+  /home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/macros.hpp \
+  /home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/visibility_control.h \
+  /home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/loaned_command_interface.hpp \
+  /home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/loaned_state_interface.hpp \
   /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp \
   /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
   /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \
   /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp \
   /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp \
   /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp \
+  /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp \
+  /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/rcl_lifecycle/rcl_lifecycle/rcl_lifecycle.h \
   /opt/ros/humble/include/rcl_lifecycle/rcl_lifecycle/data_types.h \
   /opt/ros/humble/include/rcl/rcl/rcl.h \
@@ -1748,64 +1769,75 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
   /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
   /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
   /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
-  /opt/ros/humble/include/controller_interface/controller_interface.hpp \
-  /opt/ros/humble/include/controller_manager/controller_spec.hpp \
-  /opt/ros/humble/include/hardware_interface/controller_info.hpp \
-  /opt/ros/humble/include/controller_manager/visibility_control.h \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/configure_controller.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__struct.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__builder.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__traits.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/list_controller_types.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__struct.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__builder.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__traits.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/list_controllers.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__struct.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__struct.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__struct.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__builder.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__traits.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__traits.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__traits.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/list_hardware_components.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__struct.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__struct.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_interface/include/controller_interface/controller_interface.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager/include/controller_manager/controller_spec.hpp \
+  /home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/controller_info.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager/include/controller_manager/visibility_control.h \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/configure_controller.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__struct.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__builder.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__traits.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__type_support.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_controller_types.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__struct.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__builder.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__traits.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__type_support.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_controllers.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__struct.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__struct.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__struct.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__builder.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__traits.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__traits.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__traits.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__type_support.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_hardware_components.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__struct.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__struct.hpp \
   /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__struct.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__builder.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__traits.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__traits.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__struct.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__builder.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__traits.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__traits.hpp \
   /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__traits.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__traits.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/list_hardware_interfaces.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__struct.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__builder.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__traits.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/load_controller.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__struct.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__builder.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__traits.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/reload_controller_libraries.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__struct.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__builder.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__traits.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/set_hardware_component_state.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__struct.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__builder.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__traits.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/switch_controller.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__struct.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__builder.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__traits.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/unload_controller.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__struct.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__builder.hpp \
-  /opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__traits.hpp \
-  /opt/ros/humble/include/hardware_interface/resource_manager.hpp \
-  /opt/ros/humble/include/hardware_interface/hardware_component_info.hpp \
-  /opt/ros/humble/include/hardware_interface/hardware_info.hpp \
-  /opt/ros/humble/include/hardware_interface/types/hardware_interface_return_values.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__traits.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__type_support.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_hardware_interfaces.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__struct.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__builder.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__traits.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/load_controller.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__struct.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__builder.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__traits.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__type_support.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/reload_controller_libraries.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__struct.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__builder.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__traits.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/set_hardware_component_state.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__struct.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__builder.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__traits.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__type_support.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/switch_controller.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__struct.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__builder.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__traits.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__type_support.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/unload_controller.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__struct.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__builder.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__traits.hpp \
+  /home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__type_support.hpp \
+  /home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/resource_manager.hpp \
+  /home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/hardware_component_info.hpp \
+  /home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/hardware_info.hpp \
+  /home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_return_values.hpp \
   /opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp \
   /opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp \
   /usr/include/console_bridge/console.h \
@@ -1832,6 +1864,8 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__type_support.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /usr/include/gazebo-11/gazebo/common/common.hh \
   /usr/include/gazebo-11/gazebo/common/Animation.hh \
   /usr/include/ignition/math6/ignition/math/Spline.hh \
@@ -2446,9 +2480,7 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
   /home/dkflippo/aug2024/src/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp \
   /opt/ros/humble/include/angles/angles/angles.h \
   /opt/ros/humble/include/control_toolbox/control_toolbox/pid.hpp \
-  /opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h \
-  /opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.h \
-  /opt/ros/humble/include/control_toolbox/control_toolbox/visibility_control.hpp \
+  /opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.hpp \
   /home/dkflippo/aug2024/src/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp \
   /usr/include/gazebo-11/gazebo/physics/Joint.hh \
   /usr/include/boost/any.hpp \
@@ -2522,16 +2554,18 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
   /usr/include/gazebo-11/gazebo/physics/SurfaceParams.hh \
   /usr/include/gazebo-11/gazebo/physics/UniversalJoint.hh \
   /usr/include/gazebo-11/gazebo/physics/UserCmdManager.hh \
-  /opt/ros/humble/include/hardware_interface/system_interface.hpp \
-  /opt/ros/humble/include/hardware_interface/types/lifecycle_state_names.hpp \
+  /home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/system_interface.hpp \
+  /home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/types/lifecycle_state_names.hpp \
   /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/state.hpp \
   /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__builder.hpp \
+  /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__type_support.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/bool.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__struct.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__builder.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__traits.hpp \
-  /opt/ros/humble/include/hardware_interface/component_parser.hpp \
-  /opt/ros/humble/include/hardware_interface/types/hardware_interface_type_values.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__type_support.hpp \
+  /home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/component_parser.hpp \
+  /home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_type_values.hpp \
   /usr/include/yaml-cpp/yaml.h \
   /usr/include/yaml-cpp/parser.h \
   /usr/include/yaml-cpp/dll.h \
@@ -2571,8 +2605,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/yaml-cpp/node/convert.h:
 
-/usr/include/yaml-cpp/node/iterator.h:
-
 /usr/include/yaml-cpp/node/detail/node_ref.h:
 
 /usr/include/yaml-cpp/node/detail/memory.h:
@@ -2603,15 +2635,19 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/yaml-cpp/parser.h:
 
-/usr/include/yaml-cpp/yaml.h:
+/home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_type_values.hpp:
+
+/home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/component_parser.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__type_support.hpp:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__builder.hpp:
 
-/opt/ros/humble/include/std_msgs/std_msgs/msg/bool.hpp:
-
 /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/state.hpp:
 
-/opt/ros/humble/include/hardware_interface/system_interface.hpp:
+/home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/types/lifecycle_state_names.hpp:
+
+/home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/system_interface.hpp:
 
 /usr/include/gazebo-11/gazebo/physics/UniversalJoint.hh:
 
@@ -2703,8 +2739,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/gazebo-11/gazebo/physics/Joint.hh:
 
-/home/dkflippo/aug2024/src/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:
-
 /opt/ros/humble/include/control_toolbox/control_toolbox/pid.hpp:
 
 /usr/include/gazebo-11/gazebo/physics/Base.hh:
@@ -2793,21 +2827,53 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/gazebo-11/gazebo/msgs/joystick.pb.h:
 
-/usr/include/boost/mpl/aux_/has_tag.hpp:
+/usr/include/gazebo-11/gazebo/msgs/joint_cmd.pb.h:
 
-/usr/include/c++/11/iostream:
+/usr/include/gazebo-11/gazebo/msgs/joint_animation.pb.h:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp:
+/usr/include/gazebo-11/gazebo/msgs/logical_camera_sensor.pb.h:
 
-/usr/include/boost/mpl/aux_/config/compiler.hpp:
+/usr/include/gazebo-11/gazebo/msgs/joint.pb.h:
 
-/usr/include/boost/mpl/aux_/msvc_never_true.hpp:
+/usr/include/gazebo-11/gazebo/msgs/inertial.pb.h:
 
-/usr/include/boost/predef/library/c.h:
+/usr/include/gazebo-11/gazebo/msgs/imu.pb.h:
 
-/usr/include/gazebo-11/gazebo/physics/physics.hh:
+/usr/include/gazebo-11/gazebo/msgs/images_stamped.pb.h:
 
-/usr/include/boost/preprocessor/repetition/enum_params.hpp:
+/usr/include/gazebo-11/gazebo/msgs/image_stamped.pb.h:
+
+/usr/include/gazebo-11/gazebo/msgs/hydra.pb.h:
+
+/usr/include/gazebo-11/gazebo/msgs/header.pb.h:
+
+/usr/include/gazebo-11/gazebo/msgs/gz_string_v.pb.h:
+
+/usr/include/gazebo-11/gazebo/msgs/gui_camera.pb.h:
+
+/usr/include/gazebo-11/gazebo/msgs/gui.pb.h:
+
+/usr/include/gazebo-11/gazebo/msgs/sensor_noise.pb.h:
+
+/usr/include/gazebo-11/gazebo/msgs/gps_sensor.pb.h:
+
+/usr/include/gazebo-11/gazebo/msgs/fog.pb.h:
+
+/usr/include/gazebo-11/gazebo/msgs/fluid.pb.h:
+
+/usr/include/gazebo-11/gazebo/msgs/factory.pb.h:
+
+/usr/include/gazebo-11/gazebo/msgs/empty.pb.h:
+
+/usr/include/gazebo-11/gazebo/msgs/density.pb.h:
+
+/usr/include/gazebo-11/gazebo/msgs/contactsensor.pb.h:
+
+/usr/include/gazebo-11/gazebo/msgs/wrench.pb.h:
+
+/usr/include/gazebo-11/gazebo/msgs/joint_wrench.pb.h:
+
+/usr/include/gazebo-11/gazebo/msgs/material.pb.h:
 
 /usr/include/boost/mpl/aux_/config/arrays.hpp:
 
@@ -2819,21 +2885,25 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/ignition/msgs5/ignition/msgs/joint_cmd.pb.h:
 
-/usr/include/boost/mpl/aux_/comparison_op.hpp:
-
 /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp:
 
 /usr/include/boost/preprocessor/variadic/elem.hpp:
+
+/usr/include/boost/type_traits/has_trivial_copy.hpp:
 
 /usr/include/boost/preprocessor/facilities/overload.hpp:
 
 /usr/include/boost/preprocessor/tuple/elem.hpp:
 
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__traits.hpp:
+
 /usr/include/boost/preprocessor/control/detail/while.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_deleter.hpp:
-
 /usr/include/boost/regex/config.hpp:
+
+/usr/include/gazebo-11/gazebo/msgs/int.pb.h:
+
+/usr/include/boost/preprocessor/logical/compl.hpp:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
 
@@ -2865,13 +2935,11 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/ignition/msgs5/ignition/msgs/wireless_nodes.pb.h:
 
-/usr/include/gazebo-11/gazebo/msgs/fog.pb.h:
-
-/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:
-
 /usr/include/c++/11/bits/ostream_insert.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/macros.hpp:
+
+/usr/include/boost/mpl/aux_/nttp_decl.hpp:
 
 /usr/include/boost/date_time/date_duration_types.hpp:
 
@@ -2889,8 +2957,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/numeric/conversion/bounds.hpp:
 
-/opt/ros/humble/include/controller_interface/controller_interface.hpp:
-
 /usr/include/boost/mpl/lambda_fwd.hpp:
 
 /usr/include/boost/mpl/aux_/config/eti.hpp:
@@ -2901,13 +2967,13 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/mpl/if.hpp:
 
+/usr/include/boost/numeric/conversion/detail/conversion_traits.hpp:
+
 /usr/include/boost/numeric/conversion/conversion_traits.hpp:
 
 /usr/include/boost/mpl/aux_/config/pp_counter.hpp:
 
 /usr/include/boost/type.hpp:
-
-/usr/include/boost/mpl/eval_if.hpp:
 
 /usr/include/google/protobuf/implicit_weak_message.h:
 
@@ -2925,15 +2991,11 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/x86_64-linux-gnu/libavutil/mathematics.h:
 
-/usr/include/ignition/msgs5/ignition/msgs/uint32.pb.h:
-
 /usr/include/boost/bind/bind_mf_cc.hpp:
 
 /usr/include/boost/mpl/aux_/config/intel.hpp:
 
 /usr/include/boost/date_time/gregorian_calendar.ipp:
-
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/switch_controller.hpp:
 
 /usr/include/boost/type_traits/is_base_and_derived.hpp:
 
@@ -2973,8 +3035,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/date_time/posix_time/posix_time_config.hpp:
 
-/usr/include/gazebo-11/gazebo/msgs/logical_camera_sensor.pb.h:
-
 /usr/include/c++/11/cerrno:
 
 /opt/ros/humble/include/rclcpp/rclcpp/intra_process_buffer_type.hpp:
@@ -3009,15 +3069,11 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/bind.hpp:
 
-/usr/include/boost/smart_ptr/detail/sp_has_sync_intrinsics.hpp:
-
 /usr/include/boost/current_function.hpp:
 
 /opt/ros/humble/include/rcl/rcl/event_callback.h:
 
 /usr/include/boost/atomic/ipc_atomic_ref.hpp:
-
-/opt/ros/humble/include/control_toolbox/control_toolbox/visibility_control.hpp:
 
 /usr/include/boost/throw_exception.hpp:
 
@@ -3049,11 +3105,9 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/c++/11/bits/fstream.tcc:
 
-/usr/include/boost/mpl/aux_/config/forwarding.hpp:
-
-/usr/include/boost/type_traits/is_integral.hpp:
-
 /usr/include/gazebo-11/gazebo/msgs/distortion.pb.h:
+
+/usr/include/boost/static_assert.hpp:
 
 /usr/include/ignition/msgs5/ignition/msgs/planegeom.pb.h:
 
@@ -3062,8 +3116,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/boost/date_time/date_duration.hpp:
 
 /usr/include/boost/type_traits/is_reference.hpp:
-
-/usr/include/boost/type_traits/is_void.hpp:
 
 /usr/include/boost/type_traits/add_reference.hpp:
 
@@ -3091,8 +3143,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/preprocessor/stringize.hpp:
 
-/usr/include/boost/system/detail/config.hpp:
-
 /usr/include/c++/11/bits/unique_lock.h:
 
 /opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:
@@ -3109,7 +3159,11 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/config/platform/linux.hpp:
 
+/usr/include/boost/config/detail/select_platform_config.hpp:
+
 /usr/include/boost/config/stdlib/libstdcpp3.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /usr/include/ignition/msgs5/ignition/msgs/serialized.pb.h:
 
@@ -3139,10 +3193,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/sdformat-9.7/sdf/Light.hh:
 
-/usr/include/c++/11/pstl/glue_algorithm_defs.h:
-
-/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h:
-
 /usr/include/sdformat-9.7/sdf/JointAxis.hh:
 
 /opt/ros/humble/include/rclcpp/rclcpp/future_return_code.hpp:
@@ -3151,19 +3201,13 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/ignition/fuel_tools4/ignition/fuel_tools/detail/Export.hh:
 
-/usr/include/sdformat-9.7/sdf/sdf_config.h:
-
-/usr/include/gazebo-11/gazebo/physics/MultiRayShape.hh:
-
-/usr/include/boost/core/checked_delete.hpp:
-
-/usr/include/boost/detail/indirect_traits.hpp:
-
 /usr/include/sdformat-9.7/sdf/Heightmap.hh:
 
 /usr/include/x86_64-linux-gnu/libavformat/version.h:
 
-/usr/include/ignition/msgs5/ignition/msgs/int64.pb.h:
+/usr/include/gazebo-11/gazebo/msgs/raysensor.pb.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp:
 
 /usr/include/sdformat-9.7/sdf/Frame.hh:
 
@@ -3174,6 +3218,8 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/boost/date_time/posix_time/posix_time_system.hpp:
 
 /usr/include/boost/none_t.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp:
 
 /usr/include/boost/type_traits/function_traits.hpp:
 
@@ -3196,6 +3242,8 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/sdformat-9.7/sdf/Sky.hh:
 
 /usr/include/boost/date_time/time_resolution_traits.hpp:
+
+/usr/include/sdformat-9.7/sdf/sdf_config.h:
 
 /usr/include/sdformat-9.7/sdf/Console.hh:
 
@@ -3239,6 +3287,10 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:
 
+/usr/include/ignition/msgs5/ignition/msgs/uint32.pb.h:
+
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_hardware_interfaces.hpp:
+
 /usr/include/ignition/math6/gz/math/RotationSpline.hh:
 
 /usr/include/boost/mpl/aux_/preprocessor/default_params.hpp:
@@ -3258,6 +3310,10 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/boost/utility/detail/result_of_iterate.hpp:
 
 /usr/include/ignition/math6/gz/math/Rand.hh:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/bool.hpp:
+
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__struct.hpp:
 
 /usr/include/boost/mpl/aux_/preprocessor/enum.hpp:
 
@@ -3286,8 +3342,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /opt/ros/humble/include/rcl/rcl/node.h:
 
 /usr/include/ignition/math6/gz/math/Ellipsoid.hh:
-
-/usr/include/boost/predef/compiler/digitalmars.h:
 
 /usr/include/ignition/math6/gz/math/Cylinder.hh:
 
@@ -3351,6 +3405,8 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/smart_ptr/detail/spinlock.hpp:
 
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__struct.hpp:
+
 /usr/include/google/protobuf/unknown_field_set.h:
 
 /usr/include/gazebo-11/gazebo/msgs/joint_wrench_stamped.pb.h:
@@ -3381,23 +3437,11 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp:
-
-/usr/include/gazebo-11/gazebo/msgs/raysensor.pb.h:
-
-/usr/include/ignition/msgs5/ignition/msgs/spheregeom.pb.h:
-
 /usr/include/c++/11/bits/deque.tcc:
 
 /usr/include/ignition/math6/gz/math/config.hh:
 
 /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/visibility_control.h:
-
-/usr/include/c++/11/bits/stl_deque.h:
-
-/usr/include/c++/11/deque:
-
-/opt/ros/humble/include/controller_interface/controller_interface_base.hpp:
 
 /usr/include/c++/11/stack:
 
@@ -3427,6 +3471,8 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/preprocessor/list/adt.hpp:
 
+/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.hpp:
+
 /usr/include/google/protobuf/map_entry.h:
 
 /usr/include/boost/type_index/stl_type_index.hpp:
@@ -3455,15 +3501,19 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/c++/11/bits/hash_bytes.h:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp:
+
 /opt/ros/humble/include/rcutils/rcutils/allocator.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp:
 
-/usr/include/boost/atomic/detail/atomic_impl.hpp:
-
 /usr/include/boost/config.hpp:
 
-/usr/include/boost/atomic/detail/float_sizes.hpp:
+/usr/include/gazebo-11/gazebo/msgs/plugin.pb.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:
+
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__struct.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
 
@@ -3477,17 +3527,15 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp:
+/usr/include/boost/type_traits/is_void.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp:
 
 /usr/include/c++/11/pstl/execution_defs.h:
 
 /usr/include/boost/smart_ptr/detail/sp_forward.hpp:
-
-/usr/include/boost/preprocessor/inc.hpp:
-
-/usr/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp:
 
@@ -3496,6 +3544,10 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/gazebo-11/gazebo/common/Battery.hh:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp:
+
+/usr/include/gazebo-11/gazebo/msgs/gps.pb.h:
+
+/usr/include/boost/mpl/aux_/na.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp:
 
@@ -3512,6 +3564,8 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/sdformat-9.7/sdf/system_util.hh:
 
 /usr/include/gazebo-11/gazebo/physics/CollisionState.hh:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp:
 
@@ -3547,9 +3601,21 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/thread/detail/platform_time.hpp:
 
+/usr/include/c++/11/bits/stl_deque.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp:
+
 /usr/include/boost/thread/detail/thread_safety.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp:
+
+/usr/include/gazebo-11/gazebo/physics/MultiRayShape.hh:
+
+/usr/include/boost/detail/indirect_traits.hpp:
+
+/usr/include/boost/core/checked_delete.hpp:
+
+/usr/include/boost/regex/v4/sub_match.hpp:
 
 /usr/include/boost/mpl/or.hpp:
 
@@ -3557,11 +3623,15 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h:
+
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_controller_types.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
 
@@ -3585,9 +3655,17 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /opt/ros/humble/include/rcutils/rcutils/shared_library.h:
 
-/usr/include/gazebo-11/gazebo/msgs/factory.pb.h:
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/unload_controller.hpp:
 
 /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp:
+
+/usr/include/boost/predef/compiler/digitalmars.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp:
+
+/usr/include/boost/limits.hpp:
+
+/usr/include/ignition/msgs5/ignition/msgs/sonar.pb.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp:
 
@@ -3623,6 +3701,8 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/optional/detail/optional_aligned_storage.hpp:
 
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__type_support.hpp:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:
@@ -3647,6 +3727,30 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/predef/library/c/vms.h:
 
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__struct.hpp:
+
+/opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp:
+
+/usr/include/c++/11/bits/atomic_base.h:
+
+/usr/include/c++/11/pstl/glue_numeric_defs.h:
+
+/usr/include/ignition/math6/gz/math/Triangle.hh:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp:
+
+/usr/include/c++/11/bitset:
+
+/opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp:
+
+/usr/include/sdformat-9.7/sdf/Material.hh:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp:
+
 /usr/include/c++/11/bits/stl_heap.h:
 
 /opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp:
@@ -3660,6 +3764,8 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp:
 
 /usr/include/c++/11/bits/stl_algo.h:
+
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__builder.hpp:
 
 /usr/include/boost/date_time/date.hpp:
 
@@ -3685,11 +3791,23 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/c++/11/stdexcept:
 
+/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h:
+
+/usr/include/c++/11/pstl/glue_algorithm_defs.h:
+
+/usr/include/boost/mpl/aux_/msvc_never_true.hpp:
+
+/usr/include/boost/predef/library/c.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp:
 
 /usr/include/c++/11/ios:
 
 /usr/include/c++/11/future:
+
+/usr/include/ignition/math6/gz/math/SphericalCoordinates.hh:
+
+/usr/include/boost/predef/compiler/metrowerks.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
@@ -3727,6 +3845,10 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/date_time/compiler_config.hpp:
 
+/home/dkflippo/aug2024/src/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:
+
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
 /usr/include/ignition/math6/gz/math/detail/Cylinder.hh:
 
 /usr/include/boost/move/detail/pointer_element.hpp:
@@ -3742,8 +3864,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/sdformat-9.7/sdf/Error.hh:
 
 /usr/include/boost/mpl/aux_/numeric_cast_utils.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/event.hpp:
 
 /usr/include/strings.h:
 
@@ -3787,6 +3907,10 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/core/ref.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp:
+
+/usr/include/boost/preprocessor/repetition/repeat_from_to.hpp:
+
 /opt/ros/humble/include/rcl/rcl/guard_condition.h:
 
 /usr/include/x86_64-linux-gnu/bits/signum-arch.h:
@@ -3813,17 +3937,23 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/ignition/msgs5/ignition/msgs/vector2d.pb.h:
 
+/usr/include/gazebo-11/gazebo/msgs/contacts.pb.h:
+
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/load_controller.hpp:
+
 /opt/ros/humble/include/gazebo_ros/node.hpp:
 
 /home/dkflippo/aug2024/src/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp:
 
 /opt/ros/humble/include/rcpputils/rcpputils/scope_exit.hpp:
 
-/usr/include/c++/11/bits/std_thread.h:
-
 /usr/include/boost/thread/detail/move.hpp:
 
 /usr/include/endian.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp:
+
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support.hpp:
 
 /usr/include/c++/11/bits/cpp_type_traits.h:
 
@@ -3853,21 +3983,13 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/ignition/msgs5/ignition/msgs/heightmapgeom.pb.h:
 
-/usr/include/boost/core/enable_if.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
 /usr/include/ignition/msgs5/ignition/msgs/twist.pb.h:
 
 /usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:
 
-/usr/include/ignition/math6/ignition/math/Color.hh:
-
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp:
 
 /usr/include/boost/get_pointer.hpp:
-
-/usr/include/boost/predef/language/cuda.h:
 
 /usr/include/ignition/math6/ignition/math/Vector2.hh:
 
@@ -3923,11 +4045,13 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/c++/11/tr1/beta_function.tcc:
 
-/opt/ros/humble/include/hardware_interface/types/hardware_interface_return_values.hpp:
-
 /usr/include/c++/11/bits/unique_ptr.h:
 
 /usr/include/c++/11/vector:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:
 
@@ -3959,6 +4083,10 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/c++/11/bits/algorithmfwd.h:
 
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp:
+
+/usr/include/boost/preprocessor/repeat.hpp:
+
 /opt/ros/humble/include/rcutils/rcutils/logging_macros.h:
 
 /usr/include/gazebo-11/gazebo/msgs/param.pb.h:
@@ -3977,19 +4105,13 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/predef/os/amigaos.h:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp:
-
-/usr/include/sdformat-9.7/sdf/Material.hh:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:
-
 /usr/include/boost/type_traits/is_arithmetic.hpp:
 
 /usr/include/alloca.h:
 
 /usr/include/linux/stddef.h:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/set_hardware_component_state.hpp:
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__type_support.hpp:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp:
 
@@ -3998,10 +4120,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/gazebo-11/gazebo/msgs/rest_login.pb.h:
 
 /usr/include/boost/thread/recursive_mutex.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__traits.hpp:
 
 /usr/include/ignition/math6/gz/math/Quaternion.hh:
 
@@ -4014,8 +4132,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/ignition/math6/gz/math/Vector4.hh:
 
 /opt/ros/humble/include/rcutils/rcutils/time.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
 /opt/ros/humble/include/rcl/rcl/arguments.h:
 
@@ -4117,8 +4233,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/predef/architecture/pyramid.h:
 
-/opt/ros/humble/include/hardware_interface/component_parser.hpp:
-
 /usr/include/c++/11/bits/stl_raw_storage_iter.h:
 
 /usr/include/boost/config/detail/select_compiler_config.hpp:
@@ -4136,6 +4250,16 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/x86_64-linux-gnu/bits/signum-generic.h:
 
 /usr/include/c++/11/cstdlib:
+
+/usr/include/c++/11/numeric:
+
+/usr/include/boost/mpl/aux_/config/dependent_nttp.hpp:
+
+/usr/include/ignition/common3/ignition/common/profiler/Export.hh:
+
+/usr/include/boost/predef/compiler/mpw.h:
+
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__traits.hpp:
 
 /usr/include/c++/11/new:
 
@@ -4155,7 +4279,11 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__traits.hpp:
+/usr/include/boost/iterator/detail/config_undef.hpp:
+
+/usr/include/gazebo-11/gazebo/msgs/gz_string.pb.h:
+
+/usr/include/sdformat-9.7/sdf/Altimeter.hh:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
@@ -4163,9 +4291,9 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/console_bridge_export.h:
 
-/usr/include/gazebo-11/gazebo/msgs/joint_animation.pb.h:
-
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
@@ -4214,14 +4342,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/boost/thread/futures/future_error.hpp:
 
 /usr/include/c++/11/bits/std_mutex.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp:
-
-/usr/include/c++/11/bitset:
-
-/opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp:
-
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__builder.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
@@ -4277,10 +4397,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /opt/ros/humble/include/rcutils/rcutils/qsort.h:
 
-/opt/ros/humble/include/hardware_interface/controller_info.hpp:
-
-/usr/include/gazebo-11/gazebo/common/ColladaLoader.hh:
-
 /usr/include/c++/11/bits/invoke.h:
 
 /usr/include/boost/preprocessor/arithmetic/sub.hpp:
@@ -4288,8 +4404,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp:
 
 /usr/include/boost/predef/architecture/z.h:
-
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/reload_controller_libraries.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
@@ -4302,6 +4416,8 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:
 
 /usr/include/c++/11/debug/debug.h:
+
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__builder.hpp:
 
 /usr/include/boost/regex/v4/iterator_traits.hpp:
 
@@ -4319,13 +4435,19 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/features-time64.h:
 
+/usr/include/yaml-cpp/yaml.h:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp:
+
 /opt/ros/humble/include/rcl/rcl/node_options.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /opt/ros/humble/include/rcl/rcl/publisher.h:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__builder.hpp:
+/usr/include/boost/type_traits/make_signed.hpp:
+
+/usr/include/linux/close_range.h:
 
 /usr/include/boost/numeric/conversion/detail/bounds.hpp:
 
@@ -4333,11 +4455,11 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/c++/11/bits/codecvt.h:
 
-/usr/include/gazebo-11/gazebo/msgs/fluid.pb.h:
-
 /usr/include/boost/preprocessor/empty.hpp:
 
 /usr/include/c++/11/bits/range_access.h:
+
+/home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_return_values.hpp:
 
 /usr/include/boost/atomic/detail/extra_ops_generic.hpp:
 
@@ -4377,15 +4499,19 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/c++/11/bits/node_handle.h:
 
-/opt/ros/humble/include/controller_manager/controller_manager.hpp:
+/usr/include/c++/11/iostream:
 
-/usr/include/gazebo-11/gazebo/msgs/hydra.pb.h:
+/usr/include/boost/mpl/aux_/has_tag.hpp:
+
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__traits.hpp:
 
 /usr/include/c++/11/bits/stl_algobase.h:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
 /usr/include/boost/preprocessor/repetition/enum_shifted_params.hpp:
+
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp:
 
 /usr/include/ignition/math6/gz/math/RollingMean.hh:
 
@@ -4396,6 +4522,8 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__type_support.hpp:
 
 /usr/include/boost/predef/other.h:
 
@@ -4433,8 +4561,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/atomic/detail/type_traits/is_signed.hpp:
 
-/usr/include/boost/atomic/detail/memory_order_utils.hpp:
-
 /usr/include/c++/11/bits/functexcept.h:
 
 /usr/include/stdlib.h:
@@ -4446,6 +4572,8 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/sdformat-9.7/sdf/World.hh:
 
 /usr/include/boost/type_traits/add_const.hpp:
+
+/usr/include/gazebo-11/gazebo/msgs/friction.pb.h:
 
 /usr/include/gazebo-11/gazebo/msgs/light.pb.h:
 
@@ -4462,6 +4590,12 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp:
 
 /usr/include/c++/11/locale:
+
+/usr/include/c++/11/bits/std_thread.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/usr/include/boost/regex/config/cwchar.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:
 
@@ -4501,12 +4635,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/c++/11/bits/this_thread_sleep.h:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__traits.hpp:
-
-/usr/include/c++/11/bits/atomic_base.h:
-
-/opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp:
-
 /usr/include/x86_64-linux-gnu/libavutil/opt.h:
 
 /usr/include/boost/preprocessor/list/detail/fold_right.hpp:
@@ -4518,6 +4646,8 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/boost/date_time/special_defs.hpp:
 
 /usr/include/boost/thread/csbl/memory/shared_ptr.hpp:
+
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.hpp:
 
 /usr/include/c++/11/bits/locale_classes.tcc:
 
@@ -4538,6 +4668,10 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/boost/predef/architecture/alpha.h:
 
 /usr/include/c++/11/complex:
+
+/usr/include/boost/system/detail/config.hpp:
+
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__traits.hpp:
 
 /usr/include/boost/operators.hpp:
 
@@ -4563,13 +4697,13 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/mpl/integral_c.hpp:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__struct.hpp:
-
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
 /usr/include/c++/11/ext/type_traits.h:
 
 /usr/include/boost/system/system_error.hpp:
+
+/usr/include/boost/predef/language/cuda.h:
 
 /usr/include/boost/bind/mem_fn_template.hpp:
 
@@ -4586,6 +4720,8 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/boost/predef/compiler/ibm.h:
 
 /usr/include/ignition/msgs5/ignition/msgs/performance_sensor_metrics.pb.h:
+
+/usr/include/c++/11/cwchar:
 
 /usr/include/boost/predef/platform/windows_uwp.h:
 
@@ -4621,10 +4757,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/atomic/detail/link.hpp:
 
-/usr/include/boost/iterator/detail/config_undef.hpp:
-
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__struct.hpp:
-
 /opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:
@@ -4647,12 +4779,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/thread/executors/executor_adaptor.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:
-
-/usr/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp:
-
 /usr/include/boost/thread/detail/thread_interruption.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
@@ -4660,8 +4786,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/boost/preprocessor/iteration/detail/bounds/lower1.hpp:
 
 /usr/include/c++/11/bits/charconv.h:
-
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/load_controller.hpp:
 
 /usr/include/gazebo-11/gazebo/physics/Contact.hh:
 
@@ -4679,8 +4803,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
-/opt/ros/humble/include/hardware_interface/types/hardware_interface_type_values.hpp:
-
 /usr/include/boost/mpl/aux_/yes_no.hpp:
 
 /usr/include/sdformat-9.7/sdf/Types.hh:
@@ -4697,15 +4819,9 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/thread/futures/future_status.hpp:
 
-/usr/include/c++/11/pstl/glue_numeric_defs.h:
-
-/usr/include/ignition/math6/gz/math/Triangle.hh:
-
 /usr/include/boost/mpl/bool_fwd.hpp:
 
 /usr/include/boost/thread.hpp:
-
-/usr/include/gazebo-11/gazebo/msgs/header.pb.h:
 
 /usr/include/c++/11/backward/binders.h:
 
@@ -4726,8 +4842,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/boost/regex/v4/regex_traits_defaults.hpp:
 
 /usr/include/boost/mpl/aux_/config/lambda.hpp:
-
-/usr/include/boost/mpl/aux_/config/has_xxx.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
@@ -4756,6 +4870,10 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
 /usr/include/sdformat-9.7/sdf/Visual.hh:
+
+/usr/include/gazebo-11/gazebo/common/PID.hh:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
 /usr/include/c++/11/bits/specfun.h:
 
@@ -4795,6 +4913,8 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/c++/11/cassert:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp:
+
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp:
 
 /usr/include/c++/11/ostream:
@@ -4812,6 +4932,8 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/gazebo-11/gazebo/msgs/quaternion.pb.h:
 
 /usr/include/c++/11/bits/streambuf.tcc:
+
+/home/dkflippo/ros2_control_ws/install/controller_manager/include/controller_manager/controller_spec.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
@@ -4935,6 +5057,8 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /opt/ros/humble/include/rcutils/rcutils/error_handling.h:
 
+/home/dkflippo/ros2_control_ws/install/controller_interface/include/controller_interface/controller_interface_base.hpp:
+
 /usr/include/c++/11/stdlib.h:
 
 /opt/ros/humble/include/rcutils/rcutils/types/array_list.h:
@@ -4943,15 +5067,9 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/ignition/msgs5/ignition/msgs/world_control.pb.h:
 
-/usr/include/boost/preprocessor/array/size.hpp:
-
-/opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp:
-
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__struct.hpp:
-
 /opt/ros/humble/include/rcutils/rcutils/snprintf.h:
 
-/usr/include/boost/preprocessor/array/data.hpp:
+/usr/include/boost/move/traits.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_enable_topic_statistics.hpp:
 
@@ -4985,6 +5103,10 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /opt/ros/humble/include/rcl/rcl/error_handling.h:
 
+/home/dkflippo/ros2_control_ws/install/controller_interface/include/controller_interface/chainable_controller_interface.hpp:
+
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__traits.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp:
 
 /usr/include/boost/mpl/logical.hpp:
@@ -5011,6 +5133,8 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/c++/11/tr1/bessel_function.tcc:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp:
+
 /usr/include/gazebo-11/gazebo/physics/PhysicsIface.hh:
 
 /usr/include/c++/11/ext/alloc_traits.h:
@@ -5028,6 +5152,8 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/ignition/math6/gz/math/Angle.hh:
 
 /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:
+
+/usr/include/boost/mpl/aux_/config/has_xxx.hpp:
 
 /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h:
 
@@ -5089,6 +5215,8 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /opt/ros/humble/include/rcl/rcl/timer.h:
 
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__traits.hpp:
+
 /usr/include/c++/11/ext/atomicity.h:
 
 /usr/include/ignition/msgs5/ignition/msgs/empty.pb.h:
@@ -5121,9 +5249,9 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/smart_ptr/detail/sp_counted_base_gcc_atomic.hpp:
 
-/opt/ros/humble/include/rcl/rcl/time.h:
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__builder.hpp:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/list_hardware_interfaces.hpp:
+/opt/ros/humble/include/rcl/rcl/time.h:
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
@@ -5191,12 +5319,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/ignition/msgs5/ignition/msgs/Export.hh:
 
-/usr/include/boost/preprocessor/list/fold_right.hpp:
-
-/usr/include/boost/preprocessor/repetition/enum_trailing_params.hpp:
-
-/usr/include/c++/11/sstream:
-
 /opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:
@@ -5209,15 +5331,25 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/thread/shared_lock_guard.hpp:
 
-/usr/include/boost/mpl/void.hpp:
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp:
+
+/usr/include/boost/atomic/detail/fp_ops_generic.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp:
+
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__struct.hpp:
 
 /opt/ros/humble/include/rcpputils/rcpputils/visibility_control.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__struct.hpp:
+/usr/include/boost/preprocessor/inc.hpp:
+
+/opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp:
+
+/usr/include/boost/preprocessor/array/size.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:
 
@@ -5229,11 +5361,11 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:
 
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__builder.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
 
 /usr/include/boost/move/detail/type_traits.hpp:
-
-/usr/include/x86_64-linux-gnu/libavutil/channel_layout.h:
 
 /usr/include/boost/type_traits/integral_constant.hpp:
 
@@ -5273,8 +5405,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__struct.hpp:
-
 /usr/include/ignition/msgs5/ignition/msgs/occupancy_grid.pb.h:
 
 /usr/include/boost/mpl/apply_wrap.hpp:
@@ -5297,11 +5427,15 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp:
 
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__type_support.hpp:
+
 /usr/include/c++/11/bits/locale_conv.h:
 
-/opt/ros/humble/include/rcl/rcl/logging_rosout.h:
+/usr/include/boost/smart_ptr/detail/sp_has_sync_intrinsics.hpp:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:
+
+/opt/ros/humble/include/rcl/rcl/logging_rosout.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/exceptions.hpp:
 
@@ -5316,8 +5450,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/ignition/msgs5/ignition/msgs/entity_factory_v.pb.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/publisher_base.hpp:
-
-/usr/include/boost/type_traits/has_plus_assign.hpp:
 
 /usr/include/boost/mpl/arg_fwd.hpp:
 
@@ -5515,8 +5647,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__traits.hpp:
-
 /usr/include/c++/11/tr1/riemann_zeta.tcc:
 
 /usr/include/gazebo-11/gazebo/physics/Hinge2Joint.hh:
@@ -5529,17 +5659,29 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
 
-/usr/include/ignition/common3/ignition/common/profiler/Export.hh:
+/usr/include/ignition/msgs5/ignition/msgs/spheregeom.pb.h:
 
-/usr/include/boost/predef/compiler/mpw.h:
+/usr/include/boost/preprocessor/array/data.hpp:
 
-/usr/include/c++/11/numeric:
+/usr/include/gazebo-11/gazebo/physics/physics.hh:
 
-/usr/include/boost/mpl/aux_/config/dependent_nttp.hpp:
+/usr/include/boost/preprocessor/repetition/enum_params.hpp:
 
-/usr/include/boost/type_traits/make_signed.hpp:
+/usr/include/boost/preprocessor/list/fold_right.hpp:
 
-/usr/include/linux/close_range.h:
+/usr/include/c++/11/sstream:
+
+/usr/include/boost/preprocessor/repetition/enum_trailing_params.hpp:
+
+/usr/include/boost/mpl/aux_/config/compiler.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp:
+
+/usr/include/boost/mpl/void.hpp:
+
+/usr/include/boost/type_traits/is_integral.hpp:
+
+/usr/include/boost/mpl/aux_/config/forwarding.hpp:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/equal_to.hpp:
 
@@ -5559,11 +5701,7 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/numeric/conversion/detail/udt_builtin_mixture.hpp:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/configure_controller.hpp:
-
 /usr/include/boost/numeric/conversion/udt_builtin_mixture_enum.hpp:
-
-/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.h:
 
 /usr/include/boost/optional/optional_fwd.hpp:
 
@@ -5579,8 +5717,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/gazebo-11/gazebo/common/MeshLoader.hh:
 
-/usr/include/gazebo-11/gazebo/msgs/contacts.pb.h:
-
 /usr/include/c++/11/bits/regex_automaton.h:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/less.hpp:
@@ -5589,11 +5725,9 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/numeric/conversion/detail/converter.hpp:
 
-/usr/include/boost/mpl/aux_/config/integral.hpp:
-
-/usr/include/boost/type_traits/is_const.hpp:
-
 /usr/include/boost/thread/thread.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp:
 
 /usr/include/c++/11/bits/stl_multimap.h:
 
@@ -5623,6 +5757,12 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/atomic/detail/wait_ops_futex.hpp:
 
+/usr/include/gazebo-11/gazebo/msgs/imu_sensor.pb.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/boost/chrono/config.hpp:
+
 /usr/include/boost/thread/detail/make_tuple_indices.hpp:
 
 /usr/include/boost/predef/language/stdc.h:
@@ -5640,8 +5780,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/boost/predef/language/stdcpp.h:
 
 /usr/include/boost/predef/language/objc.h:
-
-/usr/include/boost/predef/architecture.h:
 
 /usr/include/boost/thread/executors/executor.hpp:
 
@@ -5721,19 +5859,25 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/predef/compiler/kai.h:
 
+/usr/include/boost/atomic/detail/atomic_impl.hpp:
+
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__struct.hpp:
+
 /usr/include/boost/predef/compiler/llvm.h:
 
 /opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_changed.h:
 
 /usr/include/boost/mpl/next_prior.hpp:
 
+/usr/include/c++/11/deque:
+
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__type_support.hpp:
+
 /usr/include/boost/regex/v4/indexed_bit_flag.hpp:
 
 /usr/include/boost/predef/compiler/metaware.h:
 
 /opt/ros/humble/include/rcl_lifecycle/rcl_lifecycle/data_types.h:
-
-/usr/include/gazebo-11/gazebo/msgs/contactsensor.pb.h:
 
 /usr/include/google/protobuf/map_entry_lite.h:
 
@@ -5753,6 +5897,10 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/predef/compiler/tendra.h:
 
+/usr/include/boost/mem_fn.hpp:
+
+/usr/include/boost/predef/compiler/visualc.h:
+
 /usr/include/boost/predef/compiler/watcom.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:
@@ -5767,11 +5915,17 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/predef/library/c/_prefix.h:
 
-/usr/include/gazebo-11/gazebo/msgs/material.pb.h:
+/usr/include/boost/predef/os/hpux.h:
 
 /usr/include/boost/predef/library/c/gnu.h:
 
 /usr/include/boost/predef/platform/mingw32.h:
+
+/usr/include/gazebo-11/gazebo/msgs/contact.pb.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp:
+
+/usr/include/boost/predef/library/c/zos.h:
 
 /usr/include/boost/predef/library/std.h:
 
@@ -5787,6 +5941,10 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/predef/library/std/msl.h:
 
+/usr/include/sdformat-9.7/sdf/Collision.hh:
+
+/usr/include/boost/predef/library/std/roguewave.h:
+
 /usr/include/boost/predef/library/std/sgi.h:
 
 /usr/include/boost/next_prior.hpp:
@@ -5794,6 +5952,8 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/boost/predef/os.h:
 
 /usr/include/boost/predef/os/aix.h:
+
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__struct.hpp:
 
 /usr/include/boost/chrono/detail/is_evenly_divisible_by.hpp:
 
@@ -5808,6 +5968,12 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/boost/predef/os/ios.h:
 
 /usr/include/boost/predef/os/bsd/bsdi.h:
+
+/usr/include/ignition/common3/ignition/common/URI.hh:
+
+/usr/include/c++/11/ext/concurrence.h:
+
+/usr/include/boost/predef/os/bsd/free.h:
 
 /usr/include/gazebo-11/gazebo/physics/JointController.hh:
 
@@ -5824,6 +5990,8 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/x86_64-linux-gnu/asm/param.h:
 
 /usr/include/boost/predef/os/qnxnto.h:
+
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /usr/include/ignition/math6/ignition/math/AxisAlignedBox.hh:
 
@@ -5846,8 +6014,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/boost/predef/platform/android.h:
 
 /usr/include/boost/predef/platform.h:
-
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__traits.hpp:
 
 /usr/include/boost/mpl/always.hpp:
 
@@ -5899,12 +6065,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/predef/hardware/simd/arm.h:
 
-/usr/include/sdformat-9.7/sdf/Collision.hh:
-
-/usr/include/boost/predef/library/std/roguewave.h:
-
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__builder.hpp:
-
 /usr/include/boost/predef/hardware/simd/ppc.h:
 
 /usr/include/boost/chrono/detail/static_assert.hpp:
@@ -5918,6 +6078,10 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
 
 /usr/include/gazebo-11/gazebo/common/Event.hh:
+
+/usr/include/boost/atomic/detail/memory_order_utils.hpp:
+
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
@@ -6023,12 +6187,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/x86_64-linux-gnu/libavutil/version.h:
 
-/usr/include/boost/predef/compiler/visualc.h:
-
-/usr/include/boost/mem_fn.hpp:
-
-/usr/include/boost/regex/config/cwchar.hpp:
-
 /usr/include/boost/bind/mem_fn.hpp:
 
 /usr/include/gazebo-11/gazebo/msgs/diagnostics.pb.h:
@@ -6053,6 +6211,8 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/utility/result_of.hpp:
 
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__struct.hpp:
+
 /usr/include/ignition/math6/ignition/math/Matrix4.hh:
 
 /usr/include/boost/visit_each.hpp:
@@ -6070,8 +6230,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/ignition/math6/gz/math/Vector3Stats.hh:
 
 /usr/include/boost/bind/bind_cc.hpp:
-
-/usr/include/gazebo-11/gazebo/msgs/imu.pb.h:
 
 /usr/include/boost/bind/placeholders.hpp:
 
@@ -6099,8 +6257,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/integer_fwd.hpp:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__struct.hpp:
-
 /usr/include/boost/container_hash/extensions.hpp:
 
 /usr/include/boost/tuple/tuple.hpp:
@@ -6116,6 +6272,8 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/boost/thread/csbl/memory/config.hpp:
 
 /usr/include/boost/move/detail/unique_ptr_meta_utils.hpp:
+
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__traits.hpp:
 
 /usr/include/boost/move/adl_move_swap.hpp:
 
@@ -6151,6 +6309,8 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/atomic/detail/core_operations_emulated_fwd.hpp:
 
+/home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/macros.hpp:
+
 /usr/include/boost/atomic/detail/futex.hpp:
 
 /usr/include/boost/atomic/detail/addressof.hpp:
@@ -6167,8 +6327,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__traits.hpp:
-
 /usr/include/x86_64-linux-gnu/asm/unistd.h:
 
 /usr/include/x86_64-linux-gnu/libavutil/hwcontext.h:
@@ -6182,8 +6340,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/boost/thread/pthread/condition_variable_fwd.hpp:
 
 /usr/include/linux/types.h:
-
-/opt/ros/humble/include/hardware_interface/visibility_control.h:
 
 /usr/include/x86_64-linux-gnu/asm/types.h:
 
@@ -6210,8 +6366,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/ignition/msgs5/ignition/msgs/density.pb.h:
 
 /usr/include/boost/atomic/detail/caps_arch_gcc_x86.hpp:
-
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__traits.hpp:
 
 /usr/include/ignition/msgs5/ignition/msgs/model_v.pb.h:
 
@@ -6253,17 +6407,11 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/type_traits/is_volatile.hpp:
 
-/opt/ros/humble/include/hardware_interface/types/lifecycle_state_names.hpp:
-
 /usr/include/boost/type_traits/make_unsigned.hpp:
 
 /usr/include/boost/atomic/detail/core_arch_operations.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp:
-
-/usr/include/boost/predef/library/c/zos.h:
-
-/usr/include/gazebo-11/gazebo/msgs/contact.pb.h:
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__type_support.hpp:
 
 /usr/include/boost/atomic/detail/core_arch_ops_gcc_x86.hpp:
 
@@ -6273,8 +6421,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/atomic/detail/pause.hpp:
 
-/usr/include/gazebo-11/gazebo/msgs/empty.pb.h:
-
 /usr/include/boost/atomic/detail/wait_operations_fwd.hpp:
 
 /usr/include/gazebo-11/gazebo/msgs/magnetometer.pb.h:
@@ -6283,13 +6429,9 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/atomic/detail/type_traits/conditional.hpp:
 
+/usr/include/gazebo-11/gazebo/msgs/vector3d.pb.h:
+
 /usr/include/x86_64-linux-gnu/libavutil/error.h:
-
-/usr/include/boost/atomic/detail/fp_ops_generic.hpp:
-
-/usr/include/boost/config/detail/select_platform_config.hpp:
-
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__traits.hpp:
 
 /usr/include/boost/atomic/detail/extra_fp_ops_generic.hpp:
 
@@ -6343,8 +6485,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/preprocessor/slot/slot.hpp:
 
-/usr/include/gazebo-11/gazebo/msgs/gui.pb.h:
-
 /usr/include/boost/preprocessor/slot/detail/def.hpp:
 
 /usr/include/boost/preprocessor/facilities/intercept.hpp:
@@ -6371,8 +6511,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/core/swap.hpp:
 
-/usr/include/boost/preprocessor/repetition/repeat_from_to.hpp:
-
 /usr/include/boost/config/detail/select_stdlib_config.hpp:
 
 /usr/include/boost/thread/detail/variadic_footer.hpp:
@@ -6380,10 +6518,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/c++/11/backward/auto_ptr.h:
 
 /usr/include/boost/exception_ptr.hpp:
-
-/usr/include/boost/atomic/detail/config.hpp:
-
-/usr/include/boost/exception/info.hpp:
 
 /usr/include/boost/exception/to_string.hpp:
 
@@ -6421,8 +6555,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_package_prefix.hpp:
 
-/usr/include/boost/exception/diagnostic_information.hpp:
-
 /usr/include/boost/atomic/detail/extra_ops_gcc_x86.hpp:
 
 /usr/include/boost/exception/get_error_info.hpp:
@@ -6451,13 +6583,7 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/thread/futures/wait_for_any.hpp:
 
-/usr/include/boost/static_assert.hpp:
-
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/unload_controller.hpp:
-
 /usr/include/boost/type_traits/detail/has_binary_operator.hpp:
-
-/usr/include/boost/type_traits/remove_pointer.hpp:
 
 /usr/include/c++/11/fstream:
 
@@ -6488,6 +6614,10 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/boost/smart_ptr/make_shared_object.hpp:
 
 /usr/include/boost/iterator/iterator_adaptor.hpp:
+
+/usr/include/gazebo-11/gazebo/msgs/sensor.pb.h:
+
+/usr/include/gazebo-11/gazebo/common/Video.hh:
 
 /usr/include/boost/config/detail/suffix.hpp:
 
@@ -6533,6 +6663,12 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h:
 
+/usr/include/boost/mpl/aux_/template_arity_fwd.hpp:
+
+/usr/include/boost/function.hpp:
+
+/usr/include/boost/mpl/aux_/has_type.hpp:
+
 /usr/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp:
 
 /usr/include/ignition/msgs5/ignition/msgs/response.pb.h:
@@ -6553,14 +6689,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/thread/executor.hpp:
 
-/usr/include/ignition/common3/ignition/common/URI.hh:
-
-/usr/include/c++/11/ext/concurrence.h:
-
-/usr/include/boost/predef/os/bsd/free.h:
-
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/list_controllers.hpp:
-
 /usr/include/boost/thread/executors/generic_executor_ref.hpp:
 
 /usr/include/ignition/transport8/ignition/transport/SubscriptionHandler.hh:
@@ -6570,6 +6698,8 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/boost/optional/optional.hpp:
 
 /usr/include/boost/type_traits/alignment_of.hpp:
+
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__builder.hpp:
 
 /usr/include/c++/11/typeinfo:
 
@@ -6598,16 +6728,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/boost/optional/detail/optional_relops.hpp:
 
 /usr/include/boost/optional/detail/optional_swap.hpp:
-
-/usr/include/boost/mpl/aux_/template_arity_fwd.hpp:
-
-/usr/include/boost/mpl/aux_/has_type.hpp:
-
-/usr/include/boost/function.hpp:
-
-/usr/include/boost/limits.hpp:
-
-/usr/include/ignition/msgs5/ignition/msgs/sonar.pb.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
 
@@ -6701,33 +6821,23 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /opt/ros/humble/include/gazebo_ros/node_visibility_control.h:
 
-/opt/ros/humble/include/controller_interface/chainable_controller_interface.hpp:
+/usr/include/boost/mpl/aux_/comparison_op.hpp:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__struct.hpp:
+/home/dkflippo/ros2_control_ws/install/controller_manager/include/controller_manager/controller_manager.hpp:
 
-/opt/ros/humble/include/controller_interface/visibility_control.h:
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__traits.hpp:
 
-/usr/include/gazebo-11/gazebo/msgs/joint_cmd.pb.h:
+/usr/include/ignition/msgs5/ignition/msgs/altimeter_sensor.pb.h:
 
-/opt/ros/humble/include/hardware_interface/handle.hpp:
+/home/dkflippo/ros2_control_ws/install/controller_interface/include/controller_interface/visibility_control.h:
 
-/usr/include/yaml-cpp/node/detail/node_data.h:
+/home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/handle.hpp:
 
-/usr/include/sdformat-9.7/sdf/Pbr.hh:
+/home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/visibility_control.h:
 
-/opt/ros/humble/include/tracetools/tracetools/utils.hpp:
+/home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:
 
-/usr/include/dlfcn.h:
-
-/opt/ros/humble/include/hardware_interface/macros.hpp:
-
-/usr/include/boost/move/traits.hpp:
-
-/opt/ros/humble/include/hardware_interface/loaned_command_interface.hpp:
-
-/usr/include/boost/numeric/conversion/detail/conversion_traits.hpp:
-
-/opt/ros/humble/include/hardware_interface/loaned_state_interface.hpp:
+/home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/loaned_state_interface.hpp:
 
 /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp:
 
@@ -6738,6 +6848,14 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/gazebo-11/gazebo/common/Time.hh:
 
 /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp:
+
+/usr/include/ignition/msgs5/ignition/msgs/int64.pb.h:
+
+/opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_deleter.hpp:
+
+/opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /usr/include/sdformat-9.7/sdf/Physics.hh:
 
@@ -6751,11 +6869,11 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__struct.hpp:
-
 /usr/include/boost/regex/v4/basic_regex.hpp:
 
 /usr/include/ignition/msgs5/ignition/msgs/Filesystem.hh:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp:
 
 /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h:
 
@@ -6767,8 +6885,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h:
 
-/opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h:
-
 /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp:
 
 /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp:
@@ -6779,97 +6895,109 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/x86_64-linux-gnu/libavformat/avio.h:
 
-/usr/include/boost/predef/os/hpux.h:
+/opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h:
 
-/opt/ros/humble/include/controller_manager/controller_spec.hpp:
+/home/dkflippo/ros2_control_ws/install/controller_interface/include/controller_interface/controller_interface.hpp:
 
-/usr/include/gazebo-11/gazebo/msgs/camera_lens.pb.h:
+/usr/include/x86_64-linux-gnu/libavutil/channel_layout.h:
 
-/opt/ros/humble/include/controller_manager/visibility_control.h:
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__builder.hpp:
 
-/usr/include/gazebo-11/gazebo/common/VideoEncoder.hh:
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__struct.hpp:
+/home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/controller_info.hpp:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__builder.hpp:
+/usr/include/boost/type_traits/has_plus_assign.hpp:
 
-/usr/include/c++/11/cwchar:
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__struct.hpp:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__traits.hpp:
+/usr/include/boost/type_traits/remove_pointer.hpp:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/list_controller_types.hpp:
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/configure_controller.hpp:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__struct.hpp:
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__traits.hpp:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__struct.hpp:
+/usr/include/ignition/transport8/ignition/transport/Uuid.hh:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__struct.hpp:
+/usr/include/yaml-cpp/node/iterator.h:
 
-/usr/include/ignition/msgs5/ignition/msgs/fuel_metadata.pb.h:
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_controllers.hpp:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__builder.hpp:
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__builder.hpp:
 
-/usr/include/boost/type_traits/add_pointer.hpp:
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__traits.hpp:
 
-/usr/include/ignition/msgs5/ignition/msgs/hydra.pb.h:
+/usr/include/ignition/msgs5/ignition/msgs/raysensor.pb.h:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__traits.hpp:
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__traits.hpp:
 
-/usr/include/gazebo-11/gazebo/msgs/inertial.pb.h:
+/usr/include/boost/atomic/detail/config.hpp:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/list_hardware_components.hpp:
+/usr/include/boost/exception/info.hpp:
 
-/usr/include/boost/mpl/aux_/nttp_decl.hpp:
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__traits.hpp:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__struct.hpp:
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__type_support.hpp:
+
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_hardware_components.hpp:
+
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__struct.hpp:
 
 /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.hpp:
 
-/usr/include/gazebo-11/gazebo/msgs/vector3d.pb.h:
+/usr/include/boost/predef/architecture.h:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__traits.hpp:
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__struct.hpp:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__builder.hpp:
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__builder.hpp:
 
-/usr/include/gazebo-11/gazebo/msgs/friction.pb.h:
+/usr/include/boost/mpl/eval_if.hpp:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__builder.hpp:
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__struct.hpp:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__traits.hpp:
+/usr/include/ignition/msgs5/ignition/msgs/config.hh:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__builder.hpp:
+/usr/include/boost/atomic/detail/float_sizes.hpp:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__traits.hpp:
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/reload_controller_libraries.hpp:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__struct.hpp:
+/usr/include/gazebo-11/gazebo/common/ColladaLoader.hh:
 
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp:
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__struct.hpp:
 
-/usr/include/boost/preprocessor/repeat.hpp:
+/usr/include/boost/mpl/aux_/config/integral.hpp:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__builder.hpp:
+/usr/include/boost/type_traits/is_const.hpp:
 
-/usr/include/ignition/math6/gz/math/SphericalCoordinates.hh:
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/set_hardware_component_state.hpp:
 
-/usr/include/boost/predef/compiler/metrowerks.h:
+/usr/include/boost/core/enable_if.hpp:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__traits.hpp:
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
-/usr/include/boost/type_traits/has_trivial_copy.hpp:
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__builder.hpp:
 
-/opt/ros/humble/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__builder.hpp:
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__type_support.hpp:
 
-/usr/include/boost/preprocessor/logical/compl.hpp:
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/switch_controller.hpp:
 
-/usr/include/gazebo-11/gazebo/msgs/int.pb.h:
+/usr/include/gazebo-11/gazebo/common/ffmpeg_inc.h:
 
-/opt/ros/humble/include/hardware_interface/resource_manager.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/event.hpp:
 
-/opt/ros/humble/include/hardware_interface/hardware_component_info.hpp:
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__builder.hpp:
 
-/usr/include/ignition/msgs5/ignition/msgs/pose_trajectory.pb.h:
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__struct.hpp:
 
-/usr/include/google/protobuf/stubs/common.h:
+/usr/include/boost/exception/diagnostic_information.hpp:
+
+/home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/resource_manager.hpp:
+
+/usr/include/uuid/uuid.h:
+
+/home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/hardware_component_info.hpp:
+
+/home/dkflippo/ros2_control_ws/install/hardware_interface/include/hardware_interface/hardware_info.hpp:
 
 /opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:
 
@@ -6901,6 +7029,10 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_resource.hpp:
 
+/usr/include/ignition/math6/ignition/math/Color.hh:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
 /usr/include/boost/smart_ptr/detail/shared_count.hpp:
 
 /usr/include/ignition/math6/ignition/math/RotationSpline.hh:
@@ -6910,6 +7042,8 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/boost/filesystem/file_status.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/signal_ext.h:
+
+/home/dkflippo/ros2_control_ws/install/controller_manager/include/controller_manager/visibility_control.h:
 
 /usr/include/gazebo-11/gazebo/common/Base64.hh:
 
@@ -7001,9 +7135,9 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/gazebo-11/gazebo/common/HeightmapData.hh:
 
-/usr/include/boost/mpl/aux_/config/msvc_typename.hpp:
-
 /usr/include/c++/11/bits/shared_ptr.h:
+
+/usr/include/boost/mpl/aux_/config/msvc_typename.hpp:
 
 /usr/include/boost/regex/v4/match_results.hpp:
 
@@ -7055,10 +7189,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/gazebo-11/gazebo/common/MouseEvent.hh:
 
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/include/gazebo-11/gazebo/common/PID.hh:
-
 /usr/include/x86_64-linux-gnu/bits/struct_stat.h:
 
 /usr/include/google/protobuf/reflection_ops.h:
@@ -7070,6 +7200,14 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/boost/regex/v4/regex_raw_buffer.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h:
+
+/usr/include/yaml-cpp/node/detail/node_data.h:
+
+/usr/include/sdformat-9.7/sdf/Pbr.hh:
+
+/opt/ros/humble/include/tracetools/tracetools/utils.hpp:
+
+/usr/include/dlfcn.h:
 
 /usr/include/boost/predef/os/unix.h:
 
@@ -7107,6 +7245,8 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/gazebo-11/gazebo/msgs/vector2d.pb.h:
 
+/usr/include/google/protobuf/stubs/common.h:
+
 /usr/include/ignition/msgs5/ignition/msgs/axis.pb.h:
 
 /usr/include/byteswap.h:
@@ -7126,8 +7266,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:
 
 /usr/include/google/protobuf/port.h:
-
-/usr/include/gazebo-11/gazebo/msgs/sensor_noise.pb.h:
 
 /usr/include/gazebo-11/gazebo/msgs/performance_metrics.pb.h:
 
@@ -7183,9 +7321,9 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/gazebo-11/gazebo/common/URI.hh:
 
-/usr/include/gazebo-11/gazebo/common/WeakBind.hh:
+/usr/include/gazebo-11/gazebo/common/VideoEncoder.hh:
 
-/usr/include/gazebo-11/gazebo/common/ffmpeg_inc.h:
+/usr/include/gazebo-11/gazebo/common/WeakBind.hh:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp:
 
@@ -7301,8 +7439,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/regex/v4/basic_regex_parser.hpp:
 
-/usr/include/boost/regex/v4/sub_match.hpp:
-
 /usr/include/ignition/msgs5/ignition/msgs/boolean.pb.h:
 
 /usr/include/gazebo-11/gazebo/msgs/visual.pb.h:
@@ -7317,6 +7453,8 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/boost/regex/v4/regex_search.hpp:
 
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
+
 /usr/include/ignition/msgs5/ignition/msgs/rest_login.pb.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:
@@ -7326,8 +7464,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/boost/regex/v4/regex_split.hpp:
 
 /usr/include/gazebo-11/gazebo/physics/State.hh:
-
-/usr/include/ignition/msgs5/ignition/msgs/config.hh:
 
 /usr/include/boost/regex/v4/regex_format.hpp:
 
@@ -7346,8 +7482,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/ignition/msgs5/ignition/msgs/video_record.pb.h:
 
 /usr/include/x86_64-linux-gnu/bits/sysmacros.h:
-
-/usr/include/ignition/msgs5/ignition/msgs/altimeter_sensor.pb.h:
 
 /usr/include/ignition/msgs5/ignition/msgs/color.pb.h:
 
@@ -7447,9 +7581,9 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/ignition/msgs5/ignition/msgs/fog.pb.h:
 
-/opt/ros/humble/include/rcutils/rcutils/types.h:
+/usr/include/ignition/msgs5/ignition/msgs/fuel_metadata.pb.h:
 
-/opt/ros/humble/include/hardware_interface/hardware_info.hpp:
+/opt/ros/humble/include/rcutils/rcutils/types.h:
 
 /usr/include/google/protobuf/map_field_inl.h:
 
@@ -7472,6 +7606,10 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/ignition/msgs5/ignition/msgs/gps.pb.h:
 
 /usr/include/ignition/msgs5/ignition/msgs/gui.pb.h:
+
+/usr/include/boost/type_traits/add_pointer.hpp:
+
+/usr/include/ignition/msgs5/ignition/msgs/hydra.pb.h:
 
 /opt/ros/humble/include/angles/angles/angles.h:
 
@@ -7507,13 +7645,15 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/ignition/msgs5/ignition/msgs/pose_animation.pb.h:
 
+/usr/include/ignition/msgs5/ignition/msgs/pose_trajectory.pb.h:
+
 /usr/include/boost/preprocessor/punctuation/comma.hpp:
 
 /usr/include/ignition/msgs5/ignition/msgs/propagation_particle.pb.h:
 
 /usr/include/ignition/msgs5/ignition/msgs/publish.pb.h:
 
-/usr/include/ignition/msgs5/ignition/msgs/raysensor.pb.h:
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__type_support.hpp:
 
 /usr/include/ignition/msgs5/ignition/msgs/rest_post.pb.h:
 
@@ -7559,10 +7699,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/ignition/transport8/ignition/transport/RepHandler.hh:
 
-/usr/include/ignition/transport8/ignition/transport/Uuid.hh:
-
-/usr/include/uuid/uuid.h:
-
 /usr/include/ignition/transport8/ignition/transport/ReqHandler.hh:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
@@ -7570,6 +7706,8 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 /usr/include/ignition/transport8/ignition/transport/SubscribeOptions.hh:
 
 /usr/include/ignition/transport8/ignition/transport/TopicStorage.hh:
+
+/opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__type_support.hpp:
 
 /usr/include/ignition/transport8/ignition/transport/TopicUtils.hh:
 
@@ -7601,6 +7739,8 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/gazebo-11/gazebo/msgs/battery.pb.h:
 
+/usr/include/gazebo-11/gazebo/msgs/camera_lens.pb.h:
+
 /usr/include/gazebo-11/gazebo/msgs/cylindergeom.pb.h:
 
 /usr/include/gazebo-11/gazebo/msgs/planegeom.pb.h:
@@ -7611,44 +7751,6 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: /home/d
 
 /usr/include/gazebo-11/gazebo/msgs/polylinegeom.pb.h:
 
+/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__traits.hpp:
+
 /usr/include/gazebo-11/gazebo/msgs/surface.pb.h:
-
-/usr/include/sdformat-9.7/sdf/Altimeter.hh:
-
-/usr/include/gazebo-11/gazebo/msgs/gz_string.pb.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:
-
-/usr/include/gazebo-11/gazebo/msgs/plugin.pb.h:
-
-/usr/include/gazebo-11/gazebo/msgs/joint_wrench.pb.h:
-
-/usr/include/gazebo-11/gazebo/msgs/wrench.pb.h:
-
-/usr/include/gazebo-11/gazebo/msgs/density.pb.h:
-
-/usr/include/boost/mpl/aux_/na.hpp:
-
-/usr/include/gazebo-11/gazebo/msgs/gps.pb.h:
-
-/usr/include/gazebo-11/gazebo/msgs/gps_sensor.pb.h:
-
-/usr/include/gazebo-11/gazebo/msgs/gui_camera.pb.h:
-
-/usr/include/gazebo-11/gazebo/msgs/gz_string_v.pb.h:
-
-/usr/include/gazebo-11/gazebo/msgs/image_stamped.pb.h:
-
-/usr/include/gazebo-11/gazebo/msgs/images_stamped.pb.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/include/boost/chrono/config.hpp:
-
-/usr/include/gazebo-11/gazebo/msgs/imu_sensor.pb.h:
-
-/usr/include/gazebo-11/gazebo/msgs/joint.pb.h:
-
-/usr/include/gazebo-11/gazebo/common/Video.hh:
-
-/usr/include/gazebo-11/gazebo/msgs/sensor.pb.h:

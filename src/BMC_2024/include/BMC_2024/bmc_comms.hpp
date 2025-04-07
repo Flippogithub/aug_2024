@@ -35,7 +35,7 @@ class BMCComms
 {
     public:
         // opens the socket can interface and sets up the filter
-        void open(const char* socket_interface, uint32_t can_id);
+        bool open(const char* socket_interface, uint32_t can_id);
 
         // enable bmc
         void enable();

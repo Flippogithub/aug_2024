@@ -1,7 +1,7 @@
 #include "BMC_2024/bmc_comms.hpp"
 #include "rclcpp/rclcpp.hpp"
 
-void BMCComms::open(const char* socket_interface, uint32_t can_id)
+bool BMCComms::open(const char* socket_interface, uint32_t can_id)
 {
     //RCLCPP_INFO(rclcpp::get_logger("RowbotBMCHardware"), "open can interface");
     // store can_id for other calls
@@ -23,8 +23,10 @@ void BMCComms::open(const char* socket_interface, uint32_t can_id)
     if(bind(natsock,(struct sockaddr *)&addr,sizeof(addr))<0)
     {
         perror("Error in socket bind");
-        RCLCPP_INFO(rclcpp::get_logger("RowbotBMCHardware1"), "Error binding CAN Socket");
+        RCLCPP_ERROR(rclcpp::get_logger("RowbotBMCHardware1"), "Error binding CAN Socket");
+        return false;
     }
+    return true;
 }
 
 void BMCComms::enable()

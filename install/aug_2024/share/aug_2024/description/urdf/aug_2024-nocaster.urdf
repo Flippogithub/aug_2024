@@ -105,7 +105,7 @@
       <parent link="base_link"/>
       <child link="rear_left_wheel_link"/>
       <origin xyz="-0.12 .18 -.05" rpy="0 0 0"/>
-      <axis xyz="0 1 0"/>
+      <axis xyz="0 -1 0"/>
       <dynamics damping="0.1" friction="0.1"/>
   </joint>
  
@@ -113,7 +113,7 @@
       <parent link="base_link"/>
       <child link="rear_right_wheel_link"/>
       <origin xyz="-0.12 -.18 -.05" rpy="0 0 0"/>
-      <axis xyz="0 1 0"/>
+      <axis xyz="0 -1 0"/>
       <dynamics damping="0.1" friction="0.1"/>
   </joint>
 
@@ -236,7 +236,17 @@
 
   <ros2_control name="AUG2024System" type="system">
     <hardware>
-      <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+            <plugin>BMC_2024/AUG2024Hardware</plugin>
+            <param name="rear_left_wheel_name">rear_left_wheel_joint</param>
+            <param name="rear_right_wheel_name">rear_right_wheel_joint</param>
+            <param name="can_interface">can0</param>
+            <param name="can_rl_id">176</param>
+            <param name="can_rr_id">178</param>
+            <param name="rl_mult">1.0</param>
+            <param name="rr_mult">-1.0</param>
+            <param name="pid_p">0.5</param>
+            <param name="pid_i">10.0</param>
+            <param name="pid_d">0.0</param>
     </hardware>
     
     <joint name="rear_left_wheel_joint">
