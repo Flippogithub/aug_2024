@@ -639,7 +639,7 @@ ZeroMQ_DIR:PATH=ZeroMQ_DIR-NOTFOUND
 ZeroMQ_LIBRARY_zmq:FILEPATH=/usr/lib/x86_64-linux-gnu/libzmq.so
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/humble/lib/libgazebo_hardware_plugins.so
+_lib:FILEPATH=/home/dkflippo/aug2024/install/BMC_2024/lib/libBMC_2024.so
 
 //The directory containing a CMake configuration file for action_msgs.
 action_msgs_DIR:PATH=/opt/ros/humble/share/action_msgs/cmake
@@ -855,7 +855,7 @@ nav_msgs_DIR:PATH=/opt/ros/humble/share/nav_msgs/cmake
 octomap_DIR:PATH=/usr/share/octomap
 
 //Path to a library.
-onelib:FILEPATH=/usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
+onelib:FILEPATH=/opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_world.so
 
 //Path to a library.
 onelibd:FILEPATH=onelibd-NOTFOUND
@@ -1060,6 +1060,9 @@ sdformat9_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/sdformat9
 
 //The directory containing a CMake configuration file for sensor_msgs.
 sensor_msgs_DIR:PATH=/opt/ros/humble/share/sensor_msgs/cmake
+
+//The directory containing a CMake configuration file for sllidar_ros2.
+sllidar_ros2_DIR:PATH=/home/dkflippo/aug2024/install/sllidar_ros2/share/sllidar_ros2/cmake
 
 //The directory containing a CMake configuration file for spdlog.
 spdlog_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/spdlog

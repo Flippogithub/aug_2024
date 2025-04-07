@@ -1,0 +1,11 @@
+[33mCMake Warning at /home/dkflippo/aug2024/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+  Package 'sllidar_ros2' exports the include directory
+  '/home/dkflippo/aug2024/install/sllidar_ros2/share/sllidar_ros2/cmake/../../../include'
+  which doesn't exist
+Call Stack (most recent call first):
+  /home/dkflippo/aug2024/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake:41 (include)
+  /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake/BMC_2024Config.cmake:41 (include)
+  CMakeLists.txt:31 (find_package)
+
+[0m

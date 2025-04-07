@@ -29,6 +29,7 @@ find_package(diff_drive_controller REQUIRED)
 find_package(ros2_control REQUIRED)
 find_package(ros2_controllers REQUIRED)
 find_package(BMC_2024 REQUIRED)
+find_package(sllidar_ros2 REQUIRED)
 
 # install
 install(
