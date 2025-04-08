@@ -18,7 +18,7 @@
   <depend>rclcpp</depend>
   <depend>rclcpp_lifecycle</depend>
   <!-- depend>gazebo_ros2_control</depend -->
-  
+  <depend>sllidar_ros2</depend>
   <exec_depend>controller_manager</exec_depend>
   <exec_depend>diff_drive_controller</exec_depend>
   <exec_depend>joint_state_broadcaster</exec_depend>
