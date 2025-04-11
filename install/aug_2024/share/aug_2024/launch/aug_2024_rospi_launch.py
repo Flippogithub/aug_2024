@@ -81,7 +81,7 @@ def generate_launch_description():
     static_tf_node = Node(
         package='tf2_ros',
         executable='static_transform_publisher',
-        arguments=['0', '0', '0', '0', '0', '0', 'base_footprint', 'odom']
+        arguments=['0', '0', '0', '0', '0', '0', 'odom', 'base_footprint']
     )
     # Joint state broadcaster spawner
     # Using OnProcessStart to start after controller_manager is up

@@ -1,13 +1,7 @@
 controller_manager:
   ros__parameters:
-    update_rate: 50
-    joint_state_broadcaster:
-      type: joint_state_broadcaster/JointStateBroadcaster
-    diff_cont:
-      type: diff_drive_controller/DiffDriveController
-      left_wheel_names: ["rear_left_wheel_joint"]
-      right_wheel_names: ["rear_right_wheel_joint"]
-      publish_rate: 50
-      base_frame_id: "base_footprint"
-      odom_frame_id: "odom"
-      enable_odom_tf: true
+    update_rate: 30
+
+diff_cont:
+  ros__parameters:
+    base_frame_id: base_link
