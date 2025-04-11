@@ -83,34 +83,42 @@ def generate_launch_description():
         executable='static_transform_publisher',
         arguments=['0', '0', '0', '0', '0', '0', 'odom', 'base_footprint']
     )
-    # Joint state broadcaster spawner
-    # Using OnProcessStart to start after controller_manager is up
+    
+    # Define the joint broadcaster node directly
+    joint_broad_node = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=["joint_state_broadcaster"], 
+        output="screen",
+    )
+    
+    # Define the diff controller node directly
+    diff_drive_node = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=["diff_cont"],
+        output="screen",
+    )
+    
+    # Use RegisterEventHandler for joint_broadcaster to start after controller_manager
     joint_broad_spawner = RegisterEventHandler(
         event_handler=OnProcessStart(
             target_action=controller_manager,
-            on_start=[
-                Node(
-                    package="controller_manager",
-                    executable="spawner",
-                    arguments=["joint_state_broadcaster"], 
-                    output="screen",
-                )
-            ]
+            on_start=[joint_broad_node]
         )
     )
-
-    # Diff drive controller spawner
-    # Using TimerAction to start after joint_broad is up
+    
+    # Use TimerAction for diff_drive_node to start a bit after joint_broadcaster
+    # This is more reliable than trying to chain event handlers
     diff_drive_spawner = TimerAction(
-        period=3.0,  # Start 3 seconds after launch
-        actions=[
-            Node(
-                package="controller_manager",
-                executable="spawner",
-                arguments=["diff_cont"],
-                output="screen",
-            )
-        ]
+        period=5.0,  # Start 5 seconds after launch to ensure controller_manager and joint_broadcaster are ready
+        actions=[diff_drive_node]
+    )
+    
+    # Use TimerAction for twist_mux to start after diff_drive_node
+    twist_mux_spawner = TimerAction(
+        period=7.0,  # Start 7 seconds after launch to ensure diff_drive is ready
+        actions=[twist_mux_node]
     )
 
     # Nav2
@@ -161,18 +169,18 @@ def generate_launch_description():
     )
     
     return LaunchDescription([
+        controller_manager,
         rplidar_node,
         declare_use_sim_time_argument,
         declare_map_yaml_cmd,
         robot_state_publisher,
-        controller_manager,
-        joint_broad_spawner,  # Start joint broadcaster when controller_manager starts
-        diff_drive_spawner,   # Start diff_drive controller 3 seconds after launch
-        twist_mux_node,
+        
+        joint_broad_spawner,    # Start joint broadcaster when controller_manager starts
+        diff_drive_spawner,     # Start diff_drive controller after a delay
+        twist_mux_spawner,      # Start twist_mux after a longer delay
         nav2_launch,
         teleop_node,
         #slam_toolbox,
         static_tf_node,
-        
-        rviz
+        #rviz
     ])
