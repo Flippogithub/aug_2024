@@ -20,7 +20,7 @@ def generate_launch_description():
     use_sim_time = LaunchConfiguration('use_sim_time')
     map_yaml_file = LaunchConfiguration('map')
     
-    # Declare the launch arguments
+    # Declare the launch arguments - make sure this is declared before any node uses it
     declare_use_sim_time_argument = DeclareLaunchArgument(
         'use_sim_time',
         default_value='true',
@@ -169,9 +169,10 @@ def generate_launch_description():
     )
     
     return LaunchDescription([
-        rplidar_node,
+        # Important: Put declarations FIRST, before any nodes that use them
         declare_use_sim_time_argument,
         declare_map_yaml_cmd,
+        rplidar_node,
         robot_state_publisher,
         controller_manager,
         joint_broad_spawner,    # Start joint broadcaster when controller_manager starts
