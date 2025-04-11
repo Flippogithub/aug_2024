@@ -1,0 +1,42 @@
+[0.108s] Invoking command in '/home/dkflippo/aug2024/build/BMC_2024': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dkflippo/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/dkflippo/ros2_control_ws/install/rqt_controller_manager:/home/dkflippo/ros2_control_ws/install/ros2controlcli:/home/dkflippo/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/dkflippo/aug2024/build/BMC_2024 -- -j12 -l12
+[0.400s] [ 33%] [32mBuilding CXX object CMakeFiles/BMC_2024.dir/src/aug_2024_system.cpp.o[0m
+[5.968s] [01m[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type BMC_2024::AUG2024Hardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[5.968s] [01m[K/home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp:278:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.968s]   278 |   const rclcpp::Time & /*time*/, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[5.968s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[8.136s] [ 66%] [32m[1mLinking CXX shared library libBMC_2024.so[0m
+[8.650s] [100%] Built target BMC_2024
+[8.688s] Invoked command in '/home/dkflippo/aug2024/build/BMC_2024' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dkflippo/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/dkflippo/ros2_control_ws/install/rqt_controller_manager:/home/dkflippo/ros2_control_ws/install/ros2controlcli:/home/dkflippo/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/dkflippo/aug2024/build/BMC_2024 -- -j12 -l12
+[8.694s] Invoking command in '/home/dkflippo/aug2024/build/BMC_2024': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dkflippo/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/dkflippo/ros2_control_ws/install/rqt_controller_manager:/home/dkflippo/ros2_control_ws/install/ros2controlcli:/home/dkflippo/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/dkflippo/aug2024/build/BMC_2024
+[8.718s] -- Install configuration: ""
+[8.719s] -- Installing: /home/dkflippo/aug2024/install/BMC_2024/lib/libBMC_2024.so
+[8.721s] -- Set runtime path of "/home/dkflippo/aug2024/install/BMC_2024/lib/libBMC_2024.so" to ""
+[8.721s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/include
+[8.722s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/include/BMC_2024
+[8.722s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/include/BMC_2024/aug_2024_system.hpp
+[8.722s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/include/BMC_2024/visibility_control.h
+[8.723s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/include/BMC_2024/bmc_comms.hpp
+[8.723s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/aug_2024_hardware.xml
+[8.723s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/lib/libBMC_2024.so
+[8.724s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/environment/library_path.sh
+[8.724s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/environment/library_path.dsv
+[8.725s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/ament_index/resource_index/package_run_dependencies/BMC_2024
+[8.725s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/ament_index/resource_index/parent_prefix_path/BMC_2024
+[8.725s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/environment/ament_prefix_path.sh
+[8.725s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/environment/ament_prefix_path.dsv
+[8.725s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/environment/path.sh
+[8.726s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/environment/path.dsv
+[8.726s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/local_setup.bash
+[8.726s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/local_setup.sh
+[8.726s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/local_setup.zsh
+[8.726s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/local_setup.dsv
+[8.727s] -- Installing: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/package.dsv
+[8.727s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/ament_index/resource_index/packages/BMC_2024
+[8.727s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/BMC_2024
+[8.727s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.727s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake/ament_cmake_export_libraries-extras.cmake
+[8.727s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.727s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake/BMC_2024Config.cmake
+[8.727s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/cmake/BMC_2024Config-version.cmake
+[8.727s] -- Up-to-date: /home/dkflippo/aug2024/install/BMC_2024/share/BMC_2024/package.xml
+[8.736s] Invoked command in '/home/dkflippo/aug2024/build/BMC_2024' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dkflippo/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/dkflippo/ros2_control_ws/install/rqt_controller_manager:/home/dkflippo/ros2_control_ws/install/ros2controlcli:/home/dkflippo/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/dkflippo/aug2024/build/BMC_2024

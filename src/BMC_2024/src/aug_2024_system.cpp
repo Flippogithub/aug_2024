@@ -42,8 +42,8 @@ hardware_interface::CallbackReturn AUG2024Hardware::on_init(
 
   //cfg_.front_left_motor_name = info_.hardware_parameters["front_left_wheel_name"];
   //cfg_.front_right_motor_name = info_.hardware_parameters["front_right_wheel_name"];
-  cfg_.rear_left_motor_name = info_.hardware_parameters["rear_left_wheel_joint"];
-  cfg_.rear_right_motor_name = info_.hardware_parameters["rear_right_wheel_joint"];
+  cfg_.rear_left_motor_name = info_.hardware_parameters["rear_left_wheel_name"];
+  cfg_.rear_right_motor_name = info_.hardware_parameters["rear_right_wheel_name"];
   cfg_.can_interface = info_.hardware_parameters["can_interface"];
  try {
   //cfg_.can_fl_id = std::stoi(info_.hardware_parameters["can_fl_id"]); //this comes from the urdf file can_fl_id is a parameter in the urdf file
