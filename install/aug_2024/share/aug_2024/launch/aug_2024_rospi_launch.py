@@ -12,7 +12,7 @@ def generate_launch_description():
     pkg_share = get_package_share_directory('aug_2024')
     config_filepath = LaunchConfiguration('config_filepath', default=os.path.join(pkg_share, 'config', 'twist_mux.yaml'))
     # Set up robot description
-    urdf_file = os.path.join(pkg_share, 'description', 'urdf', 'aug_2024-nocaster.urdf') #was aug_2024.urdf
+    urdf_file = os.path.join(pkg_share, 'description', 'urdf', 'aug_2024-nocaster.urdf') 
     with open(urdf_file, 'r') as infp:
         robot_desc = infp.read()
 
@@ -65,16 +65,16 @@ def generate_launch_description():
         name='robot_state_publisher',
         output='screen',
         parameters=[{'use_sim_time': use_sim_time, 
-                     'robot_description': Command(['xacro ', urdf_file])}]
-    )
+                 'robot_description': robot_desc}]  # Use the string directly
+)
 
     # Controller Manager
     controller_manager = Node(
        package="controller_manager",
        executable="ros2_control_node",
-       parameters=[{'robot_description': Command(['xacro ', urdf_file])},
-                os.path.join(pkg_share, 'config', 'flippo_controllers.yaml'),
-                {'use_sim_time': use_sim_time}],
+       parameters=[{'robot_description': robot_desc},  # Use the string directly
+            os.path.join(pkg_share, 'config', 'flippo_controllers.yaml'),
+            {'use_sim_time': use_sim_time}],
        output="screen",
     )
 
