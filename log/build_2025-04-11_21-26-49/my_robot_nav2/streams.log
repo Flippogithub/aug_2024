@@ -1,0 +1,53 @@
+[0.060s] Invoking command in '/home/rospi/aug_2024/build/my_robot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rospi/aug_2024/src/my_robot_nav2 -DCMAKE_INSTALL_PREFIX=/home/rospi/aug_2024/install/my_robot_nav2
+[0.347s] -- The C compiler identification is GNU 11.4.0
+[0.637s] -- The CXX compiler identification is GNU 11.4.0
+[0.667s] -- Detecting C compiler ABI info
+[1.014s] -- Detecting C compiler ABI info - done
+[1.044s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.045s] -- Detecting C compile features
+[1.047s] -- Detecting C compile features - done
+[1.061s] -- Detecting CXX compiler ABI info
+[1.478s] -- Detecting CXX compiler ABI info - done
+[1.508s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.509s] -- Detecting CXX compile features
+[1.511s] -- Detecting CXX compile features - done
+[1.552s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.514s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.306s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.932s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.948s] -- Added test 'lint_cmake' to check CMake code style
+[3.960s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.029s] -- Added test 'xmllint' to check XML markup files
+[4.038s] -- Configuring done
+[4.067s] -- Generating done
+[4.080s] -- Build files have been written to: /home/rospi/aug_2024/build/my_robot_nav2
+[4.099s] Invoked command in '/home/rospi/aug_2024/build/my_robot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rospi/aug_2024/src/my_robot_nav2 -DCMAKE_INSTALL_PREFIX=/home/rospi/aug_2024/install/my_robot_nav2
+[4.111s] Invoking command in '/home/rospi/aug_2024/build/my_robot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rospi/aug_2024/build/my_robot_nav2 -- -j4 -l4
+[4.269s] Invoked command in '/home/rospi/aug_2024/build/my_robot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rospi/aug_2024/build/my_robot_nav2 -- -j4 -l4
+[4.312s] Invoking command in '/home/rospi/aug_2024/build/my_robot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rospi/aug_2024/build/my_robot_nav2
+[4.340s] -- Install configuration: ""
+[4.341s] -- Installing: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2//config
+[4.341s] -- Installing: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2//config/slam_toolbox_params.yaml
+[4.343s] -- Installing: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2//config/nav2_params.yaml
+[4.344s] -- Installing: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2//include
+[4.345s] -- Installing: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2//launch
+[4.346s] -- Installing: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2//launch/slam_toolbox.launch.py
+[4.347s] -- Installing: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2//maps
+[4.347s] -- Installing: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2//maps/simple_map.yaml
+[4.348s] -- Installing: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2//maps/simple_map.pgm
+[4.350s] -- Installing: /home/rospi/aug_2024/install/my_robot_nav2/share/ament_index/resource_index/package_run_dependencies/my_robot_nav2
+[4.352s] -- Installing: /home/rospi/aug_2024/install/my_robot_nav2/share/ament_index/resource_index/parent_prefix_path/my_robot_nav2
+[4.354s] -- Installing: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2/environment/ament_prefix_path.sh
+[4.355s] -- Installing: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2/environment/ament_prefix_path.dsv
+[4.356s] -- Installing: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2/environment/path.sh
+[4.358s] -- Installing: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2/environment/path.dsv
+[4.359s] -- Installing: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2/local_setup.bash
+[4.360s] -- Installing: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2/local_setup.sh
+[4.362s] -- Installing: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2/local_setup.zsh
+[4.363s] -- Installing: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2/local_setup.dsv
+[4.364s] -- Installing: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2/package.dsv
+[4.366s] -- Installing: /home/rospi/aug_2024/install/my_robot_nav2/share/ament_index/resource_index/packages/my_robot_nav2
+[4.367s] -- Installing: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2/cmake/my_robot_nav2Config.cmake
+[4.369s] -- Installing: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2/cmake/my_robot_nav2Config-version.cmake
+[4.370s] -- Installing: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2/package.xml
+[4.378s] Invoked command in '/home/rospi/aug_2024/build/my_robot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rospi/aug_2024/build/my_robot_nav2

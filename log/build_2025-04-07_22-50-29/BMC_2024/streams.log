@@ -1,0 +1,83 @@
+[0.075s] Invoking command in '/home/rospi/aug_2024/build/BMC_2024': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rospi/aug_2024/src/BMC_2024 -DCMAKE_INSTALL_PREFIX=/home/rospi/aug_2024/install/BMC_2024
+[0.418s] -- The C compiler identification is GNU 11.4.0
+[0.705s] -- The CXX compiler identification is GNU 11.4.0
+[0.736s] -- Detecting C compiler ABI info
+[1.075s] -- Detecting C compiler ABI info - done
+[1.104s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.105s] -- Detecting C compile features
+[1.106s] -- Detecting C compile features - done
+[1.119s] -- Detecting CXX compiler ABI info
+[1.505s] -- Detecting CXX compiler ABI info - done
+[1.536s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.537s] -- Detecting CXX compile features
+[1.539s] -- Detecting CXX compile features - done
+[1.577s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.479s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.351s] -- Found hardware_interface: 2.49.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[3.837s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.905s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.989s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.098s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.255s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.947s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.982s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.204s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[6.434s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.449s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[6.535s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.551s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[6.587s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[6.634s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.753s] -- Looking for pthread.h
+[7.101s] -- Looking for pthread.h - found
+[7.102s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.439s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.443s] -- Found Threads: TRUE  
+[8.018s] WARNING: Package name "BMC_2024" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[8.094s] -- Configuring done
+[8.287s] -- Generating done
+[8.310s] -- Build files have been written to: /home/rospi/aug_2024/build/BMC_2024
+[8.351s] Invoked command in '/home/rospi/aug_2024/build/BMC_2024' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rospi/aug_2024/src/BMC_2024 -DCMAKE_INSTALL_PREFIX=/home/rospi/aug_2024/install/BMC_2024
+[8.360s] Invoking command in '/home/rospi/aug_2024/build/BMC_2024': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rospi/aug_2024/build/BMC_2024 -- -j4 -l4
+[8.602s] [ 66%] [32mBuilding CXX object CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.o[0m
+[8.603s] [ 66%] [32mBuilding CXX object CMakeFiles/BMC_2024.dir/src/aug_2024_system.cpp.o[0m
+[22.171s] [01m[K/home/rospi/aug_2024/src/BMC_2024/src/aug_2024_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type BMC_2024::AUG2024Hardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[22.172s] [01m[K/home/rospi/aug_2024/src/BMC_2024/src/aug_2024_system.cpp:278:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.173s]   278 |   const rclcpp::Time & /*time*/, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[22.174s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[27.167s] [100%] [32m[1mLinking CXX shared library libBMC_2024.so[0m
+[28.125s] [100%] Built target BMC_2024
+[28.167s] Invoked command in '/home/rospi/aug_2024/build/BMC_2024' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rospi/aug_2024/build/BMC_2024 -- -j4 -l4
+[28.176s] Invoking command in '/home/rospi/aug_2024/build/BMC_2024': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rospi/aug_2024/build/BMC_2024
+[28.203s] -- Install configuration: ""
+[28.204s] -- Installing: /home/rospi/aug_2024/install/BMC_2024/lib/libBMC_2024.so
+[28.213s] -- Set runtime path of "/home/rospi/aug_2024/install/BMC_2024/lib/libBMC_2024.so" to ""
+[28.216s] -- Installing: /home/rospi/aug_2024/install/BMC_2024/include
+[28.217s] -- Installing: /home/rospi/aug_2024/install/BMC_2024/include/BMC_2024
+[28.220s] -- Installing: /home/rospi/aug_2024/install/BMC_2024/include/BMC_2024/aug_2024_system.hpp
+[28.221s] -- Installing: /home/rospi/aug_2024/install/BMC_2024/include/BMC_2024/bmc_comms.hpp
+[28.223s] -- Installing: /home/rospi/aug_2024/install/BMC_2024/include/BMC_2024/visibility_control.h
+[28.226s] -- Installing: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/aug_2024_hardware.xml
+[28.229s] -- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/lib/libBMC_2024.so
+[28.231s] -- Installing: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/environment/library_path.sh
+[28.232s] -- Installing: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/environment/library_path.dsv
+[28.234s] -- Installing: /home/rospi/aug_2024/install/BMC_2024/share/ament_index/resource_index/package_run_dependencies/BMC_2024
+[28.236s] -- Installing: /home/rospi/aug_2024/install/BMC_2024/share/ament_index/resource_index/parent_prefix_path/BMC_2024
+[28.238s] -- Installing: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/environment/ament_prefix_path.sh
+[28.239s] -- Installing: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/environment/ament_prefix_path.dsv
+[28.240s] -- Installing: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/environment/path.sh
+[28.241s] -- Installing: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/environment/path.dsv
+[28.243s] -- Installing: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/local_setup.bash
+[28.244s] -- Installing: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/local_setup.sh
+[28.245s] -- Installing: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/local_setup.zsh
+[28.246s] -- Installing: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/local_setup.dsv
+[28.247s] -- Installing: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/package.dsv
+[28.249s] -- Installing: /home/rospi/aug_2024/install/BMC_2024/share/ament_index/resource_index/packages/BMC_2024
+[28.251s] -- Installing: /home/rospi/aug_2024/install/BMC_2024/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/BMC_2024
+[28.252s] -- Installing: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.254s] -- Installing: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/cmake/ament_cmake_export_libraries-extras.cmake
+[28.255s] -- Installing: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/cmake/ament_cmake_export_dependencies-extras.cmake
+[28.256s] -- Installing: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/cmake/BMC_2024Config.cmake
+[28.257s] -- Installing: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/cmake/BMC_2024Config-version.cmake
+[28.259s] -- Installing: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/package.xml
+[28.267s] Invoked command in '/home/rospi/aug_2024/build/BMC_2024' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rospi/aug_2024/build/BMC_2024

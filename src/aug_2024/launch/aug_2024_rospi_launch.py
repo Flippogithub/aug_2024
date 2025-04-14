@@ -13,6 +13,7 @@ def generate_launch_description():
     config_filepath = LaunchConfiguration('config_filepath', default=os.path.join(pkg_share, 'config', 'twist_mux.yaml'))
     # Set up robot description
     urdf_file = os.path.join(pkg_share, 'description', 'urdf', 'aug_2024-nocaster.urdf') #was aug_2024.urdf
+    controller_config = os.path.join(pkg_share, 'config', 'flippo_controllers.yaml')
     with open(urdf_file, 'r') as infp:
         robot_desc = infp.read()
 
@@ -60,22 +61,22 @@ def generate_launch_description():
 
     # Robot state publisher
     robot_state_publisher = Node(
-        package='robot_state_publisher',
-        executable='robot_state_publisher',
-        name='robot_state_publisher',
-        output='screen',
-        parameters=[{'use_sim_time': use_sim_time, 
-                     'robot_description': Command(['xacro ', urdf_file])}]
-    )
-
+            package='robot_state_publisher',
+            executable='robot_state_publisher',
+            name='robot_state_publisher',
+            parameters=[{'robot_description': robot_desc}]
+     )
+        
+        
     # Controller Manager
     controller_manager = Node(
-       package="controller_manager",
-       executable="ros2_control_node",
-       parameters=[{'robot_description': Command(['xacro ', urdf_file])},
-                os.path.join(pkg_share, 'config', 'flippo_controllers.yaml'),
-                {'use_sim_time': use_sim_time}],
-       output="screen",
+        package='controller_manager',
+        executable='ros2_control_node',
+        parameters=[
+          {'robot_description': robot_desc},
+           controller_config
+         ]
+              
     )
 
     static_tf_node = Node(
@@ -88,16 +89,15 @@ def generate_launch_description():
     joint_broad_node = Node(
         package="controller_manager",
         executable="spawner",
-        arguments=["joint_state_broadcaster"], 
-        output="screen",
+        arguments=["joint_broad"], 
     )
+
     
     # Define the diff controller node directly
     diff_drive_node = Node(
         package="controller_manager",
         executable="spawner",
         arguments=["diff_cont"],
-        output="screen",
     )
     
     # Use RegisterEventHandler for joint_broadcaster to start after controller_manager
@@ -167,6 +167,12 @@ def generate_launch_description():
         }],
         output='screen'
     )
+
+    map_to_odom_tf_node = Node(
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        arguments=['0', '0', '0', '0', '0', '0', 'map', 'odom']
+    )
     
     return LaunchDescription([
         # Important: Put declarations FIRST, before any nodes that use them
@@ -182,5 +188,6 @@ def generate_launch_description():
         teleop_node,
         #slam_toolbox,
         static_tf_node,
+        map_to_odom_tf_node,   
         rviz
     ])

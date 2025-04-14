@@ -1,0 +1,46 @@
+[0.057s] Invoking command in '/home/rospi/aug_2024/build/aug_2024': CMAKE_PREFIX_PATH=/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/my_robot_nav2:/home/rospi/aug_2024/install/aug_2024:/opt/ros/humble /usr/bin/cmake --build /home/rospi/aug_2024/build/aug_2024 -- -j4 -l4
+[0.190s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.836s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.032s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.044s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.071s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.115s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.173s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.319s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.326s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.405s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.621s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.749s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[2.766s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.772s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.387s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[3.389s] -- Found controller_manager: 2.49.0 (/opt/ros/humble/share/controller_manager/cmake)
+[3.793s] -- Found joint_state_broadcaster: 2.43.0 (/opt/ros/humble/share/joint_state_broadcaster/cmake)
+[3.890s] -- Found diff_drive_controller: 2.43.0 (/opt/ros/humble/share/diff_drive_controller/cmake)
+[4.017s] -- Found ros2_control: 2.49.0 (/opt/ros/humble/share/ros2_control/cmake)
+[4.018s] -- Found ros2_controllers: 2.43.0 (/opt/ros/humble/share/ros2_controllers/cmake)
+[4.019s] -- Found BMC_2024: 0.0.0 (/home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/cmake)
+[4.244s] [31mCMake Error at /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package):
+[4.245s]   By not providing "Findgazebo_ros2_control.cmake" in CMAKE_MODULE_PATH this
+[4.246s]   project has asked CMake to find a package configuration file provided by
+[4.247s]   "gazebo_ros2_control", but CMake did not find one.
+[4.247s] 
+[4.250s]   Could not find a package configuration file provided by
+[4.251s]   "gazebo_ros2_control" with any of the following names:
+[4.252s] 
+[4.252s]     gazebo_ros2_controlConfig.cmake
+[4.253s]     gazebo_ros2_control-config.cmake
+[4.254s] 
+[4.255s]   Add the installation prefix of "gazebo_ros2_control" to CMAKE_PREFIX_PATH
+[4.258s]   or set "gazebo_ros2_control_DIR" to a directory containing one of the above
+[4.259s]   files.  If "gazebo_ros2_control" provides a separate development package or
+[4.259s]   SDK, be sure it has been installed.
+[4.260s] Call Stack (most recent call first):
+[4.265s]   /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/cmake/BMC_2024Config.cmake:41 (include)
+[4.266s]   CMakeLists.txt:31 (find_package)
+[4.267s] 
+[4.268s] [0m
+[4.269s] -- Configuring incomplete, errors occurred!
+[4.270s] See also "/home/rospi/aug_2024/build/aug_2024/CMakeFiles/CMakeOutput.log".
+[4.291s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[4.309s] Invoked command in '/home/rospi/aug_2024/build/aug_2024' returned '2': CMAKE_PREFIX_PATH=/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/my_robot_nav2:/home/rospi/aug_2024/install/aug_2024:/opt/ros/humble /usr/bin/cmake --build /home/rospi/aug_2024/build/aug_2024 -- -j4 -l4

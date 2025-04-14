@@ -1,0 +1,55 @@
+[0.095s] Invoking command in '/home/rospi/aug_2024/build/BMC_2024': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rospi/aug_2024/src/BMC_2024 -DCMAKE_INSTALL_PREFIX=/home/rospi/aug_2024/install/BMC_2024
+[0.407s] -- The C compiler identification is GNU 11.4.0
+[0.753s] -- The CXX compiler identification is GNU 11.4.0
+[0.793s] -- Detecting C compiler ABI info
+[1.170s] -- Detecting C compiler ABI info - done
+[1.203s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.204s] -- Detecting C compile features
+[1.206s] -- Detecting C compile features - done
+[1.219s] -- Detecting CXX compiler ABI info
+[1.644s] -- Detecting CXX compiler ABI info - done
+[1.676s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.678s] -- Detecting CXX compile features
+[1.680s] -- Detecting CXX compile features - done
+[1.719s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.866s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.702s] -- Found hardware_interface: 2.49.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[4.274s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.342s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.429s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.535s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.694s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.494s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.529s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.757s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[7.006s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.022s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[7.114s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.128s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[7.162s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[7.204s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.318s] -- Looking for pthread.h
+[7.698s] -- Looking for pthread.h - found
+[7.699s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.121s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.126s] -- Found Threads: TRUE  
+[8.657s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[8.658s]   By not providing "Findsllidar_ros2.cmake" in CMAKE_MODULE_PATH this project
+[8.658s]   has asked CMake to find a package configuration file provided by
+[8.659s]   "sllidar_ros2", but CMake did not find one.
+[8.660s] 
+[8.662s]   Could not find a package configuration file provided by "sllidar_ros2" with
+[8.663s]   any of the following names:
+[8.665s] 
+[8.666s]     sllidar_ros2Config.cmake
+[8.667s]     sllidar_ros2-config.cmake
+[8.668s] 
+[8.670s]   Add the installation prefix of "sllidar_ros2" to CMAKE_PREFIX_PATH or set
+[8.672s]   "sllidar_ros2_DIR" to a directory containing one of the above files.  If
+[8.673s]   "sllidar_ros2" provides a separate development package or SDK, be sure it
+[8.674s]   has been installed.
+[8.676s] 
+[8.677s] [0m
+[8.677s] -- Configuring incomplete, errors occurred!
+[8.678s] See also "/home/rospi/aug_2024/build/BMC_2024/CMakeFiles/CMakeOutput.log".
+[8.709s] Invoked command in '/home/rospi/aug_2024/build/BMC_2024' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rospi/aug_2024/src/BMC_2024 -DCMAKE_INSTALL_PREFIX=/home/rospi/aug_2024/install/BMC_2024

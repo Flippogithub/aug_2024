@@ -1,0 +1,85 @@
+[0.053s] Invoking command in '/home/rospi/aug_2024/build/aug_2024': CMAKE_PREFIX_PATH=/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/my_robot_nav2:/home/rospi/aug_2024/install/aug_2024:/opt/ros/humble /usr/bin/cmake /home/rospi/aug_2024/src/aug_2024 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rospi/aug_2024/install/aug_2024
+[0.099s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.678s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.714s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.910s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.923s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.950s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.994s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.052s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.199s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.205s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.287s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.509s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.640s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[2.657s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.663s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.319s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[3.320s] -- Found controller_manager: 2.49.0 (/opt/ros/humble/share/controller_manager/cmake)
+[3.832s] -- Found joint_state_broadcaster: 2.43.0 (/opt/ros/humble/share/joint_state_broadcaster/cmake)
+[3.942s] -- Found diff_drive_controller: 2.43.0 (/opt/ros/humble/share/diff_drive_controller/cmake)
+[4.074s] -- Found ros2_control: 2.49.0 (/opt/ros/humble/share/ros2_control/cmake)
+[4.075s] -- Found ros2_controllers: 2.43.0 (/opt/ros/humble/share/ros2_controllers/cmake)
+[4.076s] -- Found BMC_2024: 0.0.0 (/home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/cmake)
+[4.424s] -- Configuring done
+[4.479s] -- Generating done
+[4.492s] -- Build files have been written to: /home/rospi/aug_2024/build/aug_2024
+[4.533s] Invoked command in '/home/rospi/aug_2024/build/aug_2024' returned '0': CMAKE_PREFIX_PATH=/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/my_robot_nav2:/home/rospi/aug_2024/install/aug_2024:/opt/ros/humble /usr/bin/cmake /home/rospi/aug_2024/src/aug_2024 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rospi/aug_2024/install/aug_2024
+[4.541s] Invoking command in '/home/rospi/aug_2024/build/aug_2024': CMAKE_PREFIX_PATH=/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/my_robot_nav2:/home/rospi/aug_2024/install/aug_2024:/opt/ros/humble /usr/bin/cmake --build /home/rospi/aug_2024/build/aug_2024 -- -j4 -l4
+[4.725s] Invoked command in '/home/rospi/aug_2024/build/aug_2024' returned '0': CMAKE_PREFIX_PATH=/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/my_robot_nav2:/home/rospi/aug_2024/install/aug_2024:/opt/ros/humble /usr/bin/cmake --build /home/rospi/aug_2024/build/aug_2024 -- -j4 -l4
+[4.734s] Invoking command in '/home/rospi/aug_2024/build/aug_2024': CMAKE_PREFIX_PATH=/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/my_robot_nav2:/home/rospi/aug_2024/install/aug_2024:/opt/ros/humble /usr/bin/cmake --install /home/rospi/aug_2024/build/aug_2024
+[4.762s] -- Install configuration: ""
+[4.764s] -- Execute custom install script
+[4.766s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/amcl_config.yaml
+[4.800s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/backup/map1.pgm
+[4.834s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/backup/map1.yaml
+[4.869s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/direct_controllers.yaml
+[4.904s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/ekf.yaml
+[4.938s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/flippo_controllers.yaml
+[4.972s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/gazebo_ros2_control_params.yaml
+[5.007s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/map1.pgm
+[5.042s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/map1.yaml
+[5.077s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/nav2_params.yaml
+[5.111s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/twist_mux.yaml
+[5.148s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/config/aug_2024_joint_names.yaml
+[5.182s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/config/ekf.yaml
+[5.218s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/meshes/chassis_link.STL
+[5.253s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/meshes/front_left_wheel_link.STL
+[5.288s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/meshes/front_right_wheel_link.STL
+[5.323s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/meshes/rear_left_wheel_link.STL
+[5.358s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/meshes/rear_right_wheel_link.STL
+[5.393s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/rviz/urdf_config.rviz
+[5.427s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/urdf/aug_2024 _no_caster.xacro
+[5.462s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/urdf/aug_2024-1.xacro
+[5.497s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/urdf/aug_2024-cast.urdf
+[5.531s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/urdf/aug_2024-nocaster.urdf
+[5.566s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/urdf/aug_2024.urdf
+[5.600s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/urdf/aug_2024_old.xacro
+[5.638s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch/aug_2024_launch.py
+[5.672s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch/aug_2024_rospi_launch.py
+[5.706s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch/aug_2024_sim_launch.py
+[5.741s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch/aug_2024_sim_launch1.py
+[5.776s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch/min_launch.py
+[5.810s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch/ros2_control_debug.launch.py
+[5.844s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch/sllidar_a2m12_launch .py
+[5.879s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch/test_launch.py
+[5.914s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//worlds/gaz_goof_001
+[5.948s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//worlds/usda_build_full/model.config
+[5.987s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//worlds/usda_build_full/model.sdf
+[6.023s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//worlds/usda_rough_dim.sdf
+[6.068s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/ament_index/resource_index/package_run_dependencies/aug_2024
+[6.114s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/ament_index/resource_index/parent_prefix_path/aug_2024
+[6.158s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/environment/ament_prefix_path.sh
+[6.200s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/environment/ament_prefix_path.dsv
+[6.240s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/environment/path.sh
+[6.278s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/environment/path.dsv
+[6.313s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/local_setup.bash
+[6.349s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/local_setup.sh
+[6.383s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/local_setup.zsh
+[6.418s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/local_setup.dsv
+[6.453s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/package.dsv
+[6.488s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/ament_index/resource_index/packages/aug_2024
+[6.522s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/cmake/aug_2024Config.cmake
+[6.557s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/cmake/aug_2024Config-version.cmake
+[6.591s] -- Symlinking: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/package.xml
+[6.633s] Invoked command in '/home/rospi/aug_2024/build/aug_2024' returned '0': CMAKE_PREFIX_PATH=/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/my_robot_nav2:/home/rospi/aug_2024/install/aug_2024:/opt/ros/humble /usr/bin/cmake --install /home/rospi/aug_2024/build/aug_2024

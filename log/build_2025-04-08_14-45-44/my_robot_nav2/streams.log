@@ -1,0 +1,5 @@
+[0.092s] Invoking command in '/home/rospi/aug_2024/build/my_robot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rospi/aug_2024/build/my_robot_nav2 -- -j4 -l4
+[0.121s] [0mCMake Error: The current CMakeCache.txt directory /home/rospi/aug_2024/build/my_robot_nav2/CMakeCache.txt is different than the directory /home/dkflippo/aug2024/build/my_robot_nav2 where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.168s] [0mCMake Error: The source directory "/home/dkflippo/aug2024/src/my_robot_nav2" does not exist.
+[0.169s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.173s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1

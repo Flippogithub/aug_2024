@@ -1,0 +1,4 @@
+Invoking command in '/home/rospi/aug_2024/build/BMC_2024': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rospi/aug_2024/src/BMC_2024 -DCMAKE_INSTALL_PREFIX=/home/rospi/aug_2024/install/BMC_2024
+Invoked command in '/home/rospi/aug_2024/build/BMC_2024' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rospi/aug_2024/src/BMC_2024 -DCMAKE_INSTALL_PREFIX=/home/rospi/aug_2024/install/BMC_2024
+Invoking command in '/home/rospi/aug_2024/build/BMC_2024': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rospi/aug_2024/build/BMC_2024 -- -j4 -l4
+Invoked command in '/home/rospi/aug_2024/build/BMC_2024' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rospi/aug_2024/build/BMC_2024 -- -j4 -l4

@@ -1,0 +1,6 @@
+[0.084s] Invoking command in '/home/rospi/aug_2024/build/BMC_2024': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rospi/aug_2024/build/BMC_2024 -- -j4 -l4
+[0.120s] [0mCMake Error: The current CMakeCache.txt directory /home/rospi/aug_2024/build/BMC_2024/CMakeCache.txt is different than the directory /home/dkflippo/aug2024/build/BMC_2024 where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.166s] [0mCMake Error: The source directory "/home/dkflippo/aug2024/src/BMC_2024" does not exist.
+[0.167s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.171s] gmake: *** [Makefile:294: cmake_check_build_system] Error 1
+[0.181s] Invoked command in '/home/rospi/aug_2024/build/BMC_2024' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rospi/aug_2024/build/BMC_2024 -- -j4 -l4

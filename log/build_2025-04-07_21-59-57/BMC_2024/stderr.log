@@ -1,0 +1,13 @@
+[01m[K/home/rospi/aug_2024/src/BMC_2024/src/bmc_comms.cpp:1:10:[m[K [01;31m[Kfatal error: [m[KBMC_2024/bmc_comms.hpp: No such file or directory
+    1 | #include [01;31m[K"BMC_2024/bmc_comms.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/rospi/aug_2024/src/BMC_2024/src/aug_2024_system.cpp:15:10:[m[K [01;31m[Kfatal error: [m[KBMC_2024/aug_2024_system.hpp: No such file or directory
+   15 | #include [01;31m[K"BMC_2024/aug_2024_system.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/BMC_2024.dir/build.make:90: CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/BMC_2024.dir/build.make:76: CMakeFiles/BMC_2024.dir/src/aug_2024_system.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/BMC_2024.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
