@@ -1,0 +1,26 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.o[0m
+[01m[K/home/rospi/aug_2024/src/BMC_2024/src/bmc_comms.cpp:9:73:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+    9 |     RCLCPP_INFO(rclcpp::get_logger("RowbotBMCHardware"), "CAN ID = ": %s[01;35m[K"[m[K, can_id.c_str());
+      |                                                                         [01;35m[K^[m[K
+[01m[K/home/rospi/aug_2024/src/BMC_2024/src/bmc_comms.cpp:152:2:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+  152 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/rospi/aug_2024/src/BMC_2024/src/bmc_comms.cpp:[m[K In member function ‘[01m[Kbool BMCComms::open(const char*, uint32_t)[m[K’:
+[01m[K/home/rospi/aug_2024/src/BMC_2024/src/bmc_comms.cpp:9:5:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+    9 |     [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger("RowbotBMCHardware"), "CAN ID = ": %s", can_id.c_str());
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rospi/aug_2024/src/BMC_2024/src/bmc_comms.cpp:9:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+    9 |     RCLCPP_INFO[01;31m[K([m[Krclcpp::get_logger("RowbotBMCHardware"), "CAN ID = ": %s", can_id.c_str());
+      |                [01;31m[K^[m[K
+[01m[K/home/rospi/aug_2024/src/BMC_2024/src/bmc_comms.cpp:5:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    5 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/rospi/aug_2024/src/BMC_2024/src/bmc_comms.cpp:9:16:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+    9 |     RCLCPP_INFO[01;35m[K([m[Krclcpp::get_logger("RowbotBMCHardware"), "CAN ID = ": %s", can_id.c_str());
+      |                [01;35m[K^[m[K
+[01m[K/home/rospi/aug_2024/src/BMC_2024/src/bmc_comms.cpp:4:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksocket_interface[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    4 | bool BMCComms::open([01;35m[Kconst char* socket_interface[m[K, uint32_t can_id)
+      |                     [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/BMC_2024.dir/build.make:90: CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/BMC_2024.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

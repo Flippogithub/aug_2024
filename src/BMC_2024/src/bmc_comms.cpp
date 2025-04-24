@@ -6,7 +6,7 @@ bool BMCComms::open(const char* socket_interface, uint32_t can_id)
     //RCLCPP_INFO(rclcpp::get_logger("RowbotBMCHardware"), "open can interface");
     // store can_id for other calls
     can_id_ = can_id;
-    // setup socket interface
+    RCLCPP_INFO(rclcpp::get_logger("RowbotBMCHardware"), "open can interface with ID: %d", can_id);    // setup socket interface
     strcpy(ifr.ifr_name, socket_interface);
     ioctl(natsock, SIOGIFINDEX, &ifr);
     addr.can_family = AF_CAN;
@@ -44,7 +44,7 @@ void BMCComms::disable()
 void BMCComms::setVelocity(double velocity)
 {
     SendParam(BMC_CMD_VELOCITY, (float)velocity);
-    //RCLCPP_INFO(rclcpp::get_logger("RowbotBMCHardware"), "Velocity: %.2f", velocity);
+    RCLCPP_INFO(rclcpp::get_logger("RowbotBMCHardware"), "Set Velocity: %.2f", velocity);
 
 }
 
@@ -77,7 +77,7 @@ void BMCComms::SendParam(uint8_t cmd_id, float param)
     //RCLCPP_INFO(rclcpp::get_logger("RowbotBMCHardware"), "send params");
     // set frame id to id of motor controller as rx
     tx_frame.can_id = (can_id_ << 8) | CAN_EFF_FLAG;
-    //tx_frame.can_id = (183 << 8) | CAN_EFF_FLAG;
+    //tx_frame.can_id = (180 << 8) | CAN_EFF_FLAG;
     // set the frame flags
     tx_frame.flags = tx_frame.flags & ~CANFD_BRS;
     // set byte length of message
@@ -90,7 +90,8 @@ void BMCComms::SendParam(uint8_t cmd_id, float param)
     {
         //std::string tx_send = std::to_string(tx_bytes);
         std::string err = std::to_string(errno);
-        //RCLCPP_INFO(rclcpp::get_logger("RowbotBMCHardware2"), err.c_str());
+        RCLCPP_INFO(rclcpp::get_logger("RowbotBMCHardware"), "error = ");
+        RCLCPP_INFO(rclcpp::get_logger("RowbotBMCHardware2"), err.c_str());
     }
 }
 

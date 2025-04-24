@@ -1,0 +1,409 @@
+[0.000000] (-) TimerEvent: {}
+[0.001386] (my_robot_nav2) JobQueued: {'identifier': 'my_robot_nav2', 'dependencies': OrderedDict()}
+[0.002032] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.002436] (BMC_2024) JobQueued: {'identifier': 'BMC_2024', 'dependencies': OrderedDict([('sllidar_ros2', '/home/rospi/aug_2024/install/sllidar_ros2')])}
+[0.002677] (aug_2024) JobQueued: {'identifier': 'aug_2024', 'dependencies': OrderedDict([('sllidar_ros2', '/home/rospi/aug_2024/install/sllidar_ros2'), ('BMC_2024', '/home/rospi/aug_2024/install/BMC_2024')])}
+[0.002890] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[0.052430] (my_robot_nav2) JobStarted: {'identifier': 'my_robot_nav2'}
+[0.088382] (-) TimerEvent: {}
+[0.095686] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[0.099358] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[0.103584] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rospi/aug_2024/build/sllidar_ros2', '--', '-j4', '-l4'], 'cwd': '/home/rospi/aug_2024/build/sllidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rospi'), ('SSH_CLIENT', '10.150.42.143 56579 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rospi/aug_2024/install/BMC_2024/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rospi'), ('OLDPWD', '/home/rospi'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/rospi/aug_2024/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rospi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '34'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/rospi/aug_2024/install/aug_2024:/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/sllidar_ros2:/home/rospi/aug_2024/install/my_robot_nav2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/rospi/aug_2024/build/sllidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.150.42.143 56579 10.6.102.87 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/rospi/aug_2024/install/aug_2024:/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/sllidar_ros2:/home/rospi/aug_2024/install/my_robot_nav2:/opt/ros/humble')]), 'shell': False}
+[0.133925] (my_robot_nav2) JobProgress: {'identifier': 'my_robot_nav2', 'progress': 'cmake'}
+[0.135117] (my_robot_nav2) JobProgress: {'identifier': 'my_robot_nav2', 'progress': 'build'}
+[0.138070] (my_robot_nav2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rospi/aug_2024/build/my_robot_nav2', '--', '-j4', '-l4'], 'cwd': '/home/rospi/aug_2024/build/my_robot_nav2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rospi'), ('SSH_CLIENT', '10.150.42.143 56579 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rospi/aug_2024/install/BMC_2024/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rospi'), ('OLDPWD', '/home/rospi'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/rospi/aug_2024/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rospi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '34'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/rospi/aug_2024/install/aug_2024:/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/sllidar_ros2:/home/rospi/aug_2024/install/my_robot_nav2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/rospi/aug_2024/build/my_robot_nav2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.150.42.143 56579 10.6.102.87 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/rospi/aug_2024/install/aug_2024:/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/sllidar_ros2:/home/rospi/aug_2024/install/my_robot_nav2:/opt/ros/humble')]), 'shell': False}
+[0.188717] (-) TimerEvent: {}
+[0.289964] (-) TimerEvent: {}
+[0.338604] (my_robot_nav2) CommandEnded: {'returncode': 0}
+[0.342887] (my_robot_nav2) JobProgress: {'identifier': 'my_robot_nav2', 'progress': 'install'}
+[0.385274] (my_robot_nav2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rospi/aug_2024/build/my_robot_nav2'], 'cwd': '/home/rospi/aug_2024/build/my_robot_nav2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rospi'), ('SSH_CLIENT', '10.150.42.143 56579 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rospi/aug_2024/install/BMC_2024/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rospi'), ('OLDPWD', '/home/rospi'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/rospi/aug_2024/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rospi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '34'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/rospi/aug_2024/install/aug_2024:/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/sllidar_ros2:/home/rospi/aug_2024/install/my_robot_nav2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/rospi/aug_2024/build/my_robot_nav2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.150.42.143 56579 10.6.102.87 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/rospi/aug_2024/install/aug_2024:/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/sllidar_ros2:/home/rospi/aug_2024/install/my_robot_nav2:/opt/ros/humble')]), 'shell': False}
+[0.390869] (-) TimerEvent: {}
+[0.446690] (my_robot_nav2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.448199] (my_robot_nav2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2//config\n'}
+[0.449796] (my_robot_nav2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2//config/slam_toolbox_params.yaml\n'}
+[0.450486] (my_robot_nav2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2//config/nav2_params.yaml\n'}
+[0.450922] (my_robot_nav2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2//include\n'}
+[0.451345] (my_robot_nav2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2//launch\n'}
+[0.452261] (my_robot_nav2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2//launch/slam_toolbox.launch.py\n'}
+[0.453183] (my_robot_nav2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2//maps\n'}
+[0.454442] (my_robot_nav2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2//maps/simple_map.yaml\n'}
+[0.456017] (my_robot_nav2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2//maps/simple_map.pgm\n'}
+[0.457381] (my_robot_nav2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/my_robot_nav2/share/ament_index/resource_index/package_run_dependencies/my_robot_nav2\n'}
+[0.458290] (my_robot_nav2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/my_robot_nav2/share/ament_index/resource_index/parent_prefix_path/my_robot_nav2\n'}
+[0.458907] (my_robot_nav2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2/environment/ament_prefix_path.sh\n'}
+[0.460045] (my_robot_nav2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2/environment/ament_prefix_path.dsv\n'}
+[0.461269] (my_robot_nav2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2/environment/path.sh\n'}
+[0.462099] (my_robot_nav2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2/environment/path.dsv\n'}
+[0.463245] (my_robot_nav2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2/local_setup.bash\n'}
+[0.464449] (my_robot_nav2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2/local_setup.sh\n'}
+[0.468525] (my_robot_nav2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2/local_setup.zsh\n'}
+[0.470830] (my_robot_nav2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2/local_setup.dsv\n'}
+[0.471975] (my_robot_nav2) StdoutLine: {'line': b'-- Installing: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2/package.dsv\n'}
+[0.472983] (my_robot_nav2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/my_robot_nav2/share/ament_index/resource_index/packages/my_robot_nav2\n'}
+[0.474517] (my_robot_nav2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2/cmake/my_robot_nav2Config.cmake\n'}
+[0.477121] (my_robot_nav2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2/cmake/my_robot_nav2Config-version.cmake\n'}
+[0.480749] (my_robot_nav2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/my_robot_nav2/share/my_robot_nav2/package.xml\n'}
+[0.483993] (my_robot_nav2) CommandEnded: {'returncode': 0}
+[0.491830] (-) TimerEvent: {}
+[0.510682] (sllidar_ros2) StdoutLine: {'line': b'[ 90%] Built target sllidar_node\n'}
+[0.537578] (sllidar_ros2) StdoutLine: {'line': b'[100%] Built target sllidar_client\n'}
+[0.592245] (-) TimerEvent: {}
+[0.601271] (my_robot_nav2) JobEnded: {'identifier': 'my_robot_nav2', 'rc': 0}
+[0.606578] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[0.609709] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'install'}
+[0.613607] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rospi/aug_2024/build/sllidar_ros2'], 'cwd': '/home/rospi/aug_2024/build/sllidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rospi'), ('SSH_CLIENT', '10.150.42.143 56579 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rospi/aug_2024/install/BMC_2024/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rospi'), ('OLDPWD', '/home/rospi'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/rospi/aug_2024/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rospi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '34'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/rospi/aug_2024/install/aug_2024:/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/sllidar_ros2:/home/rospi/aug_2024/install/my_robot_nav2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/rospi/aug_2024/build/sllidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.150.42.143 56579 10.6.102.87 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/rospi/aug_2024/install/aug_2024:/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/sllidar_ros2:/home/rospi/aug_2024/install/my_robot_nav2:/opt/ros/humble')]), 'shell': False}
+[0.652386] (sllidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.653634] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/launch\n'}
+[0.654233] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py\n'}
+[0.654752] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py\n'}
+[0.655259] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py\n'}
+[0.655801] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py\n'}
+[0.656385] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py\n'}
+[0.656970] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py\n'}
+[0.657645] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py\n'}
+[0.658554] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py\n'}
+[0.659339] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py\n'}
+[0.659919] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py\n'}
+[0.660615] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py\n'}
+[0.661101] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py\n'}
+[0.661767] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py\n'}
+[0.662286] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py\n'}
+[0.662789] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py\n'}
+[0.663215] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py\n'}
+[0.663655] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py\n'}
+[0.664023] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py\n'}
+[0.664717] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py\n'}
+[0.665194] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py\n'}
+[0.665538] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py\n'}
+[0.665887] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py\n'}
+[0.666254] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py\n'}
+[0.666594] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py\n'}
+[0.666929] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/rviz\n'}
+[0.667281] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz\n'}
+[0.667642] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node\n'}
+[0.668908] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client\n'}
+[0.670642] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2\n'}
+[0.672150] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2\n'}
+[0.672882] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh\n'}
+[0.673424] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv\n'}
+[0.673972] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh\n'}
+[0.674455] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv\n'}
+[0.674969] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash\n'}
+[0.675473] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh\n'}
+[0.676605] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh\n'}
+[0.677369] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv\n'}
+[0.677994] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/package.dsv\n'}
+[0.679364] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2\n'}
+[0.680036] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.680661] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.681206] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake\n'}
+[0.681862] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake\n'}
+[0.682406] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/sllidar_ros2/share/sllidar_ros2/package.xml\n'}
+[0.688704] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[0.692763] (-) TimerEvent: {}
+[0.775520] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 0}
+[0.780444] (BMC_2024) JobStarted: {'identifier': 'BMC_2024'}
+[0.794863] (-) TimerEvent: {}
+[0.822877] (BMC_2024) JobProgress: {'identifier': 'BMC_2024', 'progress': 'cmake'}
+[0.826325] (BMC_2024) JobProgress: {'identifier': 'BMC_2024', 'progress': 'build'}
+[0.830574] (BMC_2024) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rospi/aug_2024/build/BMC_2024', '--', '-j4', '-l4'], 'cwd': '/home/rospi/aug_2024/build/BMC_2024', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rospi'), ('SSH_CLIENT', '10.150.42.143 56579 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rospi/aug_2024/install/BMC_2024/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rospi'), ('OLDPWD', '/home/rospi'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/rospi/aug_2024/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rospi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '34'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/rospi/aug_2024/install/aug_2024:/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/sllidar_ros2:/home/rospi/aug_2024/install/my_robot_nav2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/rospi/aug_2024/build/BMC_2024'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.150.42.143 56579 10.6.102.87 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/rospi/aug_2024/install/sllidar_ros2:/home/rospi/aug_2024/install/aug_2024:/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/my_robot_nav2:/opt/ros/humble')]), 'shell': False}
+[0.895107] (-) TimerEvent: {}
+[0.996127] (-) TimerEvent: {}
+[1.097662] (-) TimerEvent: {}
+[1.113013] (BMC_2024) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.o\x1b[0m\n'}
+[1.197856] (-) TimerEvent: {}
+[1.298816] (-) TimerEvent: {}
+[1.399511] (-) TimerEvent: {}
+[1.500303] (-) TimerEvent: {}
+[1.601066] (-) TimerEvent: {}
+[1.702579] (-) TimerEvent: {}
+[1.803343] (-) TimerEvent: {}
+[1.904112] (-) TimerEvent: {}
+[2.004839] (-) TimerEvent: {}
+[2.105469] (-) TimerEvent: {}
+[2.206146] (-) TimerEvent: {}
+[2.306884] (-) TimerEvent: {}
+[2.407704] (-) TimerEvent: {}
+[2.508468] (-) TimerEvent: {}
+[2.609237] (-) TimerEvent: {}
+[2.709953] (-) TimerEvent: {}
+[2.810688] (-) TimerEvent: {}
+[2.911391] (-) TimerEvent: {}
+[3.012138] (-) TimerEvent: {}
+[3.112861] (-) TimerEvent: {}
+[3.213625] (-) TimerEvent: {}
+[3.314356] (-) TimerEvent: {}
+[3.415067] (-) TimerEvent: {}
+[3.515786] (-) TimerEvent: {}
+[3.616540] (-) TimerEvent: {}
+[3.717288] (-) TimerEvent: {}
+[3.818046] (-) TimerEvent: {}
+[3.919019] (-) TimerEvent: {}
+[4.019784] (-) TimerEvent: {}
+[4.120550] (-) TimerEvent: {}
+[4.221424] (-) TimerEvent: {}
+[4.322204] (-) TimerEvent: {}
+[4.422995] (-) TimerEvent: {}
+[4.523813] (-) TimerEvent: {}
+[4.624675] (-) TimerEvent: {}
+[4.725468] (-) TimerEvent: {}
+[4.826296] (-) TimerEvent: {}
+[4.927069] (-) TimerEvent: {}
+[5.027898] (-) TimerEvent: {}
+[5.128795] (-) TimerEvent: {}
+[5.229669] (-) TimerEvent: {}
+[5.330540] (-) TimerEvent: {}
+[5.431351] (-) TimerEvent: {}
+[5.532234] (-) TimerEvent: {}
+[5.632994] (-) TimerEvent: {}
+[5.733799] (-) TimerEvent: {}
+[5.834590] (-) TimerEvent: {}
+[5.935452] (-) TimerEvent: {}
+[6.036558] (-) TimerEvent: {}
+[6.137429] (-) TimerEvent: {}
+[6.238657] (-) TimerEvent: {}
+[6.339472] (-) TimerEvent: {}
+[6.441313] (-) TimerEvent: {}
+[6.543695] (-) TimerEvent: {}
+[6.645538] (-) TimerEvent: {}
+[6.747670] (-) TimerEvent: {}
+[6.848558] (-) TimerEvent: {}
+[6.949406] (-) TimerEvent: {}
+[7.050205] (-) TimerEvent: {}
+[7.151063] (-) TimerEvent: {}
+[7.251976] (-) TimerEvent: {}
+[7.352846] (-) TimerEvent: {}
+[7.453646] (-) TimerEvent: {}
+[7.554459] (-) TimerEvent: {}
+[7.655371] (-) TimerEvent: {}
+[7.756209] (-) TimerEvent: {}
+[7.857261] (-) TimerEvent: {}
+[7.958087] (-) TimerEvent: {}
+[8.060532] (-) TimerEvent: {}
+[8.162426] (-) TimerEvent: {}
+[8.263351] (-) TimerEvent: {}
+[8.364628] (-) TimerEvent: {}
+[8.465574] (-) TimerEvent: {}
+[8.566353] (-) TimerEvent: {}
+[8.667190] (-) TimerEvent: {}
+[8.767985] (-) TimerEvent: {}
+[8.868947] (-) TimerEvent: {}
+[8.969749] (-) TimerEvent: {}
+[9.070545] (-) TimerEvent: {}
+[9.171404] (-) TimerEvent: {}
+[9.272672] (-) TimerEvent: {}
+[9.373464] (-) TimerEvent: {}
+[9.474268] (-) TimerEvent: {}
+[9.575053] (-) TimerEvent: {}
+[9.675886] (-) TimerEvent: {}
+[9.777096] (-) TimerEvent: {}
+[9.878070] (-) TimerEvent: {}
+[9.979064] (-) TimerEvent: {}
+[10.079885] (-) TimerEvent: {}
+[10.180967] (-) TimerEvent: {}
+[10.281821] (-) TimerEvent: {}
+[10.383690] (-) TimerEvent: {}
+[10.487980] (-) TimerEvent: {}
+[10.589108] (-) TimerEvent: {}
+[10.690203] (-) TimerEvent: {}
+[10.790994] (-) TimerEvent: {}
+[10.891760] (-) TimerEvent: {}
+[10.992601] (-) TimerEvent: {}
+[11.093473] (-) TimerEvent: {}
+[11.194353] (-) TimerEvent: {}
+[11.295498] (-) TimerEvent: {}
+[11.396429] (-) TimerEvent: {}
+[11.497413] (-) TimerEvent: {}
+[11.598264] (-) TimerEvent: {}
+[11.699356] (-) TimerEvent: {}
+[11.800222] (-) TimerEvent: {}
+[11.901015] (-) TimerEvent: {}
+[12.002648] (-) TimerEvent: {}
+[12.103868] (-) TimerEvent: {}
+[12.204729] (-) TimerEvent: {}
+[12.306347] (-) TimerEvent: {}
+[12.407209] (-) TimerEvent: {}
+[12.508037] (-) TimerEvent: {}
+[12.609004] (-) TimerEvent: {}
+[12.709987] (-) TimerEvent: {}
+[12.810912] (-) TimerEvent: {}
+[12.911954] (-) TimerEvent: {}
+[13.012933] (-) TimerEvent: {}
+[13.113824] (-) TimerEvent: {}
+[13.214687] (-) TimerEvent: {}
+[13.315465] (-) TimerEvent: {}
+[13.416257] (-) TimerEvent: {}
+[13.517246] (-) TimerEvent: {}
+[13.618120] (-) TimerEvent: {}
+[13.718911] (-) TimerEvent: {}
+[13.819751] (-) TimerEvent: {}
+[13.920596] (-) TimerEvent: {}
+[14.021390] (-) TimerEvent: {}
+[14.122156] (-) TimerEvent: {}
+[14.223406] (-) TimerEvent: {}
+[14.328318] (-) TimerEvent: {}
+[14.429268] (-) TimerEvent: {}
+[14.531562] (-) TimerEvent: {}
+[14.634781] (-) TimerEvent: {}
+[14.736613] (-) TimerEvent: {}
+[14.837470] (-) TimerEvent: {}
+[14.938258] (-) TimerEvent: {}
+[15.039222] (-) TimerEvent: {}
+[15.139984] (-) TimerEvent: {}
+[15.240891] (-) TimerEvent: {}
+[15.341666] (-) TimerEvent: {}
+[15.442514] (-) TimerEvent: {}
+[15.543293] (-) TimerEvent: {}
+[15.644157] (-) TimerEvent: {}
+[15.744947] (-) TimerEvent: {}
+[15.845735] (-) TimerEvent: {}
+[15.946562] (-) TimerEvent: {}
+[16.047545] (-) TimerEvent: {}
+[16.148697] (-) TimerEvent: {}
+[16.249625] (-) TimerEvent: {}
+[16.350549] (-) TimerEvent: {}
+[16.451373] (-) TimerEvent: {}
+[16.552232] (-) TimerEvent: {}
+[16.653037] (-) TimerEvent: {}
+[16.753807] (-) TimerEvent: {}
+[16.854551] (-) TimerEvent: {}
+[16.955384] (-) TimerEvent: {}
+[17.056212] (-) TimerEvent: {}
+[17.157020] (-) TimerEvent: {}
+[17.257870] (-) TimerEvent: {}
+[17.282282] (BMC_2024) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libBMC_2024.so\x1b[0m\n'}
+[17.358046] (-) TimerEvent: {}
+[17.458791] (-) TimerEvent: {}
+[17.559752] (-) TimerEvent: {}
+[17.661632] (-) TimerEvent: {}
+[17.762604] (-) TimerEvent: {}
+[17.863652] (-) TimerEvent: {}
+[17.964720] (-) TimerEvent: {}
+[18.065962] (-) TimerEvent: {}
+[18.166931] (-) TimerEvent: {}
+[18.267763] (-) TimerEvent: {}
+[18.368759] (-) TimerEvent: {}
+[18.470578] (-) TimerEvent: {}
+[18.535751] (BMC_2024) StdoutLine: {'line': b'[100%] Built target BMC_2024\n'}
+[18.570760] (-) TimerEvent: {}
+[18.609567] (BMC_2024) CommandEnded: {'returncode': 0}
+[18.617586] (BMC_2024) JobProgress: {'identifier': 'BMC_2024', 'progress': 'install'}
+[18.618008] (BMC_2024) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rospi/aug_2024/build/BMC_2024'], 'cwd': '/home/rospi/aug_2024/build/BMC_2024', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rospi'), ('SSH_CLIENT', '10.150.42.143 56579 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rospi/aug_2024/install/BMC_2024/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rospi'), ('OLDPWD', '/home/rospi'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/rospi/aug_2024/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rospi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '34'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/rospi/aug_2024/install/aug_2024:/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/sllidar_ros2:/home/rospi/aug_2024/install/my_robot_nav2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/rospi/aug_2024/build/BMC_2024'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.150.42.143 56579 10.6.102.87 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/rospi/aug_2024/install/sllidar_ros2:/home/rospi/aug_2024/install/aug_2024:/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/my_robot_nav2:/opt/ros/humble')]), 'shell': False}
+[18.657030] (BMC_2024) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.659348] (BMC_2024) StdoutLine: {'line': b'-- Installing: /home/rospi/aug_2024/install/BMC_2024/lib/libBMC_2024.so\n'}
+[18.670083] (BMC_2024) StdoutLine: {'line': b'-- Set runtime path of "/home/rospi/aug_2024/install/BMC_2024/lib/libBMC_2024.so" to ""\n'}
+[18.670854] (-) TimerEvent: {}
+[18.671909] (BMC_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/include\n'}
+[18.674572] (BMC_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/include/BMC_2024\n'}
+[18.676367] (BMC_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/include/BMC_2024/aug_2024_system.hpp\n'}
+[18.677127] (BMC_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/include/BMC_2024/bmc_comms.hpp\n'}
+[18.678950] (BMC_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/include/BMC_2024/visibility_control.h\n'}
+[18.679388] (BMC_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/aug_2024_hardware.xml\n'}
+[18.680318] (BMC_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/lib/libBMC_2024.so\n'}
+[18.682027] (BMC_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/environment/library_path.sh\n'}
+[18.682815] (BMC_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/environment/library_path.dsv\n'}
+[18.683624] (BMC_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/ament_index/resource_index/package_run_dependencies/BMC_2024\n'}
+[18.684802] (BMC_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/ament_index/resource_index/parent_prefix_path/BMC_2024\n'}
+[18.685708] (BMC_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/environment/ament_prefix_path.sh\n'}
+[18.686666] (BMC_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/environment/ament_prefix_path.dsv\n'}
+[18.687375] (BMC_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/environment/path.sh\n'}
+[18.688297] (BMC_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/environment/path.dsv\n'}
+[18.689202] (BMC_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/local_setup.bash\n'}
+[18.689648] (BMC_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/local_setup.sh\n'}
+[18.690580] (BMC_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/local_setup.zsh\n'}
+[18.691895] (BMC_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/local_setup.dsv\n'}
+[18.693113] (BMC_2024) StdoutLine: {'line': b'-- Installing: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/package.dsv\n'}
+[18.694033] (BMC_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/ament_index/resource_index/packages/BMC_2024\n'}
+[18.694840] (BMC_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/BMC_2024\n'}
+[18.695660] (BMC_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[18.696755] (BMC_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[18.697650] (BMC_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[18.698616] (BMC_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/cmake/BMC_2024Config.cmake\n'}
+[18.699423] (BMC_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/cmake/BMC_2024Config-version.cmake\n'}
+[18.708393] (BMC_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/package.xml\n'}
+[18.709045] (BMC_2024) CommandEnded: {'returncode': 0}
+[18.771904] (-) TimerEvent: {}
+[18.808210] (BMC_2024) JobEnded: {'identifier': 'BMC_2024', 'rc': 0}
+[18.813517] (aug_2024) JobStarted: {'identifier': 'aug_2024'}
+[18.863963] (aug_2024) JobProgress: {'identifier': 'aug_2024', 'progress': 'cmake'}
+[18.867328] (aug_2024) JobProgress: {'identifier': 'aug_2024', 'progress': 'build'}
+[18.872435] (aug_2024) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rospi/aug_2024/build/aug_2024', '--', '-j4', '-l4'], 'cwd': '/home/rospi/aug_2024/build/aug_2024', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rospi'), ('SSH_CLIENT', '10.150.42.143 56579 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rospi/aug_2024/install/BMC_2024/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rospi'), ('OLDPWD', '/home/rospi'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/rospi/aug_2024/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rospi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '34'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/rospi/aug_2024/install/aug_2024:/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/sllidar_ros2:/home/rospi/aug_2024/install/my_robot_nav2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/rospi/aug_2024/build/aug_2024'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.150.42.143 56579 10.6.102.87 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/sllidar_ros2:/home/rospi/aug_2024/install/aug_2024:/home/rospi/aug_2024/install/my_robot_nav2:/opt/ros/humble')]), 'shell': False}
+[18.878934] (-) TimerEvent: {}
+[18.979647] (-) TimerEvent: {}
+[19.075943] (aug_2024) CommandEnded: {'returncode': 0}
+[19.078376] (aug_2024) JobProgress: {'identifier': 'aug_2024', 'progress': 'install'}
+[19.082081] (aug_2024) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rospi/aug_2024/build/aug_2024'], 'cwd': '/home/rospi/aug_2024/build/aug_2024', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rospi'), ('SSH_CLIENT', '10.150.42.143 56579 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rospi/aug_2024/install/BMC_2024/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rospi'), ('OLDPWD', '/home/rospi'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/rospi/aug_2024/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rospi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '34'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/rospi/aug_2024/install/aug_2024:/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/sllidar_ros2:/home/rospi/aug_2024/install/my_robot_nav2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/rospi/aug_2024/build/aug_2024'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.150.42.143 56579 10.6.102.87 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/sllidar_ros2:/home/rospi/aug_2024/install/aug_2024:/home/rospi/aug_2024/install/my_robot_nav2:/opt/ros/humble')]), 'shell': False}
+[19.086443] (-) TimerEvent: {}
+[19.115874] (aug_2024) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.116716] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config\n'}
+[19.117484] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/ekf.yaml\n'}
+[19.118402] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/backup\n'}
+[19.119062] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/backup/map1.pgm\n'}
+[19.119658] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/backup/map1.yaml\n'}
+[19.120491] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/twist_mux.yaml\n'}
+[19.121025] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/nav2_params.yaml\n'}
+[19.121514] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/test_controllers.yaml\n'}
+[19.122038] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/map1.pgm\n'}
+[19.122858] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/validate_yaml.py\n'}
+[19.123763] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/direct_controllers.yaml\n'}
+[19.124362] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/map1.yaml\n'}
+[19.125128] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/gazebo_ros2_control_params.yaml\n'}
+[19.125693] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/amcl_config.yaml\n'}
+[19.126287] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/flippo_controllers.yaml\n'}
+[19.126688] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description\n'}
+[19.127082] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/meshes\n'}
+[19.127596] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/meshes/rear_right_wheel_link.STL\n'}
+[19.128472] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/meshes/front_right_wheel_link.STL\n'}
+[19.128992] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/meshes/chassis_link.STL\n'}
+[19.129792] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/meshes/rear_left_wheel_link.STL\n'}
+[19.130234] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/meshes/front_left_wheel_link.STL\n'}
+[19.130908] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/rviz\n'}
+[19.131484] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/rviz/urdf_config.rviz\n'}
+[19.132025] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/config\n'}
+[19.132639] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/config/ekf.yaml\n'}
+[19.133201] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/config/aug_2024_joint_names.yaml\n'}
+[19.133741] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/urdf\n'}
+[19.134286] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/urdf/aug_2024.urdf\n'}
+[19.134729] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/urdf/aug_2024-cast.urdf\n'}
+[19.136345] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/urdf/aug_2024_old.xacro\n'}
+[19.137977] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/urdf/aug_2024 _no_caster.xacro\n'}
+[19.138838] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/urdf/aug_2024-1.xacro\n'}
+[19.139412] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/urdf/aug_2024-nocaster.urdf\n'}
+[19.139810] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch\n'}
+[19.140863] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch/sllidar_a2m12_launch .py\n'}
+[19.141800] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch/simple_test.py\n'}
+[19.142616] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch/min_launch.py\n'}
+[19.143269] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch/test_launch.py\n'}
+[19.144281] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch/aug_2024_launch.py\n'}
+[19.146704] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch/aug_2024_rospi_launch.py\n'}
+[19.150118] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch/ros2_control_debug.launch.py\n'}
+[19.150826] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch/controller_test.py\n'}
+[19.151596] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch/direct_test.py\n'}
+[19.152191] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch/aug_2024_sim_launch.py\n'}
+[19.152974] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch/aug_2024_sim_launch1.py\n'}
+[19.153646] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch/simple.py\n'}
+[19.154254] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//worlds\n'}
+[19.154982] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//worlds/usda_rough_dim.sdf\n'}
+[19.155655] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//worlds/usda_build_full\n'}
+[19.156337] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//worlds/usda_build_full/model.sdf\n'}
+[19.156955] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//worlds/usda_build_full/model.config\n'}
+[19.158080] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//worlds/gaz_goof_001\n'}
+[19.158657] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/ament_index/resource_index/package_run_dependencies/aug_2024\n'}
+[19.159142] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/ament_index/resource_index/parent_prefix_path/aug_2024\n'}
+[19.159680] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/environment/ament_prefix_path.sh\n'}
+[19.160139] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/environment/ament_prefix_path.dsv\n'}
+[19.160661] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/environment/path.sh\n'}
+[19.161112] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/environment/path.dsv\n'}
+[19.161630] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/local_setup.bash\n'}
+[19.161997] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/local_setup.sh\n'}
+[19.162571] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/local_setup.zsh\n'}
+[19.163053] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/local_setup.dsv\n'}
+[19.163560] (aug_2024) StdoutLine: {'line': b'-- Installing: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/package.dsv\n'}
+[19.163956] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/ament_index/resource_index/packages/aug_2024\n'}
+[19.164421] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/cmake/aug_2024Config.cmake\n'}
+[19.164986] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/cmake/aug_2024Config-version.cmake\n'}
+[19.165434] (aug_2024) StdoutLine: {'line': b'-- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/package.xml\n'}
+[19.165970] (aug_2024) CommandEnded: {'returncode': 0}
+[19.186881] (-) TimerEvent: {}
+[19.245804] (aug_2024) JobEnded: {'identifier': 'aug_2024', 'rc': 0}
+[19.249506] (-) EventReactorShutdown: {}

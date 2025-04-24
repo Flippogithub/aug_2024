@@ -1,0 +1,28 @@
+[0.053s] Invoking command in '/home/rospi/aug_2024/build/BMC_2024': CMAKE_PREFIX_PATH=/home/rospi/aug_2024/install/sllidar_ros2:/home/rospi/aug_2024/install/aug_2024:/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/my_robot_nav2:/home/rospi/install/aug_2024:/home/rospi/install/BMC_2024:/home/rospi/install/sllidar_ros2:/home/rospi/install/rowbot:/home/rospi/install/ros2_agr120:/home/rospi/install/my_robot_nav2:/home/rospi/install/iio_devices_ros:/home/rospi/install/agr120_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/rospi/aug_2024/build/BMC_2024 -- -j4 -l4
+[0.331s] [ 33%] [32mBuilding CXX object CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.o[0m
+[2.575s] [01m[K/home/rospi/aug_2024/src/BMC_2024/src/bmc_comms.cpp:9:73:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[2.575s]     9 |     RCLCPP_INFO(rclcpp::get_logger("RowbotBMCHardware"), "CAN ID = ": %s[01;35m[K"[m[K, can_id.c_str());
+[2.576s]       |                                                                         [01;35m[K^[m[K
+[2.576s] [01m[K/home/rospi/aug_2024/src/BMC_2024/src/bmc_comms.cpp:152:2:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+[2.577s]   152 | }
+[2.577s]       |  [01;31m[K^[m[K
+[11.768s] [01m[K/home/rospi/aug_2024/src/BMC_2024/src/bmc_comms.cpp:[m[K In member function ‘[01m[Kbool BMCComms::open(const char*, uint32_t)[m[K’:
+[11.768s] [01m[K/home/rospi/aug_2024/src/BMC_2024/src/bmc_comms.cpp:9:5:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+[11.769s]     9 |     [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger("RowbotBMCHardware"), "CAN ID = ": %s", can_id.c_str());
+[11.769s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[11.770s] [01m[K/home/rospi/aug_2024/src/BMC_2024/src/bmc_comms.cpp:9:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[11.770s]     9 |     RCLCPP_INFO[01;31m[K([m[Krclcpp::get_logger("RowbotBMCHardware"), "CAN ID = ": %s", can_id.c_str());
+[11.771s]       |                [01;31m[K^[m[K
+[11.771s] [01m[K/home/rospi/aug_2024/src/BMC_2024/src/bmc_comms.cpp:5:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[11.772s]     5 | [01;36m[K{[m[K
+[11.772s]       | [01;36m[K^[m[K
+[11.773s] [01m[K/home/rospi/aug_2024/src/BMC_2024/src/bmc_comms.cpp:9:16:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[11.773s]     9 |     RCLCPP_INFO[01;35m[K([m[Krclcpp::get_logger("RowbotBMCHardware"), "CAN ID = ": %s", can_id.c_str());
+[11.774s]       |                [01;35m[K^[m[K
+[11.774s] [01m[K/home/rospi/aug_2024/src/BMC_2024/src/bmc_comms.cpp:4:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksocket_interface[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[11.774s]     4 | bool BMCComms::open([01;35m[Kconst char* socket_interface[m[K, uint32_t can_id)
+[11.775s]       |                     [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[13.491s] gmake[2]: *** [CMakeFiles/BMC_2024.dir/build.make:90: CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.o] Error 1
+[13.492s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/BMC_2024.dir/all] Error 2
+[13.493s] gmake: *** [Makefile:146: all] Error 2
+[13.500s] Invoked command in '/home/rospi/aug_2024/build/BMC_2024' returned '2': CMAKE_PREFIX_PATH=/home/rospi/aug_2024/install/sllidar_ros2:/home/rospi/aug_2024/install/aug_2024:/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/my_robot_nav2:/home/rospi/install/aug_2024:/home/rospi/install/BMC_2024:/home/rospi/install/sllidar_ros2:/home/rospi/install/rowbot:/home/rospi/install/ros2_agr120:/home/rospi/install/my_robot_nav2:/home/rospi/install/iio_devices_ros:/home/rospi/install/agr120_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/rospi/aug_2024/build/BMC_2024 -- -j4 -l4

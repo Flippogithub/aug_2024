@@ -132,22 +132,15 @@ def generate_launch_description():
         }.items()
     )
 
-    teleop_node = Node(
-       package='teleop_twist_keyboard',
-       executable='teleop_twist_keyboard',
-       name='teleop_twist_keyboard',
-       output='screen',
-       prefix = 'xterm -e',
-       remappings=[('/cmd_vel', '/cmd_vel_teleop')],
-       parameters=[{'use_sim_time': LaunchConfiguration('use_sim_time')}]
-    )
-
-    rviz = Node(
-        package='rviz2',
-        executable='rviz2',
-        name='rviz2',
-        output='screen'
-    )   
+#    teleop_node = Node(
+#       package='teleop_twist_keyboard',
+#       executable='teleop_twist_keyboard',
+#       name='teleop_twist_keyboard',
+#       output='screen',
+#       prefix = 'xterm -e',
+#       remappings=[('/cmd_vel', '/cmd_vel_teleop')],
+#       parameters=[{'use_sim_time': LaunchConfiguration('use_sim_time')}]
+#    )   
         
     print(f"URDF file path: {urdf_file}")
     print(f"Robot description length: {len(robot_desc)}")
@@ -185,9 +178,8 @@ def generate_launch_description():
         diff_drive_spawner,     # Start diff_drive controller after a delay
         twist_mux_spawner,      # Start twist_mux after a longer delay
         nav2_launch,
-        teleop_node,
+        #teleop_node,
         #slam_toolbox,
         static_tf_node,
-        map_to_odom_tf_node,   
-        rviz
+        map_to_odom_tf_node
     ])

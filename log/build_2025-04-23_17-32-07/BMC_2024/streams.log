@@ -1,0 +1,38 @@
+[0.050s] Invoking command in '/home/rospi/aug_2024/build/BMC_2024': CMAKE_PREFIX_PATH=/home/rospi/aug_2024/install/sllidar_ros2:/home/rospi/aug_2024/install/aug_2024:/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/my_robot_nav2:/opt/ros/humble /usr/bin/cmake --build /home/rospi/aug_2024/build/BMC_2024 -- -j4 -l4
+[0.320s] [ 33%] [32mBuilding CXX object CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.o[0m
+[14.488s] [ 66%] [32m[1mLinking CXX shared library libBMC_2024.so[0m
+[15.555s] [100%] Built target BMC_2024
+[15.598s] Invoked command in '/home/rospi/aug_2024/build/BMC_2024' returned '0': CMAKE_PREFIX_PATH=/home/rospi/aug_2024/install/sllidar_ros2:/home/rospi/aug_2024/install/aug_2024:/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/my_robot_nav2:/opt/ros/humble /usr/bin/cmake --build /home/rospi/aug_2024/build/BMC_2024 -- -j4 -l4
+[15.607s] Invoking command in '/home/rospi/aug_2024/build/BMC_2024': CMAKE_PREFIX_PATH=/home/rospi/aug_2024/install/sllidar_ros2:/home/rospi/aug_2024/install/aug_2024:/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/my_robot_nav2:/opt/ros/humble /usr/bin/cmake --install /home/rospi/aug_2024/build/BMC_2024
+[15.635s] -- Install configuration: ""
+[15.636s] -- Installing: /home/rospi/aug_2024/install/BMC_2024/lib/libBMC_2024.so
+[15.645s] -- Set runtime path of "/home/rospi/aug_2024/install/BMC_2024/lib/libBMC_2024.so" to ""
+[15.645s] -- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/include
+[15.646s] -- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/include/BMC_2024
+[15.647s] -- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/include/BMC_2024/aug_2024_system.hpp
+[15.647s] -- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/include/BMC_2024/bmc_comms.hpp
+[15.647s] -- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/include/BMC_2024/visibility_control.h
+[15.648s] -- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/aug_2024_hardware.xml
+[15.648s] -- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/lib/libBMC_2024.so
+[15.649s] -- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/environment/library_path.sh
+[15.650s] -- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/environment/library_path.dsv
+[15.650s] -- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/ament_index/resource_index/package_run_dependencies/BMC_2024
+[15.651s] -- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/ament_index/resource_index/parent_prefix_path/BMC_2024
+[15.651s] -- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/environment/ament_prefix_path.sh
+[15.652s] -- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/environment/ament_prefix_path.dsv
+[15.652s] -- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/environment/path.sh
+[15.653s] -- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/environment/path.dsv
+[15.653s] -- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/local_setup.bash
+[15.654s] -- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/local_setup.sh
+[15.654s] -- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/local_setup.zsh
+[15.654s] -- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/local_setup.dsv
+[15.655s] -- Installing: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/package.dsv
+[15.656s] -- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/ament_index/resource_index/packages/BMC_2024
+[15.656s] -- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/BMC_2024
+[15.656s] -- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.657s] -- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/cmake/ament_cmake_export_libraries-extras.cmake
+[15.657s] -- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.658s] -- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/cmake/BMC_2024Config.cmake
+[15.659s] -- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/cmake/BMC_2024Config-version.cmake
+[15.659s] -- Up-to-date: /home/rospi/aug_2024/install/BMC_2024/share/BMC_2024/package.xml
+[15.666s] Invoked command in '/home/rospi/aug_2024/build/BMC_2024' returned '0': CMAKE_PREFIX_PATH=/home/rospi/aug_2024/install/sllidar_ros2:/home/rospi/aug_2024/install/aug_2024:/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/my_robot_nav2:/opt/ros/humble /usr/bin/cmake --install /home/rospi/aug_2024/build/BMC_2024
