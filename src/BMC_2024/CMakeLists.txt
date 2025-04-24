@@ -69,7 +69,6 @@ ament_export_dependencies(
   pluginlib
   rclcpp
   rclcpp_lifecycle
-  sllidar_ros2
   #gazebo_ros2_control
 )
 

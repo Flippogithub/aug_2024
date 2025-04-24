@@ -39,4 +39,14 @@ install(
     share/${PROJECT_NAME}/
 )
 
+# Add the GPIO controller executable
+add_executable(gpio_controller src/gpio_controller.cpp)
+ament_target_dependencies(gpio_controller rclcpp std_msgs)
+
+# Install the executable
+install(TARGETS
+  gpio_controller
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 ament_package()

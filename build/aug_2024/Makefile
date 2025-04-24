@@ -197,6 +197,43 @@ aug_2024_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aug_2024_uninstall.dir/build.make CMakeFiles/aug_2024_uninstall.dir/build
 .PHONY : aug_2024_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named gpio_controller
+
+# Build rule for target.
+gpio_controller: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gpio_controller
+.PHONY : gpio_controller
+
+# fast build rule for target.
+gpio_controller/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_controller.dir/build.make CMakeFiles/gpio_controller.dir/build
+.PHONY : gpio_controller/fast
+
+src/gpio_controller.o: src/gpio_controller.cpp.o
+.PHONY : src/gpio_controller.o
+
+# target to build an object file
+src/gpio_controller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_controller.dir/build.make CMakeFiles/gpio_controller.dir/src/gpio_controller.cpp.o
+.PHONY : src/gpio_controller.cpp.o
+
+src/gpio_controller.i: src/gpio_controller.cpp.i
+.PHONY : src/gpio_controller.i
+
+# target to preprocess a source file
+src/gpio_controller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_controller.dir/build.make CMakeFiles/gpio_controller.dir/src/gpio_controller.cpp.i
+.PHONY : src/gpio_controller.cpp.i
+
+src/gpio_controller.s: src/gpio_controller.cpp.s
+.PHONY : src/gpio_controller.s
+
+# target to generate assembly for a file
+src/gpio_controller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_controller.dir/build.make CMakeFiles/gpio_controller.dir/src/gpio_controller.cpp.s
+.PHONY : src/gpio_controller.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... aug_2024_uninstall"
 	@echo "... uninstall"
+	@echo "... gpio_controller"
+	@echo "... src/gpio_controller.o"
+	@echo "... src/gpio_controller.i"
+	@echo "... src/gpio_controller.s"
 .PHONY : help
 
 

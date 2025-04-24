@@ -1,0 +1,6 @@
+Invoking command in '/home/dkflippo/aug2024/build/pigpio': /usr/bin/cmake /home/dkflippo/aug2024/pigpio-master -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/install/pigpio
+Invoked command in '/home/dkflippo/aug2024/build/pigpio' returned '0': /usr/bin/cmake /home/dkflippo/aug2024/pigpio-master -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/install/pigpio
+Invoking command in '/home/dkflippo/aug2024/build/pigpio': /usr/bin/cmake --build /home/dkflippo/aug2024/build/pigpio -- -j12 -l12
+Invoked command in '/home/dkflippo/aug2024/build/pigpio' returned '0': /usr/bin/cmake --build /home/dkflippo/aug2024/build/pigpio -- -j12 -l12
+Invoking command in '/home/dkflippo/aug2024/build/pigpio': /usr/bin/cmake --install /home/dkflippo/aug2024/build/pigpio
+Invoked command in '/home/dkflippo/aug2024/build/pigpio' returned '0': /usr/bin/cmake --install /home/dkflippo/aug2024/build/pigpio
