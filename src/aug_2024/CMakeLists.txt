@@ -16,7 +16,9 @@ list(APPEND CMAKE_PREFIX_PATH "/opt/ros/humble")
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(rclpy REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(cv_bridge REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(robot_state_publisher REQUIRED)
@@ -33,10 +35,16 @@ find_package(sllidar_ros2 REQUIRED)
 
 # install
 install(
-  DIRECTORY config description launch worlds
+  DIRECTORY config description launch worlds src
    
   DESTINATION
     share/${PROJECT_NAME}/
+)
+# Install Python scripts
+# Install Python scripts with correct path
+install(PROGRAMS
+  ${CMAKE_CURRENT_SOURCE_DIR}/src/image_annotator.py
+  DESTINATION lib/${PROJECT_NAME}
 )
 
 # Add the GPIO controller executable

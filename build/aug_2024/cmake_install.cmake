@@ -48,7 +48,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/dkflippo/aug2024/src/aug_2024/description"
     "/home/dkflippo/aug2024/src/aug_2024/launch"
     "/home/dkflippo/aug2024/src/aug_2024/worlds"
+    "/home/dkflippo/aug2024/src/aug_2024/src"
     )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/aug_2024" TYPE PROGRAM FILES "/home/dkflippo/aug2024/src/aug_2024/src/image_annotator.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

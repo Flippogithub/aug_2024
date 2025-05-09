@@ -1,0 +1,15 @@
+[33mCMake Warning at /home/dkflippo/aug2024/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+  Package 'sllidar_ros2' exports the include directory
+  '/home/dkflippo/aug2024/install/sllidar_ros2/share/sllidar_ros2/cmake/../../../include'
+  which doesn't exist
+Call Stack (most recent call first):
+  /home/dkflippo/aug2024/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake:41 (include)
+  CMakeLists.txt:34 (find_package)
+
+[0m
+[31mCMake Error at cmake_install.cmake:56 (file):
+  file INSTALL cannot find
+  "/home/dkflippo/aug2024/src/aug_2024/src/aug_2024/src/image_annotator.py":
+  No such file or directory.
+
+[0m

@@ -262,6 +262,9 @@ OPENSSL_INCLUDE_DIR:PATH=/usr/include
 //Path to a library.
 OPENSSL_SSL_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
 
+//The directory containing a CMake configuration file for OpenCV.
+OpenCV_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/opencv4
+
 //Arguments to supply to pkg-config
 PKG_CONFIG_ARGN:STRING=
 
@@ -373,6 +376,9 @@ controller_manager_DIR:PATH=/home/dkflippo/ros2_control_ws/install/controller_ma
 //The directory containing a CMake configuration file for controller_manager_msgs.
 controller_manager_msgs_DIR:PATH=/home/dkflippo/ros2_control_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake
 
+//The directory containing a CMake configuration file for cv_bridge.
+cv_bridge_DIR:PATH=/opt/ros/humble/share/cv_bridge/cmake
+
 //The directory containing a CMake configuration file for diff_drive_controller.
 diff_drive_controller_DIR:PATH=/home/dkflippo/ros2_control_ws/install/diff_drive_controller/share/diff_drive_controller/cmake
 
@@ -483,6 +489,9 @@ rclcpp_components_DIR:PATH=/opt/ros/humble/share/rclcpp_components/cmake
 
 //The directory containing a CMake configuration file for rclcpp_lifecycle.
 rclcpp_lifecycle_DIR:PATH=/opt/ros/humble/share/rclcpp_lifecycle/cmake
+
+//The directory containing a CMake configuration file for rclpy.
+rclpy_DIR:PATH=/opt/ros/humble/share/rclpy/cmake
 
 //The directory containing a CMake configuration file for rcpputils.
 rcpputils_DIR:PATH=/opt/ros/humble/share/rcpputils/cmake
