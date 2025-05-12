@@ -6,6 +6,8 @@ from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import Command, LaunchConfiguration, FindExecutable
 from launch_ros.actions import Node
 from ament_index_python.packages import get_package_share_directory
+from launch.actions import DeclareLaunchArgument
+from launch.substitutions import LaunchConfiguration
 
 def generate_launch_description():
     # Get the launch directory
@@ -30,6 +32,42 @@ def generate_launch_description():
         'map',
         default_value=os.path.join(pkg_share, 'config', 'map1.yaml'),
         description='Full path to map yaml file to load')
+    
+    # Declare joy device parameter
+    declare_joy_device = DeclareLaunchArgument(
+        'joy_device',
+        default_value='/dev/input/js0',
+        description='Joystick device path'
+    )
+
+    # Joy node for PS4 controller - CORRECTED parameter name
+    joy_node = Node(
+        package='joy',
+        executable='joy_node',
+        name='joy_node',
+        parameters=[{
+            'device': LaunchConfiguration('joy_device'),  # Changed from device_name to device
+            'deadzone': 0.1,
+            'autorepeat_rate': 20.0,
+        }],
+        output='screen'
+    )
+
+    # Teleop twist joy node
+    teleop_joy_node = Node(
+        package='teleop_twist_joy',
+        executable='teleop_node',
+        name='teleop_twist_joy_node',
+        parameters=[{
+            'axis_linear.x': 1,  # Left stick vertical
+            'axis_angular.yaw': 0,  # Left stick horizontal
+            'scale_linear.x': 0.5,
+            'scale_angular.yaw': 0.5,
+            'enable_button': 4,  # L1 button (may need adjustment)
+        }],
+        remappings=[('/cmd_vel', '/cmd_vel_teleop')],  # Match your existing teleop remapping
+        output='screen'
+    )
 
     twist_mux_node = Node(
        package='twist_mux',
@@ -213,6 +251,7 @@ def generate_launch_description():
         # Important: Put declarations FIRST, before any nodes that use them
         declare_use_sim_time_argument,
         declare_map_yaml_cmd,
+        declare_joy_device,  # ADDED THIS LINE - Declaration for joy_device
         rplidar_node,
         robot_state_publisher,
         controller_manager,
@@ -221,6 +260,8 @@ def generate_launch_description():
         twist_mux_spawner,      # Start twist_mux after a longer delay
         nav2_launch,
         teleop_node,
+        joy_node,  # Add PS4 controller node
+        teleop_joy_node,  # Add PS4 teleop node
         #slam_toolbox,
         static_tf_node,
         camera_node,            # Add camera node
