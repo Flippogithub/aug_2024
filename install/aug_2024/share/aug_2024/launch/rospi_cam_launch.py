@@ -215,8 +215,9 @@ def generate_launch_description():
         parameters=[{
             'image_size': [640, 480],
             'camera_frame_id': 'camera_link',
-            'pixel_format': 'MJPG',  # Using MJPG for better performance
-            'video_device': '/dev/video0'
+            'pixel_format': 'YUYV',  # Changed from MJPG to YUYV which is better supported
+            'video_device': '/dev/video0',
+            'output_encoding': 'rgb8'  # Explicitly set the output encoding
         }],
         remappings=[
             ('image_raw', '/camera/image_raw'),
