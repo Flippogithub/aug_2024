@@ -107,10 +107,12 @@ def generate_launch_description():
     )
 
     # Controller Manager
+   # Controller Manager
     controller_manager = Node(
        package="controller_manager",
        executable="ros2_control_node",
-       parameters=[{'robot_description': robot_desc},  # Use the string directly
+       name="controller_manager",  # Add explicit name
+       parameters=[{'robot_description': robot_desc},
             os.path.join(pkg_share, 'config', 'flippo_controllers.yaml'),
             {'use_sim_time': use_sim_time}],
        output="screen",
@@ -123,12 +125,12 @@ def generate_launch_description():
     )
     
     # Define the joint broadcaster node directly
-    joint_broad_node = Node(
-        package="controller_manager",
-        executable="spawner",
-        arguments=["joint_state_broadcaster"], 
-        output="screen",
-    )
+    # joint_broad_node = Node(
+    #     package="controller_manager",
+    #     executable="spawner",
+    #     arguments=["joint_state_broadcaster"], 
+    #     output="screen",
+    # )
     
     # Define the diff controller node directly
     diff_drive_node = Node(
@@ -139,11 +141,17 @@ def generate_launch_description():
     )
     
     # Use RegisterEventHandler for joint_broadcaster to start after controller_manager
-    joint_broadcaster_spawner = Node(
-        package="controller_manager",
-        executable="spawner",
-        arguments=["joint_state_broadcaster", "--controller-manager", "/controller_manager"],
-        output="screen",
+# Replace the current joint_broadcaster_spawner definition with this
+    joint_broadcaster_spawner = TimerAction(
+        period=2.0,  # Start 2 seconds after launch
+        actions=[
+            Node(
+                package="controller_manager",
+                executable="spawner",
+                arguments=["joint_state_broadcaster", "--controller-manager", "/controller_manager"],
+                output="screen",
+            )
+        ]
     )
     
     # Use TimerAction for diff_drive_node to start a bit after joint_broadcaster

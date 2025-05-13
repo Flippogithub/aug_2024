@@ -9,7 +9,7 @@ controller_manager:
     diff_cont:
       type: diff_drive_controller/DiffDriveController
 
-    joint_broad:
+    joint_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
 
 diff_cont:
@@ -22,5 +22,5 @@ diff_cont:
     wheel_radius: 0.1
     use_stamped_vel: false
 
-joint_broad:
+joint_broadcaster:
   ros__parameters: {}
