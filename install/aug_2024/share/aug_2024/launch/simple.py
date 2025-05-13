@@ -1,80 +1,64 @@
 import os
-import yaml
-import sys
-
-from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
+from launch.actions import TimerAction
 from launch_ros.actions import Node
-import xacro
+from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
-    # Explicitly set paths to source directory
-    pkg_src_path = '/home/dkflippo/aug2024/src/aug_2024'
+    # Get the launch directory
+    pkg_share = get_package_share_directory('aug_2024')
     
-    # URDF file path
-    urdf_path = os.path.join(pkg_src_path, 'description', 'urdf', 'aug_2024-nocaster.urdf')
+    # Set up robot description
+    urdf_file = os.path.join(pkg_share, 'description', 'urdf', 'aug_2024-nocaster.urdf') 
+    with open(urdf_file, 'r') as infp:
+        robot_desc = infp.read()
+
+    # Robot state publisher
+    robot_state_publisher = Node(
+        package='robot_state_publisher',
+        executable='robot_state_publisher',
+        name='robot_state_publisher',
+        output='screen',
+        parameters=[{'robot_description': robot_desc}]
+    )
+
+    # Controller Manager
+    controller_manager = Node(
+       package="controller_manager",
+       executable="ros2_control_node",
+       name="controller_manager",
+       parameters=[
+           {'robot_description': robot_desc},
+           os.path.join(pkg_share, 'config', 'flippo_controllers.yaml'),
+       ],
+       output="screen",
+    )
+
+        # Joint State Broadcaster spawner
+    # Joint State Broadcaster spawner
+    joint_broadcaster_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=["joint_state_broadcaster", "--controller-manager", "/controller_manager"],
+        output="screen",
+    )
     
-    # Controller config path
-    controller_config_path = os.path.join(pkg_src_path, 'config', 'flippo_controllers.yaml')
+    # Differential drive controller spawner
+    diff_drive_spawner = TimerAction(
+        period=4.0,  # Start 4 seconds after launch
+        actions=[
+            Node(
+                package="controller_manager",
+                executable="spawner",
+                arguments=["diff_cont", "--controller-manager", "/controller_manager"],
+                output="screen",
+            )
+        ]
+    )
     
-    print(f"URDF Path: {urdf_path}")
-    print(f"Config Path: {controller_config_path}")
-    print(f"URDF Exists: {os.path.exists(urdf_path)}")
-    print(f"Config Exists: {os.path.exists(controller_config_path)}")
-
-    # Debug YAML parsing
-    try:
-        with open(controller_config_path, 'r') as file:
-            yaml_content = file.read()
-            print("Raw YAML Content:")
-            print(yaml_content)
-            
-            parsed_yaml = yaml.safe_load(yaml_content)
-            print("Parsed YAML:")
-            print(parsed_yaml)
-    except Exception as e:
-        print(f"Error parsing YAML: {e}")
-        sys.exit(1)
-
-    # Robot description
-    robot_description = xacro.process_file(urdf_path).toxml()
-
-    # Nodes to launch
     return LaunchDescription([
-        # Robot state publisher
-        Node(
-            package='robot_state_publisher',
-            executable='robot_state_publisher',
-            name='robot_state_publisher',
-            parameters=[{
-                'robot_description': robot_description
-            }]
-        ),
-        
-        # Controller manager
-        Node(
-            package='controller_manager',
-            executable='ros2_control_node',
-            parameters=[
-                {'robot_description': robot_description},
-                controller_config_path
-            ],
-            output='screen'
-        ),
-        
-        # Joint state broadcaster
-        Node(
-            package='controller_manager',
-            executable='spawner',
-            arguments=['joint_broad'],
-            output='screen'
-        ),
-        
-        # Differential drive controller
-        Node(
-            package='controller_manager',
-            executable='spawner',
-            arguments=['diff_cont'],
-            output='screen'
-        )
+        robot_state_publisher,
+        controller_manager,
+        joint_broadcaster_spawner,
+        diff_drive_spawner
     ])

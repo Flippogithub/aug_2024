@@ -139,11 +139,11 @@ def generate_launch_description():
     )
     
     # Use RegisterEventHandler for joint_broadcaster to start after controller_manager
-    joint_broad_spawner = RegisterEventHandler(
-        event_handler=OnProcessStart(
-            target_action=controller_manager,
-            on_start=[joint_broad_node]
-        )
+    joint_broadcaster_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=["joint_state_broadcaster", "--controller-manager", "/controller_manager"],
+        output="screen",
     )
     
     # Use TimerAction for diff_drive_node to start a bit after joint_broadcaster
@@ -256,7 +256,7 @@ def generate_launch_description():
         rplidar_node,
         robot_state_publisher,
         controller_manager,
-        joint_broad_spawner,    # Start joint broadcaster when controller_manager starts
+        joint_broadcaster_spawner,    # Start joint broadcaster when controller_manager starts
         diff_drive_spawner,     # Start diff_drive controller after a delay
         twist_mux_spawner,      # Start twist_mux after a longer delay
         nav2_launch,
