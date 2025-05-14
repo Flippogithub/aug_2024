@@ -36,7 +36,7 @@ def generate_launch_description():
         default_value='/dev/input/js0',
         description='Joystick device path')
 
-    # IMPORTANT: Add the map frame which was missing
+    # IMPORTANT: Map frame first
     map_to_odom_tf = Node(
         package='tf2_ros',
         executable='static_transform_publisher',
@@ -82,7 +82,6 @@ def generate_launch_description():
        output="screen",
     )
 
-    # Sensor nodes
     # RPLidar node
     rplidar_node = Node(
         package='sllidar_ros2',
@@ -99,38 +98,6 @@ def generate_launch_description():
         output='screen'
     )
 
-    # Camera node
-    camera_node = Node(
-        package='v4l2_camera',
-        executable='v4l2_camera_node',
-        name='camera_node',
-        output='screen',
-        parameters=[{
-            'image_size': [640, 480],
-            'camera_frame_id': 'camera_link',
-            'pixel_format': 'YUYV',
-            'video_device': '/dev/video0',
-            'output_encoding': 'rgb8'
-        }],
-        remappings=[
-            ('image_raw', '/camera/image_raw'),
-            ('camera_info', '/camera/camera_info')
-        ]
-    )
-    
-    # Image compression for network efficiency
-    image_transport_node = Node(
-        package='image_transport',
-        executable='republish',
-        name='image_transport_republisher',
-        arguments=['raw', 'compressed'],
-        remappings=[
-            ('in', '/camera/image_raw'),
-            ('out/compressed', '/camera/image_raw/compressed')
-        ],
-        parameters=[{'use_sim_time': use_sim_time}]
-    )
-
     # Controller spawners - using TimerAction for better sequencing
     joint_broadcaster_spawner = TimerAction(
         period=3.0,  # Delay for controller_manager to fully initialize
@@ -140,8 +107,8 @@ def generate_launch_description():
                 executable="spawner",
                 name="spawner_joint_state_broadcaster",
                 arguments=["joint_state_broadcaster", 
-                           "--controller-manager", "/controller_manager", 
-                           "--timeout", "60"],
+                           "--controller-manager", "/controller_manager",
+                           "--controller-manager-timeout", "60"],  # FIXED parameter name
                 output="screen",
             )
         ]
@@ -156,7 +123,7 @@ def generate_launch_description():
                 name="spawner_diff_controller",
                 arguments=["diff_cont", 
                           "--controller-manager", "/controller_manager",
-                          "--timeout", "60"],
+                          "--controller-manager-timeout", "60"],  # FIXED parameter name
                 output="screen",
             )
         ]
@@ -233,25 +200,21 @@ def generate_launch_description():
     print(f"URDF file path: {urdf_file}")
     print(f"Robot description length: {len(robot_desc)}")
     
-    # Return launch description with sequenced node start
     return LaunchDescription([
         # Declarations first
         declare_use_sim_time_argument,
         declare_map_yaml_cmd,
         declare_joy_device,
         
-        # Critical TF tree setup first - needed by everything
-        map_to_odom_tf,  # THIS IS CRITICAL - must be launched first
+        # Critical TF tree setup first
+        map_to_odom_tf,  # THIS IS CRITICAL
         robot_state_publisher,
         odom_to_base_tf,
         camera_tf_node,
         
         # Hardware interface
         controller_manager,
-        
-        # Sensors
         rplidar_node,
-        camera_node,
         
         # Controllers with sequential timing
         joint_broadcaster_spawner,
@@ -261,9 +224,6 @@ def generate_launch_description():
         joy_node,
         teleop_joy_node,
         twist_mux_spawner,
-        
-        # Image processing
-        image_transport_node,
         
         # Navigation stack (last, after everything else is ready)
         nav2_launch
