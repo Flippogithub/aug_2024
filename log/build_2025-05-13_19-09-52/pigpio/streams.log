@@ -1,0 +1,5 @@
+[0.087s] Invoking command in '/home/rospi/aug_2024/build/pigpio': /usr/bin/cmake --build /home/rospi/aug_2024/build/pigpio -- -j4 -l4
+[0.117s] [0mCMake Error: The current CMakeCache.txt directory /home/rospi/aug_2024/build/pigpio/CMakeCache.txt is different than the directory /home/dkflippo/aug2024/build/pigpio where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.167s] [0mCMake Error: The source directory "/home/dkflippo/aug2024/pigpio-master" does not exist.
+[0.168s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.170s] gmake: *** [Makefile:617: cmake_check_build_system] Error 1

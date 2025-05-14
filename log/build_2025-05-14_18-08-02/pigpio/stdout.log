@@ -1,0 +1,43 @@
+[35m[1mConsolidate compiler generated dependencies of target pigpio[0m
+[35m[1mConsolidate compiler generated dependencies of target pigpiod_if[0m
+[35m[1mConsolidate compiler generated dependencies of target pigs[0m
+[35m[1mConsolidate compiler generated dependencies of target pigpiod_if2[0m
+[ 13%] Built target pigpio
+[35m[1mConsolidate compiler generated dependencies of target pig2vcd[0m
+[ 26%] Built target pigpiod_if
+[ 39%] Built target pigpiod_if2
+[ 52%] Built target pig2vcd
+[ 65%] Built target pigs
+[35m[1mConsolidate compiler generated dependencies of target x_pigpio[0m
+[35m[1mConsolidate compiler generated dependencies of target x_pigpiod_if2[0m
+[35m[1mConsolidate compiler generated dependencies of target x_pigpiod_if[0m
+[35m[1mConsolidate compiler generated dependencies of target pigpiod[0m
+[ 73%] Built target x_pigpio
+[ 82%] Built target x_pigpiod_if2
+[ 91%] Built target x_pigpiod_if
+[100%] Built target pigpiod
+-- Install configuration: ""
+-- Up-to-date: /home/rospi/aug_2024/install/pigpio/lib/libpigpio.so
+-- Up-to-date: /home/rospi/aug_2024/install/pigpio/lib/libpigpiod_if.so
+-- Up-to-date: /home/rospi/aug_2024/install/pigpio/lib/libpigpiod_if2.so
+-- Up-to-date: /home/rospi/aug_2024/install/pigpio/bin/pig2vcd
+-- Up-to-date: /home/rospi/aug_2024/install/pigpio/bin/pigpiod
+-- Up-to-date: /home/rospi/aug_2024/install/pigpio/bin/pigs
+-- Up-to-date: /home/rospi/aug_2024/install/pigpio/lib/cmake/pigpio/pigpioTargets.cmake
+-- Up-to-date: /home/rospi/aug_2024/install/pigpio/lib/cmake/pigpio/pigpioTargets-noconfig.cmake
+-- Up-to-date: /home/rospi/aug_2024/install/pigpio/lib/cmake/pigpio/pigpioConfig.cmake
+-- Up-to-date: /home/rospi/aug_2024/install/pigpio/lib/cmake/pigpio/pigpioConfigVersion.cmake
+-- Up-to-date: /home/rospi/aug_2024/install/pigpio/include/pigpio.h
+-- Up-to-date: /home/rospi/aug_2024/install/pigpio/include/pigpiod_if.h
+-- Up-to-date: /home/rospi/aug_2024/install/pigpio/include/pigpiod_if2.h
+-- Up-to-date: /home/rospi/aug_2024/install/pigpio/man/man1/pig2vcd.1
+-- Up-to-date: /home/rospi/aug_2024/install/pigpio/man/man1/pigpiod.1
+-- Up-to-date: /home/rospi/aug_2024/install/pigpio/man/man1/pigs.1
+-- Up-to-date: /home/rospi/aug_2024/install/pigpio/man/man3/pigpio.3
+-- Up-to-date: /home/rospi/aug_2024/install/pigpio/man/man3/pigpiod_if.3
+-- Up-to-date: /home/rospi/aug_2024/install/pigpio/man/man3/pigpiod_if2.3
+running install
+running build
+running build_py
+running install_lib
+copying build/lib/pigpio.py -> /usr/local/lib/python3.10/dist-packages

@@ -1,0 +1,6 @@
+Invoking command in '/home/rospi/aug_2024/build/pigpio': /usr/bin/cmake /home/rospi/aug_2024/pigpio-master -DCMAKE_INSTALL_PREFIX=/home/rospi/aug_2024/install/pigpio
+Invoked command in '/home/rospi/aug_2024/build/pigpio' returned '0': /usr/bin/cmake /home/rospi/aug_2024/pigpio-master -DCMAKE_INSTALL_PREFIX=/home/rospi/aug_2024/install/pigpio
+Invoking command in '/home/rospi/aug_2024/build/pigpio': /usr/bin/cmake --build /home/rospi/aug_2024/build/pigpio -- -j4 -l4
+Invoked command in '/home/rospi/aug_2024/build/pigpio' returned '0': /usr/bin/cmake --build /home/rospi/aug_2024/build/pigpio -- -j4 -l4
+Invoking command in '/home/rospi/aug_2024/build/pigpio': /usr/bin/cmake --install /home/rospi/aug_2024/build/pigpio
+Invoked command in '/home/rospi/aug_2024/build/pigpio' returned '0': /usr/bin/cmake --install /home/rospi/aug_2024/build/pigpio

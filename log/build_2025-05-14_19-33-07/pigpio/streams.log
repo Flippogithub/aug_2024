@@ -1,0 +1,41 @@
+[0.087s] Invoking command in '/home/rospi/aug_2024/build/pigpio': /usr/bin/cmake --build /home/rospi/aug_2024/build/pigpio -- -j4 -l4
+[0.414s] [ 13%] Built target pigpiod_if
+[0.453s] [ 26%] Built target pigpio
+[0.473s] [ 39%] Built target pigs
+[0.530s] [ 52%] Built target pigpiod_if2
+[0.765s] [ 60%] Built target x_pigpio
+[0.767s] [ 73%] Built target pig2vcd
+[0.801s] [ 82%] Built target pigpiod
+[0.807s] [ 91%] Built target x_pigpiod_if
+[0.907s] [100%] Built target x_pigpiod_if2
+[0.981s] Invoked command in '/home/rospi/aug_2024/build/pigpio' returned '0': /usr/bin/cmake --build /home/rospi/aug_2024/build/pigpio -- -j4 -l4
+[0.990s] Invoking command in '/home/rospi/aug_2024/build/pigpio': /usr/bin/cmake --install /home/rospi/aug_2024/build/pigpio
+[1.022s] -- Install configuration: ""
+[1.023s] -- Up-to-date: /home/rospi/aug_2024/install/pigpio/lib/libpigpio.so
+[1.026s] -- Up-to-date: /home/rospi/aug_2024/install/pigpio/lib/libpigpiod_if.so
+[1.027s] -- Up-to-date: /home/rospi/aug_2024/install/pigpio/lib/libpigpiod_if2.so
+[1.029s] -- Up-to-date: /home/rospi/aug_2024/install/pigpio/bin/pig2vcd
+[1.030s] -- Up-to-date: /home/rospi/aug_2024/install/pigpio/bin/pigpiod
+[1.033s] -- Up-to-date: /home/rospi/aug_2024/install/pigpio/bin/pigs
+[1.034s] -- Up-to-date: /home/rospi/aug_2024/install/pigpio/lib/cmake/pigpio/pigpioTargets.cmake
+[1.035s] -- Up-to-date: /home/rospi/aug_2024/install/pigpio/lib/cmake/pigpio/pigpioTargets-noconfig.cmake
+[1.035s] -- Up-to-date: /home/rospi/aug_2024/install/pigpio/lib/cmake/pigpio/pigpioConfig.cmake
+[1.036s] -- Up-to-date: /home/rospi/aug_2024/install/pigpio/lib/cmake/pigpio/pigpioConfigVersion.cmake
+[1.037s] -- Up-to-date: /home/rospi/aug_2024/install/pigpio/include/pigpio.h
+[1.037s] -- Up-to-date: /home/rospi/aug_2024/install/pigpio/include/pigpiod_if.h
+[1.038s] -- Up-to-date: /home/rospi/aug_2024/install/pigpio/include/pigpiod_if2.h
+[1.039s] -- Up-to-date: /home/rospi/aug_2024/install/pigpio/man/man1/pig2vcd.1
+[1.039s] -- Up-to-date: /home/rospi/aug_2024/install/pigpio/man/man1/pigpiod.1
+[1.039s] -- Up-to-date: /home/rospi/aug_2024/install/pigpio/man/man1/pigs.1
+[1.040s] -- Up-to-date: /home/rospi/aug_2024/install/pigpio/man/man3/pigpio.3
+[1.040s] -- Up-to-date: /home/rospi/aug_2024/install/pigpio/man/man3/pigpiod_if.3
+[1.041s] -- Up-to-date: /home/rospi/aug_2024/install/pigpio/man/man3/pigpiod_if2.3
+[1.152s] /home/rospi/aug_2024/build/pigpio/setup.py:3: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+[1.152s]   from distutils.core import setup
+[1.256s] running install
+[1.258s] running build
+[1.258s] running build_py
+[1.262s] running install_lib
+[1.264s] copying build/lib/pigpio.py -> /usr/local/lib/python3.10/dist-packages
+[1.265s] error: could not create '/usr/local/lib/python3.10/dist-packages/pigpio.py': Permission denied
+[1.311s] Invoked command in '/home/rospi/aug_2024/build/pigpio' returned '0': /usr/bin/cmake --install /home/rospi/aug_2024/build/pigpio

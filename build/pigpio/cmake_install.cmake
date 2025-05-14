@@ -1,8 +1,8 @@
-# Install script for directory: /home/dkflippo/aug2024/pigpio-master
+# Install script for directory: /home/rospi/aug_2024/pigpio-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/dkflippo/aug2024/install/pigpio")
+  set(CMAKE_INSTALL_PREFIX "/home/rospi/aug_2024/install/pigpio")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpigpio.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/dkflippo/aug2024/build/pigpio/libpigpio.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rospi/aug_2024/build/pigpio/libpigpio.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpigpio.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpigpio.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -68,7 +68,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpigpiod_if.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/dkflippo/aug2024/build/pigpio/libpigpiod_if.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rospi/aug_2024/build/pigpio/libpigpiod_if.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpigpiod_if.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpigpiod_if.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -87,7 +87,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpigpiod_if2.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/dkflippo/aug2024/build/pigpio/libpigpiod_if2.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rospi/aug_2024/build/pigpio/libpigpiod_if2.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpigpiod_if2.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpigpiod_if2.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -106,7 +106,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pig2vcd"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/dkflippo/aug2024/build/pigpio/pig2vcd")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/rospi/aug_2024/build/pigpio/pig2vcd")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pig2vcd" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pig2vcd")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -122,12 +122,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pigpiod"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/dkflippo/aug2024/build/pigpio/pigpiod")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/rospi/aug_2024/build/pigpio/pigpiod")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pigpiod" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pigpiod")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pigpiod"
-         OLD_RPATH "/home/dkflippo/aug2024/build/pigpio:"
+         OLD_RPATH "/home/rospi/aug_2024/build/pigpio:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pigpiod")
@@ -142,7 +142,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pigs"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/dkflippo/aug2024/build/pigpio/pigs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/rospi/aug_2024/build/pigpio/pigs")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pigs" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pigs")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -155,7 +155,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/pigpio/pigpioTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/pigpio/pigpioTargets.cmake"
-         "/home/dkflippo/aug2024/build/pigpio/CMakeFiles/Export/lib/cmake/pigpio/pigpioTargets.cmake")
+         "/home/rospi/aug_2024/build/pigpio/CMakeFiles/Export/lib/cmake/pigpio/pigpioTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/pigpio/pigpioTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -164,48 +164,45 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/pigpio" TYPE FILE FILES "/home/dkflippo/aug2024/build/pigpio/CMakeFiles/Export/lib/cmake/pigpio/pigpioTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/pigpio" TYPE FILE FILES "/home/rospi/aug_2024/build/pigpio/CMakeFiles/Export/lib/cmake/pigpio/pigpioTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/pigpio" TYPE FILE FILES "/home/dkflippo/aug2024/build/pigpio/CMakeFiles/Export/lib/cmake/pigpio/pigpioTargets-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/pigpio" TYPE FILE FILES "/home/rospi/aug_2024/build/pigpio/CMakeFiles/Export/lib/cmake/pigpio/pigpioTargets-noconfig.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/pigpio" TYPE FILE FILES
-    "/home/dkflippo/aug2024/pigpio-master/cmake/pigpioConfig.cmake"
-    "/home/dkflippo/aug2024/build/pigpio/pigpioConfigVersion.cmake"
+    "/home/rospi/aug_2024/pigpio-master/cmake/pigpioConfig.cmake"
+    "/home/rospi/aug_2024/build/pigpio/pigpioConfigVersion.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE PERMISSIONS OWNER_READ OWNER_WRITE GROUP_READ WORLD_READ FILES
-    "/home/dkflippo/aug2024/pigpio-master/pigpio.h"
-    "/home/dkflippo/aug2024/pigpio-master/pigpiod_if.h"
-    "/home/dkflippo/aug2024/pigpio-master/pigpiod_if2.h"
+    "/home/rospi/aug_2024/pigpio-master/pigpio.h"
+    "/home/rospi/aug_2024/pigpio-master/pigpiod_if.h"
+    "/home/rospi/aug_2024/pigpio-master/pigpiod_if2.h"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/man/man1" TYPE FILE PERMISSIONS OWNER_READ OWNER_WRITE GROUP_READ WORLD_READ FILES
-    "/home/dkflippo/aug2024/pigpio-master/libpigpio.so.1"
-    "/home/dkflippo/aug2024/pigpio-master/libpigpiod_if.so.1"
-    "/home/dkflippo/aug2024/pigpio-master/libpigpiod_if2.so.1"
-    "/home/dkflippo/aug2024/pigpio-master/pig2vcd.1"
-    "/home/dkflippo/aug2024/pigpio-master/pigpiod.1"
-    "/home/dkflippo/aug2024/pigpio-master/pigs.1"
+    "/home/rospi/aug_2024/pigpio-master/pig2vcd.1"
+    "/home/rospi/aug_2024/pigpio-master/pigpiod.1"
+    "/home/rospi/aug_2024/pigpio-master/pigs.1"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/man/man3" TYPE FILE PERMISSIONS OWNER_READ OWNER_WRITE GROUP_READ WORLD_READ FILES
-    "/home/dkflippo/aug2024/pigpio-master/pigpio.3"
-    "/home/dkflippo/aug2024/pigpio-master/pigpiod_if.3"
-    "/home/dkflippo/aug2024/pigpio-master/pigpiod_if2.3"
+    "/home/rospi/aug_2024/pigpio-master/pigpio.3"
+    "/home/rospi/aug_2024/pigpio-master/pigpiod_if.3"
+    "/home/rospi/aug_2024/pigpio-master/pigpiod_if2.3"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND /usr/bin/python3.10 /home/dkflippo/aug2024/build/pigpio/setup.py install)
+  execute_process(COMMAND /usr/bin/python3.10 /home/rospi/aug_2024/build/pigpio/setup.py install)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -216,5 +213,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/dkflippo/aug2024/build/pigpio/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/rospi/aug_2024/build/pigpio/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,0 +1,101 @@
+[0.075s] Invoking command in '/home/rospi/aug_2024/build/pigpio': /usr/bin/cmake /home/rospi/aug_2024/pigpio-master -DCMAKE_INSTALL_PREFIX=/home/rospi/aug_2024/install/pigpio
+[0.476s] -- The C compiler identification is GNU 11.4.0
+[0.532s] -- Detecting C compiler ABI info
+[0.937s] -- Detecting C compiler ABI info - done
+[0.971s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.972s] -- Detecting C compile features
+[0.975s] -- Detecting C compile features - done
+[0.984s] -- Looking for pthread.h
+[1.415s] -- Looking for pthread.h - found
+[1.416s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.835s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.840s] -- Found Threads: TRUE  
+[1.963s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.964s]   The package name passed to `find_package_handle_standard_args` (rt) does
+[1.964s]   not match the name of the calling package (RT).  This can lead to problems
+[1.965s]   in calling code that expects `find_package` result variables (e.g.,
+[1.966s]   `_FOUND`) to follow a certain pattern.
+[1.966s] Call Stack (most recent call first):
+[1.967s]   cmake/FindRT.cmake:28 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+[1.968s]   CMakeLists.txt:8 (find_package)
+[1.969s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.970s] [0m
+[1.973s] -- Found rt: /usr/lib/aarch64-linux-gnu/librt.a  
+[2.015s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[2.503s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[2.510s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[2.899s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Failed
+[2.901s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[3.290s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[4.408s] -- Configuring done
+[4.477s] -- Generating done
+[4.497s] -- Build files have been written to: /home/rospi/aug_2024/build/pigpio
+[4.511s] Invoked command in '/home/rospi/aug_2024/build/pigpio' returned '0': /usr/bin/cmake /home/rospi/aug_2024/pigpio-master -DCMAKE_INSTALL_PREFIX=/home/rospi/aug_2024/install/pigpio
+[4.522s] Invoking command in '/home/rospi/aug_2024/build/pigpio': /usr/bin/cmake --build /home/rospi/aug_2024/build/pigpio -- -j4 -l4
+[4.757s] [  4%] [32mBuilding C object CMakeFiles/pigpiod_if.dir/pigpiod_if.c.o[0m
+[4.776s] [  8%] [32mBuilding C object CMakeFiles/pigs.dir/pigs.c.o[0m
+[4.832s] [ 13%] [32mBuilding C object CMakeFiles/pigpiod_if2.dir/pigpiod_if2.c.o[0m
+[4.837s] [ 17%] [32mBuilding C object CMakeFiles/pigpio.dir/pigpio.c.o[0m
+[5.401s] [ 21%] [32mBuilding C object CMakeFiles/pigs.dir/command.c.o[0m
+[5.901s] [ 26%] [32mBuilding C object CMakeFiles/pigpiod_if2.dir/command.c.o[0m
+[5.987s] [ 30%] [32mBuilding C object CMakeFiles/pigpiod_if.dir/command.c.o[0m
+[6.122s] [ 34%] [32m[1mLinking C executable pigs[0m
+[6.439s] [ 34%] Built target pigs
+[6.491s] [ 39%] [32mBuilding C object CMakeFiles/pigpio.dir/command.c.o[0m
+[6.512s] [ 43%] [32m[1mLinking C shared library libpigpiod_if2.so[0m
+[6.593s] [ 47%] [32m[1mLinking C shared library libpigpiod_if.so[0m
+[6.777s] [ 47%] Built target pigpiod_if2
+[6.905s] [ 52%] [32mBuilding C object CMakeFiles/pig2vcd.dir/pig2vcd.c.o[0m
+[6.920s] [ 52%] Built target pigpiod_if
+[7.029s] [ 56%] [32mBuilding C object CMakeFiles/pig2vcd.dir/command.c.o[0m
+[7.068s] [ 60%] [32mBuilding C object CMakeFiles/x_pigpiod_if.dir/x_pigpiod_if.c.o[0m
+[7.240s] [ 65%] [32mBuilding C object CMakeFiles/x_pigpiod_if2.dir/x_pigpiod_if2.c.o[0m
+[7.525s] [ 69%] [32m[1mLinking C executable pig2vcd[0m
+[7.843s] [ 73%] [32m[1mLinking C executable x_pigpiod_if[0m
+[7.925s] [ 73%] Built target pig2vcd
+[8.049s] [ 78%] [32m[1mLinking C executable x_pigpiod_if2[0m
+[8.091s] [ 78%] Built target x_pigpiod_if
+[8.233s] [ 78%] Built target x_pigpiod_if2
+[10.797s] [ 82%] [32m[1mLinking C shared library libpigpio.so[0m
+[11.001s] [ 82%] Built target pigpio
+[11.116s] [ 86%] [32mBuilding C object CMakeFiles/pigpiod.dir/pigpiod.c.o[0m
+[11.202s] [ 91%] [32mBuilding C object CMakeFiles/x_pigpio.dir/x_pigpio.c.o[0m
+[11.800s] [ 95%] [32m[1mLinking C executable pigpiod[0m
+[11.915s] [100%] [32m[1mLinking C executable x_pigpio[0m
+[12.106s] [100%] Built target pigpiod
+[12.178s] [100%] Built target x_pigpio
+[12.256s] Invoked command in '/home/rospi/aug_2024/build/pigpio' returned '0': /usr/bin/cmake --build /home/rospi/aug_2024/build/pigpio -- -j4 -l4
+[12.263s] Invoking command in '/home/rospi/aug_2024/build/pigpio': /usr/bin/cmake --install /home/rospi/aug_2024/build/pigpio
+[12.301s] -- Install configuration: ""
+[12.302s] -- Installing: /home/rospi/aug_2024/install/pigpio/lib/libpigpio.so
+[12.307s] -- Installing: /home/rospi/aug_2024/install/pigpio/lib/libpigpiod_if.so
+[12.309s] -- Installing: /home/rospi/aug_2024/install/pigpio/lib/libpigpiod_if2.so
+[12.311s] -- Installing: /home/rospi/aug_2024/install/pigpio/bin/pig2vcd
+[12.314s] -- Installing: /home/rospi/aug_2024/install/pigpio/bin/pigpiod
+[12.316s] -- Set runtime path of "/home/rospi/aug_2024/install/pigpio/bin/pigpiod" to ""
+[12.317s] -- Installing: /home/rospi/aug_2024/install/pigpio/bin/pigs
+[12.319s] -- Installing: /home/rospi/aug_2024/install/pigpio/lib/cmake/pigpio/pigpioTargets.cmake
+[12.320s] -- Installing: /home/rospi/aug_2024/install/pigpio/lib/cmake/pigpio/pigpioTargets-noconfig.cmake
+[12.322s] -- Installing: /home/rospi/aug_2024/install/pigpio/lib/cmake/pigpio/pigpioConfig.cmake
+[12.323s] -- Installing: /home/rospi/aug_2024/install/pigpio/lib/cmake/pigpio/pigpioConfigVersion.cmake
+[12.326s] -- Installing: /home/rospi/aug_2024/install/pigpio/include/pigpio.h
+[12.329s] -- Installing: /home/rospi/aug_2024/install/pigpio/include/pigpiod_if.h
+[12.331s] -- Installing: /home/rospi/aug_2024/install/pigpio/include/pigpiod_if2.h
+[12.333s] -- Installing: /home/rospi/aug_2024/install/pigpio/man/man1/pig2vcd.1
+[12.335s] -- Installing: /home/rospi/aug_2024/install/pigpio/man/man1/pigpiod.1
+[12.336s] -- Installing: /home/rospi/aug_2024/install/pigpio/man/man1/pigs.1
+[12.346s] -- Installing: /home/rospi/aug_2024/install/pigpio/man/man3/pigpio.3
+[12.349s] -- Installing: /home/rospi/aug_2024/install/pigpio/man/man3/pigpiod_if.3
+[12.352s] -- Installing: /home/rospi/aug_2024/install/pigpio/man/man3/pigpiod_if2.3
+[12.497s] /home/rospi/aug_2024/build/pigpio/setup.py:3: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+[12.498s]   from distutils.core import setup
+[12.610s] running install
+[12.614s] running build
+[12.620s] running build_py
+[12.637s] creating build
+[12.638s] creating build/lib
+[12.640s] copying /home/rospi/aug_2024/pigpio-master/pigpio.py -> build/lib
+[12.645s] running install_lib
+[12.647s] copying build/lib/pigpio.py -> /usr/local/lib/python3.10/dist-packages
+[12.649s] error: could not create '/usr/local/lib/python3.10/dist-packages/pigpio.py': Permission denied
+[12.718s] Invoked command in '/home/rospi/aug_2024/build/pigpio' returned '0': /usr/bin/cmake --install /home/rospi/aug_2024/build/pigpio

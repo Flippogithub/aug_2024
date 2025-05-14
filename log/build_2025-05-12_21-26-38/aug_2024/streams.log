@@ -1,0 +1,82 @@
+[0.062s] Invoking command in '/home/rospi/aug_2024/build/aug_2024': CMAKE_PREFIX_PATH=/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/sllidar_ros2:/home/rospi/aug_2024/install/aug_2024:/home/rospi/aug_2024/install/pigpio:/home/rospi/aug_2024/install/my_robot_nav2:/opt/ros/humble /usr/bin/cmake --build /home/rospi/aug_2024/build/aug_2024 -- -j4 -l4
+[0.271s] [35m[1mConsolidate compiler generated dependencies of target gpio_controller[0m
+[0.369s] [100%] Built target gpio_controller
+[0.412s] Invoked command in '/home/rospi/aug_2024/build/aug_2024' returned '0': CMAKE_PREFIX_PATH=/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/sllidar_ros2:/home/rospi/aug_2024/install/aug_2024:/home/rospi/aug_2024/install/pigpio:/home/rospi/aug_2024/install/my_robot_nav2:/opt/ros/humble /usr/bin/cmake --build /home/rospi/aug_2024/build/aug_2024 -- -j4 -l4
+[0.421s] Invoking command in '/home/rospi/aug_2024/build/aug_2024': CMAKE_PREFIX_PATH=/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/sllidar_ros2:/home/rospi/aug_2024/install/aug_2024:/home/rospi/aug_2024/install/pigpio:/home/rospi/aug_2024/install/my_robot_nav2:/opt/ros/humble /usr/bin/cmake --install /home/rospi/aug_2024/build/aug_2024
+[0.451s] -- Install configuration: ""
+[0.452s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config
+[0.452s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/ekf.yaml
+[0.452s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/backup
+[0.453s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/backup/map1.pgm
+[0.454s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/backup/map1.yaml
+[0.454s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/twist_mux.yaml
+[0.455s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/nav2_params.yaml
+[0.455s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/ps4_controller.yaml
+[0.456s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/map1.pgm
+[0.456s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/validate_yaml.py
+[0.456s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/direct_controllers.yaml
+[0.457s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/map1.yaml
+[0.457s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/gazebo_ros2_control_params.yaml
+[0.458s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/amcl_config.yaml
+[0.458s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//config/flippo_controllers.yaml
+[0.459s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description
+[0.460s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/meshes
+[0.460s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/meshes/rear_right_wheel_link.STL
+[0.460s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/meshes/front_right_wheel_link.STL
+[0.461s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/meshes/chassis_link.STL
+[0.461s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/meshes/rear_left_wheel_link.STL
+[0.462s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/meshes/front_left_wheel_link.STL
+[0.462s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/rviz
+[0.463s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/rviz/urdf_config.rviz
+[0.463s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/config
+[0.464s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/config/ekf.yaml
+[0.464s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/config/aug_2024_joint_names.yaml
+[0.465s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/urdf
+[0.465s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/urdf/aug_2024.urdf
+[0.465s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/urdf/aug_2024-cast.urdf
+[0.466s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/urdf/aug_2024_old.xacro
+[0.466s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/urdf/aug_2024 _no_caster.xacro
+[0.466s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/urdf/aug_2024-1.xacro
+[0.467s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//description/urdf/aug_2024-nocaster.urdf
+[0.467s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch
+[0.468s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch/sllidar_a2m12_launch .py
+[0.468s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch/min_launch.py
+[0.468s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch/test_launch.py
+[0.469s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch/aug_2024_launch.py
+[0.469s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch/aug_2024_rospi_launch.py
+[0.470s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch/ros2_control_debug.launch.py
+[0.470s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch/aug_2024_sim_launch.py
+[0.471s] -- Installing: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch/rospi_cam_launch.py
+[0.471s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch/aug_2024_sim_launch1.py
+[0.472s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch/aug_2024_rospi_launch_broken.py
+[0.472s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//launch/simple.py
+[0.472s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//worlds
+[0.473s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//worlds/usda_rough_dim.sdf
+[0.473s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//worlds/usda_build_full
+[0.473s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//worlds/usda_build_full/model.sdf
+[0.474s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//worlds/usda_build_full/model.config
+[0.474s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//worlds/gaz_goof_001
+[0.474s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//src
+[0.475s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//src/waypoint_navigator.py
+[0.475s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//src/skunk_aug.cpp
+[0.476s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//src/gpio_controller.cpp
+[0.476s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//src/gpio_controller.py
+[0.477s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024//src/image_annotator.py
+[0.477s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/lib/aug_2024/image_annotator.py
+[0.477s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/lib/aug_2024/gpio_controller
+[0.478s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/ament_index/resource_index/package_run_dependencies/aug_2024
+[0.478s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/ament_index/resource_index/parent_prefix_path/aug_2024
+[0.479s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/environment/ament_prefix_path.sh
+[0.479s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/environment/ament_prefix_path.dsv
+[0.480s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/environment/path.sh
+[0.480s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/environment/path.dsv
+[0.481s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/local_setup.bash
+[0.481s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/local_setup.sh
+[0.482s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/local_setup.zsh
+[0.482s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/local_setup.dsv
+[0.483s] -- Installing: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/package.dsv
+[0.483s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/ament_index/resource_index/packages/aug_2024
+[0.484s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/cmake/aug_2024Config.cmake
+[0.484s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/cmake/aug_2024Config-version.cmake
+[0.485s] -- Up-to-date: /home/rospi/aug_2024/install/aug_2024/share/aug_2024/package.xml
+[0.491s] Invoked command in '/home/rospi/aug_2024/build/aug_2024' returned '0': CMAKE_PREFIX_PATH=/home/rospi/aug_2024/install/BMC_2024:/home/rospi/aug_2024/install/sllidar_ros2:/home/rospi/aug_2024/install/aug_2024:/home/rospi/aug_2024/install/pigpio:/home/rospi/aug_2024/install/my_robot_nav2:/opt/ros/humble /usr/bin/cmake --install /home/rospi/aug_2024/build/aug_2024

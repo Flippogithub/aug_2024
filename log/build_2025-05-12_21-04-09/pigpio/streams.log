@@ -1,0 +1,19 @@
+[0.085s] Invoking command in '/home/rospi/aug_2024/build/pigpio': /usr/bin/cmake --build /home/rospi/aug_2024/build/pigpio -- -j4 -l4
+[0.263s] [35m[1mConsolidate compiler generated dependencies of target pigpiod_if[0m
+[0.284s] [35m[1mConsolidate compiler generated dependencies of target pigpio[0m
+[0.289s] [35m[1mConsolidate compiler generated dependencies of target pigs[0m
+[0.323s] [35m[1mConsolidate compiler generated dependencies of target pigpiod_if2[0m
+[0.347s] [ 13%] Built target pigpiod_if
+[0.418s] [ 26%] Built target pigpiod_if2
+[0.447s] [ 39%] Built target pigpio
+[0.451s] [ 52%] Built target pigs
+[0.505s] [35m[1mConsolidate compiler generated dependencies of target pig2vcd[0m
+[0.508s] [35m[1mConsolidate compiler generated dependencies of target x_pigpiod_if[0m
+[0.555s] [35m[1mConsolidate compiler generated dependencies of target x_pigpiod_if2[0m
+[0.598s] [35m[1mConsolidate compiler generated dependencies of target pigpiod[0m
+[0.606s] [ 60%] Built target x_pigpiod_if
+[0.633s] [ 73%] Built target pig2vcd
+[0.657s] [ 82%] Built target x_pigpiod_if2
+[0.679s] [35m[1mConsolidate compiler generated dependencies of target x_pigpio[0m
+[0.693s] [ 91%] Built target pigpiod
+[0.802s] [100%] Built target x_pigpio

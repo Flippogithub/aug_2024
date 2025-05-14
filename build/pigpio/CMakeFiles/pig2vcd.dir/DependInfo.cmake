@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/dkflippo/aug2024/pigpio-master/command.c" "CMakeFiles/pig2vcd.dir/command.c.o" "gcc" "CMakeFiles/pig2vcd.dir/command.c.o.d"
-  "/home/dkflippo/aug2024/pigpio-master/pig2vcd.c" "CMakeFiles/pig2vcd.dir/pig2vcd.c.o" "gcc" "CMakeFiles/pig2vcd.dir/pig2vcd.c.o.d"
+  "/home/rospi/aug_2024/pigpio-master/command.c" "CMakeFiles/pig2vcd.dir/command.c.o" "gcc" "CMakeFiles/pig2vcd.dir/command.c.o.d"
+  "/home/rospi/aug_2024/pigpio-master/pig2vcd.c" "CMakeFiles/pig2vcd.dir/pig2vcd.c.o" "gcc" "CMakeFiles/pig2vcd.dir/pig2vcd.c.o.d"
   )
 
 # Targets to which this target links.

@@ -1,9 +1,8 @@
 import os
 from launch import LaunchDescription
-from launch.actions import IncludeLaunchDescription, ExecuteProcess, RegisterEventHandler, DeclareLaunchArgument, TimerAction
-from launch.event_handlers import OnProcessExit, OnProcessStart
+from launch.actions import IncludeLaunchDescription, DeclareLaunchArgument, TimerAction
 from launch.launch_description_sources import PythonLaunchDescriptionSource
-from launch.substitutions import Command, LaunchConfiguration, FindExecutable
+from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
 from ament_index_python.packages import get_package_share_directory
 
@@ -11,6 +10,7 @@ def generate_launch_description():
     # Get the launch directory
     pkg_share = get_package_share_directory('aug_2024')
     config_filepath = LaunchConfiguration('config_filepath', default=os.path.join(pkg_share, 'config', 'twist_mux.yaml'))
+    
     # Set up robot description
     urdf_file = os.path.join(pkg_share, 'description', 'urdf', 'aug_2024-nocaster.urdf') 
     with open(urdf_file, 'r') as infp:
@@ -20,10 +20,10 @@ def generate_launch_description():
     use_sim_time = LaunchConfiguration('use_sim_time')
     map_yaml_file = LaunchConfiguration('map')
     
-    # Declare the launch arguments - make sure this is declared before any node uses it
+    # Declare the launch arguments - all declarations come first
     declare_use_sim_time_argument = DeclareLaunchArgument(
         'use_sim_time',
-        default_value='true',
+        default_value='false',  # Changed to false for hardware
         description='Use simulation/Gazebo clock')
     
     declare_map_yaml_cmd = DeclareLaunchArgument(
@@ -36,248 +36,195 @@ def generate_launch_description():
         default_value='/dev/input/js0',
         description='Joystick device path')
 
-    # Joy node for PS4 controller - CORRECTED parameter name
-    joy_node = Node(
-        package='joy',
-        executable='joy_node',
-        name='joy_node',
-        parameters=[{
-            'device': LaunchConfiguration('joy_device'),  # Changed from device_name to device
-            'deadzone': 0.1,
-            'autorepeat_rate': 20.0,
-        }],
+    # IMPORTANT: Map frame first
+    map_to_odom_tf = Node(
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        name='map_to_odom_tf',
+        arguments=['0', '0', '0', '0', '0', '0', 'map', 'odom'],
         output='screen'
     )
 
-    # Teleop twist joy node
-    teleop_joy_node = Node(
-        package='teleop_twist_joy',
-        executable='teleop_node',
-        name='teleop_twist_joy_node',
-        parameters=[{
-            'axis_linear.x': 1,  # Left stick vertical
-            'axis_angular.yaw': 0,  # Left stick horizontal
-            'scale_linear.x': 0.5,
-            'scale_angular.yaw': 0.5,
-            'enable_button': 4,  # L1 button (may need adjustment)
-        }],
-        remappings=[('/cmd_vel', '/cmd_vel_teleop')],  # Match your existing teleop remapping
-        output='screen'
-    )
-
-    twist_mux_node = Node(
-       package='twist_mux',
-       executable='twist_mux',
-       name='twist_mux',
-       parameters=[config_filepath, {'use_sim_time': use_sim_time}],
-       remappings=[('/cmd_vel_out','/diff_cont/cmd_vel_unstamped')]
-    )
-
-    slam_toolbox = Node(
-            package='slam_toolbox',
-            executable='async_slam_toolbox_node',
-            name='slam_toolbox',
-            output='screen',
-            parameters=[{
-               'use_sim_time': True,
-                'odom_frame': 'odom',  # Match your odometry topic
-                'base_frame': 'base_footprint',
-                'resolution': 0.05,
-                'max_laser_range': 20.0,
-                'minimum_time_interval': 0.5,
-                'transform_timeout': 0.2,
-                'minimum_travel_distance': 0.1,
-                'minimum_travel_heading': 0.1,
-                'scan_topic': '/scan'
-            }]
-    )
-
-    # Robot state publisher
+    # Robot state publisher - the foundation for TF tree
     robot_state_publisher = Node(
         package='robot_state_publisher',
         executable='robot_state_publisher',
         name='robot_state_publisher',
         output='screen',
-        parameters=[{'use_sim_time': use_sim_time, 
-                 'robot_description': robot_desc}]  # Use the string directly
-)
-
-    # Controller Manager
-    controller_manager = Node(
-       package="controller_manager",
-       executable="ros2_control_node",
-       parameters=[{'robot_description': robot_desc},  # Use the string directly
-            os.path.join(pkg_share, 'config', 'flippo_controllers.yaml'),
-            {'use_sim_time': use_sim_time}],
-       output="screen",
+        parameters=[{'robot_description': robot_desc,
+                    'use_sim_time': use_sim_time}]
     )
 
-    static_tf_node = Node(
+    # TF tree setup - static transforms
+    odom_to_base_tf = Node(
         package='tf2_ros',
         executable='static_transform_publisher',
+        name='odom_to_base_tf',
         arguments=['0', '0', '0', '0', '0', '0', 'odom', 'base_footprint']
     )
     
-    # Define the joint broadcaster node directly
-    joint_broad_node = Node(
-        package="controller_manager",
-        executable="spawner",
-        arguments=["joint_state_broadcaster"], 
-        output="screen",
-    )
-    
-    # Define the diff controller node directly
-    diff_drive_node = Node(
-        package="controller_manager",
-        executable="spawner",
-        arguments=["diff_cont"],
-        output="screen",
-    )
-    
-    # Use RegisterEventHandler for joint_broadcaster to start after controller_manager
-    joint_broadcaster_spawner = RegisterEventHandler(
-        event_handler=OnProcessStart(
-            target_action=controller_manager,
-            on_start=[joint_broad_node]
-        )
-    )
-    
-    # Use TimerAction for diff_drive_node to start a bit after joint_broadcaster
-    # This is more reliable than trying to chain event handlers
-    diff_drive_spawner = TimerAction(
-        period=5.0,  # Start 5 seconds after launch to ensure controller_manager and joint_broadcaster are ready
-        actions=[diff_drive_node]
-    )
-    
-    # Use TimerAction for twist_mux to start after diff_drive_node
-    twist_mux_spawner = TimerAction(
-        period=7.0,  # Start 7 seconds after launch to ensure diff_drive is ready
-        actions=[twist_mux_node]
-    )
-
-    # Nav2
-    nav2_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([os.path.join(
-            get_package_share_directory('nav2_bringup'), 'launch', 'bringup_launch.py')]),
-        launch_arguments={
-            'map': map_yaml_file,
-            'use_sim_time': use_sim_time,
-            'params_file': os.path.join(pkg_share, 'config', 'nav2_params.yaml')
-        }.items()
-    )
-
-    teleop_node = Node(
-       package='teleop_twist_keyboard',
-       executable='teleop_twist_keyboard',
-       name='teleop_twist_keyboard',
-       output='screen',
-       prefix = 'xterm -e',
-       remappings=[('/cmd_vel', '/cmd_vel_teleop')],
-       parameters=[{'use_sim_time': LaunchConfiguration('use_sim_time')}]
-    )
-
-    rviz = Node(
-        package='rviz2',
-        executable='rviz2',
-        name='rviz2',
-        output='screen'
-    )   
-        
-    print(f"URDF file path: {urdf_file}")
-    print(f"Robot description length: {len(robot_desc)}")
-    
-    # RPLidar node only
-    rplidar_node = Node(
-        package='sllidar_ros2',
-        executable='sllidar_node',
-        name='sllidar_node',
-        parameters=[{
-            'serial_port': '/dev/rplidar',
-            'serial_baudrate': 256000,
-            'frame_id': 'lidar_link',  # Make sure this matches your URDF link name
-            'scan_mode': 'Standard',
-            'angle_compensate': True,
-            'inverted': False,
-        }],
-        output='screen'
-    )
-
-    rplidar_node = Node(
-        package='sllidar_ros2',
-        executable='sllidar_node',
-        name='sllidar_node',
-        parameters=[{
-            'serial_port': '/dev/rplidar',
-            'serial_baudrate': 256000,
-            'frame_id': 'lidar_link',  # Make sure this matches your URDF link name
-            'scan_mode': 'Standard',
-            'angle_compensate': True,
-            'inverted': False,
-        }],
-        output='screen'
-    )
-    
-    camera_node = Node(
-        package='v4l2_camera',
-        executable='v4l2_camera_node',
-        name='camera_node',
-        output='screen',
-        parameters=[{
-            'image_size': [640, 480],
-            'camera_frame_id': 'camera_link',
-            'pixel_format': 'YUYV',  # Changed from MJPG to YUYV which is better supported
-            'video_device': '/dev/video0',
-            'output_encoding': 'rgb8'  # Explicitly set the output encoding
-        }],
-        remappings=[
-            ('image_raw', '/camera/image_raw'),
-            ('camera_info', '/camera/camera_info')
-        ]
-    )
-    
-    # Add camera TF broadcaster (assuming camera is mounted on the robot)
     camera_tf_node = Node(
         package='tf2_ros',
         executable='static_transform_publisher',
         name='camera_tf_publisher',
-        arguments=['0.1', '0', '0.1', '0', '0', '0', 'base_link', 'camera_link']  # Adjust position as needed
+        arguments=['0.1', '0', '0.1', '0', '0', '0', 'base_link', 'camera_link']
+    )
+
+    # Controller Manager - with reduced update rate for Pi
+    controller_manager = Node(
+       package="controller_manager",
+       executable="ros2_control_node",
+       name="controller_manager",  # Explicit name to avoid duplicates
+       parameters=[{'robot_description': robot_desc},
+            os.path.join(pkg_share, 'config', 'flippo_controllers.yaml'),
+            {'use_sim_time': use_sim_time,
+             'update_rate': 10}],  # Lower rate for Raspberry Pi
+       output="screen",
+    )
+
+    # RPLidar node
+    rplidar_node = Node(
+        package='sllidar_ros2',
+        executable='sllidar_node',
+        name='sllidar_node',
+        parameters=[{
+            'serial_port': '/dev/rplidar',
+            'serial_baudrate': 256000,
+            'frame_id': 'lidar_link',
+            'scan_mode': 'Standard',
+            'angle_compensate': True,
+            'inverted': False,
+        }],
+        output='screen'
+    )
+
+    # Controller spawners - using TimerAction for better sequencing
+    joint_broadcaster_spawner = TimerAction(
+        period=3.0,  # Delay for controller_manager to fully initialize
+        actions=[
+            Node(
+                package="controller_manager",
+                executable="spawner",
+                name="spawner_joint_state_broadcaster",
+                arguments=["joint_state_broadcaster", 
+                           "--controller-manager", "/controller_manager",
+                           "--controller-manager-timeout", "60"],  # FIXED parameter name
+                output="screen",
+            )
+        ]
     )
     
-    image_transport_node = Node(
-        package='image_transport',
-        executable='republish',
-        name='image_transport_republisher',
-        arguments=['raw', 'compressed'],
-        remappings=[
-            ('in', '/camera/image_raw'),
-            ('out/compressed', '/camera/image_raw/compressed')
-        ],
-        parameters=[{
-            'use_sim_time': use_sim_time
-        }]
+    diff_drive_spawner = TimerAction(
+        period=6.0,  # Longer delay to ensure joint_state_broadcaster is running
+        actions=[
+            Node(
+                package="controller_manager",
+                executable="spawner",
+                name="spawner_diff_controller",
+                arguments=["diff_cont", 
+                          "--controller-manager", "/controller_manager",
+                          "--controller-manager-timeout", "60"],  # FIXED parameter name
+                output="screen",
+            )
+        ]
     )
+
+    # Control input nodes with appropriate delays
+    joy_node = TimerAction(
+        period=7.0,  # Start after controllers
+        actions=[
+            Node(
+                package='joy',
+                executable='joy_node',
+                name='joy_node',
+                parameters=[{
+                    'device': LaunchConfiguration('joy_device'),
+                    'deadzone': 0.1,
+                    'autorepeat_rate': 20.0,
+                }],
+                output='screen'
+            )
+        ]
+    )
+
+    teleop_joy_node = TimerAction(
+        period=8.0,  # Start after joy node
+        actions=[
+            Node(
+                package='teleop_twist_joy',
+                executable='teleop_node',
+                name='teleop_twist_joy_node',
+                parameters=[{
+                    'axis_linear.x': 1,
+                    'axis_angular.yaw': 0,
+                    'scale_linear.x': 0.5,
+                    'scale_angular.yaw': 0.5,
+                    'enable_button': 4,
+                }],
+                remappings=[('/cmd_vel', '/cmd_vel_teleop')],
+                output='screen'
+            )
+        ]
+    )
+
+    # Twist multiplexer with delay
+    twist_mux_spawner = TimerAction(
+        period=10.0,  # Start after teleop is ready
+        actions=[
+            Node(
+                package='twist_mux',
+                executable='twist_mux',
+                name='twist_mux',
+                parameters=[config_filepath, {'use_sim_time': use_sim_time}],
+                remappings=[('/cmd_vel_out','/diff_cont/cmd_vel_unstamped')]
+            )
+        ]
+    )
+
+    # Navigation stack with longer delay for resource-constrained Pi
+    nav2_launch = TimerAction(
+        period=15.0,  # Start after all controllers and hardware are ready
+        actions=[
+            IncludeLaunchDescription(
+                PythonLaunchDescriptionSource([os.path.join(
+                    get_package_share_directory('nav2_bringup'), 'launch', 'bringup_launch.py')]),
+                launch_arguments={
+                    'map': map_yaml_file,
+                    'use_sim_time': use_sim_time,
+                    'params_file': os.path.join(pkg_share, 'config', 'nav2_params.yaml')
+                }.items()
+            )
+        ]
+    )
+    
+    print(f"URDF file path: {urdf_file}")
+    print(f"Robot description length: {len(robot_desc)}")
     
     return LaunchDescription([
-        # Important: Put declarations FIRST, before any nodes that use them
+        # Declarations first
         declare_use_sim_time_argument,
         declare_map_yaml_cmd,
-        rplidar_node,
+        declare_joy_device,
+        
+        # Critical TF tree setup first
+        map_to_odom_tf,  # THIS IS CRITICAL
         robot_state_publisher,
+        odom_to_base_tf,
+        camera_tf_node,
+        
+        # Hardware interface
         controller_manager,
-        joint_broadcaster_spawner,    # Start joint broadcaster when controller_manager starts
-        diff_drive_spawner,     # Start diff_drive controller after a delay
-        twist_mux_spawner,      # Start twist_mux after a longer delay
-        nav2_launch,
-        teleop_node,
-        #slam_toolbox,
-        joy_node,  # Add PS4 controller node
-        teleop_joy_node,  # Add PS4 teleop node
-        #slam_toolbox,
-        static_tf_node,
-        camera_node,            # Add camera node
-        camera_tf_node,         # Add camera transform
-        image_transport_node,   # Add image compression
-        static_tf_node,
         rplidar_node,
         
+        # Controllers with sequential timing
+        joint_broadcaster_spawner,
+        diff_drive_spawner,
+        
+        # Control inputs
+        joy_node,
+        teleop_joy_node,
+        twist_mux_spawner,
+        
+        # Navigation stack (last, after everything else is ready)
+        nav2_launch
     ])

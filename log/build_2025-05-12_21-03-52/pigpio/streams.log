@@ -1,0 +1,66 @@
+[0.075s] Invoking command in '/home/rospi/aug_2024/build/pigpio': /usr/bin/cmake /home/rospi/aug_2024/pigpio-master -DCMAKE_INSTALL_PREFIX=/home/rospi/aug_2024/install/pigpio
+[0.461s] -- The C compiler identification is GNU 11.4.0
+[0.502s] -- Detecting C compiler ABI info
+[0.884s] -- Detecting C compiler ABI info - done
+[0.918s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.920s] -- Detecting C compile features
+[0.922s] -- Detecting C compile features - done
+[0.933s] -- Looking for pthread.h
+[1.365s] -- Looking for pthread.h - found
+[1.367s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.766s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.771s] -- Found Threads: TRUE  
+[1.867s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.868s]   The package name passed to `find_package_handle_standard_args` (rt) does
+[1.868s]   not match the name of the calling package (RT).  This can lead to problems
+[1.869s]   in calling code that expects `find_package` result variables (e.g.,
+[1.869s]   `_FOUND`) to follow a certain pattern.
+[1.870s] Call Stack (most recent call first):
+[1.870s]   cmake/FindRT.cmake:28 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+[1.871s]   CMakeLists.txt:8 (find_package)
+[1.871s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.871s] [0m
+[1.872s] -- Found rt: /usr/lib/aarch64-linux-gnu/librt.a  
+[1.883s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[2.379s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[2.384s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[2.789s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Failed
+[2.792s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[3.174s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[4.326s] -- Configuring done
+[4.392s] -- Generating done
+[4.413s] -- Build files have been written to: /home/rospi/aug_2024/build/pigpio
+[4.431s] Invoked command in '/home/rospi/aug_2024/build/pigpio' returned '0': /usr/bin/cmake /home/rospi/aug_2024/pigpio-master -DCMAKE_INSTALL_PREFIX=/home/rospi/aug_2024/install/pigpio
+[4.432s] Invoking command in '/home/rospi/aug_2024/build/pigpio': /usr/bin/cmake --build /home/rospi/aug_2024/build/pigpio -- -j4 -l4
+[4.665s] [  4%] [32mBuilding C object CMakeFiles/pigpiod_if2.dir/pigpiod_if2.c.o[0m
+[4.675s] [  8%] [32mBuilding C object CMakeFiles/pigpiod_if.dir/pigpiod_if.c.o[0m
+[4.733s] [ 13%] [32mBuilding C object CMakeFiles/pigpio.dir/pigpio.c.o[0m
+[4.735s] [ 17%] [32mBuilding C object CMakeFiles/pigs.dir/pigs.c.o[0m
+[5.168s] [ 21%] [32mBuilding C object CMakeFiles/pigs.dir/command.c.o[0m
+[5.640s] [ 26%] [32mBuilding C object CMakeFiles/pigpiod_if.dir/command.c.o[0m
+[5.684s] [ 30%] [32mBuilding C object CMakeFiles/pigpiod_if2.dir/command.c.o[0m
+[5.699s] [ 34%] [32m[1mLinking C executable pigs[0m
+[6.097s] [ 34%] Built target pigs
+[6.137s] [ 39%] [32m[1mLinking C shared library libpigpiod_if.so[0m
+[6.253s] [ 43%] [32mBuilding C object CMakeFiles/pig2vcd.dir/pig2vcd.c.o[0m
+[6.380s] [ 47%] [32m[1mLinking C shared library libpigpiod_if2.so[0m
+[6.532s] [ 47%] Built target pigpiod_if
+[6.577s] [ 52%] [32mBuilding C object CMakeFiles/pigpio.dir/command.c.o[0m
+[6.700s] [ 52%] Built target pigpiod_if2
+[6.782s] [ 56%] [32mBuilding C object CMakeFiles/pig2vcd.dir/command.c.o[0m
+[6.805s] [ 60%] [32mBuilding C object CMakeFiles/x_pigpiod_if.dir/x_pigpiod_if.c.o[0m
+[7.254s] [ 65%] [32mBuilding C object CMakeFiles/x_pigpiod_if2.dir/x_pigpiod_if2.c.o[0m
+[7.295s] [ 69%] [32m[1mLinking C executable pig2vcd[0m
+[7.353s] [ 73%] [32m[1mLinking C executable x_pigpiod_if[0m
+[7.580s] [ 73%] Built target pig2vcd
+[7.668s] [ 73%] Built target x_pigpiod_if
+[7.877s] [ 78%] [32m[1mLinking C executable x_pigpiod_if2[0m
+[8.076s] [ 78%] Built target x_pigpiod_if2
+[10.184s] [ 82%] [32m[1mLinking C shared library libpigpio.so[0m
+[10.427s] [ 82%] Built target pigpio
+[10.564s] [ 86%] [32mBuilding C object CMakeFiles/pigpiod.dir/pigpiod.c.o[0m
+[10.570s] [ 91%] [32mBuilding C object CMakeFiles/x_pigpio.dir/x_pigpio.c.o[0m
+[10.879s] [ 95%] [32m[1mLinking C executable pigpiod[0m
+[11.002s] [100%] [32m[1mLinking C executable x_pigpio[0m
+[11.051s] [100%] Built target pigpiod
+[11.171s] [100%] Built target x_pigpio
