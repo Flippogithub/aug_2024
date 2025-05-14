@@ -124,13 +124,12 @@ def generate_launch_description():
         arguments=['0', '0', '0', '0', '0', '0', 'odom', 'base_footprint']
     )
     
-    # Define the joint broadcaster node directly
-    # joint_broad_node = Node(
-    #     package="controller_manager",
-    #     executable="spawner",
-    #     arguments=["joint_state_broadcaster"], 
-    #     output="screen",
-    # )
+    joint_broad_node = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=["joint_state_broadcaster"], 
+        output="screen",
+    )
     
     # Define the diff controller node directly
     diff_drive_node = Node(
@@ -141,17 +140,11 @@ def generate_launch_description():
     )
     
     # Use RegisterEventHandler for joint_broadcaster to start after controller_manager
-# Replace the current joint_broadcaster_spawner definition with this
-    joint_broadcaster_spawner = TimerAction(
-        period=2.0,  # Start 2 seconds after launch
-        actions=[
-            Node(
-                package="controller_manager",
-                executable="spawner",
-                arguments=["joint_state_broadcaster", "--controller-manager", "/controller_manager"],
-                output="screen",
-            )
-        ]
+    joint_broadcaster_spawner = RegisterEventHandler(
+        event_handler=OnProcessStart(
+            target_action=controller_manager,
+            on_start=[joint_broad_node]
+        )
     )
     
     # Use TimerAction for diff_drive_node to start a bit after joint_broadcaster
