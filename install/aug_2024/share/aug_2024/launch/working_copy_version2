@@ -1,0 +1,79 @@
+import os
+import yaml
+import sys  
+from ament_index_python.packages import get_package_share_directory
+from launch import LaunchDescription
+from launch_ros.actions import Node
+import xacro  
+
+def generate_launch_description():
+    # Explicitly set paths to source directory
+    pkg_src_path = '/home/dkflippo/aug2024/src/aug_2024'
+    
+    # URDF file path
+    urdf_path = os.path.join(pkg_src_path, 'description', 'urdf', 'aug_2024-nocaster.urdf')
+    
+    # Controller config path
+    controller_config_path = os.path.join(pkg_src_path, 'config', 'flippo_controllers.yaml')
+    
+    print(f"URDF Path: {urdf_path}")
+    print(f"Config Path: {controller_config_path}")
+    print(f"URDF Exists: {os.path.exists(urdf_path)}")
+    print(f"Config Exists: {os.path.exists(controller_config_path)}")
+    
+    # Debug YAML parsing
+    try:
+        with open(controller_config_path, 'r') as file:
+            yaml_content = file.read()
+            print("Raw YAML Content:")
+            print(yaml_content)
+            
+            parsed_yaml = yaml.safe_load(yaml_content)
+            print("Parsed YAML:")
+            print(parsed_yaml)
+    except Exception as e:
+        print(f"Error parsing YAML: {e}")
+        sys.exit(1)
+    
+    # Robot description
+    robot_description = xacro.process_file(urdf_path).toxml()
+    
+    # Nodes to launch
+    return LaunchDescription([
+        # Robot state publisher
+        Node(
+            package='robot_state_publisher',
+            executable='robot_state_publisher',
+            name='robot_state_publisher',
+            parameters=[{
+                'robot_description': robot_description
+            }]
+        ),
+        
+        # Controller manager
+        Node(
+            package='controller_manager',
+            executable='ros2_control_node',
+            parameters=[
+                {'robot_description': robot_description},
+                controller_config_path
+            ],
+            output='screen'
+        ),
+        
+        # Joint state broadcaster
+        Node(
+            package='controller_manager',
+            executable='spawner',
+            arguments=['joint_broad'],
+            output='screen'
+        ),
+        
+        # Differential drive controller
+        Node(
+            package='controller_manager',
+            executable='spawner',
+            arguments=['diff_cont'],
+            output='screen'
+        )
+    ])

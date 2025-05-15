@@ -1,0 +1,54 @@
+[0.032s] Invoking command in '/home/dkflippo/aug2024/build/pigpio': /usr/bin/cmake --build /home/dkflippo/aug2024/build/pigpio -- -j12 -l12
+[0.121s] [35m[1mConsolidate compiler generated dependencies of target pigpiod_if2[0m
+[0.124s] [35m[1mConsolidate compiler generated dependencies of target pigs[0m
+[0.124s] [35m[1mConsolidate compiler generated dependencies of target pigpiod_if[0m
+[0.126s] [35m[1mConsolidate compiler generated dependencies of target pigpio[0m
+[0.134s] [35m[1mConsolidate compiler generated dependencies of target pig2vcd[0m
+[0.165s] [ 13%] Built target pigpiod_if2
+[0.165s] [ 26%] Built target pigpiod_if
+[0.165s] [ 39%] Built target pigs
+[0.169s] [ 52%] Built target pigpio
+[0.170s] [ 65%] Built target pig2vcd
+[0.188s] [35m[1mConsolidate compiler generated dependencies of target x_pigpiod_if[0m
+[0.189s] [35m[1mConsolidate compiler generated dependencies of target x_pigpiod_if2[0m
+[0.196s] [35m[1mConsolidate compiler generated dependencies of target x_pigpio[0m
+[0.197s] [35m[1mConsolidate compiler generated dependencies of target pigpiod[0m
+[0.217s] [ 73%] Built target x_pigpiod_if2
+[0.219s] [ 82%] Built target x_pigpiod_if
+[0.225s] [ 91%] Built target x_pigpio
+[0.225s] [100%] Built target pigpiod
+[0.281s] Invoked command in '/home/dkflippo/aug2024/build/pigpio' returned '0': /usr/bin/cmake --build /home/dkflippo/aug2024/build/pigpio -- -j12 -l12
+[0.282s] Invoking command in '/home/dkflippo/aug2024/build/pigpio': /usr/bin/cmake --install /home/dkflippo/aug2024/build/pigpio
+[0.299s] -- Install configuration: ""
+[0.299s] -- Up-to-date: /home/dkflippo/aug2024/install/pigpio/lib/libpigpio.so
+[0.299s] -- Up-to-date: /home/dkflippo/aug2024/install/pigpio/lib/libpigpiod_if.so
+[0.300s] -- Up-to-date: /home/dkflippo/aug2024/install/pigpio/lib/libpigpiod_if2.so
+[0.300s] -- Up-to-date: /home/dkflippo/aug2024/install/pigpio/bin/pig2vcd
+[0.300s] -- Up-to-date: /home/dkflippo/aug2024/install/pigpio/bin/pigpiod
+[0.301s] -- Up-to-date: /home/dkflippo/aug2024/install/pigpio/bin/pigs
+[0.301s] -- Up-to-date: /home/dkflippo/aug2024/install/pigpio/lib/cmake/pigpio/pigpioTargets.cmake
+[0.301s] -- Up-to-date: /home/dkflippo/aug2024/install/pigpio/lib/cmake/pigpio/pigpioTargets-noconfig.cmake
+[0.301s] -- Up-to-date: /home/dkflippo/aug2024/install/pigpio/lib/cmake/pigpio/pigpioConfig.cmake
+[0.301s] -- Up-to-date: /home/dkflippo/aug2024/install/pigpio/lib/cmake/pigpio/pigpioConfigVersion.cmake
+[0.301s] -- Up-to-date: /home/dkflippo/aug2024/install/pigpio/include/pigpio.h
+[0.302s] -- Up-to-date: /home/dkflippo/aug2024/install/pigpio/include/pigpiod_if.h
+[0.302s] -- Up-to-date: /home/dkflippo/aug2024/install/pigpio/include/pigpiod_if2.h
+[0.302s] -- Up-to-date: /home/dkflippo/aug2024/install/pigpio/man/man1/libpigpio.so.1
+[0.302s] -- Up-to-date: /home/dkflippo/aug2024/install/pigpio/man/man1/libpigpiod_if.so.1
+[0.302s] -- Up-to-date: /home/dkflippo/aug2024/install/pigpio/man/man1/libpigpiod_if2.so.1
+[0.302s] -- Up-to-date: /home/dkflippo/aug2024/install/pigpio/man/man1/pig2vcd.1
+[0.302s] -- Up-to-date: /home/dkflippo/aug2024/install/pigpio/man/man1/pigpiod.1
+[0.302s] -- Up-to-date: /home/dkflippo/aug2024/install/pigpio/man/man1/pigs.1
+[0.302s] -- Up-to-date: /home/dkflippo/aug2024/install/pigpio/man/man3/pigpio.3
+[0.302s] -- Up-to-date: /home/dkflippo/aug2024/install/pigpio/man/man3/pigpiod_if.3
+[0.302s] -- Up-to-date: /home/dkflippo/aug2024/install/pigpio/man/man3/pigpiod_if2.3
+[0.329s] /home/dkflippo/aug2024/build/pigpio/setup.py:3: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+[0.329s]   from distutils.core import setup
+[0.350s] running install
+[0.350s] running build
+[0.350s] running build_py
+[0.351s] running install_lib
+[0.352s] running install_egg_info
+[0.352s] Writing /usr/local/lib/python3.10/dist-packages/pigpio-1.44.egg-info
+[0.353s] error: [Errno 13] Permission denied: '/usr/local/lib/python3.10/dist-packages/pigpio-1.44.egg-info'
+[0.361s] Invoked command in '/home/dkflippo/aug2024/build/pigpio' returned '0': /usr/bin/cmake --install /home/dkflippo/aug2024/build/pigpio
