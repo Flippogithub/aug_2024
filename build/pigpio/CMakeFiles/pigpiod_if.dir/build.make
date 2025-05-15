@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rospi/aug_2024/pigpio-master
+CMAKE_SOURCE_DIR = /home/dkflippo/aug2024/pigpio-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rospi/aug_2024/build/pigpio
+CMAKE_BINARY_DIR = /home/dkflippo/aug2024/build/pigpio
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pigpiod_if.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/pigpiod_if.dir/progress.make
 include CMakeFiles/pigpiod_if.dir/flags.make
 
 CMakeFiles/pigpiod_if.dir/pigpiod_if.c.o: CMakeFiles/pigpiod_if.dir/flags.make
-CMakeFiles/pigpiod_if.dir/pigpiod_if.c.o: /home/rospi/aug_2024/pigpio-master/pigpiod_if.c
+CMakeFiles/pigpiod_if.dir/pigpiod_if.c.o: /home/dkflippo/aug2024/pigpio-master/pigpiod_if.c
 CMakeFiles/pigpiod_if.dir/pigpiod_if.c.o: CMakeFiles/pigpiod_if.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rospi/aug_2024/build/pigpio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pigpiod_if.dir/pigpiod_if.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pigpiod_if.dir/pigpiod_if.c.o -MF CMakeFiles/pigpiod_if.dir/pigpiod_if.c.o.d -o CMakeFiles/pigpiod_if.dir/pigpiod_if.c.o -c /home/rospi/aug_2024/pigpio-master/pigpiod_if.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dkflippo/aug2024/build/pigpio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pigpiod_if.dir/pigpiod_if.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pigpiod_if.dir/pigpiod_if.c.o -MF CMakeFiles/pigpiod_if.dir/pigpiod_if.c.o.d -o CMakeFiles/pigpiod_if.dir/pigpiod_if.c.o -c /home/dkflippo/aug2024/pigpio-master/pigpiod_if.c
 
 CMakeFiles/pigpiod_if.dir/pigpiod_if.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pigpiod_if.dir/pigpiod_if.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rospi/aug_2024/pigpio-master/pigpiod_if.c > CMakeFiles/pigpiod_if.dir/pigpiod_if.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dkflippo/aug2024/pigpio-master/pigpiod_if.c > CMakeFiles/pigpiod_if.dir/pigpiod_if.c.i
 
 CMakeFiles/pigpiod_if.dir/pigpiod_if.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pigpiod_if.dir/pigpiod_if.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rospi/aug_2024/pigpio-master/pigpiod_if.c -o CMakeFiles/pigpiod_if.dir/pigpiod_if.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dkflippo/aug2024/pigpio-master/pigpiod_if.c -o CMakeFiles/pigpiod_if.dir/pigpiod_if.c.s
 
 CMakeFiles/pigpiod_if.dir/command.c.o: CMakeFiles/pigpiod_if.dir/flags.make
-CMakeFiles/pigpiod_if.dir/command.c.o: /home/rospi/aug_2024/pigpio-master/command.c
+CMakeFiles/pigpiod_if.dir/command.c.o: /home/dkflippo/aug2024/pigpio-master/command.c
 CMakeFiles/pigpiod_if.dir/command.c.o: CMakeFiles/pigpiod_if.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rospi/aug_2024/build/pigpio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/pigpiod_if.dir/command.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pigpiod_if.dir/command.c.o -MF CMakeFiles/pigpiod_if.dir/command.c.o.d -o CMakeFiles/pigpiod_if.dir/command.c.o -c /home/rospi/aug_2024/pigpio-master/command.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dkflippo/aug2024/build/pigpio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/pigpiod_if.dir/command.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pigpiod_if.dir/command.c.o -MF CMakeFiles/pigpiod_if.dir/command.c.o.d -o CMakeFiles/pigpiod_if.dir/command.c.o -c /home/dkflippo/aug2024/pigpio-master/command.c
 
 CMakeFiles/pigpiod_if.dir/command.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pigpiod_if.dir/command.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rospi/aug_2024/pigpio-master/command.c > CMakeFiles/pigpiod_if.dir/command.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dkflippo/aug2024/pigpio-master/command.c > CMakeFiles/pigpiod_if.dir/command.c.i
 
 CMakeFiles/pigpiod_if.dir/command.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pigpiod_if.dir/command.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rospi/aug_2024/pigpio-master/command.c -o CMakeFiles/pigpiod_if.dir/command.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dkflippo/aug2024/pigpio-master/command.c -o CMakeFiles/pigpiod_if.dir/command.c.s
 
 # Object files for target pigpiod_if
 pigpiod_if_OBJECTS = \
@@ -109,7 +109,7 @@ libpigpiod_if.so: CMakeFiles/pigpiod_if.dir/pigpiod_if.c.o
 libpigpiod_if.so: CMakeFiles/pigpiod_if.dir/command.c.o
 libpigpiod_if.so: CMakeFiles/pigpiod_if.dir/build.make
 libpigpiod_if.so: CMakeFiles/pigpiod_if.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rospi/aug_2024/build/pigpio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libpigpiod_if.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dkflippo/aug2024/build/pigpio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libpigpiod_if.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pigpiod_if.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +121,6 @@ CMakeFiles/pigpiod_if.dir/clean:
 .PHONY : CMakeFiles/pigpiod_if.dir/clean
 
 CMakeFiles/pigpiod_if.dir/depend:
-	cd /home/rospi/aug_2024/build/pigpio && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rospi/aug_2024/pigpio-master /home/rospi/aug_2024/pigpio-master /home/rospi/aug_2024/build/pigpio /home/rospi/aug_2024/build/pigpio /home/rospi/aug_2024/build/pigpio/CMakeFiles/pigpiod_if.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dkflippo/aug2024/build/pigpio && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dkflippo/aug2024/pigpio-master /home/dkflippo/aug2024/pigpio-master /home/dkflippo/aug2024/build/pigpio /home/dkflippo/aug2024/build/pigpio /home/dkflippo/aug2024/build/pigpio/CMakeFiles/pigpiod_if.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pigpiod_if.dir/depend
 

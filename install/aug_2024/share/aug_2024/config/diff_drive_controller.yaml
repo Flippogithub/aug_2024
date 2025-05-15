@@ -1,0 +1,43 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 30  # Hz
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    diff_cont:
+      type: diff_drive_controller/DiffDriveController
+
+diff_cont:
+  ros__parameters:
+    publish_rate: 30.0  # defaults to 50
+    base_frame_id: base_link
+    odom_frame_id: odom
+    # IMPORTANT: Both wheel linkage joints must be defined
+    left_wheel_names: ["rear_left_wheel_joint"]
+    right_wheel_names: ["rear_right_wheel_joint"]
+    wheel_separation: 0.36
+    wheel_radius: 0.10
+
+    use_stamped_vel: false
+
+    # ADVANCED PARAMETERS
+    open_loop: true
+    enable_odom_tf: true
+
+    # Velocity and acceleration limits
+    linear.x.has_velocity_limits: true
+    linear.x.has_acceleration_limits: true
+    linear.x.has_jerk_limits: false
+    linear.x.max_velocity: 0.5  # m/s
+    linear.x.min_velocity: -0.5  # m/s
+    linear.x.max_acceleration: 1.0  # m/s^2
+    linear.x.min_acceleration: -1.0  # m/s^2
+
+    angular.z.has_velocity_limits: true
+    angular.z.has_acceleration_limits: true
+    angular.z.has_jerk_limits: false
+    angular.z.max_velocity: 1.0  # rad/s
+    angular.z.min_velocity: -1.0  # rad/s
+    angular.z.max_acceleration: 1.0  # rad/s^2
+    angular.z.min_acceleration: -1.0  # rad/s^2
