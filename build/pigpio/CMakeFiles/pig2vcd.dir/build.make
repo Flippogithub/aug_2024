@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dkflippo/aug2024/pigpio-master
+CMAKE_SOURCE_DIR = /home/rospi/aug_2024/pigpio-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dkflippo/aug2024/build/pigpio
+CMAKE_BINARY_DIR = /home/rospi/aug_2024/build/pigpio
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pig2vcd.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/pig2vcd.dir/progress.make
 include CMakeFiles/pig2vcd.dir/flags.make
 
 CMakeFiles/pig2vcd.dir/pig2vcd.c.o: CMakeFiles/pig2vcd.dir/flags.make
-CMakeFiles/pig2vcd.dir/pig2vcd.c.o: /home/dkflippo/aug2024/pigpio-master/pig2vcd.c
+CMakeFiles/pig2vcd.dir/pig2vcd.c.o: /home/rospi/aug_2024/pigpio-master/pig2vcd.c
 CMakeFiles/pig2vcd.dir/pig2vcd.c.o: CMakeFiles/pig2vcd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dkflippo/aug2024/build/pigpio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pig2vcd.dir/pig2vcd.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pig2vcd.dir/pig2vcd.c.o -MF CMakeFiles/pig2vcd.dir/pig2vcd.c.o.d -o CMakeFiles/pig2vcd.dir/pig2vcd.c.o -c /home/dkflippo/aug2024/pigpio-master/pig2vcd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rospi/aug_2024/build/pigpio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pig2vcd.dir/pig2vcd.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pig2vcd.dir/pig2vcd.c.o -MF CMakeFiles/pig2vcd.dir/pig2vcd.c.o.d -o CMakeFiles/pig2vcd.dir/pig2vcd.c.o -c /home/rospi/aug_2024/pigpio-master/pig2vcd.c
 
 CMakeFiles/pig2vcd.dir/pig2vcd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pig2vcd.dir/pig2vcd.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dkflippo/aug2024/pigpio-master/pig2vcd.c > CMakeFiles/pig2vcd.dir/pig2vcd.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rospi/aug_2024/pigpio-master/pig2vcd.c > CMakeFiles/pig2vcd.dir/pig2vcd.c.i
 
 CMakeFiles/pig2vcd.dir/pig2vcd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pig2vcd.dir/pig2vcd.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dkflippo/aug2024/pigpio-master/pig2vcd.c -o CMakeFiles/pig2vcd.dir/pig2vcd.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rospi/aug_2024/pigpio-master/pig2vcd.c -o CMakeFiles/pig2vcd.dir/pig2vcd.c.s
 
 CMakeFiles/pig2vcd.dir/command.c.o: CMakeFiles/pig2vcd.dir/flags.make
-CMakeFiles/pig2vcd.dir/command.c.o: /home/dkflippo/aug2024/pigpio-master/command.c
+CMakeFiles/pig2vcd.dir/command.c.o: /home/rospi/aug_2024/pigpio-master/command.c
 CMakeFiles/pig2vcd.dir/command.c.o: CMakeFiles/pig2vcd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dkflippo/aug2024/build/pigpio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/pig2vcd.dir/command.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pig2vcd.dir/command.c.o -MF CMakeFiles/pig2vcd.dir/command.c.o.d -o CMakeFiles/pig2vcd.dir/command.c.o -c /home/dkflippo/aug2024/pigpio-master/command.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rospi/aug_2024/build/pigpio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/pig2vcd.dir/command.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pig2vcd.dir/command.c.o -MF CMakeFiles/pig2vcd.dir/command.c.o.d -o CMakeFiles/pig2vcd.dir/command.c.o -c /home/rospi/aug_2024/pigpio-master/command.c
 
 CMakeFiles/pig2vcd.dir/command.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pig2vcd.dir/command.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dkflippo/aug2024/pigpio-master/command.c > CMakeFiles/pig2vcd.dir/command.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rospi/aug_2024/pigpio-master/command.c > CMakeFiles/pig2vcd.dir/command.c.i
 
 CMakeFiles/pig2vcd.dir/command.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pig2vcd.dir/command.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dkflippo/aug2024/pigpio-master/command.c -o CMakeFiles/pig2vcd.dir/command.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rospi/aug_2024/pigpio-master/command.c -o CMakeFiles/pig2vcd.dir/command.c.s
 
 # Object files for target pig2vcd
 pig2vcd_OBJECTS = \
@@ -109,7 +109,7 @@ pig2vcd: CMakeFiles/pig2vcd.dir/pig2vcd.c.o
 pig2vcd: CMakeFiles/pig2vcd.dir/command.c.o
 pig2vcd: CMakeFiles/pig2vcd.dir/build.make
 pig2vcd: CMakeFiles/pig2vcd.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dkflippo/aug2024/build/pigpio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable pig2vcd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rospi/aug_2024/build/pigpio/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable pig2vcd"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pig2vcd.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +121,6 @@ CMakeFiles/pig2vcd.dir/clean:
 .PHONY : CMakeFiles/pig2vcd.dir/clean
 
 CMakeFiles/pig2vcd.dir/depend:
-	cd /home/dkflippo/aug2024/build/pigpio && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dkflippo/aug2024/pigpio-master /home/dkflippo/aug2024/pigpio-master /home/dkflippo/aug2024/build/pigpio /home/dkflippo/aug2024/build/pigpio /home/dkflippo/aug2024/build/pigpio/CMakeFiles/pig2vcd.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rospi/aug_2024/build/pigpio && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rospi/aug_2024/pigpio-master /home/rospi/aug_2024/pigpio-master /home/rospi/aug_2024/build/pigpio /home/rospi/aug_2024/build/pigpio /home/rospi/aug_2024/build/pigpio/CMakeFiles/pig2vcd.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pig2vcd.dir/depend
 

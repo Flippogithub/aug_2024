@@ -19,6 +19,6 @@ setup(name='pigpio',
          "Programming Language :: Python :: 2",
          "Programming Language :: Python :: 3",
       ],
-      package_dir={ '': '/home/dkflippo/aug2024/pigpio-master'}
+      package_dir={ '': '/home/rospi/aug_2024/pigpio-master'}
      )
 

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/dkflippo/aug2024/src/aug_2024/src/gpio_controller.cpp" "CMakeFiles/gpio_controller.dir/src/gpio_controller.cpp.o" "gcc" "CMakeFiles/gpio_controller.dir/src/gpio_controller.cpp.o.d"
+  "/home/rospi/aug_2024/src/aug_2024/src/gpio_controller.cpp" "CMakeFiles/gpio_controller.dir/src/gpio_controller.cpp.o" "gcc" "CMakeFiles/gpio_controller.dir/src/gpio_controller.cpp.o.d"
   )
 
 # Targets to which this target links.

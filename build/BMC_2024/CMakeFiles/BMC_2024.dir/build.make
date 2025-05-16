@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dkflippo/aug2024/src/BMC_2024
+CMAKE_SOURCE_DIR = /home/rospi/aug_2024/src/BMC_2024
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dkflippo/aug2024/build/BMC_2024
+CMAKE_BINARY_DIR = /home/rospi/aug_2024/build/BMC_2024
 
 # Include any dependencies generated for this target.
 include CMakeFiles/BMC_2024.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/BMC_2024.dir/progress.make
 include CMakeFiles/BMC_2024.dir/flags.make
 
 CMakeFiles/BMC_2024.dir/src/aug_2024_system.cpp.o: CMakeFiles/BMC_2024.dir/flags.make
-CMakeFiles/BMC_2024.dir/src/aug_2024_system.cpp.o: /home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp
+CMakeFiles/BMC_2024.dir/src/aug_2024_system.cpp.o: /home/rospi/aug_2024/src/BMC_2024/src/aug_2024_system.cpp
 CMakeFiles/BMC_2024.dir/src/aug_2024_system.cpp.o: CMakeFiles/BMC_2024.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dkflippo/aug2024/build/BMC_2024/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BMC_2024.dir/src/aug_2024_system.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BMC_2024.dir/src/aug_2024_system.cpp.o -MF CMakeFiles/BMC_2024.dir/src/aug_2024_system.cpp.o.d -o CMakeFiles/BMC_2024.dir/src/aug_2024_system.cpp.o -c /home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rospi/aug_2024/build/BMC_2024/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BMC_2024.dir/src/aug_2024_system.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BMC_2024.dir/src/aug_2024_system.cpp.o -MF CMakeFiles/BMC_2024.dir/src/aug_2024_system.cpp.o.d -o CMakeFiles/BMC_2024.dir/src/aug_2024_system.cpp.o -c /home/rospi/aug_2024/src/BMC_2024/src/aug_2024_system.cpp
 
 CMakeFiles/BMC_2024.dir/src/aug_2024_system.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BMC_2024.dir/src/aug_2024_system.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp > CMakeFiles/BMC_2024.dir/src/aug_2024_system.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rospi/aug_2024/src/BMC_2024/src/aug_2024_system.cpp > CMakeFiles/BMC_2024.dir/src/aug_2024_system.cpp.i
 
 CMakeFiles/BMC_2024.dir/src/aug_2024_system.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BMC_2024.dir/src/aug_2024_system.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dkflippo/aug2024/src/BMC_2024/src/aug_2024_system.cpp -o CMakeFiles/BMC_2024.dir/src/aug_2024_system.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rospi/aug_2024/src/BMC_2024/src/aug_2024_system.cpp -o CMakeFiles/BMC_2024.dir/src/aug_2024_system.cpp.s
 
 CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.o: CMakeFiles/BMC_2024.dir/flags.make
-CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.o: /home/dkflippo/aug2024/src/BMC_2024/src/bmc_comms.cpp
+CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.o: /home/rospi/aug_2024/src/BMC_2024/src/bmc_comms.cpp
 CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.o: CMakeFiles/BMC_2024.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dkflippo/aug2024/build/BMC_2024/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.o -MF CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.o.d -o CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.o -c /home/dkflippo/aug2024/src/BMC_2024/src/bmc_comms.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rospi/aug_2024/build/BMC_2024/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.o -MF CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.o.d -o CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.o -c /home/rospi/aug_2024/src/BMC_2024/src/bmc_comms.cpp
 
 CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dkflippo/aug2024/src/BMC_2024/src/bmc_comms.cpp > CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rospi/aug_2024/src/BMC_2024/src/bmc_comms.cpp > CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.i
 
 CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dkflippo/aug2024/src/BMC_2024/src/bmc_comms.cpp -o CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rospi/aug_2024/src/BMC_2024/src/bmc_comms.cpp -o CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.s
 
 # Object files for target BMC_2024
 BMC_2024_OBJECTS = \
@@ -109,9 +109,9 @@ libBMC_2024.so: CMakeFiles/BMC_2024.dir/src/aug_2024_system.cpp.o
 libBMC_2024.so: CMakeFiles/BMC_2024.dir/src/bmc_comms.cpp.o
 libBMC_2024.so: CMakeFiles/BMC_2024.dir/build.make
 libBMC_2024.so: /opt/ros/humble/lib/librclcpp_lifecycle.so
-libBMC_2024.so: /home/dkflippo/ros2_control_ws/install/hardware_interface/lib/libfake_components.so
-libBMC_2024.so: /home/dkflippo/ros2_control_ws/install/hardware_interface/lib/libmock_components.so
-libBMC_2024.so: /home/dkflippo/ros2_control_ws/install/hardware_interface/lib/libhardware_interface.so
+libBMC_2024.so: /opt/ros/humble/lib/libfake_components.so
+libBMC_2024.so: /opt/ros/humble/lib/libmock_components.so
+libBMC_2024.so: /opt/ros/humble/lib/libhardware_interface.so
 libBMC_2024.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 libBMC_2024.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
 libBMC_2024.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
@@ -183,10 +183,10 @@ libBMC_2024.so: /opt/ros/humble/lib/librosidl_typesupport_c.so
 libBMC_2024.so: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
 libBMC_2024.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 libBMC_2024.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
-libBMC_2024.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
+libBMC_2024.so: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0
 libBMC_2024.so: /opt/ros/humble/lib/libclass_loader.so
 libBMC_2024.so: /opt/ros/humble/lib/libclass_loader.so
-libBMC_2024.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+libBMC_2024.so: /usr/lib/aarch64-linux-gnu/libtinyxml2.so
 libBMC_2024.so: /opt/ros/humble/lib/librcl.so
 libBMC_2024.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libBMC_2024.so: /opt/ros/humble/lib/libtracetools.so
@@ -257,12 +257,12 @@ libBMC_2024.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introsp
 libBMC_2024.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 libBMC_2024.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 libBMC_2024.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
-libBMC_2024.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+libBMC_2024.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 libBMC_2024.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
 libBMC_2024.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
 libBMC_2024.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 libBMC_2024.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
-libBMC_2024.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
+libBMC_2024.so: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0
 libBMC_2024.so: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_c.so
 libBMC_2024.so: /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_c.so
 libBMC_2024.so: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so
@@ -301,7 +301,7 @@ libBMC_2024.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 libBMC_2024.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
 libBMC_2024.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 libBMC_2024.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
-libBMC_2024.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+libBMC_2024.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 libBMC_2024.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 libBMC_2024.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 libBMC_2024.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
@@ -311,7 +311,7 @@ libBMC_2024.so: /opt/ros/humble/lib/librcpputils.so
 libBMC_2024.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libBMC_2024.so: /opt/ros/humble/lib/librcutils.so
 libBMC_2024.so: CMakeFiles/BMC_2024.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dkflippo/aug2024/build/BMC_2024/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libBMC_2024.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rospi/aug_2024/build/BMC_2024/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libBMC_2024.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BMC_2024.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -323,6 +323,6 @@ CMakeFiles/BMC_2024.dir/clean:
 .PHONY : CMakeFiles/BMC_2024.dir/clean
 
 CMakeFiles/BMC_2024.dir/depend:
-	cd /home/dkflippo/aug2024/build/BMC_2024 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dkflippo/aug2024/src/BMC_2024 /home/dkflippo/aug2024/src/BMC_2024 /home/dkflippo/aug2024/build/BMC_2024 /home/dkflippo/aug2024/build/BMC_2024 /home/dkflippo/aug2024/build/BMC_2024/CMakeFiles/BMC_2024.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rospi/aug_2024/build/BMC_2024 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rospi/aug_2024/src/BMC_2024 /home/rospi/aug_2024/src/BMC_2024 /home/rospi/aug_2024/build/BMC_2024 /home/rospi/aug_2024/build/BMC_2024 /home/rospi/aug_2024/build/BMC_2024/CMakeFiles/BMC_2024.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/BMC_2024.dir/depend
 

@@ -237,6 +237,6 @@ def generate_launch_description():
         teleop_node,
         #slam_toolbox,
         static_tf_node,
-        camera_nodes_spawner,
+        #camera_nodes_spawner,
         rviz
     ])

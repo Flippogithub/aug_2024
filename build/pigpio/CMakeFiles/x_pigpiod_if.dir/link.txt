@@ -1,1 +1,1 @@
-/usr/bin/cc -rdynamic CMakeFiles/x_pigpiod_if.dir/x_pigpiod_if.c.o -o x_pigpiod_if  -Wl,-rpath,/home/dkflippo/aug2024/build/pigpio libpigpiod_if.so -Wl,-Bstatic -lrt -Wl,-Bdynamic 
+/usr/bin/cc -rdynamic CMakeFiles/x_pigpiod_if.dir/x_pigpiod_if.c.o -o x_pigpiod_if  -Wl,-rpath,/home/rospi/aug_2024/build/pigpio libpigpiod_if.so -Wl,-Bstatic -lrt -Wl,-Bdynamic 

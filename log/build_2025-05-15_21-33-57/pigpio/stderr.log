@@ -1,0 +1,3 @@
+/home/rospi/aug_2024/build/pigpio/setup.py:3: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.core import setup
+error: could not create '/usr/local/lib/python3.10/dist-packages/pigpio.py': Permission denied

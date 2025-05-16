@@ -1,15 +1,15 @@
 Performing C SOURCE FILE Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY failed with the following output:
-Change Dir: /home/dkflippo/aug2024/build/pigpio/CMakeFiles/CMakeTmp
+Change Dir: /home/rospi/aug_2024/build/pigpio/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d8ebb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d8ebb.dir/build.make CMakeFiles/cmTC_d8ebb.dir/build
-gmake[1]: Entering directory '/home/dkflippo/aug2024/build/pigpio/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d8ebb.dir/src.c.o
-/usr/bin/cc -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -fvisibility-inlines-hidden -o CMakeFiles/cmTC_d8ebb.dir/src.c.o -c /home/dkflippo/aug2024/build/pigpio/CMakeFiles/CMakeTmp/src.c
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_418b9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_418b9.dir/build.make CMakeFiles/cmTC_418b9.dir/build
+gmake[1]: Entering directory '/home/rospi/aug_2024/build/pigpio/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_418b9.dir/src.c.o
+/usr/bin/cc -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -fvisibility-inlines-hidden -o CMakeFiles/cmTC_418b9.dir/src.c.o -c /home/rospi/aug_2024/build/pigpio/CMakeFiles/CMakeTmp/src.c
 cc1: warning: command-line option '-fvisibility-inlines-hidden' is valid for C++/ObjC++ but not for C
-Linking C executable cmTC_d8ebb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8ebb.dir/link.txt --verbose=1
-/usr/bin/cc -rdynamic CMakeFiles/cmTC_d8ebb.dir/src.c.o -o cmTC_d8ebb 
-gmake[1]: Leaving directory '/home/dkflippo/aug2024/build/pigpio/CMakeFiles/CMakeTmp'
+Linking C executable cmTC_418b9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_418b9.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_418b9.dir/src.c.o -o cmTC_418b9 
+gmake[1]: Leaving directory '/home/rospi/aug_2024/build/pigpio/CMakeFiles/CMakeTmp'
 
 
 Source file was:
