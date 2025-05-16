@@ -217,8 +217,8 @@ def generate_launch_description():
     # PS4 Controller Nodes
     # Joy node for reading the PS4 controller input
     joy_node = Node(
-        package='joy_linux',
-        executable='joy_linux_node',
+        package='joy',
+        executable='joy_node',
         name='joy_node',
         parameters=[{
             'dev': joy_dev,
@@ -235,12 +235,14 @@ def generate_launch_description():
         executable='teleop_node',
         name='teleop_twist_joy_node',
         parameters=[{
-            'axis_linear.x': 1,    # Left joystick up/down for PS4
-            'axis_angular.yaw': 0, # Left joystick left/right for PS4
-            'scale_linear.x': 0.5, # Adjust speed scaling as needed
-            'scale_angular.yaw': 1.0,
-            'enable_button': 4,    # L1 button on PS4 controller
-            'enable_turbo_button': 5,  # R1 button for turbo mode (faster)
+            'axis_linear.x': 1,           # Left stick up/down
+            'axis_angular.yaw': 0,        # Left stick left/right
+            'scale_linear.x': 0.5,        # Max linear speed (m/s)
+            'scale_angular.yaw': 1.0,     # Max angular speed (rad/s)
+            'enable_button': 4,           # L1 button
+            'enable_turbo_button': 5,     # R1 button
+            'scale_linear_turbo.x': 1.0,  # Turbo linear speed
+            'require_enable_button': False,# Must hold enable button
             'use_sim_time': use_sim_time
         }],
         remappings=[('/cmd_vel', '/cmd_vel_joy')],
