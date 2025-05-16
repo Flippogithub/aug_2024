@@ -62,40 +62,40 @@ add_executable(pigpio::pigs IMPORTED)
 # Import target "pigpio::pigpio" for configuration ""
 set_property(TARGET pigpio::pigpio APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(pigpio::pigpio PROPERTIES
-  IMPORTED_LOCATION_NOCONFIG "/home/rospi/aug_2024/build/pigpio/libpigpio.so"
+  IMPORTED_LOCATION_NOCONFIG "/home/dkflippo/aug2024/build/pigpio/libpigpio.so"
   IMPORTED_SONAME_NOCONFIG "libpigpio.so"
   )
 
 # Import target "pigpio::pigpiod_if" for configuration ""
 set_property(TARGET pigpio::pigpiod_if APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(pigpio::pigpiod_if PROPERTIES
-  IMPORTED_LOCATION_NOCONFIG "/home/rospi/aug_2024/build/pigpio/libpigpiod_if.so"
+  IMPORTED_LOCATION_NOCONFIG "/home/dkflippo/aug2024/build/pigpio/libpigpiod_if.so"
   IMPORTED_SONAME_NOCONFIG "libpigpiod_if.so"
   )
 
 # Import target "pigpio::pigpiod_if2" for configuration ""
 set_property(TARGET pigpio::pigpiod_if2 APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(pigpio::pigpiod_if2 PROPERTIES
-  IMPORTED_LOCATION_NOCONFIG "/home/rospi/aug_2024/build/pigpio/libpigpiod_if2.so"
+  IMPORTED_LOCATION_NOCONFIG "/home/dkflippo/aug2024/build/pigpio/libpigpiod_if2.so"
   IMPORTED_SONAME_NOCONFIG "libpigpiod_if2.so"
   )
 
 # Import target "pigpio::pig2vcd" for configuration ""
 set_property(TARGET pigpio::pig2vcd APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(pigpio::pig2vcd PROPERTIES
-  IMPORTED_LOCATION_NOCONFIG "/home/rospi/aug_2024/build/pigpio/pig2vcd"
+  IMPORTED_LOCATION_NOCONFIG "/home/dkflippo/aug2024/build/pigpio/pig2vcd"
   )
 
 # Import target "pigpio::pigpiod" for configuration ""
 set_property(TARGET pigpio::pigpiod APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(pigpio::pigpiod PROPERTIES
-  IMPORTED_LOCATION_NOCONFIG "/home/rospi/aug_2024/build/pigpio/pigpiod"
+  IMPORTED_LOCATION_NOCONFIG "/home/dkflippo/aug2024/build/pigpio/pigpiod"
   )
 
 # Import target "pigpio::pigs" for configuration ""
 set_property(TARGET pigpio::pigs APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(pigpio::pigs PROPERTIES
-  IMPORTED_LOCATION_NOCONFIG "/home/rospi/aug_2024/build/pigpio/pigs"
+  IMPORTED_LOCATION_NOCONFIG "/home/dkflippo/aug2024/build/pigpio/pigs"
   )
 
 # This file does not depend on other imported targets which have

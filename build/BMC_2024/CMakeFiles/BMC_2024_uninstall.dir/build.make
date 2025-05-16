@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rospi/aug_2024/src/BMC_2024
+CMAKE_SOURCE_DIR = /home/dkflippo/aug2024/src/BMC_2024
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rospi/aug_2024/build/BMC_2024
+CMAKE_BINARY_DIR = /home/dkflippo/aug2024/build/BMC_2024
 
 # Utility rule file for BMC_2024_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/BMC_2024_uninstall.dir/compiler_depend.make
 include CMakeFiles/BMC_2024_uninstall.dir/progress.make
 
 CMakeFiles/BMC_2024_uninstall:
-	/usr/bin/cmake -P /home/rospi/aug_2024/build/BMC_2024/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/dkflippo/aug2024/build/BMC_2024/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 BMC_2024_uninstall: CMakeFiles/BMC_2024_uninstall
 BMC_2024_uninstall: CMakeFiles/BMC_2024_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/BMC_2024_uninstall.dir/clean:
 .PHONY : CMakeFiles/BMC_2024_uninstall.dir/clean
 
 CMakeFiles/BMC_2024_uninstall.dir/depend:
-	cd /home/rospi/aug_2024/build/BMC_2024 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rospi/aug_2024/src/BMC_2024 /home/rospi/aug_2024/src/BMC_2024 /home/rospi/aug_2024/build/BMC_2024 /home/rospi/aug_2024/build/BMC_2024 /home/rospi/aug_2024/build/BMC_2024/CMakeFiles/BMC_2024_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dkflippo/aug2024/build/BMC_2024 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dkflippo/aug2024/src/BMC_2024 /home/dkflippo/aug2024/src/BMC_2024 /home/dkflippo/aug2024/build/BMC_2024 /home/dkflippo/aug2024/build/BMC_2024 /home/dkflippo/aug2024/build/BMC_2024/CMakeFiles/BMC_2024_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/BMC_2024_uninstall.dir/depend
 

@@ -20,7 +20,8 @@ def generate_launch_description():
     # Launch configuration variables
     use_sim_time = LaunchConfiguration('use_sim_time')
     map_yaml_file = LaunchConfiguration('map')
-    
+    joy_config = LaunchConfiguration('joy_config', default='ps4')
+    joy_dev = LaunchConfiguration('joy_dev', default='/dev/input/js0')
     # Declare the launch arguments
     declare_use_sim_time_argument = DeclareLaunchArgument(
         'use_sim_time',
@@ -31,7 +32,17 @@ def generate_launch_description():
         'map',
         default_value=os.path.join(pkg_share, 'config', 'map1.yaml'),
         description='Full path to map yaml file to load')
-
+    
+    declare_joy_config = DeclareLaunchArgument(
+        'joy_config',
+        default_value='ps4',
+        description='Type of joystick configuration (ps4, xbox, etc.)')
+        
+    declare_joy_dev = DeclareLaunchArgument(
+        'joy_dev',
+        default_value='/dev/input/js0',
+        description='Joystick device path')
+    
     twist_mux_node = Node(
        package='twist_mux',
        executable='twist_mux',
@@ -203,11 +214,54 @@ def generate_launch_description():
         ]
     )
 
+    # PS4 Controller Nodes
+    # Joy node for reading the PS4 controller input
+    joy_node = Node(
+        package='joy_linux',
+        executable='joy_linux_node',
+        name='joy_node',
+        parameters=[{
+            'dev': joy_dev,
+            'deadzone': 0.1,
+            'autorepeat_rate': 20.0,
+            'use_sim_time': use_sim_time
+        }],
+        output='screen'
+    )
+    
+    # Teleop node for converting joystick commands to twist commands
+    teleop_joy_node = Node(
+        package='teleop_twist_joy',
+        executable='teleop_node',
+        name='teleop_twist_joy_node',
+        parameters=[{
+            'axis_linear.x': 1,    # Left joystick up/down for PS4
+            'axis_angular.yaw': 0, # Left joystick left/right for PS4
+            'scale_linear.x': 0.5, # Adjust speed scaling as needed
+            'scale_angular.yaw': 1.0,
+            'enable_button': 4,    # L1 button on PS4 controller
+            'enable_turbo_button': 5,  # R1 button for turbo mode (faster)
+            'use_sim_time': use_sim_time
+        }],
+        remappings=[('/cmd_vel', '/cmd_vel_joy')],
+        output='screen'
+    )
+    
+    # Group PS4 controller nodes in a timer action
+    ps4_controller_spawner = TimerAction(
+        period=10.0,  # Start after basic components
+        actions=[
+            joy_node,
+            teleop_joy_node
+        ]
+    )
 
     return LaunchDescription([
         # Put declarations FIRST
         declare_use_sim_time_argument,
         declare_map_yaml_cmd,
+        declare_joy_config,
+        declare_joy_dev,
         
         # Critical infrastructure nodes
         robot_state_publisher,
@@ -222,7 +276,7 @@ def generate_launch_description():
         joint_broad_spawner,
         diff_drive_spawner,
         twist_mux_spawner,
-        
+        ps4_controller_spawner,
         # Nav2 with a delay to ensure prerequisites are ready
         nav2_spawner,
         camera_nodes_spawner,

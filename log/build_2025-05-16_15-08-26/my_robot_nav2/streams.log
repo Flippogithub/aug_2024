@@ -1,0 +1,5 @@
+[0.032s] Invoking command in '/home/dkflippo/aug2024/build/my_robot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dkflippo/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/dkflippo/ros2_control_ws/install/rqt_controller_manager:/home/dkflippo/ros2_control_ws/install/ros2controlcli:/home/dkflippo/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/dkflippo/aug2024/build/my_robot_nav2 -- -j12 -l12
+[0.050s] [0mCMake Error: The current CMakeCache.txt directory /home/dkflippo/aug2024/build/my_robot_nav2/CMakeCache.txt is different than the directory /home/rospi/aug_2024/build/my_robot_nav2 where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.068s] [0mCMake Error: The source directory "/home/rospi/aug_2024/src/my_robot_nav2" does not exist.
+[0.069s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.070s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rospi/aug_2024/src/my_robot_nav2
+CMAKE_SOURCE_DIR = /home/dkflippo/aug2024/src/my_robot_nav2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rospi/aug_2024/build/my_robot_nav2
+CMAKE_BINARY_DIR = /home/dkflippo/aug2024/build/my_robot_nav2
 
 # Utility rule file for my_robot_nav2_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/my_robot_nav2_uninstall.dir/compiler_depend.make
 include CMakeFiles/my_robot_nav2_uninstall.dir/progress.make
 
 CMakeFiles/my_robot_nav2_uninstall:
-	/usr/bin/cmake -P /home/rospi/aug_2024/build/my_robot_nav2/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/dkflippo/aug2024/build/my_robot_nav2/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 my_robot_nav2_uninstall: CMakeFiles/my_robot_nav2_uninstall
 my_robot_nav2_uninstall: CMakeFiles/my_robot_nav2_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/my_robot_nav2_uninstall.dir/clean:
 .PHONY : CMakeFiles/my_robot_nav2_uninstall.dir/clean
 
 CMakeFiles/my_robot_nav2_uninstall.dir/depend:
-	cd /home/rospi/aug_2024/build/my_robot_nav2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rospi/aug_2024/src/my_robot_nav2 /home/rospi/aug_2024/src/my_robot_nav2 /home/rospi/aug_2024/build/my_robot_nav2 /home/rospi/aug_2024/build/my_robot_nav2 /home/rospi/aug_2024/build/my_robot_nav2/CMakeFiles/my_robot_nav2_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dkflippo/aug2024/build/my_robot_nav2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dkflippo/aug2024/src/my_robot_nav2 /home/dkflippo/aug2024/src/my_robot_nav2 /home/dkflippo/aug2024/build/my_robot_nav2 /home/dkflippo/aug2024/build/my_robot_nav2 /home/dkflippo/aug2024/build/my_robot_nav2/CMakeFiles/my_robot_nav2_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/my_robot_nav2_uninstall.dir/depend
 

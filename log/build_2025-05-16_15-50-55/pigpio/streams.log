@@ -1,0 +1,105 @@
+[0.023s] Invoking command in '/home/dkflippo/aug2024/build/pigpio': /usr/bin/cmake /home/dkflippo/aug2024/pigpio-master -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/install/pigpio
+[0.123s] -- The C compiler identification is GNU 11.4.0
+[0.134s] -- Detecting C compiler ABI info
+[0.254s] -- Detecting C compiler ABI info - done
+[0.266s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.266s] -- Detecting C compile features
+[0.266s] -- Detecting C compile features - done
+[0.269s] -- Looking for pthread.h
+[0.397s] -- Looking for pthread.h - found
+[0.397s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.521s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.522s] -- Found Threads: TRUE  
+[0.537s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.537s]   The package name passed to `find_package_handle_standard_args` (rt) does
+[0.537s]   not match the name of the calling package (RT).  This can lead to problems
+[0.538s]   in calling code that expects `find_package` result variables (e.g.,
+[0.538s]   `_FOUND`) to follow a certain pattern.
+[0.538s] Call Stack (most recent call first):
+[0.538s]   cmake/FindRT.cmake:28 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+[0.538s]   CMakeLists.txt:8 (find_package)
+[0.538s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.538s] [0m
+[0.538s] -- Found rt: /usr/lib/x86_64-linux-gnu/librt.a  
+[0.540s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[0.654s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[0.655s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[0.773s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Failed
+[0.774s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[0.882s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[1.109s] -- Configuring done
+[1.137s] -- Generating done
+[1.144s] -- Build files have been written to: /home/dkflippo/aug2024/build/pigpio
+[1.155s] Invoked command in '/home/dkflippo/aug2024/build/pigpio' returned '0': /usr/bin/cmake /home/dkflippo/aug2024/pigpio-master -DCMAKE_INSTALL_PREFIX=/home/dkflippo/aug2024/install/pigpio
+[1.158s] Invoking command in '/home/dkflippo/aug2024/build/pigpio': /usr/bin/cmake --build /home/dkflippo/aug2024/build/pigpio -- -j12 -l12
+[1.270s] [  4%] [32mBuilding C object CMakeFiles/pigpio.dir/command.c.o[0m
+[1.274s] [  8%] [32mBuilding C object CMakeFiles/pigs.dir/command.c.o[0m
+[1.274s] [ 13%] [32mBuilding C object CMakeFiles/pig2vcd.dir/pig2vcd.c.o[0m
+[1.277s] [ 26%] [32mBuilding C object CMakeFiles/pigs.dir/pigs.c.o[0m
+[1.277s] [ 26%] [32mBuilding C object CMakeFiles/pigpiod_if2.dir/command.c.o[0m
+[1.278s] [ 30%] [32mBuilding C object CMakeFiles/pigpiod_if.dir/pigpiod_if.c.o[0m
+[1.278s] [ 30%] [32mBuilding C object CMakeFiles/pigpio.dir/pigpio.c.o[0m
+[1.281s] [ 34%] [32mBuilding C object CMakeFiles/pigpiod_if.dir/command.c.o[0m
+[1.283s] [ 39%] [32mBuilding C object CMakeFiles/pig2vcd.dir/command.c.o[0m
+[1.287s] [ 43%] [32mBuilding C object CMakeFiles/pigpiod_if2.dir/pigpiod_if2.c.o[0m
+[1.427s] [ 47%] [32m[1mLinking C executable pigs[0m
+[1.444s] [ 52%] [32m[1mLinking C executable pig2vcd[0m
+[1.473s] [ 56%] [32m[1mLinking C shared library libpigpiod_if.so[0m
+[1.506s] [ 56%] Built target pigs
+[1.520s] [ 56%] Built target pig2vcd
+[1.522s] [ 60%] [32m[1mLinking C shared library libpigpiod_if2.so[0m
+[1.546s] [ 60%] Built target pigpiod_if
+[1.588s] [ 60%] Built target pigpiod_if2
+[1.591s] [ 65%] [32mBuilding C object CMakeFiles/x_pigpiod_if.dir/x_pigpiod_if.c.o[0m
+[1.636s] [ 69%] [32mBuilding C object CMakeFiles/x_pigpiod_if2.dir/x_pigpiod_if2.c.o[0m
+[1.726s] [ 73%] [32m[1mLinking C executable x_pigpiod_if[0m
+[1.738s] [ 78%] [32m[1mLinking C executable x_pigpiod_if2[0m
+[1.799s] [ 78%] Built target x_pigpiod_if
+[1.809s] [ 78%] Built target x_pigpiod_if2
+[2.338s] [ 82%] [32m[1mLinking C shared library libpigpio.so[0m
+[2.479s] [ 82%] Built target pigpio
+[2.583s] [ 86%] [32mBuilding C object CMakeFiles/x_pigpio.dir/x_pigpio.c.o[0m
+[2.624s] [ 91%] [32mBuilding C object CMakeFiles/pigpiod.dir/pigpiod.c.o[0m
+[2.829s] [ 95%] [32m[1mLinking C executable pigpiod[0m
+[2.856s] [100%] [32m[1mLinking C executable x_pigpio[0m
+[2.947s] [100%] Built target pigpiod
+[2.991s] [100%] Built target x_pigpio
+[3.025s] Invoked command in '/home/dkflippo/aug2024/build/pigpio' returned '0': /usr/bin/cmake --build /home/dkflippo/aug2024/build/pigpio -- -j12 -l12
+[3.029s] Invoking command in '/home/dkflippo/aug2024/build/pigpio': /usr/bin/cmake --install /home/dkflippo/aug2024/build/pigpio
+[3.061s] -- Install configuration: ""
+[3.062s] -- Installing: /home/dkflippo/aug2024/install/pigpio/lib/libpigpio.so
+[3.062s] -- Installing: /home/dkflippo/aug2024/install/pigpio/lib/libpigpiod_if.so
+[3.062s] -- Installing: /home/dkflippo/aug2024/install/pigpio/lib/libpigpiod_if2.so
+[3.062s] -- Installing: /home/dkflippo/aug2024/install/pigpio/bin/pig2vcd
+[3.064s] -- Installing: /home/dkflippo/aug2024/install/pigpio/bin/pigpiod
+[3.064s] -- Set runtime path of "/home/dkflippo/aug2024/install/pigpio/bin/pigpiod" to ""
+[3.065s] -- Installing: /home/dkflippo/aug2024/install/pigpio/bin/pigs
+[3.070s] -- Installing: /home/dkflippo/aug2024/install/pigpio/lib/cmake/pigpio/pigpioTargets.cmake
+[3.071s] -- Installing: /home/dkflippo/aug2024/install/pigpio/lib/cmake/pigpio/pigpioTargets-noconfig.cmake
+[3.071s] -- Installing: /home/dkflippo/aug2024/install/pigpio/lib/cmake/pigpio/pigpioConfig.cmake
+[3.071s] -- Installing: /home/dkflippo/aug2024/install/pigpio/lib/cmake/pigpio/pigpioConfigVersion.cmake
+[3.071s] -- Installing: /home/dkflippo/aug2024/install/pigpio/include/pigpio.h
+[3.071s] -- Installing: /home/dkflippo/aug2024/install/pigpio/include/pigpiod_if.h
+[3.071s] -- Installing: /home/dkflippo/aug2024/install/pigpio/include/pigpiod_if2.h
+[3.071s] -- Installing: /home/dkflippo/aug2024/install/pigpio/man/man1/libpigpio.so.1
+[3.072s] -- Installing: /home/dkflippo/aug2024/install/pigpio/man/man1/libpigpiod_if.so.1
+[3.074s] -- Installing: /home/dkflippo/aug2024/install/pigpio/man/man1/libpigpiod_if2.so.1
+[3.079s] -- Installing: /home/dkflippo/aug2024/install/pigpio/man/man1/pig2vcd.1
+[3.080s] -- Installing: /home/dkflippo/aug2024/install/pigpio/man/man1/pigpiod.1
+[3.080s] -- Installing: /home/dkflippo/aug2024/install/pigpio/man/man1/pigs.1
+[3.080s] -- Installing: /home/dkflippo/aug2024/install/pigpio/man/man3/pigpio.3
+[3.080s] -- Installing: /home/dkflippo/aug2024/install/pigpio/man/man3/pigpiod_if.3
+[3.080s] -- Installing: /home/dkflippo/aug2024/install/pigpio/man/man3/pigpiod_if2.3
+[3.139s] /home/dkflippo/aug2024/build/pigpio/setup.py:3: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+[3.139s]   from distutils.core import setup
+[3.192s] running install
+[3.196s] running build
+[3.196s] running build_py
+[3.198s] creating build
+[3.198s] creating build/lib
+[3.198s] copying /home/dkflippo/aug2024/pigpio-master/pigpio.py -> build/lib
+[3.229s] running install_lib
+[3.245s] running install_egg_info
+[3.246s] Writing /usr/local/lib/python3.10/dist-packages/pigpio-1.44.egg-info
+[3.247s] error: [Errno 13] Permission denied: '/usr/local/lib/python3.10/dist-packages/pigpio-1.44.egg-info'
+[3.270s] Invoked command in '/home/dkflippo/aug2024/build/pigpio' returned '0': /usr/bin/cmake --install /home/dkflippo/aug2024/build/pigpio

@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/rospi/aug_2024/pigpio-master/pigpiod.c" "CMakeFiles/pigpiod.dir/pigpiod.c.o" "gcc" "CMakeFiles/pigpiod.dir/pigpiod.c.o.d"
+  "/home/dkflippo/aug2024/pigpio-master/pigpiod.c" "CMakeFiles/pigpiod.dir/pigpiod.c.o" "gcc" "CMakeFiles/pigpiod.dir/pigpiod.c.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/rospi/aug_2024/build/pigpio/CMakeFiles/pigpio.dir/DependInfo.cmake"
+  "/home/dkflippo/aug2024/build/pigpio/CMakeFiles/pigpio.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
