@@ -137,14 +137,14 @@ def generate_launch_description():
     )
     
     # Command-line teleop for headless operation
-    teleop_node = Node(
-       package='teleop_twist_keyboard',
-       executable='teleop_twist_keyboard',
-       name='teleop_twist_keyboard',
-       output='screen',
-       remappings=[('/cmd_vel', '/cmd_vel_teleop')],
-       parameters=[{'use_sim_time': use_sim_time}]
-    )
+    #teleop_node = Node(
+     #  package='teleop_twist_keyboard',
+      # executable='teleop_twist_keyboard',
+       #name='teleop_twist_keyboard',
+       #output='screen',
+       #remappings=[('/cmd_vel', '/cmd_vel_teleop')],
+       #parameters=[{'use_sim_time': use_sim_time}]
+    #)
     
     # Nav2 added back, but with a delay to ensure transforms and controllers are ready
     nav2_launch = IncludeLaunchDescription(
@@ -283,5 +283,5 @@ def generate_launch_description():
         nav2_spawner,
         camera_nodes_spawner,
         # Teleop for basic testing
-        teleop_node,
+        #teleop_node,
     ])
